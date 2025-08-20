@@ -1,0 +1,93 @@
+Package: virtualbox-guest-utils
+Source: virtualbox
+Version: 7.1.12-dfsg-2
+Architecture: i386
+Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Installed-Size: 6388
+Depends: adduser, pciutils, libc6 (>= 2.38), libpam0g (>= 0.99.7.1), zlib1g (>= 1:1.1.4)
+Suggests: virtualbox-guest-x11 (= 7.1.12-dfsg-2)
+Breaks: virtualbox-guest-utils-hwe (<< 7.0.16-dfsg-5)
+Replaces: virtualbox-guest-utils-hwe (<< 7.0.16-dfsg-5)
+Homepage: https://www.virtualbox.org
+Priority: optional
+Section: contrib/misc
+Filename: pool/contrib/v/virtualbox/virtualbox-guest-utils_7.1.12-dfsg-2_i386.deb
+Size: 1681620
+SHA256: f8bf346fc0fe77fd01aaf56075830db2176c3ba204aaa707ca1bfe82d3ece229
+SHA1: f6e58f46a2be844b4eb215dd0a6c33d53d778018
+MD5sum: b621ad4e6059dbe5e74a4dd3296e1091
+Description: x86 virtualization solution - non-X11 guest utilities
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine.
+ They provide closer integration and allow to share data through shared folders
+ between the host system and the virtual machine.
+
+Package: virtualbox-guest-utils-hwe
+Source: virtualbox
+Version: 7.1.12-dfsg-2
+Architecture: i386
+Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Installed-Size: 56
+Depends: virtualbox-guest-utils
+Homepage: https://www.virtualbox.org
+Priority: optional
+Section: contrib/oldlibs
+Filename: pool/contrib/v/virtualbox/virtualbox-guest-utils-hwe_7.1.12-dfsg-2_i386.deb
+Size: 22196
+SHA256: 038a7ee4d449b4aca6e278dcc83e4090ebb5a6ea7a72c14b82e89ccc830b1ab2
+SHA1: 352b95996592935e5b84f327b615377c8eedc3f9
+MD5sum: 91f80fb37c72b4ac9bc40f005fd27cb2
+Description: transitional package for virtualbox-guest-utils
+ This is a transitional package for virtualbox-guest-utils.
+ It can safely be removed
+
+Package: virtualbox-guest-x11
+Source: virtualbox
+Version: 7.1.12-dfsg-2
+Architecture: i386
+Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Installed-Size: 3633
+Depends: libnotify-bin, x11-xserver-utils, virtualbox-guest-utils (= 7.1.12-dfsg-2), libc6 (>= 2.34), xorg-video-abi-25, xserver-xorg-core (>= 2:21.1.1)
+Breaks: virtualbox-guest-x11-hwe (<< 7.0.16-dfsg-5)
+Replaces: virtualbox-guest-x11-hwe (<< 7.0.16-dfsg-5)
+Provides: xorg-driver-video
+Homepage: https://www.virtualbox.org
+Priority: optional
+Section: contrib/x11
+Filename: pool/contrib/v/virtualbox/virtualbox-guest-x11_7.1.12-dfsg-2_i386.deb
+Size: 1355680
+SHA256: 073bc197bc765a8a54f086b2caa86aa34ef2c2f06e63e818c6cf40ccd5e2d844
+SHA1: 33cbbd67f0bcff7f8541ab2276fa0e9193bf57ad
+MD5sum: b18a2b2d6d073fb6773ff2d8ced4bbdb
+Description: x86 virtualization solution - X11 guest utilities
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These utilities
+ are meant to be run inside the virtual machine.
+ They provide closer integration and improve the interactive performance.
+
+Package: virtualbox-guest-x11-hwe
+Source: virtualbox
+Version: 7.1.12-dfsg-2
+Architecture: i386
+Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Installed-Size: 56
+Depends: virtualbox-guest-x11
+Homepage: https://www.virtualbox.org
+Priority: optional
+Section: contrib/oldlibs
+Filename: pool/contrib/v/virtualbox/virtualbox-guest-x11-hwe_7.1.12-dfsg-2_i386.deb
+Size: 22192
+SHA256: a6747f403156d763950ebbd5f64aa51d5558787a7cd9b8524d9b00a4f456685c
+SHA1: a2bd895f38fbb3668ba393feaf0dc308417d34ba
+MD5sum: 2a85c6e3c2df25010395af5aad3cd974
+Description: transitional package for virtualbox-guest-x11
+ This is a transitional package for virtualbox-guest-x11.
+ It can safely be removed
+

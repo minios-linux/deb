@@ -1,0 +1,825 @@
+Package: adwaita-icon-theme-antix
+Version: 3.30.2~antix1
+Architecture: all
+Maintainer: anticapitalista <anticapitalista@riseup.net>
+Installed-Size: 2616
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Priority: optional
+Section: antiX
+Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
+Size: 1647500
+SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
+SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
+MD5sum: a42da42232869a2320dc464d2a359df9
+Description: default icon theme of GNOME.
+ This version is a much strippd down version for antiX Linux.
+ No cursers theme included.
+
+Package: blueproximity
+Version: 1.4.0-0minios1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 772
+Depends: python3, python3-gi, python3-configobj, python3-bluez, python3-bleak, gir1.2-ayatanaappindicator3-0.1
+Homepage: https://github.com/crim50n/blueproximity
+Priority: optional
+Section: utils
+Filename: pool/main/b/blueproximity/blueproximity_1.4.0-0minios1_all.deb
+Size: 279948
+SHA256: 46935a8d6143ff1aa4b61ab85165b86fee30bdee36bc0e56b4c53a89d4694eaa
+SHA1: e2ff9c4b060203a559f1e0116f0ef4b1b682ec7f
+MD5sum: a3e56e42211f78470a22059e3caa217c
+Description: Locks/unlocks your screen based on Bluetooth proximity
+ BlueProximity is a tool that locks your computer screen when you walk away
+ with your Bluetooth device and unlocks it when you return. Useful for
+ security and convenience in desktop environments.
+
+Package: driveutility
+Version: 1.7.4
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 317
+Depends: coreutils (>= 8.30), genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, polkitd | policykit-1, pkexec | policykit-1, procps, python3 (>= 3.7), python3-gi, python3-parted, python3-gnupg, python3-unidecode, python3-lz4, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux (>= 2.32), exfatprogs | exfat-utils
+Recommends: python3-zstandard
+Conflicts: mintstick, usb-imagewriter
+Replaces: mintstick, usb-imagewriter
+Priority: optional
+Section: misc
+Filename: pool/main/d/driveutility/driveutility_1.7.4_all.deb
+Size: 47168
+SHA256: edb841263a9761ff78c329dbafd7684deb6dade5b0fbcb5f27bdc13184f55f41
+SHA1: 9d70bb67f3b17f3e0505332115ee63593a60f863
+MD5sum: f08f5bb92e258be84151def4b321e595
+Description: Graphical utility for writing, formatting, and wiping storage devices
+ A simple and convenient tool to write disk images,
+ format, and securely wipe storage devices.
+
+Package: dynfilefs
+Version: 4.04-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 41
+Depends: libc6 (>= 2.4), libfuse2 (>= 2.6)
+Homepage: https://github.com/Tomas-M/dynfilefs
+Priority: optional
+Section: utils
+Filename: pool/main/d/dynfilefs/dynfilefs_4.04-1_i386.deb
+Size: 11192
+SHA256: 904ef35f850803def07d5380da5a596abc904aece296a14550ff1141d71ce38a
+SHA1: 1929deb3016d4afc05ddb2d7c98b63a221f311b8
+MD5sum: 0578c3aa87e0020b73bae12ca4a56627
+Description: FUSE-based dynamic file system utility
+ DynFileFS is a utility for creating a dynamic virtual file system using FUSE.
+ It stores changes in specified files and supports flexible file management.
+
+Package: dynfilefs-dbgsym
+Source: dynfilefs
+Version: 4.04-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 32
+Depends: dynfilefs (= 4.04-1)
+Priority: optional
+Section: debug
+Filename: pool/main/d/dynfilefs/dynfilefs-dbgsym_4.04-1_i386.deb
+Size: 19076
+SHA256: 14a1a6a871da85ee60fc284ff1fbb89e8868f3e2d2a583f6a641116dcef6e67d
+SHA1: ef0e3d6fdd942c3cc5150d82ca6ac9d41c18e12d
+MD5sum: 7d5c53ea5694a6aaabc763cceba655cf
+Description: debug symbols for dynfilefs
+Build-Ids: 19754bf5eb38a64ce5ecf2d133095c987f7523d8
+
+Package: eddy
+Version: 1.3.2-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1197
+Depends: packagekit, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.0.0), libgtk-3-0 (>= 3.21.4), libpackagekit-glib2-18 (>= 1.1.0), libzeitgeist-2.0-0 (>= 0.9.9), dconf-gsettings-backend | gsettings-backend
+Homepage: https://github.com/donadigo/eddy
+Priority: optional
+Section: utils
+Filename: pool/main/e/eddy/eddy_1.3.2-1_i386.deb
+Size: 85228
+SHA256: 82782842193d039fac9cb24d610db436127659a6bcfa998813290242a518bc93
+SHA1: fc5ab96de6fad2d1d2a49e519b6b48b32630dc9b
+MD5sum: d1b574b24beb8b736b4e4cb3786153f2
+Description: Eddy - Debian package management tool for elementary OS
+ Eddy is a simple and user-friendly Debian package management tool.
+ It is designed specifically for elementary OS. It allows users to
+ install, update, and uninstall Debian packages with ease. In addition
+ to managing Debian packages, Eddy also supports other packaging
+ formats such as .rpm, thanks to its PackageKit backend. This makes
+ Eddy a versatile tool for managing packages on any Debian-based system.
+
+Package: eddy-handler
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 42
+Depends: yad, apt, eddy, gettext-base
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/e/eddy-handler/eddy-handler_1.0_all.deb
+Size: 5004
+SHA256: eeaf7540f95e4f44b306e5f3cc350eca4276097bfabcdc79bae49a6fe9d4f99e
+SHA1: 7b103b2792b541f2305f705f5ca04ed9fe63e228
+MD5sum: a08c91171a355f6bf86be33cc50af743
+Description: Eddy Handler for package updates.
+ Eddy Handler is a utility designed to update the package database
+ before installing packages with Eddy. It checks if the package cache
+ is older than a day or does not exist, and if so, it updates the
+ package database. After the update, Eddy is launched for package
+ installation.
+
+Package: elementary-minios-icon-theme
+Source: elementary-minios
+Version: 0.21-6
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 55770
+Homepage: https://github.com/shimmerproject/elementary-xfce
+Priority: optional
+Section: x11
+Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.21-6_all.deb
+Size: 3955620
+SHA256: 138780ea7ada0514ec12d8a6c28ecc3c52cc2a591bcef780f0490c004507b0b7
+SHA1: 9646357c4dce65f3553d5d381e317834746fc68d
+MD5sum: 752dd93a7db2e018dcc9d58c30f596d9
+Description: elementary icon theme modified for MiniOS
+ elementary-minios is a fork of the elementary-xfce.
+
+Package: fonts-roboto-light
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 173
+Breaks: fonts-roboto, fonts-roboto-hinted, fonts-roboto-unhinted
+Multi-Arch: foreign
+Homepage: https://github.com/google/roboto
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-roboto-light/fonts-roboto-light_1.0_all.deb
+Size: 72108
+SHA256: 9e37511759757cac2ec290cce9c97f5558ca7ace179bbdc7be1b5604f6f60959
+SHA1: ddb0f821884ff6d956d0cc84f73a9c48c560f20d
+MD5sum: c6a31cdd180f913bdc05b0df223fc357
+Description: Google's signature font Roboto Light
+ Roboto is Google's signature family of fonts, the default font in
+ Android and ChromeOS and the recommended font for Google's visual
+ language, Material Design.
+ .
+ Roboto supports all Latin, Cyrillic, and Greek characters in Unicode
+ 7.0 as well as currency symbol for the Georgian lari, to be published
+ in Unicode 8.0.
+ .
+ This package contains Roboto font families which lack hinting.
+
+Package: greybird-gtk-theme
+Version: 3.23.4-0minios1
+Architecture: all
+Maintainer: MiniOS Team <zu1985@minios.dev>
+Installed-Size: 5419
+Depends: gtk2-engines-murrine
+Homepage: https://github.com/shimmerproject/Greybird
+Priority: optional
+Section: x11
+Filename: pool/main/g/greybird-gtk-theme/greybird-gtk-theme_3.23.4-0minios1_all.deb
+Size: 581492
+SHA256: c38450e2a09d9b9a688664745517bc4ad961dab4c2d9969014372e65f04889da
+SHA1: a75857777b3ac1596d56431fa9da34602b0f9a12
+MD5sum: 4153faaf3a693b54b7a15a25210ca02f
+Description: grey GTK+ theme from the Shimmer Project
+ Greybird has been the default theme for Xubuntu since 2011 when it
+ replaced Bluebird. Greybird can be described as more conservative yet more
+ modern than Bluebird. The Shimmer Project are the designers and developers of
+ both themes.
+ .
+ Although originally created for Xfce, Greybird also supports other
+ GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
+
+Package: linux-config-6.1
+Source: linux
+Version: 6.1.128-1
+Architecture: i386
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1109
+Recommends: linux-source-6.1
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-config-6.1_6.1.128-1_i386.deb
+Size: 1116928
+SHA256: bb0a4e9afd1a64fb4e6a76d20c3cd405ba9f4b42c86406b8eae5fc26d364bb4e
+SHA1: e0aefdf5c1c000c43b7c1392290d2e7d3e5856fe
+MD5sum: c81281b8c3c9dbab19b3fd1ea9482ffc
+Description: Debian kernel configurations for Linux 6.1
+ This package contains the configuration files used to build the official
+ Debian kernel files, but without references to Debian's signing
+ certificates.
+ .
+ These can be used as a basis for configuring custom kernels.
+
+Package: linux-headers-6.1-mos-686
+Version: 6.1.128
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.1.128-mos-686
+Provides: linux-headers-6.1-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.128_i386.deb
+Size: 2236
+SHA256: 4578d9acddac4b2d0c4f7fbe3e4528a5644969a55a5126fc39948209770984cd
+SHA1: 1e56af14281e8abdb03441f6d7722d8d9d86d2ad
+MD5sum: 120107117b21407e93981449cd113b03
+Description: Header files for Linux 686 configuration (meta-package)
+
+Package: linux-headers-6.1-mos-686-pae
+Version: 6.1.128
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.1.128-mos-686-pae
+Provides: linux-headers-6.1-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.128_i386.deb
+Size: 2240
+SHA256: b9252bd22159a58ea983bbe8488e441463a935fc23d33b1c4153fceb04aaf969
+SHA1: d2add5d7b391acf8d101e55aaa42c49bc56cc1b6
+MD5sum: 29833a4faca41b43b9cb2b80fe59b4b5
+Description: Header files for Linux 686-pae configuration (meta-package)
+
+Package: linux-headers-6.1.128-mos-686
+Source: linux-upstream
+Version: 6.1.128-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51661
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.128-mos-686_6.1.128-mos-686-1_i386.deb
+Size: 8605732
+SHA256: a0f50b8a51189710f701632e34ba9d1a660bfd52b260faa4f46dbbcc409d9521
+SHA1: fad910a33de471ed552ec27dc6e933101993f26c
+MD5sum: da7c95a3d8dc626b8e5f91d5ccb8fa0e
+Description: Linux kernel headers for 6.1.128-mos-686 on i386
+ This package provides kernel header files for 6.1.128-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.128-mos-686-pae
+Source: linux-upstream
+Version: 6.1.128-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51711
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.128-mos-686-pae_6.1.128-mos-686-pae-1_i386.deb
+Size: 8607228
+SHA256: 5fa9b8800e821372e3b29a872d7f457515f2dc32c3bd022ee03640a61f9c0770
+SHA1: 4db0ff790c238572006f939983cfbe4aa39dfa44
+MD5sum: bfafcadd30f9b57cd671bb6bf73737ee
+Description: Linux kernel headers for 6.1.128-mos-686-pae on i386
+ This package provides kernel header files for 6.1.128-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.1-mos-686
+Version: 6.1.128
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.1.128-mos-686
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.128-mos-686
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.128_i386.deb
+Size: 2244
+SHA256: b5c5b45040c2a8ebf180361d8e52ce3aa9857b70f7bac09c575f48ef12338629
+SHA1: 90d7a6d0c2664d1a2be08a1aef2b7e2dd3d35829
+MD5sum: f4588e074a75e9c90824b0a112d80191
+Description: Linux for 686 PCs (meta-package)
+
+Package: linux-image-6.1-mos-686-pae
+Version: 6.1.128
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.1.128-mos-686-pae
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.128-mos-686-pae
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.128_i386.deb
+Size: 2248
+SHA256: e384a7e599164d62c9fc8c17971a81b84e2193b954a4a9211852828edce80ba6
+SHA1: 1736db749a551989b442d8b074d98f0ccd42cede
+MD5sum: e6213e0fd0f997de7ca51b693f644405
+Description: Linux for 686-pae PCs (meta-package)
+
+Package: linux-image-6.1.128-mos-686
+Source: linux-upstream
+Version: 6.1.128-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192255
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.128-mos-686_6.1.128-mos-686-1_i386.deb
+Size: 52157364
+SHA256: 157f5d144dd7559b2a64376b426b66a5d710fb59fdfc28fb9f9cef301e6466a3
+SHA1: 4650ba645cf2c1ed7fd66788bc2b8cc57a801596
+MD5sum: e6808054640301bc6de1269fadeb802e
+Description: Linux kernel, version 6.1.128-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.128-mos-686.
+
+Package: linux-image-6.1.128-mos-686-pae
+Source: linux-upstream
+Version: 6.1.128-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192757
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.128-mos-686-pae_6.1.128-mos-686-pae-1_i386.deb
+Size: 52396416
+SHA256: 62a092449eba87fcc449ce1d4fb3351f4e2c84cc36fba00ce63fa8d402f84e5c
+SHA1: 955ffe1d9a9095c0ad029f5b80703a3389a9d9b9
+MD5sum: fd010d2d50e0c87ed6a00f6bfbff5cf3
+Description: Linux kernel, version 6.1.128-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.128-mos-686-pae.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.1.128-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 6636
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.128-mos-686-pae-1_i386.deb
+Size: 1278056
+SHA256: 5c1fc1b63c3c665f0f3a4b847c88651702bd6f25c145a377338163e370287a49
+SHA1: 0c5eb38f965d316cebd880de982acc032e92e4bc
+MD5sum: 8c050a3d342a1882fe2fa9d0ec934c82
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: minios-artwork
+Version: 5.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 95
+Depends: elementary-minios-icon-theme, minios-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios-artwork_5.0_all.deb
+Size: 14456
+SHA256: 583704465b39b1f11c1c46db40edc2afe0448767b023c41225978f2f4c1e44dc
+SHA1: 296fbf1c5101f18fd857c88b7dd44038267890d8
+MD5sum: 519fcd81453019925518f5060fcfd7b6
+Description: MiniOS themes and artwork
+ This package contains the MiniOS themes and artwork.
+
+Package: minios-configurator
+Version: 2.3.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 183
+Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, whois, openssl, minios-live-config
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-configurator/minios-configurator_2.3.0_all.deb
+Size: 26900
+SHA256: 309c88d6730d9b4d1f64432aa5d71ce117fe35b6c6d9788d73b7a344fd245a78
+SHA1: 52e99549a3f876a0febe7a7f7a649fdcc54535d0
+MD5sum: d604b24d1098811827e218ea42663aec
+Description: MiniOS Linux configuration utility.
+ MiniOS Configurator is a utility specially designed for quick and easy
+ configure MiniOS.
+
+Package: minios-installer
+Version: 2.3
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 239
+Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, util-linux (>= 2.33), minios-configurator (>= 2.0)
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-installer/minios-installer_2.3_all.deb
+Size: 39984
+SHA256: a9b191c2bdcc2f65ee6ac835d656c2f6d59f9b436b07db251c75d86dac2d982d
+SHA1: b5c20e103c295e3dd3b5af3d34aa85d7d7e8a96c
+MD5sum: 9678765988622bb0a3a80183673fed2d
+Description: MiniOS Linux installation utility.
+ MiniOS Installer is a utility specially designed for quick and easy
+ install MiniOS on a USB flash drive.
+
+Package: minios-kernel-manager
+Version: 1.0.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 375
+Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, squashfs-tools, kmod, apt, dpkg-dev, zstd
+Recommends: lz4, lzop, xz-utils, bzip2
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.0.0_all.deb
+Size: 58296
+SHA256: f5205cd88d5bfb2581997ee3cd36c3c3e5eb4e5d517d731386e56bb8b1f953ac
+SHA1: 74feebc1de19117b45e6f95f3904d466f99c9066
+MD5sum: a5f2e476be2d31f26e7600c1fb0d7daf
+Description: Graphical and command-line tools for managing MiniOS kernels.
+ This package provides a GTK3 graphical user interface and a command-line
+ utility to package, install, and manage Linux kernels for the MiniOS.
+ It allows creating SquashFS images of kernels, generating initramfs,
+ and managing active and inactive kernels in the /minios/kernels repository.
+
+Package: minios-live-config
+Version: 11.0.5.4
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 164
+Depends: minios-live-config-systemd | minios-live-config-backend, bash (>= 4.0), perl
+Recommends: iproute2 | iproute, keyboard-configuration, minios-live-config-doc, locales | locales-all, sudo, user-setup
+Suggests: pciutils, wget, shared-mime-info, gdk-pixbuf2.0-bin, libgtk-3-bin, glib-2.0-bin, desktop-file-utils, xfonts-utils, fontconfig
+Conflicts: live-config
+Homepage: https://github.com/minios-linux/minios-live-config
+Priority: optional
+Section: misc
+Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.4_all.deb
+Size: 25240
+SHA256: dacaed6abe3dc80c28f853510ad4b80d36faeff08f831973100e657c8bb04a83
+SHA1: e29ff89f7a4ac8dc747e48a8b0d13c830ac32bf0
+MD5sum: fb9b5477c59924895c4ffa2e39f91429
+Description: Live System Configuration Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ In addition to live-config, a backend for an init system is required, such as
+ live-config-systemd.
+
+Package: minios-live-config-doc
+Source: minios-live-config
+Version: 11.0.5.4
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 130
+Conflicts: live-config-doc
+Multi-Arch: foreign
+Homepage: https://github.com/minios-linux/minios-live-config
+Priority: optional
+Section: doc
+Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.4_all.deb
+Size: 78480
+SHA256: 1bb6e2caf4aa48cdc62d79a8984900201b60ab1b0f3a087f5fd2f463fee25922
+SHA1: 5ef530c6e541cf019706fe2d7a566acaf2fde14d
+MD5sum: 5dce65d10cbef40486df3f4b65f2c0d9
+Description: Live System Configuration Components (documentation)
+ live-config contains the components that configure a live system during the
+ boot process (late userspace).
+ .
+ This package contains the documentation.
+
+Package: minios-live-config-systemd
+Source: minios-live-config
+Version: 11.0.5.4
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 21
+Depends: systemd
+Recommends: dbus
+Conflicts: live-config-backend, live-config-systemd, minios-live-config-backend
+Replaces: live-config-backend, live-config-systemd, minios-live-config-backend
+Provides: live-config-backend, minios-live-config-backend
+Homepage: https://github.com/minios-linux/minios-live-config
+Priority: optional
+Section: misc
+Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.4_all.deb
+Size: 5388
+SHA256: 14ecde4528154a17990d2d0fe9f1b53e924cd780014761a2c7532ecb31ebb5c7
+SHA1: 509b8d493cea6e17e8cc71a2fab0c5f91ff0e82b
+MD5sum: 038a8698b8f16416b2eb317f0bb4fe74
+Description: Live System Configuration Components (systemd backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ This package contains the systemd backend.
+
+Package: minios-live-config-sysvinit
+Source: minios-live-config
+Version: 11.0.5.4
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 27
+Depends: sysvinit-core | sysvinit (<< 2.88dsf-44)
+Conflicts: live-config-backend, live-config-sysvinit, minios-live-config-backend
+Replaces: live-config-backend, live-config-sysvinit, minios-live-config-backend
+Provides: live-config-backend, minios-live-config-backend
+Homepage: https://github.com/minios-linux/minios-live-config
+Priority: optional
+Section: misc
+Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_11.0.5.4_all.deb
+Size: 5664
+SHA256: 561c94e25831866653672c9ea25c58c0d9e21f9837c547e7892a6b32f6e63432
+SHA1: 1c5a4367cb855f89a44a43f465a1fa777711d5ed
+MD5sum: 585c64eb8d5904c8c4340295fa8514dd
+Description: Live System Configuration Components (sysvinit backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ This package contains the sysvinit backend.
+
+Package: minios-session-manager
+Version: 1.0.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 370
+Depends: python3, python3-gi, gir1.2-gtk-3.0, dynfilefs, polkitd | policykit-1, pkexec | policykit-1
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-session-manager/minios-session-manager_1.0.0_all.deb
+Size: 53060
+SHA256: f124f7c2e6568b6c97ee112508ad670dfe51604110e2d51007139e6672f94519
+SHA1: da32b4f6a432291c9a667157101224a787d295c0
+MD5sum: 43f4361512ec6d511be353ae5cb1da71
+Description: MiniOS session management utility
+ A utility for managing MiniOS persistent sessions from within
+ the running system. Provides both command-line and graphical
+ interfaces for viewing, creating, activating, deleting, and
+ cleaning up sessions.
+
+Package: minios-tools
+Version: 1.4.2
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 199
+Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-tools/minios-tools_1.4.2_all.deb
+Size: 38796
+SHA256: b278848be42101ca668bca7405ccafdd01208a9094ba7749bcbe6b678cca09f5
+SHA1: d8efb1a271e943ba162a2b734971c98d04b24c29
+MD5sum: 6346b00840008dd56874e65bfd655391
+Description: MiniOS Linux tools.
+ MiniOS Tools is a set of utilities designed to make MiniOS work.
+ They include utilities for booting the system as well as
+ utilities for working with modules.
+
+Package: minios-wallpapers
+Source: minios-artwork
+Version: 5.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 9300
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios-wallpapers_5.0_all.deb
+Size: 7991148
+SHA256: 57b8327f2780099508a1ff6fad39ff91859c27414f3831a88b10d5ac23afbc68
+SHA1: 51fd3cc998262fac54c7e606d3b3f69b57263e32
+MD5sum: fcc9a54467bec9c947c935c41761430e
+Description: MiniOS desktop wallpapers
+ This package contains the default wallpapers current versions of MiniOS.
+
+Package: minios-welcome
+Version: 5.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1298
+Depends: fonts-roboto-light
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-welcome/minios-welcome_5.1_all.deb
+Size: 292108
+SHA256: 9803ccbdf08e326ba0da21e5faa1f5250f330508dc7f0a5d9eeb8976211ef7bb
+SHA1: 9944b452acc12dd8c06a1b2fee7c72adbbf68f2d
+MD5sum: b96d6ead86142bf7be81b809ae9d0b4b
+Description: MiniOS HTML welcome page.
+ MiniOS welcome page - HTML page that opens when you start your
+ browser for the first time in MiniOS.
+
+Package: mintstick
+Version: 1.6.2+nmu1
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 286
+Depends: coreutils, genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, polkitd | policykit-1, pkexec | policykit-1, procps, python3, python3-gi, python3-parted, python3-gnupg, python3-unidecode, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux, exfatprogs | exfat-utils
+Conflicts: usb-imagewriter
+Replaces: usb-imagewriter
+Priority: optional
+Section: misc
+Filename: pool/main/m/mintstick/mintstick_1.6.2+nmu1_all.deb
+Size: 48664
+SHA256: 20deba96ed87d2a35f03a11d142f0ebedf502b27c4258ba5856f4652ac52c3e9
+SHA1: 13df8ac04e4086f52723ba36d4ea35602418fbed
+MD5sum: c0e7b8836a95cabc53f4aad358d4a473
+Description: write .img and .iso files to USB sticks
+ A GUI to write .img or .iso files to a USB Key. It can also format them.
+
+Package: ntfs3-dkms
+Version: 1.0.12~mos+1
+Architecture: all
+Maintainer: EasyNetDev <devel@easynet.dev>
+Installed-Size: 8446
+Depends: dkms, linux-libc-dev, libc6-dev
+Homepage: https://github.com/EasyNetDev/ntfs3-dkms
+Priority: optional
+Section: admin
+Filename: pool/main/n/ntfs3-dkms/ntfs3-dkms_1.0.12~mos+1_all.deb
+Size: 190312
+SHA256: a39dee0695d42d1727377c60ec3d71a9f7285cc0349d6c6232c7957a86bcab42
+SHA1: 551fa77ff66382794fa7882aa3fc9f32e0066528
+MD5sum: b67b4b91671992fe07ee2f4140d22d54
+Description: NTFS Read-Write file system support
+ Windows OS native file system (NTFS) support up to NTFS version 3.1.
+ This is original Linux Driver ported as external module.
+
+Package: osinfo-db
+Version: 0.20250606-1minios1
+Architecture: all
+Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
+Installed-Size: 4685
+Multi-Arch: foreign
+Homepage: https://libosinfo.org/
+Priority: optional
+Section: libs
+Filename: pool/main/o/osinfo-db/osinfo-db_0.20250606-1minios1_all.deb
+Size: 169012
+SHA256: b885308008f4b034394ccf8ec0c2fddb53701a8c3f7e98c2436942295e9cd65b
+SHA1: c55d94f536901798627ce14df6d701dd8390a246
+MD5sum: 211d6ec28e0503a1fd7df8a9c4b08648
+Description: Operating system database files
+ libosinfo is a GObject based library API for managing information about
+ operating systems, hypervisors and the (virtual) hardware devices they
+ can support. It provides APIs to match/identify optimal devices for deploying
+ an operating system on a hypervisor.
+ .
+ This package contains the actual database files.
+
+Package: pacstall
+Depends: wget, sensible-utils, gettext, bubblewrap, curl, gzip, lsb-release, iputils-ping, build-essential, distro-info-data, bash, unzip, jq, git, zstd, tar, aptitude
+Version: 6.3.3-pacstall1
+Architecture: all
+Build-Depends: gettext, gzip
+Provides: pacstall
+Recommends: axel, ninja-build, meson, spdx-licenses
+Homepage: https://pacstall.dev
+Maintainer: Pacstall Team <pacstall@pm.me>
+Uploaders: Pacstall Team <pacstall@pm.me>, Elsie19 <hwengerstickel@pm.me>
+Priority: optional
+Section: Pacstall
+Filename: pool/main/p/pacstall/pacstall_6.3.3-pacstall1_all.deb
+Size: 109154
+SHA256: e2c7547ee06e4cea7f98c1c48dd3c809e0bfc1795d4f5a58fe817c1e0c9793ad
+SHA1: 1e4c8cf82bcb97608d728421084e6338d7d81303
+MD5sum: d7820d1137e23184ba0294ab3d1cf997
+Description: An AUR-inspired package manager for Ubuntu
+ Pacstall is the AUR Ubuntu wishes it had. It takes the concept of the AUR
+ and puts a spin on it, making it easier to install and update downstream programs,
+ without scouring github repos and the likes.
+Installed-Size: 538
+
+Package: python3-whichcraft
+Source: whichcraft
+Version: 0.4.1-3
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 28
+Depends: python3:any
+Homepage: https://github.com/pydanny/whichcraft
+Priority: optional
+Section: python
+Filename: pool/main/w/whichcraft/python3-whichcraft_0.4.1-3_all.deb
+Size: 5980
+SHA256: f1e910458a28d564c0487e071bacda9f39a7f0b23a50e0aa8c1e14a5fca0e42d
+SHA1: cfad5f5428e64e33d089b5cfe318515b07ee8dd0
+MD5sum: 47b6f5e1e2a81fa60799468a5b54c1f7
+Description: cross-platform cross-python shutil.which functionality (Python 3 module)
+ This is a shim of the "shutil.which" function that's designed to work across
+ multiple versions of Python and inside of Windows. The code for Python 2.x is
+ based on Python 3 code.
+ .
+ This package contains the Python 3 module.
+Python-Egg-Name: whichcraft
+
+Package: qdiskinfo
+Version: 0.3+git20240909+ds-1~mos+1
+Architecture: i386
+Maintainer: Boyuan Yang <byang@debian.org>
+Installed-Size: 281
+Depends: pkexec, smartmontools, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5)
+Homepage: https://github.com/edisionnano/QDiskInfo
+Priority: optional
+Section: utils
+Filename: pool/main/q/qdiskinfo/qdiskinfo_0.3+git20240909+ds-1~mos+1_i386.deb
+Size: 89772
+SHA256: 8a20156e0875d9a1af0ee588fd6ab496472d65fd3aa0832950654b68494b3ca4
+SHA1: e18ddc9384e0f3f61ccd36ee89d6ae6a3e930730
+MD5sum: 02d70589e2a9110366c50b7d72f90f7f
+Description: CrystalDiskInfo alternative for Linux
+ QDiskInfo is a frontend for smartctl. It provides a user experience
+ similar to CrystalDiskInfo. It shows the SMART (Self-Monitoring,
+ Analysis, and Reporting Technology) data of modern hard disk drives.
+
+Package: rescuezilla
+Version: 2.6-1minios3
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 3226
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbdkit, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, efibootmgr, bsdmainutils, polkitd | policykit-1, pkexec | policykit-1
+Recommends: partimage, ecryptfs-utils, python3-whichcraft
+Homepage: https://rescuezilla.com
+Priority: optional
+Section: admin
+Filename: pool/main/r/rescuezilla/rescuezilla_2.6-1minios3_all.deb
+Size: 481192
+SHA256: df42ded9928be24964f594fae2638b765b50f6893dc47143691d70b71fc56bd1
+SHA1: db42185c70a66cd4ec81b3b558735d2eb5ac175c
+MD5sum: 95f7d7ca42b6f79670cd5afdd8e76fc5
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
+
+Package: unetbootin-translations
+Source: unetbootin
+Version: 701+mos1-1
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 3115
+Recommends: unetbootin
+Homepage: http://unetbootin.sourceforge.net
+Priority: optional
+Section: utils
+Filename: pool/main/u/unetbootin/unetbootin-translations_701+mos1-1_all.deb
+Size: 235004
+SHA256: b3ec9f67ed4f87d111b54e93b2b101df82ab4dfb3f3df9499e467482fd96a968
+SHA1: 8dc454030e5f026b03028dbd8fd963b2b11114c3
+MD5sum: 2d47a9fb3ed2a5cebac3ccbcd341dbae
+Description: translations for the unetbootin distribution installer
+ UNetbootin is an installer of Linux/BSD distributions to a partition or USB
+ drive.
+ .
+ This package contains translation files for unetbootin.
+
+Package: user-setup
+Version: 1.106.1minios1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 325
+Depends: debconf (>= 0.5) | debconf-2.0, passwd, adduser
+Priority: optional
+Section: admin
+Filename: pool/main/u/user-setup/user-setup_1.106.1minios1_all.deb
+Size: 89092
+SHA256: 6aaf7a3232f0cc35f4ab8180b8d5e8eb3aebd3a48334086f1721a24ce37d8dc6
+SHA1: f4d4fd49d6be7dc7e49b36c4d17afecacc00d9b4
+MD5sum: ee74e5e3c42b58dd1087b47214334e9c
+Description: Set up initial user and password
+ This package creates an initial user, using the same code as is
+ responsible for creating the initial user in the installer. It is only
+ likely to be of any use if your system has no non-system users at all.
+
