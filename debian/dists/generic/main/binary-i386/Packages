@@ -203,29 +203,6 @@ Description: grey GTK+ theme from the Shimmer Project
  Although originally created for Xfce, Greybird also supports other
  GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
 
-Package: linux-config-6.1
-Source: linux
-Version: 6.1.128-1
-Architecture: i386
-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 1109
-Recommends: linux-source-6.1
-Multi-Arch: same
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux/linux-config-6.1_6.1.128-1_i386.deb
-Size: 1116928
-SHA256: bb0a4e9afd1a64fb4e6a76d20c3cd405ba9f4b42c86406b8eae5fc26d364bb4e
-SHA1: e0aefdf5c1c000c43b7c1392290d2e7d3e5856fe
-MD5sum: c81281b8c3c9dbab19b3fd1ea9482ffc
-Description: Debian kernel configurations for Linux 6.1
- This package contains the configuration files used to build the official
- Debian kernel files, but without references to Debian's signing
- certificates.
- .
- These can be used as a basis for configuring custom kernels.
-
 Package: linux-headers-6.1-mos-686
 Version: 6.1.128
 Architecture: i386
@@ -367,26 +344,6 @@ MD5sum: fd010d2d50e0c87ed6a00f6bfbff5cf3
 Description: Linux kernel, version 6.1.128-mos-686-pae
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.128-mos-686-pae.
-
-Package: linux-libc-dev
-Source: linux-upstream
-Version: 6.1.128-mos-686-pae-1
-Architecture: i386
-Maintainer: MiniOS Kernel Team <team@minios.dev>
-Installed-Size: 6636
-Provides: linux-kernel-headers
-Multi-Arch: same
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.128-mos-686-pae-1_i386.deb
-Size: 1278056
-SHA256: 5c1fc1b63c3c665f0f3a4b847c88651702bd6f25c145a377338163e370287a49
-SHA1: 0c5eb38f965d316cebd880de982acc032e92e4bc
-MD5sum: 8c050a3d342a1882fe2fa9d0ec934c82
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These headers
- are used by the installed headers for GNU glibc and other system libraries.
 
 Package: minios-artwork
 Version: 5.0

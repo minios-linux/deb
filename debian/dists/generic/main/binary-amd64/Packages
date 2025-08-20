@@ -222,29 +222,6 @@ Description: Simple terminal UI for docker and docker-compose, written in Go
  It shows you everything you need to know about your containers, images,
  and volumes, all in a single place.
 
-Package: linux-config-6.1
-Source: linux
-Version: 6.1.128-1
-Architecture: amd64
-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 1083
-Recommends: linux-source-6.1
-Multi-Arch: same
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux/linux-config-6.1_6.1.128-1_amd64.deb
-Size: 1090876
-SHA256: ec1c9ac5cebc6a39b696f77bd154b856023e95b54ffd42788a72a922595a0f28
-SHA1: 385503f740e95a45af4f1bbdcf3a1ef1efda4c36
-MD5sum: 7a590ba4b3a97743f994f703a3a6a443
-Description: Debian kernel configurations for Linux 6.1
- This package contains the configuration files used to build the official
- Debian kernel files, but without references to Debian's signing
- certificates.
- .
- These can be used as a basis for configuring custom kernels.
-
 Package: linux-headers-6.1-mos-amd64
 Version: 6.1.128
 Architecture: amd64
@@ -278,6 +255,42 @@ SHA1: 23f900c6351eaf7ef1b7b73d6f170b75a134c7fc
 MD5sum: 5b7f828164a5c450f41b7fa2a2a63035
 Description: Linux kernel headers for 6.1.128-mos-amd64 on amd64
  This package provides kernel header files for 6.1.128-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.12-mos-amd64
+Version: 6.12.38
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.12.38-mos-amd64
+Provides: linux-headers-6.12-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.12-mos-amd64/linux-headers-6.12-mos-amd64_6.12.38_amd64.deb
+Size: 2240
+SHA256: 7ea8ae0dbd1e6d72a7f61b53ec00e3f5d59ad6f0d5fb2ff1a06d696b0107f1be
+SHA1: 8afdfd0b210dd4dd3878c938788238a1ef269edf
+MD5sum: eb1af99e46345460d7f1f75a192dba8d
+Description: Header files for Linux amd64 configuration (meta-package)
+
+Package: linux-headers-6.12.38-mos-amd64
+Source: linux-upstream
+Version: 6.12.38-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 53136
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.12.38-mos-amd64_6.12.38-mos-1_amd64.deb
+Size: 9169528
+SHA256: 636d3d5c1a9f1ff9d04b583c4e38a3f1245eaa641ffe52acd6de1f2bc45eae9e
+SHA1: 28dcb9a941d347ecb8196ef470462f98314825d1
+MD5sum: 3dad954a21dfb0bd3891edbf85d4cb31
+Description: Linux kernel headers for 6.12.38-mos-amd64 on amd64
+ This package provides kernel header files for 6.12.38-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
@@ -316,25 +329,40 @@ Description: Linux kernel, version 6.1.128-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.128-mos-amd64.
 
-Package: linux-libc-dev
-Source: linux-upstream
-Version: 6.1.128-mos-amd64-1
+Package: linux-image-6.12-mos-amd64
+Version: 6.12.38
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
-Installed-Size: 6637
-Provides: linux-kernel-headers
-Multi-Arch: same
+Installed-Size: 9
+Depends: linux-image-6.12.38-mos-amd64
+Provides: linux-image-6.12-mos-generic, linux-latest-modules-6.12.38-mos-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.12-mos-amd64/linux-image-6.12-mos-amd64_6.12.38_amd64.deb
+Size: 2252
+SHA256: be2c06bcabc05087058355020e2dc27b3b5177556a40ab30de5bfe103925210f
+SHA1: 07e0e14d427452d6121f7fcb1497b836b7f7f932
+MD5sum: 884828b7f707a1c945a1c710292641e9
+Description: Linux for amd64 PCs (meta-package)
+
+Package: linux-image-6.12.38-mos-amd64
+Source: linux-upstream
+Version: 6.12.38-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 522505
 Homepage: https://www.kernel.org/
 Priority: optional
-Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.128-mos-amd64-1_amd64.deb
-Size: 1277968
-SHA256: dc10d54d9bdaaa69712c299dcb5083be0047fee906c0f9f496fec74be02d931d
-SHA1: 36ab5e607bb1dd31a813cb54eb624e12d58be20d
-MD5sum: ef5beb24f086afb8a4e929320afc7c5b
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These headers
- are used by the installed headers for GNU glibc and other system libraries.
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.12.38-mos-amd64_6.12.38-mos-1_amd64.deb
+Size: 86198156
+SHA256: 52027452b8d35749fbdc5d54aa7e3888389fe5b6c132fbad0d28d3f28adb2e22
+SHA1: d8b7655a2e27e32385ef7721eab380dedcbc5833
+MD5sum: d86039aa935ebb517df02804f3938140
+Description: Linux kernel, version 6.12.38-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.12.38-mos-amd64.
 
 Package: minios-artwork
 Version: 5.0
