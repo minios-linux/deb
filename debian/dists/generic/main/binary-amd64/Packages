@@ -660,16 +660,16 @@ Package: minios-welcome
 Version: 5.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1300
+Installed-Size: 1304
 Depends: fonts-roboto-light
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-welcome/minios-welcome_5.2_all.deb
-Size: 292708
-SHA256: 995d6a7fdc1d45363d15ebc5526b8fc075ddaa15047dd01397bb195642b54298
-SHA1: 91ca574a4ce01f79ebcc3e61edcd615b10e90881
-MD5sum: 16fc8d5eec457e831e91efc6df09873f
+Size: 293780
+SHA256: bfb8a2a6d920da82d86f5368a32c344192781088a5f6c183e24f019c01f9eea1
+SHA1: fd5a9f59d26248d83cfe37aad8f5f4813290ce97
+MD5sum: 86f6f4a7dee93cb93a89d4257c9afc55
 Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
