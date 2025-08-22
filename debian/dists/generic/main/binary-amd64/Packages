@@ -657,19 +657,19 @@ Description: MiniOS desktop wallpapers
  This package contains the default wallpapers current versions of MiniOS.
 
 Package: minios-welcome
-Version: 5.1
+Version: 5.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1298
+Installed-Size: 1300
 Depends: fonts-roboto-light
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-welcome/minios-welcome_5.1_all.deb
-Size: 292108
-SHA256: 9803ccbdf08e326ba0da21e5faa1f5250f330508dc7f0a5d9eeb8976211ef7bb
-SHA1: 9944b452acc12dd8c06a1b2fee7c72adbbf68f2d
-MD5sum: b96d6ead86142bf7be81b809ae9d0b4b
+Filename: pool/main/m/minios-welcome/minios-welcome_5.2_all.deb
+Size: 292708
+SHA256: 995d6a7fdc1d45363d15ebc5526b8fc075ddaa15047dd01397bb195642b54298
+SHA1: 91ca574a4ce01f79ebcc3e61edcd615b10e90881
+MD5sum: 16fc8d5eec457e831e91efc6df09873f
 Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
