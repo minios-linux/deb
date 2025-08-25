@@ -139,18 +139,18 @@ Description: Eddy Handler for package updates.
 
 Package: elementary-minios-icon-theme
 Source: elementary-minios
-Version: 0.21-6
+Version: 0.21-7
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 55770
+Installed-Size: 55790
 Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
-Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.21-6_all.deb
-Size: 3955620
-SHA256: 138780ea7ada0514ec12d8a6c28ecc3c52cc2a591bcef780f0490c004507b0b7
-SHA1: 9646357c4dce65f3553d5d381e317834746fc68d
-MD5sum: 752dd93a7db2e018dcc9d58c30f596d9
+Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.21-7_all.deb
+Size: 3958348
+SHA256: 9160c4b0ef6b949c0cd0346c33592d6a1153e76731ae697a42f1a0bac6523c8d
+SHA1: d805a716d936bac05824325236b1afffe2309413
+MD5sum: ccb27dd21e4990a4084447dacde1be26
 Description: elementary icon theme modified for MiniOS
  elementary-minios is a fork of the elementary-xfce.
 
