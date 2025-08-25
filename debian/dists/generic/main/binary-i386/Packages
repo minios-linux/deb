@@ -154,6 +154,24 @@ MD5sum: ccb27dd21e4990a4084447dacde1be26
 Description: elementary icon theme modified for MiniOS
  elementary-minios is a fork of the elementary-xfce.
 
+Package: flux-tools
+Version: 1.2.5
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 160
+Depends: bash (>= 5.0), gettext-base, gtkask, xlunch-slax
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/f/flux-tools/flux-tools_1.2.5_all.deb
+Size: 37172
+SHA256: 8c457a2edf2141d6fce718fdac98a2862b6274cf0ecae308a5ef302b334feb1f
+SHA1: b400c674c26f59cb862b8a31fa37c155bb22b1af
+MD5sum: 3754cc347bb21ed52bbfa374ada85ed9
+Description: Flux Tools for Fluxbox in MiniOS Linux.
+ Flux Tools is a set of utilities designed to be used
+ with Fluxbox for ease of use.
+
 Package: fonts-roboto-light
 Version: 1.0
 Architecture: all
