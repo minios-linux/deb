@@ -154,6 +154,24 @@ MD5sum: ccb27dd21e4990a4084447dacde1be26
 Description: elementary icon theme modified for MiniOS
  elementary-minios is a fork of the elementary-xfce.
 
+Package: flux-tools
+Version: 1.2.5
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 160
+Depends: bash (>= 5.0), gettext-base, gtkask, xlunch-slax
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/f/flux-tools/flux-tools_1.2.5_all.deb
+Size: 37172
+SHA256: 8c457a2edf2141d6fce718fdac98a2862b6274cf0ecae308a5ef302b334feb1f
+SHA1: b400c674c26f59cb862b8a31fa37c155bb22b1af
+MD5sum: 3754cc347bb21ed52bbfa374ada85ed9
+Description: Flux Tools for Fluxbox in MiniOS Linux.
+ Flux Tools is a set of utilities designed to be used
+ with Fluxbox for ease of use.
+
 Package: fonts-roboto-light
 Version: 1.0
 Architecture: all
@@ -454,19 +472,19 @@ Description: MiniOS Linux configuration utility.
  configure MiniOS.
 
 Package: minios-installer
-Version: 2.3
+Version: 2.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 239
-Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, util-linux (>= 2.33), minios-configurator (>= 2.0)
+Installed-Size: 252
+Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, util-linux (>= 2.33), minios-configurator (>= 2.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_2.3_all.deb
-Size: 39984
-SHA256: a9b191c2bdcc2f65ee6ac835d656c2f6d59f9b436b07db251c75d86dac2d982d
-SHA1: b5c20e103c295e3dd3b5af3d34aa85d7d7e8a96c
-MD5sum: 9678765988622bb0a3a80183673fed2d
+Filename: pool/main/m/minios-installer/minios-installer_2.4_all.deb
+Size: 41544
+SHA256: fed0a95633e805d4b04cde57a0418aed304994a4aeed741d4d323e027dbb727f
+SHA1: cd6ad11b491a897a41375c92bc75bd42f3d71b58
+MD5sum: 07f7fab232dc3e94701df4a6e606dfcf
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
