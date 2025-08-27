@@ -38,6 +38,49 @@ Description: Locks/unlocks your screen based on Bluetooth proximity
  with your Bluetooth device and unlocks it when you return. Useful for
  security and convenience in desktop environments.
 
+Package: cbatticon
+Version: 1.6.13-1
+Architecture: amd64
+Maintainer: Ulises Vitulli <dererk@debian.org>
+Installed-Size: 175
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.10.8), libnotify4 (>= 0.7.6), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libnotify-bin (>= 0.7.6)
+Homepage: https://github.com/valr/cbatticon
+Priority: optional
+Section: x11
+Filename: pool/main/c/cbatticon/cbatticon_1.6.13-1_amd64.deb
+Size: 29016
+SHA256: 9004c122f07382fdc0287a675e6b11f807a99ee03b192a0eeecd32bc2f7ad30b
+SHA1: 9fcc15dd302370403b014e785bad6a43dcf09ed3
+MD5sum: aed7e09bac8855828746a36d64a619ba
+Description: lightweight and fast battery icon status and more
+ Utility that displays battery information as battery status, remaining
+ percentage, remaining time, using an icon in the system tray.
+ .
+ Based on code from xbattbar-acpi, cbatticon sits in your system tray,
+ reporting on battery events, like plug-in, critical, remaining, etc.
+ .
+ A regular user can (re)define custom system's behaviour, like performing
+ graceful shutdown on critical status, by user-defined thresholds and commands
+ on low power/critical.
+
+Package: cbatticon-dbgsym
+Source: cbatticon
+Version: 1.6.13-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Ulises Vitulli <dererk@debian.org>
+Installed-Size: 39
+Depends: cbatticon (= 1.6.13-1)
+Priority: optional
+Section: debug
+Filename: pool/main/c/cbatticon/cbatticon-dbgsym_1.6.13-1_amd64.deb
+Size: 22572
+SHA256: 345eaf5bf4e092aee81c3e9afbf5b012058f764fd2a9226a685af17feaaaf227
+SHA1: 3da5227d51ad79bbea1772cce2e04fab6119f4e3
+MD5sum: d0b6c81e8aa9025fca545cc515473ee6
+Description: debug symbols for cbatticon
+Build-Ids: 1c649fc7ec9d1a46254eaa797b3bbd81ed946ef1
+
 Package: driveutility
 Version: 1.7.4
 Architecture: all
@@ -154,6 +197,43 @@ MD5sum: ccb27dd21e4990a4084447dacde1be26
 Description: elementary icon theme modified for MiniOS
  elementary-minios is a fork of the elementary-xfce.
 
+Package: fbxkb
+Version: 0.6-3.mos+1
+Architecture: amd64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 172
+Depends: libc6 (>= 2.7), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libx11-6
+Homepage: http://fbxkb.sourceforge.net
+Priority: optional
+Section: x11
+Filename: pool/main/f/fbxkb/fbxkb_0.6-3.mos+1_amd64.deb
+Size: 92792
+SHA256: a251df0e0817d2a485cde876fdd9e9b753ecde85b357af9044bff5609916f0ce
+SHA1: 18b08b9fa7ac0b84c1003f8a8f3c90f9807d7566
+MD5sum: f9c56643f36bdcc978ccb34a4b0397e1
+Description: X11 keyboard indicator and switcher
+ It shows a flag of current keyboard in a systray area and
+ allows you to switch to another one. It's written in C and
+ uses the GTK+2.4 library only (no GNOME is needed).
+
+Package: flux-tools
+Version: 1.2.6
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 172
+Depends: bash (>= 5.0), gettext-base, gtkask, xlunch
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/f/flux-tools/flux-tools_1.2.6_all.deb
+Size: 41468
+SHA256: 733389a7ebdedb9eacc3f6fea34e01b63ede93de81c74a9b4abda77d1f68e29b
+SHA1: b48351362d66dcf473f2f266f0b86fcbf70ce25b
+MD5sum: bb6e5de7fa235d39a585b396440b87fc
+Description: Flux Tools for Fluxbox in MiniOS Linux.
+ Flux Tools is a set of utilities designed to be used
+ with Fluxbox for ease of use.
+
 Package: fluxbox-flux
 Version: 1.3.7-1
 Architecture: amd64
@@ -229,6 +309,40 @@ Description: grey GTK+ theme from the Shimmer Project
  .
  Although originally created for Xfce, Greybird also supports other
  GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
+
+Package: gtkask
+Version: 1.0-2
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 29
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.8.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Homepage: https://github.com/minios-linux/gtkask.git
+Priority: optional
+Section: unknown
+Filename: pool/main/g/gtkask/gtkask_1.0-2_amd64.deb
+Size: 4968
+SHA256: e9dacc4ce329d5e632ed389b30e8c35f3822e944fce9bbd2a5543d2e9f978db9
+SHA1: 8db12f105246603f7771ea9e386826f18ad196c3
+MD5sum: 0a4ed025588ebec8d7418466c44e3f40
+Description: Simple GTK2 dialog for Yes/No questions.
+
+Package: gtkask-dbgsym
+Source: gtkask
+Version: 1.0-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 17
+Depends: gtkask (= 1.0-2)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gtkask/gtkask-dbgsym_1.0-2_amd64.deb
+Size: 2640
+SHA256: ccf2f7cc53905e57eeadecabd2fb7bab5b0c8e569831b796860c8ac985667393
+SHA1: 1c71b81e0976aa3f8aad1b117578beaf13748d42
+MD5sum: 31330bbee3a0fa605d525a79d3f8e623
+Description: debug symbols for gtkask
+Build-Ids: be616431f83de2420a9050856b74aa41ca51e97b
 
 Package: lazydocker
 Version: 0.23.3-0minios1
@@ -923,6 +1037,24 @@ Description: Graphical hard drive backup and restore
  an easy-to-use graphical environment like the leading commercial tools,
  Acronis True Image and Macrium Reflect.
 
+Package: systrayicon
+Version: 1.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 28
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.16.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Homepage: https://github.com/minios-linux/systrayicon.git
+Priority: optional
+Section: unknown
+Filename: pool/main/s/systrayicon/systrayicon_1.0-1_amd64.deb
+Size: 5180
+SHA256: caea77a487cf8967fc150e4373782c2780857fda2d15090baed6f3c5bd6a052e
+SHA1: cf8fcb038776ae9e438a89b0cbbc99814a54897b
+MD5sum: 314388a8d9288bd6ac000429fa036bbc
+Description: Systray Icon Launcher.
+ This is a tiny launcher which shows an icon in system tray (systray) and runs a
+ command or application after user clicks the icon.
+
 Package: testdisk
 Version: 7.2-1+mos1
 Architecture: amd64
@@ -1071,4 +1203,43 @@ Description: Set up initial user and password
  This package creates an initial user, using the same code as is
  responsible for creating the initial user in the installer. It is only
  likely to be of any use if your system has no non-system users at all.
+
+Package: xlunch
+Version: 4.7.6-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 233
+Depends: libc6 (>= 2.14), libimlib2 (>= 1.4.5), libx11-6
+Homepage: https://github.com/Tomas-M/xlunch
+Priority: optional
+Section: x11
+Filename: pool/main/x/xlunch/xlunch_4.7.6-1_amd64.deb
+Size: 155452
+SHA256: a7aa143a6082230f0fcc687ec9821aac5584cc7dfa0ab1a0622e4cb74369a27a
+SHA1: dccd725120da99d29d654306b56a0236da683c66
+MD5sum: 167465b8d2f8a226ff5c5870981662e7
+Description: Graphical application launcher for X using pure Xlib and Imlib2.
+ Provides a lightweight, mouse- and keyboard-driven interface to launch
+ programs, commands, or custom menu entries. Supports UTF-8 for international
+ text and offers real-time filtering while typing. Highly configurable in both
+ appearance and functionality, xlunch can even function as a minimal desktop
+ environment.
+
+Package: xlunch-dbgsym
+Source: xlunch
+Version: 4.7.6-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 65
+Depends: xlunch (= 4.7.6-1)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xlunch/xlunch-dbgsym_4.7.6-1_amd64.deb
+Size: 44988
+SHA256: 62e30b825ff8de6f00cc972900410b01685a19a7ba5931f22d0907435b5716ba
+SHA1: eedf31ea2fe6a1ad9489819022ef21f40a41e77c
+MD5sum: fb0028d4dda906f032a8171b479a6814
+Description: debug symbols for xlunch
+Build-Ids: 633a42afbc332cdc788b8316041953054963a896
 
