@@ -1205,7 +1205,7 @@ Description: Set up initial user and password
  likely to be of any use if your system has no non-system users at all.
 
 Package: xlunch
-Version: 4.7.6-1
+Version: 4.7.6-2
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 233
@@ -1213,11 +1213,11 @@ Depends: libc6 (>= 2.14), libimlib2 (>= 1.4.5), libx11-6
 Homepage: https://github.com/Tomas-M/xlunch
 Priority: optional
 Section: x11
-Filename: pool/main/x/xlunch/xlunch_4.7.6-1_amd64.deb
-Size: 155452
-SHA256: a7aa143a6082230f0fcc687ec9821aac5584cc7dfa0ab1a0622e4cb74369a27a
-SHA1: dccd725120da99d29d654306b56a0236da683c66
-MD5sum: 167465b8d2f8a226ff5c5870981662e7
+Filename: pool/main/x/xlunch/xlunch_4.7.6-2_amd64.deb
+Size: 156192
+SHA256: f7e514e6e2da29f7eab7abac7ea1970c01a2914304990428878993680388d9df
+SHA1: da5f6c9815223165939d119d6f41a3cf0fa411a3
+MD5sum: d558f0774bc1539efe5ff534a8943b45
 Description: Graphical application launcher for X using pure Xlib and Imlib2.
  Provides a lightweight, mouse- and keyboard-driven interface to launch
  programs, commands, or custom menu entries. Supports UTF-8 for international
@@ -1227,19 +1227,19 @@ Description: Graphical application launcher for X using pure Xlib and Imlib2.
 
 Package: xlunch-dbgsym
 Source: xlunch
-Version: 4.7.6-1
+Version: 4.7.6-2
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 65
-Depends: xlunch (= 4.7.6-1)
+Depends: xlunch (= 4.7.6-2)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xlunch/xlunch-dbgsym_4.7.6-1_amd64.deb
-Size: 44988
-SHA256: 62e30b825ff8de6f00cc972900410b01685a19a7ba5931f22d0907435b5716ba
-SHA1: eedf31ea2fe6a1ad9489819022ef21f40a41e77c
-MD5sum: fb0028d4dda906f032a8171b479a6814
+Filename: pool/main/x/xlunch/xlunch-dbgsym_4.7.6-2_amd64.deb
+Size: 44984
+SHA256: da2a0fc2e212366400a776715dad9003fdf40cbf8d79a831c63f571e8a701c25
+SHA1: f5200e29e346525b202ce3368830838e47fa1dc2
+MD5sum: 5f9f39ad0872a6a78f3bbfc0495f33a2
 Description: debug symbols for xlunch
 Build-Ids: 633a42afbc332cdc788b8316041953054963a896
 

@@ -1014,7 +1014,7 @@ Description: Set up initial user and password
  likely to be of any use if your system has no non-system users at all.
 
 Package: xlunch
-Version: 4.7.6-1
+Version: 4.7.6-2
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 235
@@ -1022,11 +1022,11 @@ Depends: libc6 (>= 2.28), libimlib2 (>= 1.4.5), libx11-6
 Homepage: https://github.com/Tomas-M/xlunch
 Priority: optional
 Section: x11
-Filename: pool/main/x/xlunch/xlunch_4.7.6-1_i386.deb
-Size: 156500
-SHA256: 2fb8067ab7249d410fbb8b532b9abf2b1705aae991af38939f6eeadad57ed4d4
-SHA1: 946908dd602d12e820a11094f705edce32f2a8df
-MD5sum: 4e0953028ae33682c5fdacd015b26b43
+Filename: pool/main/x/xlunch/xlunch_4.7.6-2_i386.deb
+Size: 157372
+SHA256: e097b829dfe5a56508db6ceefa752fc7a489c7cfcb196da1c7d7c54fe68367e1
+SHA1: 27389c62ebfd6b378dfe05bd53b0e37ddc7b3bed
+MD5sum: 181adfb735f9b5d85fee1dfea06010bc
 Description: Graphical application launcher for X using pure Xlib and Imlib2.
  Provides a lightweight, mouse- and keyboard-driven interface to launch
  programs, commands, or custom menu entries. Supports UTF-8 for international
@@ -1036,19 +1036,19 @@ Description: Graphical application launcher for X using pure Xlib and Imlib2.
 
 Package: xlunch-dbgsym
 Source: xlunch
-Version: 4.7.6-1
+Version: 4.7.6-2
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 59
-Depends: xlunch (= 4.7.6-1)
+Depends: xlunch (= 4.7.6-2)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xlunch/xlunch-dbgsym_4.7.6-1_i386.deb
+Filename: pool/main/x/xlunch/xlunch-dbgsym_4.7.6-2_i386.deb
 Size: 41440
-SHA256: 20d9e5c51af87463b3008a705686dd7b76ba61d5397a793a0f08790709bc060f
-SHA1: 52d729372814d8faab35bc38a06050f9df75d030
-MD5sum: 138b0ce2488d44e0057c4c76bd2c1bce
+SHA256: eb924ddf6846784da6a03fed4f2f9d148f7402b73778cfbeab5a3e57178ba568
+SHA1: 69c3c9660753805fe70995636c6eb4aff16e1c15
+MD5sum: 160847f26482202079ce70b9234261a7
 Description: debug symbols for xlunch
 Build-Ids: 923729b9aa0a4682d23afe6742605750a25debc7
 
