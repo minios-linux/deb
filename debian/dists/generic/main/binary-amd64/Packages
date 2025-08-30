@@ -617,35 +617,35 @@ Package: minios-installer
 Version: 2.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 253
+Installed-Size: 262
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, util-linux (>= 2.33), minios-configurator (>= 2.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_2.4_all.deb
-Size: 41944
-SHA256: c8ef62607149f69bdbb34b47e5120bae37863f603766101080e9ba727803f5c8
-SHA1: cc8f87cfdf1768b5f75e7fd78d096daaf9e6fff3
-MD5sum: b537d798a93a1b8902a2ff5f454f8842
+Size: 42708
+SHA256: 8394edf52898c3baf527f575f77f612721502a4babbab6f89c74e24deafffd7a
+SHA1: 0c7d32e901e68cfcd220240390b895e6e2770821
+MD5sum: 4c3db0aff1f596d5e158ed460fa36c63
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
 
 Package: minios-kernel-manager
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 375
+Installed-Size: 412
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, squashfs-tools, kmod, apt, dpkg-dev, zstd
 Recommends: lz4, lzop, xz-utils, bzip2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.0.0_all.deb
-Size: 58296
-SHA256: f5205cd88d5bfb2581997ee3cd36c3c3e5eb4e5d517d731386e56bb8b1f953ac
-SHA1: 74feebc1de19117b45e6f95f3904d466f99c9066
-MD5sum: a5f2e476be2d31f26e7600c1fb0d7daf
+Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.0.1_all.deb
+Size: 62240
+SHA256: c9c7f2e34ab6e753ea86689ee9a61d30332a673fd2603efa6ac2229a612e3a0a
+SHA1: 3471d8151bebcc70a732c3c35c5bc4a6670ead33
+MD5sum: 7540fb2ca569d0ac928e253cfaba92c4
 Description: Graphical and command-line tools for managing MiniOS kernels.
  This package provides a GTK3 graphical user interface and a command-line
  utility to package, install, and manage Linux kernels for the MiniOS.
