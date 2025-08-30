@@ -800,19 +800,19 @@ Description: MiniOS session management utility
  cleaning up sessions.
 
 Package: minios-tools
-Version: 1.4.2
+Version: 1.4.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 199
+Installed-Size: 205
 Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.4.2_all.deb
-Size: 38756
-SHA256: 27c8a928eb927d99642a4b494ad782dcd3c976a2b41af673ef6a28045b49bfe0
-SHA1: 7b18b0aae157ac7d2ce59c9cdaf4ead585a57245
-MD5sum: 57e48f553191b2944a57130a7bbbf4e6
+Filename: pool/main/m/minios-tools/minios-tools_1.4.3_all.deb
+Size: 38936
+SHA256: cf66b03ca44e78160ecf9f96ef6fe39a43e789a7f3756281bae8f3e0cd8b612f
+SHA1: 48c33d6380d5904e269ecf0b991476867102fe37
+MD5sum: 22efdd927c6b3150509d6764bc51c917
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
