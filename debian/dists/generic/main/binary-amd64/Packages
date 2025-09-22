@@ -614,38 +614,38 @@ Description: MiniOS Linux configuration utility.
  configure MiniOS.
 
 Package: minios-installer
-Version: 2.4
+Version: 2.5
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 262
+Installed-Size: 263
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, util-linux (>= 2.33), minios-configurator (>= 2.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_2.4_all.deb
-Size: 42708
-SHA256: 8394edf52898c3baf527f575f77f612721502a4babbab6f89c74e24deafffd7a
-SHA1: 0c7d32e901e68cfcd220240390b895e6e2770821
-MD5sum: 4c3db0aff1f596d5e158ed460fa36c63
+Filename: pool/main/m/minios-installer/minios-installer_2.5_all.deb
+Size: 43024
+SHA256: 9123db862be97ccd7c35c45426809e481f3866875727cb8d6bfd8cf7bc7496cb
+SHA1: f0da7fd047bacdac2704cf06e41c094300e4e8b5
+MD5sum: dff1ccef06857cd2b08a49fa3b9d42a2
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
 
 Package: minios-kernel-manager
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 412
+Installed-Size: 413
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, squashfs-tools, kmod, apt, dpkg-dev, zstd
 Recommends: lz4, lzop, xz-utils, bzip2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.0.1_all.deb
-Size: 62240
-SHA256: c9c7f2e34ab6e753ea86689ee9a61d30332a673fd2603efa6ac2229a612e3a0a
-SHA1: 3471d8151bebcc70a732c3c35c5bc4a6670ead33
-MD5sum: 7540fb2ca569d0ac928e253cfaba92c4
+Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.0.2_all.deb
+Size: 62380
+SHA256: 95fd69cba0f40ffe2d5b39a17107804f75ab52b4c6ebc4b0e9fdb4c8d5e272fa
+SHA1: ff42937889002d6d16faacd8355e4dca1ab60383
+MD5sum: b493498dbde18c6a123742be4e60d95b
 Description: Graphical and command-line tools for managing MiniOS kernels.
  This package provides a GTK3 graphical user interface and a command-line
  utility to package, install, and manage Linux kernels for the MiniOS.
@@ -800,19 +800,19 @@ Description: MiniOS session management utility
  cleaning up sessions.
 
 Package: minios-tools
-Version: 1.4.3
+Version: 1.4.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 205
+Installed-Size: 208
 Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.4.3_all.deb
-Size: 38936
-SHA256: cf66b03ca44e78160ecf9f96ef6fe39a43e789a7f3756281bae8f3e0cd8b612f
-SHA1: 48c33d6380d5904e269ecf0b991476867102fe37
-MD5sum: 22efdd927c6b3150509d6764bc51c917
+Filename: pool/main/m/minios-tools/minios-tools_1.4.4_all.deb
+Size: 40252
+SHA256: 7d0b31de3c3dc1fbbc827a76b971975fe7ce4db0713a695f9ef5d800e6e070af
+SHA1: b68d1c3f56d4fb93e41a48586573b22b64a73a3d
+MD5sum: 21813ecf2b960a200ade7905b916d86c
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
