@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-installer
 Binary: minios-installer
 Architecture: all
-Version: 2.5
+Version: 2.6
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext
 Package-List:
  minios-installer deb utils optional arch=all
 Checksums-Sha1:
- 51a31757a1fe5ed643c7abbf130671010bd8644e 50032 minios-installer_2.5.tar.xz
+ 74b0ee24d5d1f1fec7c113aa2aff1d0625b1dc02 50108 minios-installer_2.6.tar.xz
 Checksums-Sha256:
- 635c740e90b368dd27a029f6319b9bb1de449683b6d200a6702b2bdb71d043b9 50032 minios-installer_2.5.tar.xz
+ 043d72d3475d5df246544b12129fca4a724bf2899fef54d824f85519fa60927b 50108 minios-installer_2.6.tar.xz
 Files:
- 7ca22cb86a865f5e40e53f70f77a3f9e 50032 minios-installer_2.5.tar.xz
+ 0f9969973b46b53ea81ecd259ee6960b 50108 minios-installer_2.6.tar.xz
