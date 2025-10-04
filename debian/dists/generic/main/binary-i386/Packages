@@ -738,24 +738,27 @@ Description: Live System Configuration Components (sysvinit backend)
  This package contains the sysvinit backend.
 
 Package: minios-session-manager
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 370
-Depends: python3, python3-gi, gir1.2-gtk-3.0, dynfilefs, polkitd | policykit-1, pkexec | policykit-1
+Installed-Size: 534
+Depends: python3, python3-gi, gir1.2-gtk-3.0, dynfilefs, polkitd | policykit-1, pkexec | policykit-1, zstd, e2fsprogs, util-linux
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session-manager_1.0.0_all.deb
-Size: 53060
-SHA256: f124f7c2e6568b6c97ee112508ad670dfe51604110e2d51007139e6672f94519
-SHA1: da32b4f6a432291c9a667157101224a787d295c0
-MD5sum: 43f4361512ec6d511be353ae5cb1da71
+Filename: pool/main/m/minios-session-manager/minios-session-manager_1.1.0_all.deb
+Size: 72020
+SHA256: 2b287b783aafbd84d1cd32435b158b549bfb065cbe783afd07e2525844c5b1f2
+SHA1: e601120564b2434b092188194b78cdc72f42bb0d
+MD5sum: baffd8f63144d301ec7c8a53029a40e1
 Description: MiniOS session management utility
  A utility for managing MiniOS persistent sessions from within
  the running system. Provides both command-line and graphical
- interfaces for viewing, creating, activating, deleting, and
- cleaning up sessions.
+ interfaces for viewing, creating, activating, deleting, exporting,
+ importing, copying, converting, and cleaning up sessions.
+ .
+ Supports multiple session modes (native, dynfilefs, raw) and works
+ on various filesystems including ext4, FAT32, NTFS, and exFAT.
 
 Package: minios-tools
 Version: 1.4.4
