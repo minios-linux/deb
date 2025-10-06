@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-tools
 Binary: minios-tools
 Architecture: all
-Version: 1.4.4
+Version: 1.4.5
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext, pandoc
 Package-List:
  minios-tools deb utils optional arch=all
 Checksums-Sha1:
- 3df5a609d19bbb6b907a321e9823455307ce253c 39968 minios-tools_1.4.4.tar.xz
+ d94b7e0e872b481b6c76ed931783e2a7728c2f0c 36608 minios-tools_1.4.5.tar.xz
 Checksums-Sha256:
- c5eeca8b1917ecd8ada8999bcaaf19f3ee075719e0fe74ac64ba8641952c2417 39968 minios-tools_1.4.4.tar.xz
+ 1a6960658e00fb4f535e959583847f79c46438d3b6fb4e77a65d300aa93effd5 36608 minios-tools_1.4.5.tar.xz
 Files:
- 22fae9ec893ebdbb138d7089bc4747e8 39968 minios-tools_1.4.4.tar.xz
+ 71d58738b3e83839ecc8ee672e1adb15 36608 minios-tools_1.4.5.tar.xz
