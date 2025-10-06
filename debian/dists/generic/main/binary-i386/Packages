@@ -637,7 +637,7 @@ Package: minios-live-config
 Version: 11.0.5.6
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 165
+Installed-Size: 166
 Depends: minios-live-config-systemd | minios-live-config-backend, bash (>= 4.0), perl
 Recommends: iproute2 | iproute, keyboard-configuration, minios-live-config-doc, locales | locales-all, sudo, user-setup
 Suggests: pciutils, wget, shared-mime-info, gdk-pixbuf2.0-bin, libgtk-3-bin, glib-2.0-bin, desktop-file-utils, xfonts-utils, fontconfig
@@ -646,10 +646,10 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
 Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.6_all.deb
-Size: 25464
-SHA256: edb27fc21e4b05177057bb726b30c66dc02b3219a7ca915bf5d61da49a45c65e
-SHA1: 2370198218b8d7d515846b9f437ca0068118f494
-MD5sum: f9a8a10872d5dfc9023e5b85b418b643
+Size: 25588
+SHA256: 891c36ac349ad1874d909e742ac536b863eb889dbafeca4d65ff6275f04ad300
+SHA1: e8e0f86761b477596b249d32f8cc793906d56192
+MD5sum: aafbaae1e290a3898fb0081c96e5f7d9
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
