@@ -614,21 +614,21 @@ Description: MiniOS Linux configuration utility.
  configure MiniOS.
 
 Package: minios-dracut
-Version: 1.0.3
+Version: 1.0.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 47
+Installed-Size: 36
 Depends: dracut-core, cpio
 Recommends: zstd
 Suggests: dracut-network
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-dracut/minios-dracut_1.0.3_all.deb
-Size: 9852
-SHA256: 2a99edf75a29694b5e3d17c7e8be16f0171ca77f9de305e706e15308dfa0fcfb
-SHA1: 9ebd1f5603875fa32f82d83dc77be81f11844823
-MD5sum: 54944cd587e53424879490f36786a54c
+Filename: pool/main/m/minios-dracut/minios-dracut_1.0.4_all.deb
+Size: 7204
+SHA256: fa60631117fa1fa7325a7d1d681b0cb896babdfc89f9fc6cd1567aa8f1703cd2
+SHA1: 6eda9a907b64ad8c161f52a61a979c9c6103c889
+MD5sum: 6af55bc125f819eb87dda49ea2106403
 Description: MiniOS dracut modules for initramfs generation
  This package provides dracut modules and tools for building
  MiniOS-compatible initramfs images using dracut.
@@ -666,7 +666,7 @@ Description: MiniOS Linux installation utility.
  install MiniOS on a USB flash drive.
 
 Package: minios-kernel-manager
-Version: 1.0.6
+Version: 1.0.7
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 391
@@ -675,11 +675,11 @@ Recommends: lz4, lzop, xz-utils, bzip2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.0.6_all.deb
-Size: 60324
-SHA256: 52483b04a5cbc543f0b92664cf3248de7a87219c3a57fe2a5c6e0d403f0e353d
-SHA1: 099ba86978c4f46d984c2cae6b5f85d6ce962a07
-MD5sum: d703ba0f60fcb7adf7493661a61e9e28
+Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.0.7_all.deb
+Size: 60328
+SHA256: 43fd71e9e006df17f8add1410c6c370ffb01765444b222f3e27ac54223dffe78
+SHA1: 380211e2dc3b6456449d0488123f4fff56bf6b25
+MD5sum: d5dee841441c78ed1671c7dcb3252e81
 Description: Graphical and command-line tools for managing MiniOS kernels.
  This package provides a GTK3 graphical user interface and a command-line
  utility to package, install, and manage Linux kernels for the MiniOS.

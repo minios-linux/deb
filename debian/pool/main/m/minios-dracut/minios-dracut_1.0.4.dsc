@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-dracut
 Binary: minios-dracut
 Architecture: all
-Version: 1.0.3
+Version: 1.0.4
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.6.2
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 12)
 Package-List:
  minios-dracut deb utils optional arch=all
 Checksums-Sha1:
- ff55be752400441d97d43110de23a047406b90a0 8944 minios-dracut_1.0.3.tar.xz
+ e55f5788bea25cdd49f0a9ca191b29d649d7fa24 6736 minios-dracut_1.0.4.tar.xz
 Checksums-Sha256:
- 8e9dacf51f45f4cfa134d347fee0997e46e41295c8c7c2b1392dc87496c50c06 8944 minios-dracut_1.0.3.tar.xz
+ 61f6934f7250a9676138c7ab51d9371c90f9153e70a1888a8a2b1066695ec850 6736 minios-dracut_1.0.4.tar.xz
 Files:
- db0a7906ac3a32983b65dde39d6a907c 8944 minios-dracut_1.0.3.tar.xz
+ dd39d6b31de0c5691fbef888c7749007 6736 minios-dracut_1.0.4.tar.xz
