@@ -595,21 +595,21 @@ Description: MiniOS Linux configuration utility.
  configure MiniOS.
 
 Package: minios-dracut
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 6051
+Installed-Size: 47
 Depends: dracut-core, cpio
 Recommends: zstd
 Suggests: dracut-network
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-dracut/minios-dracut_1.0.2_all.deb
-Size: 2118620
-SHA256: 8b839b9ef1b69c2bb4aa17cf05fedf3b9459c874c5b48b43dc1e3bf109a59367
-SHA1: 623657b65d0ec4a35d54626e41fde1431cd9a26e
-MD5sum: c807ab42de3ec7d45207e79f8e503d30
+Filename: pool/main/m/minios-dracut/minios-dracut_1.0.3_all.deb
+Size: 9852
+SHA256: 2a99edf75a29694b5e3d17c7e8be16f0171ca77f9de305e706e15308dfa0fcfb
+SHA1: 9ebd1f5603875fa32f82d83dc77be81f11844823
+MD5sum: 54944cd587e53424879490f36786a54c
 Description: MiniOS dracut modules for initramfs generation
  This package provides dracut modules and tools for building
  MiniOS-compatible initramfs images using dracut.
