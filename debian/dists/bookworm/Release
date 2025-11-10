@@ -1,7 +1,7 @@
 Origin: Debian
 Label: MiniOS Repository
 Codename: bookworm
-Date: Mon, 13 Oct 2025 11:31:22 UTC
+Date: Mon, 10 Nov 2025 13:46:55 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository

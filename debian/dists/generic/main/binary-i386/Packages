@@ -560,6 +560,28 @@ Description: Linux kernel, version 6.1.147-mos-686-pae
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.147-mos-686-pae.
 
+Package: mini-commander
+Version: 1.0-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 65
+Depends: libc6 (>= 2.3.4), libncurses6 (>= 6), libtinfo6 (>= 6)
+Homepage: https://github.com/Tomas-M/mini-commander
+Priority: optional
+Section: utils
+Filename: pool/main/m/mini-commander/mini-commander_1.0-1_i386.deb
+Size: 24112
+SHA256: 65bebd93e4a1cc22869d3656ca836adeabfd5213c2e317a32ca4dc3c4893a717
+SHA1: 3e690d624e39fc05a77300375de1c9279c1a8a98
+MD5sum: ddf6f9c7255b455a1fa3cc7f1ff7aa07
+Description: Simplified clone of Midnight Commander
+ Mini Commander is a very simplified clone of Midnight Commander
+ for Linux. It provides a dual-pane file manager interface with
+ basic file operations in a terminal environment.
+ .
+ This is a lightweight alternative to the full Midnight Commander,
+ suitable for embedded systems and minimal installations.
+
 Package: minios-artwork
 Version: 5.0
 Architecture: all
@@ -864,6 +886,43 @@ SHA1: 13df8ac04e4086f52723ba36d4ea35602418fbed
 MD5sum: c0e7b8836a95cabc53f4aad358d4a473
 Description: write .img and .iso files to USB sticks
  A GUI to write .img or .iso files to a USB Key. It can also format them.
+
+Package: ncurses-menu
+Version: 1.0-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 28
+Depends: libc6 (>= 2.1.3), libncurses6 (>= 6), libtinfo6 (>= 6)
+Homepage: https://github.com/Tomas-M/ncurses-menu
+Priority: optional
+Section: utils
+Filename: pool/main/n/ncurses-menu/ncurses-menu_1.0-1_i386.deb
+Size: 6248
+SHA256: 40a554cfb3615c4fe7cb8f009d9a5b64af069720d9673ec2ea0d49cde2d9b92c
+SHA1: 6e0b83185515f033cd9a72a90e9f2fdbbee9513c
+MD5sum: 53c917603d5bb6f7f392ff4a2068d4c0
+Description: Very simple ncurses menu utility
+ A lightweight utility for creating simple terminal-based menus
+ using the ncurses library. Provides an easy way to create
+ interactive menu selections in shell scripts.
+
+Package: ncurses-menu-dbgsym
+Source: ncurses-menu
+Version: 1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 16
+Depends: ncurses-menu (= 1.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/n/ncurses-menu/ncurses-menu-dbgsym_1.0-1_i386.deb
+Size: 2736
+SHA256: f43e1b808e0412850d5cec645a8d57d0892bb444cfd3a8dba31a6a80aac14f67
+SHA1: f9669555b9a905f4917fd94aca77c4ce5e6c5ade
+MD5sum: 4ff013c248fac6ede475c1b6c243e5b5
+Description: debug symbols for ncurses-menu
+Build-Ids: 1fe649f51d7a4adef8b848445ef4c1a51aa7ac30
 
 Package: ntfs3-dkms
 Version: 1.0.12~mos+1
