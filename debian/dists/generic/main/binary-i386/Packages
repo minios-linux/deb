@@ -817,19 +817,19 @@ Description: MiniOS session management utility
  on various filesystems including ext4, FAT32, NTFS, and exFAT.
 
 Package: minios-tools
-Version: 1.4.7
+Version: 1.4.8
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 211
+Installed-Size: 213
 Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.4.7_all.deb
-Size: 39888
-SHA256: 8bdb84b0166cda41fd6fab6614f2ee48d5bd79edf5c180ead9c380fe28030fe1
-SHA1: 6d4c91fd4db3457be9defb6f73a9064e2f691cde
-MD5sum: cf780728ba428588a4fe3a5cf97ddfde
+Filename: pool/main/m/minios-tools/minios-tools_1.4.8_all.deb
+Size: 40268
+SHA256: cfbaad298bb3507b520e410a0a27ffde87dbccb7332610afadf4802c84d92891
+SHA1: cb137b01bd0c006c8d204dee0e035ae95f55971c
+MD5sum: 1d8141c49b75e490c95f70efc2345217
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
