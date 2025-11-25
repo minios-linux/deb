@@ -618,19 +618,19 @@ Description: MiniOS themes and artwork
  This package contains the MiniOS themes and artwork.
 
 Package: minios-configurator
-Version: 2.3.0
+Version: 2.4.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 183
+Installed-Size: 193
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, whois, openssl, minios-live-config
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-configurator/minios-configurator_2.3.0_all.deb
-Size: 26900
-SHA256: 309c88d6730d9b4d1f64432aa5d71ce117fe35b6c6d9788d73b7a344fd245a78
-SHA1: 52e99549a3f876a0febe7a7f7a649fdcc54535d0
-MD5sum: d604b24d1098811827e218ea42663aec
+Filename: pool/main/m/minios-configurator/minios-configurator_2.4.0_all.deb
+Size: 28380
+SHA256: 6893391bfbf0932270cf5fae905cb647870107b8ab05dad3975f74de40ee35c9
+SHA1: 3da4f66d9ca722f08c3ff580eca13807f3b914f3
+MD5sum: 08d24bde704e232fe56e7e0014e98d2a
 Description: MiniOS Linux configuration utility.
  MiniOS Configurator is a utility specially designed for quick and easy
  configure MiniOS.
@@ -670,7 +670,7 @@ Description: MiniOS dracut modules for initramfs generation
  dracut configuration to keep initramfs size small.
 
 Package: minios-installer
-Version: 2.7.2
+Version: 2.8.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 261
@@ -678,11 +678,11 @@ Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.7), python3-
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_2.7.2_all.deb
-Size: 43076
-SHA256: 642fb8aca0b0a43595efdab8f5dc805aa60f184850c2f9d995f0322aa743beb1
-SHA1: 83daf6de2bd7fce9d83f643eb6b4c8adc9af34b6
-MD5sum: f767940b613c35d03c1ee861409a348b
+Filename: pool/main/m/minios-installer/minios-installer_2.8.0_all.deb
+Size: 43012
+SHA256: 13179868a08bd78e07cc263bb2738624d3d1de941c57aa7c1cf1f02d2f829dde
+SHA1: d4812e2e502cb33b4e1d1255339c8034fa0e101c
+MD5sum: b524c4ed235ef03c182165673255bfc4
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
