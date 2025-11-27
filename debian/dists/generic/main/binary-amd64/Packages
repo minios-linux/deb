@@ -859,23 +859,25 @@ Description: MiniOS session management utility
  on various filesystems including ext4, FAT32, NTFS, and exFAT.
 
 Package: minios-tools
-Version: 1.4.8
+Version: 1.4.9
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 213
+Installed-Size: 228
 Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
+Recommends: x11-xserver-utils, xfce4-settings, procps
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.4.8_all.deb
-Size: 40268
-SHA256: cfbaad298bb3507b520e410a0a27ffde87dbccb7332610afadf4802c84d92891
-SHA1: cb137b01bd0c006c8d204dee0e035ae95f55971c
-MD5sum: 1d8141c49b75e490c95f70efc2345217
+Filename: pool/main/m/minios-tools/minios-tools_1.4.9_all.deb
+Size: 43208
+SHA256: cfcec5dc91e9377ea36537c29e4a3964eb5df2980deb4c16483cfc476de79c37
+SHA1: 195f695a51779ba0a26b91d9a3df860ca752d2fb
+MD5sum: 68166d0bca90fddd41041102ddd18666
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
- utilities for working with modules.
+ utilities for working with modules, keyboard configuration,
+ and virtual machine display management.
 
 Package: minios-wallpapers
 Source: minios-artwork
