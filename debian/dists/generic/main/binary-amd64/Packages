@@ -82,21 +82,21 @@ Description: debug symbols for cbatticon
 Build-Ids: 1c649fc7ec9d1a46254eaa797b3bbd81ed946ef1
 
 Package: driveutility
-Version: 1.7.4
+Version: 1.8.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 317
+Installed-Size: 318
 Depends: coreutils (>= 8.30), genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, polkitd | policykit-1, pkexec | policykit-1, procps, python3 (>= 3.7), python3-gi, python3-parted, python3-gnupg, python3-unidecode, python3-lz4, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux (>= 2.32), exfatprogs | exfat-utils
 Recommends: python3-zstandard
 Conflicts: mintstick, usb-imagewriter
 Replaces: mintstick, usb-imagewriter
 Priority: optional
 Section: misc
-Filename: pool/main/d/driveutility/driveutility_1.7.4_all.deb
-Size: 47168
-SHA256: edb841263a9761ff78c329dbafd7684deb6dade5b0fbcb5f27bdc13184f55f41
-SHA1: 9d70bb67f3b17f3e0505332115ee63593a60f863
-MD5sum: f08f5bb92e258be84151def4b321e595
+Filename: pool/main/d/driveutility/driveutility_1.8.0_all.deb
+Size: 47992
+SHA256: 3a9d239b90734c67d081b670c4e067230a5212116b31eb6520e315b9adad8ac3
+SHA1: 2e32516b49402146264ba74445d5c216e6606659
+MD5sum: 91dbfb340c12cefe532f43f3c6e6f1f6
 Description: Graphical utility for writing, formatting, and wiping storage devices
  A simple and convenient tool to write disk images,
  format, and securely wipe storage devices.
