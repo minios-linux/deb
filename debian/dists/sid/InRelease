@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: sid
-Date: Thu, 27 Nov 2025 14:18:20 UTC
+Date: Fri, 28 Nov 2025 23:44:50 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmkoXawACgkQ7CDxjGi2
-L2yw3Qv7BSVLLwQCfUJgfHAFtN7nVLiBjip1+/Fbb8BsAQcI5iVXKfgVUHl9rrfs
-guToy6/aAPqsULmTxxhTrM0lBdAP00SHWMvFR02213tusclHl99uft6PanjwJ7Ky
-zD+Usvam5oY011hAv6HGtyGRGkWsPDzuN45rEjT0aEPL6MyZzEi/tSzmICVh3TsC
-TSIJ/bzx/6ZKIIZ4E54EXj4x7hcJmCMVj9195SCVrRNBe8eYdwYi+3mjmMlPm9x2
-W+HeCogfN1+tG+hhu9iHgVwytRHUd1sx/NnXWBk1aPaNwuMvOgyjNjIgkI4xnM/s
-dH6NuvdgIKoWyxO3ZSvwNsIzAmxYAzasTd43hAimAqOePrXw70y/WL6JXA6W6fG4
-S5eHrkPa5mSOffgerynsU8w2pSuLDCm8/rfU6L1yYg/fN++O9MnMyKiY7HOMleQU
-xWiRnT/bs2GFZPNWbG3wJTEuJaAxhehxJpVMPTb2ZLpdzXIAnjh2xS5Q3KFuncqa
-ozj9zU3v
-=ZP9b
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmkqM/MACgkQ7CDxjGi2
+L2xPWAwAnI4wUduU+joiWZZu4Bniyh7TRyFuO+vA06ZOiPeqmVitzp1hNJDo0IhI
+NfHYzX+f45EEC+nh6aeR82/4TcdCgvRBJvDyn3icgCgXaj6rwnk3m9Z1e6PaphEQ
+xaxcSHsHztRwTekdGXQVQS7+nlCxMZBdAAStHe555yT9Y8Pfl4iA/OURLbQU1aGn
+u11qpFyk85swCyi94fjaFlTHisXYxkU+IjMULE9AiYe9sK163QO/xn0pxbFHDi5h
+1n4H7y1Ui1x4q842J2nyp8H0WvD04YBiNRIgiapuZYqj/XX4KopisHkVw008oWAb
+xzHYyzEjzUMNssoG4ShzdCGhyPgXY5RwxT15wErHV6ijfVDshJ1Iow7mXLGZJXAD
+BmqV3NqrZuV8Udh90ITT7dxklz8J0WzCOyK92BFJCcLsLUsI2DP/pKMect+JF3XM
+MHz5Wq11IY0Nqzvk93mxBL0XaaPhg596adAMxuFrwWtju3wcxObY65qv4Yxos5Ln
+nTeKLGgY
+=fjJT
 -----END PGP SIGNATURE-----
