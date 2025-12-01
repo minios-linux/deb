@@ -693,7 +693,7 @@ Package: minios-live-config
 Version: 11.0.5.7
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 167
+Installed-Size: 169
 Depends: minios-live-config-systemd | minios-live-config-backend, bash (>= 4.0), perl
 Recommends: iproute2 | iproute, keyboard-configuration, minios-live-config-doc, locales | locales-all, sudo, user-setup
 Suggests: pciutils, wget, shared-mime-info, gdk-pixbuf2.0-bin, libgtk-3-bin, glib-2.0-bin, desktop-file-utils, xfonts-utils, fontconfig
@@ -702,10 +702,10 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
 Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.7_all.deb
-Size: 25832
-SHA256: 4997a4f15f77ad0c30d37b8d2e3068ca391533a6bda815893c30b8c76be99c71
-SHA1: 63d921fc97483df1f07e37d7636a3d163a855a47
-MD5sum: 0bee5a58635fa2d7f96ac44f6cfa9d1b
+Size: 26032
+SHA256: 697ab2b46c6a0b703537f914411c58462c4efecd3a4c61990209268a44fa07bb
+SHA1: be9164cd13ba4b20c13eafc753d375b38132b720
+MD5sum: adf30395e39431b71fd9319bae512407
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -721,17 +721,17 @@ Source: minios-live-config
 Version: 11.0.5.7
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 130
+Installed-Size: 131
 Conflicts: live-config-doc
 Multi-Arch: foreign
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: doc
 Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.7_all.deb
-Size: 78636
-SHA256: af287b9188a6bf8898f192351fb638914ab4607b1d135879a84cc99e7b4448ea
-SHA1: 674579c191752f4be05671a9129e337c47158d05
-MD5sum: a159bd394de6c19602d75bf07f6a4b6f
+Size: 78664
+SHA256: d3e98691268147f5360931510dc7ca6c7a78137b602b327f95cdc82bbc3e11e2
+SHA1: 6a4e527b3c61d8de08cff779b40d977da5e027d7
+MD5sum: 64acc0c8bb656285abdf84a1cdee6a61
 Description: Live System Configuration Components (documentation)
  live-config contains the components that configure a live system during the
  boot process (late userspace).
@@ -743,7 +743,7 @@ Source: minios-live-config
 Version: 11.0.5.7
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 25
+Installed-Size: 26
 Depends: systemd
 Recommends: dbus
 Conflicts: live-config-backend, live-config-systemd, minios-live-config-backend
@@ -753,10 +753,10 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
 Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.7_all.deb
-Size: 6088
-SHA256: 11e957a1e162feedbc4f0bb1b4412ed52a99cf2ea024ce35ff246f594cae79f8
-SHA1: 642f0e527598219fdcb2b24b1e70850ecb6c6e6b
-MD5sum: 1d8c0948e11bc29d1fa597fd9d008523
+Size: 6132
+SHA256: 51d43ad7935859bcd1083f87a22677f067a3383a26c5da30199a327ccddb0b49
+SHA1: 5e8150499729d6bcd16da6195f00fa4d738dc15e
+MD5sum: 18befc5f146c8d0de09c3ac0950d2e00
 Description: Live System Configuration Components (systemd backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -771,7 +771,7 @@ Source: minios-live-config
 Version: 11.0.5.7
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 28
+Installed-Size: 29
 Depends: sysvinit-core | sysvinit (<< 2.88dsf-44)
 Conflicts: live-config-backend, live-config-sysvinit, minios-live-config-backend
 Replaces: live-config-backend, live-config-sysvinit, minios-live-config-backend
@@ -780,10 +780,10 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
 Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_11.0.5.7_all.deb
-Size: 5940
-SHA256: 8b12d1d36b94b2fc2740950fb91b82cb177102fd8c25ed126e3ed9e6724986a3
-SHA1: 90582ddc9e16262109a5b97fd2bdd7fcd3e9b7b0
-MD5sum: 52e788456a7bcd5fa0ecf7ad670f23da
+Size: 5976
+SHA256: 209201291e51dc4e089a1e28a176fd9ab95268f94632bb074bc9c80642895fe4
+SHA1: 16f97549b4bbd89edb2141f319c1f31ce6a9f74c
+MD5sum: 9cd5d38963d4af4663857f889293b7c3
 Description: Live System Configuration Components (sysvinit backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
