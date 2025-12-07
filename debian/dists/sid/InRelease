@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: sid
-Date: Wed, 03 Dec 2025 17:38:19 UTC
+Date: Sun, 07 Dec 2025 16:31:23 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmkwdYsACgkQ7CDxjGi2
-L2wMAAv+L0CV3ELnhS2ftXqbiWM1JilK/c63N79k9ndkbpUnQjvhTNmVjpAKVSYu
-KoGOM8jiBXZFqZV2eBcskZCwdGMlUSyggca7xfGtIYqzU4oRKoYtjkR/VsDq0tuv
-iWr9w6aizKHyi1IDdJynIQpJm/FCgrknZNXsY6CPVPrMIRDWk4vxYo6n4HvIn/Mj
-zeRbUFn7mYEUIfJJOOmwHd57N5sU+IbQBVAIXfd4MOWnadQRHdQj5aN1kAU1wqGd
-otORkTBPgrTQujWv60ae6H5cF0TCsIcXzYtNzbQQlIW4TQJ+jA/qCC3Skt79t2cF
-CPCsqnPwpKJIJPQqs3icjM9LyCXqLIv6k1bj6cPBo7B5Sk47ZePAYohavQlUeqiB
-/+8Rc7WCyMFSEv6LFh6/l84xosN+3Urx93E1eEPsd4TtRYRmFZcTSlXBK3nyV+xp
-pEC5lGgpywrOX0km3ejINbGtLaOQU/D5cd//AbwloPUXtyaP8cPbh7qEAH09qXaH
-x/RUpNoX
-=3Uh3
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmk1q9wACgkQ7CDxjGi2
+L2xv9QwAioMIM0xnPXBHBg49gUHNJ7Yb3YpSEotM7hn4C4nJ7AFIORCd5sSNd9x4
+s157i/d5fuv3yTEopfdXlWR9OYiA4crMLe0UEKiYBSQsnx4ZYQKBucS8tWoCDaHx
+4YZzTk0Yw2YEOV88NawvLgTWyga0R+fhuoTMm+KS9vWis3FWKCyfLDmJ4MOk2swm
+wQfaLQLvDh9jj4zasEHos2h0K473lEoYgmedt5D2qBMWpLfHhDsBDiJ78+pMFkIi
+RP4EU7rBCurFnYxReJSLhmISaYTbrdn8bgpgcLJOkSLb/0RTVZze9ye+ndKNwaf2
+MEHqQt12WuTqGrFTn/d/jOB31veHoUrWWc1iYiBKbBXVLhir3g0b7RfLCVyhrUvO
+onQShsPWrnvCNzsuyPQcShPmMly2/IKvBeB4KEYkzYpvx7IQKSaVbt4Mzqy+koqy
+KkQNGhaiJzMlCMKAZHZ53J4RnTTX1HTLVpCqHOA1QpJu0xILx3us69mvYPtjecIq
+23cMbX/C
+=WAdi
 -----END PGP SIGNATURE-----
