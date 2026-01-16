@@ -216,6 +216,47 @@ Description: X11 keyboard indicator and switcher
  allows you to switch to another one. It's written in C and
  uses the GTK+2.4 library only (no GNOME is needed).
 
+Package: flowgate
+Version: 1.1.3-1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 124
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: python3, python3-yaml, curl, blocky | adguardhome, angie | nginx, angie | libnginx-mod-stream, angie | certbot, angie | python3-certbot-nginx
+Homepage: https://github.com/crims0n/flowgate
+Priority: optional
+Section: net
+Filename: pool/main/f/flowgate/flowgate_1.1.3-1_all.deb
+Size: 23826
+SHA256: 357d18a523644ddcfb801d059cdf2ee0efff63bbafaaf12f49d21690b34f88de
+SHA1: cf43d1cffef2a12a51352963c32003eb476f0c43
+MD5sum: b1165fe3823e7622f99ed038529440e1
+Description: Network Flow Controller (DNS & Proxy Manager)
+ Modern CLI tool for managing network flow infrastructure (DNS & Proxy).
+ Supports Nginx/Angie (Layer 4 & 7) and Blocky/AdGuardHome (DNS).
+ Automatically manages SSL certificates via Certbot (for Nginx) or
+ native ACME (Angie).
+
+Package: flowgate-web
+Source: flowgate
+Version: 1.1.3-1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 100
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: flowgate, python3, python3-fastapi, python3-uvicorn, python3-jinja2, python3-multipart, python3-passlib, python3-bcrypt, python3-pyotp, python3-itsdangerous
+Homepage: https://github.com/crims0n/flowgate
+Priority: optional
+Section: net
+Filename: pool/main/f/flowgate/flowgate-web_1.1.3-1_all.deb
+Size: 23262
+SHA256: 03412a46030921db57378a69e14a7956e82fc9301ed53a525c9187b113d20777
+SHA1: 5c66ca0f7a519ed40a1cbe4be65d3c38a737c4c0
+MD5sum: 78b21bc026ef2ff636b3c692199fce4f
+Description: Web UI for Flowgate
+ Simple web dashboard to manage domains and services for Flowgate.
+ Provides a graphical interface for the flowgate CLI tool.
+
 Package: flux-tools
 Version: 1.2.9.1
 Architecture: all
