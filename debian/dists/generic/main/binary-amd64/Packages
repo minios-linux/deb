@@ -81,19 +81,19 @@ Description: Locks/unlocks your screen based on Bluetooth proximity
  security and convenience in desktop environments.
 
 Package: cbatticon
-Version: 1.6.13-1
+Version: 1.6.13-2
 Architecture: amd64
 Maintainer: Ulises Vitulli <dererk@debian.org>
-Installed-Size: 175
-Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.10.8), libnotify4 (>= 0.7.6), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libnotify-bin (>= 0.7.6)
+Installed-Size: 169
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libnotify4 (>= 0.7.6), libnotify-bin (>= 0.7.6)
 Homepage: https://github.com/valr/cbatticon
 Priority: optional
 Section: x11
-Filename: pool/main/c/cbatticon/cbatticon_1.6.13-1_amd64.deb
-Size: 29016
-SHA256: 9004c122f07382fdc0287a675e6b11f807a99ee03b192a0eeecd32bc2f7ad30b
-SHA1: 9fcc15dd302370403b014e785bad6a43dcf09ed3
-MD5sum: aed7e09bac8855828746a36d64a619ba
+Filename: pool/main/c/cbatticon/cbatticon_1.6.13-2_amd64.deb
+Size: 27108
+SHA256: adc29083f18d3d39a228d95f2c332c02e1ab48bc8b09acf9932fe94057e7161e
+SHA1: 3c18937f8cb883b06047f248b0b5c8cfebb00fa2
+MD5sum: fcedcb40e586393c4da92ce175e08645
 Description: lightweight and fast battery icon status and more
  Utility that displays battery information as battery status, remaining
  percentage, remaining time, using an icon in the system tray.
@@ -300,19 +300,20 @@ Description: Web UI for Flowgate
  Provides a graphical interface for the flowgate CLI tool.
 
 Package: flux-tools
-Version: 1.2.9.1
+Version: 1.2.9.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 172
-Depends: bash (>= 4.4), gettext-base, gtkask, xlunch
+Depends: bash (>= 4.4), gettext-base
+Recommends: gtkask, xlunch
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/f/flux-tools/flux-tools_1.2.9.1_all.deb
-Size: 41904
-SHA256: 116d7442d69d407f9cb879b0e48c595a76cb75be0d8fb7a6bee30ccd54cbfb4c
-SHA1: 4fd25abef856c19c7e5edc12293d2c7091767560
-MD5sum: 5355a8d27622d0b30ac4aa2313ca1b1c
+Filename: pool/main/f/flux-tools/flux-tools_1.2.9.2_all.deb
+Size: 41948
+SHA256: 7887ff7ebe1455a52509c69503db61ffb827cbee9acba3e2eaaf3821bf63c660
+SHA1: a44cba72eec5cfc7f6ffd52f884563fa5b4816a3
+MD5sum: ea70c20caeb029687ff59c7006804cb5
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
@@ -394,20 +395,20 @@ Description: grey GTK+ theme from the Shimmer Project
  GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
 
 Package: gtkask
-Version: 1.0-2
+Version: 1.0-3
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 29
-Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.8.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Installed-Size: 21
+Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 | libgdk-pixbuf2.0-0 | libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgtk-3-0 (>= 3.0.0)
 Homepage: https://github.com/minios-linux/gtkask.git
 Priority: optional
 Section: unknown
-Filename: pool/main/g/gtkask/gtkask_1.0-2_amd64.deb
-Size: 4968
-SHA256: e9dacc4ce329d5e632ed389b30e8c35f3822e944fce9bbd2a5543d2e9f978db9
-SHA1: 8db12f105246603f7771ea9e386826f18ad196c3
-MD5sum: 0a4ed025588ebec8d7418466c44e3f40
-Description: Simple GTK2 dialog for Yes/No questions.
+Filename: pool/main/g/gtkask/gtkask_1.0-3_amd64.deb
+Size: 5028
+SHA256: 86f440eb4f1ca6d8f1d432c20bc403d84a7c09f9d420dcc2cdeab354177ec6bc
+SHA1: d808c1e3f6f30f77e002da4d4f92ba9f9b2c86ec
+MD5sum: ce9215385f87375beed5e0e5714becef
+Description: Simple GTK3 dialog for Yes/No questions.
 
 Package: gtkask-dbgsym
 Source: gtkask
@@ -1295,19 +1296,19 @@ Description: window switcher, run dialog and dmenu replacement
   * Can be easily extended using scripts.
 
 Package: systrayicon
-Version: 1.0-1
+Version: 1.0-2
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 28
-Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.16.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Installed-Size: 23
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.14.0), libgtk-3-0 (>= 3.0.0)
 Homepage: https://github.com/minios-linux/systrayicon.git
 Priority: optional
 Section: unknown
-Filename: pool/main/s/systrayicon/systrayicon_1.0-1_amd64.deb
-Size: 5180
-SHA256: caea77a487cf8967fc150e4373782c2780857fda2d15090baed6f3c5bd6a052e
-SHA1: cf8fcb038776ae9e438a89b0cbbc99814a54897b
-MD5sum: 314388a8d9288bd6ac000429fa036bbc
+Filename: pool/main/s/systrayicon/systrayicon_1.0-2_amd64.deb
+Size: 5288
+SHA256: 21bca1a9dd3fb15f95cf059486754b74380bd0bb51e51c067d15a76736abac0e
+SHA1: fdd8be21fb8b31d9ce088ab41842b408fcbcbc2d
+MD5sum: c9ad88d066154d599094f81b1ec4cb15
 Description: Systray Icon Launcher.
  This is a tiny launcher which shows an icon in system tray (systray) and runs a
  command or application after user clicks the icon.
@@ -1462,19 +1463,19 @@ Description: Set up initial user and password
  likely to be of any use if your system has no non-system users at all.
 
 Package: xlunch
-Version: 4.7.6-2
+Version: 4.7.6-3
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 233
-Depends: libc6 (>= 2.14), libimlib2 (>= 1.4.5), libx11-6
+Installed-Size: 232
+Depends: libc6 (>= 2.16), libimlib2 (>= 1.4.5), libx11-6
 Homepage: https://github.com/Tomas-M/xlunch
 Priority: optional
 Section: x11
-Filename: pool/main/x/xlunch/xlunch_4.7.6-2_amd64.deb
-Size: 156192
-SHA256: f7e514e6e2da29f7eab7abac7ea1970c01a2914304990428878993680388d9df
-SHA1: da5f6c9815223165939d119d6f41a3cf0fa411a3
-MD5sum: d558f0774bc1539efe5ff534a8943b45
+Filename: pool/main/x/xlunch/xlunch_4.7.6-3_amd64.deb
+Size: 156316
+SHA256: a5163e02e67ae94fab6bd9ee5addf258f3da72ee8f92d89afc2146b989f53a45
+SHA1: fcd403d914225d0af986a62eea4a5f8e801467d4
+MD5sum: 821409af3bc907ccb05378e4631a7256
 Description: Graphical application launcher for X using pure Xlib and Imlib2.
  Provides a lightweight, mouse- and keyboard-driven interface to launch
  programs, commands, or custom menu entries. Supports UTF-8 for international
