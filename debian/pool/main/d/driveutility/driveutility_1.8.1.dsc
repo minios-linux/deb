@@ -10,8 +10,8 @@ Build-Depends-Indep: gettext
 Package-List:
  driveutility deb misc optional arch=all
 Checksums-Sha1:
- 307d866573a8d1561160e97d089a376b7d634762 78440 driveutility_1.8.1.tar.xz
+ 5ea4ff22a5b84f3116ee32bb0b6ac713e921d371 78420 driveutility_1.8.1.tar.xz
 Checksums-Sha256:
- a074060bd4230273d7e45403385bc3eff85d9c107dafe967478beafcf69f2716 78440 driveutility_1.8.1.tar.xz
+ 7f128058c4116d2f6be3783189bc70defede3f4dbcc716f3f434ea466ccfb809 78420 driveutility_1.8.1.tar.xz
 Files:
- dbdbee3efd0baf7d267218643cff6805 78440 driveutility_1.8.1.tar.xz
+ 220943d8b85e1fceaed1d05cc5bb2ece 78420 driveutility_1.8.1.tar.xz

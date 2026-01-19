@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext
 Package-List:
  minios-kernel-manager deb utils optional arch=all
 Checksums-Sha1:
- 32a936e2b21a69a0b60a491c39d45218200df371 147852 minios-kernel-manager_1.0.11.tar.xz
+ c2488cbfde341cdf08ce362622aa321289d12667 147844 minios-kernel-manager_1.0.11.tar.xz
 Checksums-Sha256:
- 769b774748f9712bf7583505838fa0e7169440a4d39fc4ec7f6e49db15c7aa69 147852 minios-kernel-manager_1.0.11.tar.xz
+ b06f9abc30f7a9c87116c4d2b0a5215c4c89ac9d925f11d92d3ad5c182725582 147844 minios-kernel-manager_1.0.11.tar.xz
 Files:
- 7a94521e0db87b802144876f992a5844 147852 minios-kernel-manager_1.0.11.tar.xz
+ b3b801c5fab9fc4d8e7c4ce7188e5205 147844 minios-kernel-manager_1.0.11.tar.xz
