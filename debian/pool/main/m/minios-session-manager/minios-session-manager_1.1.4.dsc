@@ -12,8 +12,8 @@ Build-Depends: debhelper (>= 11), python3 (>= 3.6)
 Package-List:
  minios-session-manager deb utils optional arch=all
 Checksums-Sha1:
- c111d664f97e48f50e9b68ad72ce6a150c66ee13 161420 minios-session-manager_1.1.4.tar.xz
+ aaf746b7b9e13cc1e8f3dbe4c9a7971ec26f9bd7 161452 minios-session-manager_1.1.4.tar.xz
 Checksums-Sha256:
- a4a6ae3ce94b27b5e90aa50b08fc2b02f818d9fb65d02e04061af226a183a203 161420 minios-session-manager_1.1.4.tar.xz
+ 6312521a8ffa2e594e5dfe803502d15c181d03fd30954bf2ce2851d576965486 161452 minios-session-manager_1.1.4.tar.xz
 Files:
- 3c72dc5872ff76cdbc8e2b8776b0eb56 161420 minios-session-manager_1.1.4.tar.xz
+ 7b9f04933891ed7d2e5a606c0f0570c8 161452 minios-session-manager_1.1.4.tar.xz

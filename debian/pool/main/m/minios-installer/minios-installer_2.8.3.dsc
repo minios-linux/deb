@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext
 Package-List:
  minios-installer deb utils optional arch=all
 Checksums-Sha1:
- be6fb2f34e4c3bbef02c1525f9fe3bdd64ef7b7e 85936 minios-installer_2.8.3.tar.xz
+ f73798e5b295bfd64a23a5a5a582dd104f14d101 86012 minios-installer_2.8.3.tar.xz
 Checksums-Sha256:
- 3cbb9dce63b6bc1c9fabf97643e0fc2bba915343cbcfab3aa45379b190cb1172 85936 minios-installer_2.8.3.tar.xz
+ 8ed6533fe2297e07ace542cda4c6e7b21da10d244b03cc7b33faad2b575c8848 86012 minios-installer_2.8.3.tar.xz
 Files:
- 38e1c0136998510ef620bbe6cb124896 85936 minios-installer_2.8.3.tar.xz
+ 55caee014ff2e1bcb12603a91a823b19 86012 minios-installer_2.8.3.tar.xz

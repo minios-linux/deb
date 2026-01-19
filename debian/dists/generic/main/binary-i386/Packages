@@ -86,17 +86,17 @@ Version: 1.8.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 337
-Depends: coreutils (>= 8.30), genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, polkitd | policykit-1, pkexec | policykit-1, procps, python3 (>= 3.6), python3-gi, python3-parted, python3-gnupg, python3-unidecode, python3-lz4, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux (>= 2.32), exfatprogs | exfat-utils
+Depends: coreutils (>= 8.28), genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, polkitd | policykit-1, pkexec | policykit-1, procps, python3 (>= 3.6), python3-gi, python3-parted, python3-gnupg, python3-unidecode, python3-lz4, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux (>= 2.31), exfatprogs | exfat-utils
 Recommends: python3-zstandard
 Conflicts: mintstick, usb-imagewriter
 Replaces: mintstick, usb-imagewriter
 Priority: optional
 Section: misc
 Filename: pool/main/d/driveutility/driveutility_1.8.1_all.deb
-Size: 54100
-SHA256: cf61cdab086d0e14947318d8c23f93f950dbd9c811f245da7673d7cfa60af121
-SHA1: 5e232c9cea7c16d023d797fc727b004758890827
-MD5sum: e457a1acb6c2a9b3c87e9ed34ce3877d
+Size: 54168
+SHA256: b85c16dee1933ef520e8f173c7bdd9efe74086dc34b83fed481a3bfd667931a9
+SHA1: 91f248ed122d71dcee22966dcb67e52c8cc65b63
+MD5sum: dc589e652ee75a2957c12c1a90a36051
 Description: Graphical utility for writing, formatting, and wiping storage devices
  A simple and convenient tool to write disk images,
  format, and securely wipe storage devices.
@@ -697,15 +697,15 @@ Version: 2.8.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 264
-Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, util-linux (>= 2.33), minios-configurator (>= 2.0)
+Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, util-linux (>= 2.31), minios-configurator (>= 2.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_2.8.3_all.deb
-Size: 43940
-SHA256: 02f210701bc7ed74dda1e9f90a95bf5cf193d334a3a76b43c6648a2b2d09ec04
-SHA1: 1abed61c2a71d07b06cc94131b3d83970deac542
-MD5sum: aeddb3f212a71f9207fe84683e9df813
+Size: 44068
+SHA256: a8a4a71132f93c42bdc56d8ecb334fbb552f513c220ec70b9466af808f9cc280
+SHA1: 3ba0cafd05cf5cbc58b37dd38cbc2389be3811e1
+MD5sum: 97da90302a754d759f6d3d4dab8d6406
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
@@ -840,15 +840,15 @@ Version: 1.1.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 531
-Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, dynfilefs, polkitd | policykit-1, pkexec | policykit-1, zstd, rsync, e2fsprogs, util-linux
+Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, dynfilefs, polkitd | policykit-1, pkexec | policykit-1, zstd, rsync, e2fsprogs, util-linux (>= 2.31)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-session-manager/minios-session-manager_1.1.4_all.deb
-Size: 73712
-SHA256: c016153411ebbe1ffb97579942d6919fe490725272f6b2f40dd34b36f4d95f62
-SHA1: e00792d509b7f6f0ae5f2979b2112743d5d976d3
-MD5sum: d592b8331faf6aa377f9ced55fb3ec12
+Size: 73752
+SHA256: f5fd4289614b5ae62e35aa64096cd53357a7595fc9dcdf06061a419bc2ee1175
+SHA1: fa6f27af9b3146f6f64099da75a6ed4cb85b9ab5
+MD5sum: 59c1a4384974bc44bafaead354b94fd3
 Description: MiniOS session management utility
  A utility for managing MiniOS persistent sessions from within
  the running system. Provides both command-line and graphical
