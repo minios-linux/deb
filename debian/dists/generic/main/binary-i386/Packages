@@ -93,10 +93,10 @@ Replaces: mintstick, usb-imagewriter
 Priority: optional
 Section: misc
 Filename: pool/main/d/driveutility/driveutility_1.8.1_all.deb
-Size: 54168
-SHA256: b85c16dee1933ef520e8f173c7bdd9efe74086dc34b83fed481a3bfd667931a9
-SHA1: 91f248ed122d71dcee22966dcb67e52c8cc65b63
-MD5sum: dc589e652ee75a2957c12c1a90a36051
+Size: 54152
+SHA256: 4baa21144d382737e20c8dae5a823c57a160fbe13fc0c42a7a95557d2f41579b
+SHA1: 3eac789303e67b771d929cc4fa6d7408c4f5e60d
+MD5sum: eaf52762b4059efa2f481e785c1a520d
 Description: Graphical utility for writing, formatting, and wiping storage devices
  A simple and convenient tool to write disk images,
  format, and securely wipe storage devices.
@@ -650,10 +650,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_2.4.1_all.deb
-Size: 29040
-SHA256: 8e7fcdc5ec0b26c1bd30c79ece5292f319b024572246a35be16dae44b12863c0
-SHA1: f49e8fc76d3d64f532cf2fe365ac1efe64b48e04
-MD5sum: 9b807c0037639a717b42567c030deeca
+Size: 29180
+SHA256: 62ae7682663857c27dbb99f17087d50d985aabda3e48254c2a96d7bbe32142f0
+SHA1: 4fdb4163c427a9f275c09d20b091a1098d77ac96
+MD5sum: cb089166f63ff595276adf465ebea53a
 Description: MiniOS Linux configuration utility.
  MiniOS Configurator is a utility specially designed for quick and easy
  configure MiniOS.
@@ -702,10 +702,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_2.8.3_all.deb
-Size: 44068
-SHA256: a8a4a71132f93c42bdc56d8ecb334fbb552f513c220ec70b9466af808f9cc280
-SHA1: 3ba0cafd05cf5cbc58b37dd38cbc2389be3811e1
-MD5sum: 97da90302a754d759f6d3d4dab8d6406
+Size: 44116
+SHA256: 73f6fbc9bdfc4a532abe097dfba65d874562eae5f5e2e06ada91475eb54b68ef
+SHA1: 3a3ce1bced9b3a5d871b1c3d598cd0fe79006865
+MD5sum: 23039689122233e8498895b307e16f4e
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
@@ -721,10 +721,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.0.11_all.deb
-Size: 61124
-SHA256: 17efdc66b7746c537f413db38029778bfa17080981a80571d57ce7bef41f28dd
-SHA1: 4916b8ac9f6e08ed3f137994adc0dd7998b8e521
-MD5sum: 6d07813816b08b57ac4d1745815c3aa7
+Size: 61164
+SHA256: 993ba302f54d7cc76796ca20503f2d093dea591109314013931240aaefd0c821
+SHA1: e0fe4e56dc4554eaa8c1b643943756581597a05d
+MD5sum: 09f2705f6eb8c713b0897bf7f7641617
 Description: Graphical and command-line tools for managing MiniOS kernels.
  This package provides a GTK3 graphical user interface and a command-line
  utility to package, install, and manage Linux kernels for the MiniOS.
@@ -846,9 +846,9 @@ Priority: optional
 Section: utils
 Filename: pool/main/m/minios-session-manager/minios-session-manager_1.1.4_all.deb
 Size: 73752
-SHA256: f5fd4289614b5ae62e35aa64096cd53357a7595fc9dcdf06061a419bc2ee1175
-SHA1: fa6f27af9b3146f6f64099da75a6ed4cb85b9ab5
-MD5sum: 59c1a4384974bc44bafaead354b94fd3
+SHA256: 28637c738b6434be78dda655af251515bf25b0d26074d1a409547d17c5067897
+SHA1: 5672a8bc862b7dda677d45428a44472db8e081ff
+MD5sum: f64f8b77a20b5fcb184f6e736a36d881
 Description: MiniOS session management utility
  A utility for managing MiniOS persistent sessions from within
  the running system. Provides both command-line and graphical
