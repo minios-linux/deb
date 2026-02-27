@@ -693,19 +693,19 @@ Description: MiniOS dracut modules for initramfs generation
  dracut configuration to keep initramfs size small.
 
 Package: minios-installer
-Version: 2.8.3
+Version: 2.8.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 264
+Installed-Size: 265
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, util-linux (>= 2.31), minios-configurator (>= 2.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_2.8.3_all.deb
-Size: 44116
-SHA256: 73f6fbc9bdfc4a532abe097dfba65d874562eae5f5e2e06ada91475eb54b68ef
-SHA1: 3a3ce1bced9b3a5d871b1c3d598cd0fe79006865
-MD5sum: 23039689122233e8498895b307e16f4e
+Filename: pool/main/m/minios-installer/minios-installer_2.8.4_all.deb
+Size: 44432
+SHA256: 1fe325a19e8a1187d919c413f08e46b2ce6c3539ddfe89b3419588f4e8c989ad
+SHA1: 363d6c7d363d86e979934d82cc05697c39f72c6d
+MD5sum: 20bc4b5dd9dd890334269a94db05857f
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
