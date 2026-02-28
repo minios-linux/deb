@@ -809,20 +809,20 @@ Description: MiniOS Linux installation utility.
  install MiniOS on a USB flash drive.
 
 Package: minios-kernel-manager
-Version: 1.0.11
+Version: 1.1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 392
+Installed-Size: 394
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, squashfs-tools, kmod, apt, dpkg-dev, zstd
 Recommends: lz4, lzop, xz-utils, bzip2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.0.11_all.deb
-Size: 61164
-SHA256: 993ba302f54d7cc76796ca20503f2d093dea591109314013931240aaefd0c821
-SHA1: e0fe4e56dc4554eaa8c1b643943756581597a05d
-MD5sum: 09f2705f6eb8c713b0897bf7f7641617
+Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.1.0_all.deb
+Size: 62316
+SHA256: 4998ce4c8536c5ec2f4faf282b4a8e40e4aa5d11bcce97a650c9bf4d3c6015fa
+SHA1: 0ede57ad2e2da77b008074693046fa3d126544c7
+MD5sum: 72e53d8b7528cef78596df8f79c427f8
 Description: Graphical and command-line tools for managing MiniOS kernels.
  This package provides a GTK3 graphical user interface and a command-line
  utility to package, install, and manage Linux kernels for the MiniOS.
@@ -957,7 +957,7 @@ Description: Live System Configuration Components (sysvinit backend)
  This package contains the sysvinit backend.
 
 Package: minios-session-manager
-Version: 1.1.4
+Version: 1.1.5
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 531
@@ -965,11 +965,11 @@ Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, dynfilefs, polkitd | poli
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session-manager_1.1.4_all.deb
-Size: 73752
-SHA256: 28637c738b6434be78dda655af251515bf25b0d26074d1a409547d17c5067897
-SHA1: 5672a8bc862b7dda677d45428a44472db8e081ff
-MD5sum: f64f8b77a20b5fcb184f6e736a36d881
+Filename: pool/main/m/minios-session-manager/minios-session-manager_1.1.5_all.deb
+Size: 73772
+SHA256: 57178a50926535399f0cb2912ca8a2341818b4acb3dac59319f61995d8943afb
+SHA1: 388a17dc3450fd70850c3c3caa55fa24c0eeceb4
+MD5sum: aa2189326b21aa38771a796830475d07
 Description: MiniOS session management utility
  A utility for managing MiniOS persistent sessions from within
  the running system. Provides both command-line and graphical

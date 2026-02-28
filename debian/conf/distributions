@@ -53,7 +53,37 @@ Label: MiniOS Repository
 AlsoAcceptFor: unstable experimental
 Codename: bionic
 Architectures: i386 amd64 source
-Components: main
-UDebComponents: main
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Debian
+Label: MiniOS Repository
+AlsoAcceptFor: unstable experimental
+Codename: focal
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Debian
+Label: MiniOS Repository
+AlsoAcceptFor: unstable experimental
+Codename: jammy
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Debian
+Label: MiniOS Repository
+AlsoAcceptFor: unstable experimental
+Codename: noble
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
 Description: MiniOS Repository
 SignWith: EC20F18C68B62F6C
