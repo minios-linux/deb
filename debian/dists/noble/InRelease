@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: noble
-Date: Sat, 28 Feb 2026 20:59:45 UTC
+Date: Sun, 08 Mar 2026 14:53:38 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmmjV0IACgkQ7CDxjGi2
-L2zoxgwAi0cp7ove0wLai4025FdQ4Rgf+OZL/Kkdlt5KG68lfCr7ErCbQ3tAisKD
-1F5rNbBNBrdWjWbdzvEWjN6RbCr4BdpHOfFBfv3M5u4XZhXJA/3L2CUMsspwopns
-Mj5rC++k3et164SpK9URWYhTt8Cgl+1IG1klvZZrRU2SS5oyFFGdYcucmPcZkJSs
-pHPgOMh81mrzm74DVGZKCkFX8K1M3/7Ggv6WJzLt+YfZavJflBnplkS6drPg8zSk
-eqBZYOaYdea4Ju7AKn7nmAd0A4gqvsT8wTACtOa/iaYMpYuuvmnsToswulC8GaOS
-0gK194XLVqStN6oT0/tEj9QCSHlSTWDvxGpQHUZIBtFXLXhTQ41JZgqd4vPKSb6S
-SJO/uSj0qsZ49lC3d2XcbzTB3sOVX9CCxsXpAdu5OlX4AoCUWaF3CPiCXMx7Lm6W
-kXdMhGJ96Hr76tQ/E2PorM3J0Fn7nDvGf1XL4bOgHl8cuSGSgztoKP0IancovAdF
-Wvpthloi
-=djjJ
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmmtjXIACgkQ7CDxjGi2
+L2wRKAwAu0W0ZNLc2gsdnMKKUrOf/v3muKlAQ1YsZyUHVOvJxXIf0smgCw+Cw3VH
+PLqbVFTi4UZ0YLii57MzAdJSQdZHkAlHfIvAyU9//bSaxb0nSBXyW8OMJD9uS7Pw
+PEuVFsan4CgPFg2jF0f3buc2Yw/qZhZ5H2IFxFckqkHTbKl6kKWFXL/wrtoOh05W
+68EHLqE+2QGgwFVDgolrOhssGPl5GyfRZ7muiBzOwj0gp6BbOUXUh6Do5y4dQx8l
+VsfLt2/jktjpv58N34U0LdqdkwfUlVMNJDkvVG92a/QDn7No3gBN0avEH8nybcCn
+b4SVz+EwKkxmCzC2b3jZji8smXsvQDI0qvB9zkG55KHpyNx8yKwWUfTtCm0qZzum
+Rh02quqMVmtPTtnsvyIXmLESdI1PbhpnH9uDVh3+n5Uet+VYwEO1ghJa3qMygNF3
+OY1+CYtu2Zf8+GwfeY+I/aydiU3js2RkNOuCuorI5WM0WlmLw1tKD/EJyxnFkiVK
+K7jAggBv
+=AMP3
 -----END PGP SIGNATURE-----

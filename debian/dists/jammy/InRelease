@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: jammy
-Date: Sat, 28 Feb 2026 20:59:45 UTC
+Date: Sun, 08 Mar 2026 14:53:37 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmmjV0EACgkQ7CDxjGi2
-L2zUZwwAkwvA+JNW7zkI+GInn16Tugp+iQApkSiKno+mPJL5JDxNC9yz/wNvEwnm
-//MRckMVHzl7zsf6ovpLDM+Cc1DvxYUeuGc2rUwGryr5XVGHgJPvHXNG+w2uZvIv
-w3b+d1nyGpeMDi2+UeMgXOAFa1t4Yn7vLEUZ+qlUK4buFBJGhf1eUipQ01nVPMYi
-8lT8aymCeGLVXwaGgCsNq9N+xg5mVTHGnMMdTOXx+dxooRElAb6ioy2HH1rYXGhS
-Zdp8cRY/ZlCah1m2/VjRkVo77wUk8/PM+22vD9q+Idvwr8MS2q59fSHEHaDcJEQl
-8NMhu+sV39j397o+Qs5sE0a4L8c8FzA248sBJGVHU21XGlYBtQabXeOSNJxPG1hp
-tlFq9KhPKdJTqsz5jxw0rYrlHqhWyauRMtYFVj06SiVW4phzyv2QFwP/QVPMCokX
-Rzw7DEGiOHmPGLisr6ch/s2r1WxN9tseM2fXISaEcXrkzqCDeMir7xovj5sQtb+l
-yZqfKUsB
-=Nl8N
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmmtjXEACgkQ7CDxjGi2
+L2xzlgwAg/KPzoSuIm4IKtxf4zJ2lKaraz/bNGsVXD61wt2mGdWASNM3fk2JhjWb
+LO/mpK89pn/BqTQOPhF3P80uYc55YAx52QTJNw4+rZ5GYzPLZmtROPNUkL8NxcJX
+3aCN9mRclU3Ts7CfRIG1BTtcU+yrqlBuasb5W8GS+Crw7lLAhFX7Bs6xjyWhkYdf
+Vpw+ABLSshFsbdN5HWhJwbcql/hur8C29PE6d9uOv3LxU+HnL8TylVfN/HrprvbY
+jRd3JxmagOvObRaD9GDFt1K2J9TEam2ySRCVvqI1/d+kn4pJlICvIwQQ73LGyIIY
+cf5QdE/+9Oysa0xv1tsMmdKfxppAx8jsqkBb/WKq3ngipTN6byMM9iwDfeesIqp8
+kyv8uRjtpRiRerVLm8reL0TtoJTLLKZhgb1W/EJiyxzI1RMC/mC+kIHiOzpV56AA
+AIJSHaNkb0scFM0LJ3StEtRwHGXLkwA3ukXcDaYoqfVI8nhO8jTTh1zgBk8B18PA
+tjTkL/i2
+=f+j0
 -----END PGP SIGNATURE-----
