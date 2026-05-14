@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-store
 Binary: minios-store-common, minios-store, minios-store-gui
 Architecture: all
-Version: 1.0.1
+Version: 1.0.2
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -12,8 +12,8 @@ Package-List:
  minios-store-common deb utils optional arch=all
  minios-store-gui deb utils optional arch=all
 Checksums-Sha1:
- f66f5cca36e9a7828a4c238542c6ad5991fc66cc 26232 minios-store_1.0.1.tar.xz
+ 8db1569d477eeab17e898b169f652a74738308d8 26456 minios-store_1.0.2.tar.xz
 Checksums-Sha256:
- 2c0d9649a12c47a4531663f2170532d6ef66407732e126555d7161fcb93be2e3 26232 minios-store_1.0.1.tar.xz
+ 28e4c8e565832fcb4b3c39eb99ced8499c44eb0e51cb584622fbf445995d920a 26456 minios-store_1.0.2.tar.xz
 Files:
- fcbd814e9980e0db45f7fad19d7e0613 26232 minios-store_1.0.1.tar.xz
+ afbb67cecc146c0a710186056ef375b3 26456 minios-store_1.0.2.tar.xz

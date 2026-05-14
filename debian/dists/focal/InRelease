@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: focal
-Date: Sun, 08 Mar 2026 14:53:36 UTC
+Date: Thu, 14 May 2026 16:06:50 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmmtjXEACgkQ7CDxjGi2
-L2xh0Qv/aRE8TtGQ8ysZLrOLrpXLZK6heOcihlATH7OGpSF3rBblE/xgfQG4Zrt0
-63N3su2cuyyf2vDU7RcpsWeOjLCabIlKeVzIJrCMBc1jjBedfgphnMtk13KFfz2k
-TZN4NjulEcfKbR18KuUXIYlLmXWjYiYy1Hmx+i0Tk1JjcXBWmdQH2kgI51znqDDF
-J9+1/YHuAO208ExOPc+rHcJBYOsmRT7CXNaiRr55lYccHhu3MWYGlvJ09W+1ZAG/
-rnKmvr3NswPkie6YqAPzxQXCFs1i933at9OB91wDf6ouZ6DA5hw9gPG+1YSfB9pv
-EG+jOAiqaaajAfTid36oJ8OxOcBKXr1iUjEGJGfEP9MCVkoowbA2xDuKsvIQ35n9
-ZpMx8a6+okni0kjTdB6op3DCsH0BK/K8DooeYkAeFqXaQZuv1SWYwKsof/oreT18
-JB2+5zHruI3pjWnShdNPRGcuKLkwX9utDq6cQCJyeSXWNNp5+nCiooKD0eyoBvTV
-CEomnlfO
-=yc8J
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmoF8xoACgkQ7CDxjGi2
+L2y7UAv9HEp6bEoTLSoxyhGGZDwu/yBljNLOuoNIjga96FFscSN14yy2cgH+vowg
+0ME2xz7j4m++jVTmvTC/kfdEFdIm5D9zhfVTSsj4rffcSWx2ymiGYljF+QO+Jba7
+gb9prwoIQQQRm+c5zEeLydFI3AvxVZ5sItFtAaYuKQNw+K5UfxpGjRbYAYVm4jE0
++aviFoXOxmp8Q3iQLDJJTVlbnPeHmqlaJy31GQolbwMrqPaAprJ77NpR4k8eamub
+SjarDHeQBitsvw38atST9KecSvLTUseUbSL78qtj0ifuqBXGPqiHugzM0VYhAN4G
+loNdW24+bShV5ouAh60z/d3Yrghxt1HW+oMoIXIHIWlERidqTYCnuOgiV/KN1pOP
+wXiKDft+ZlNG55DMz5fqa+up9yNPNvWOiHQ5d4+U5ouMIrCTjAHthxVza5+d0k+9
+x1F+491SjwP/aVt0AXaIJSYcB5VZkaqU7znujFiWN1lG7vwWocNtUXi+JCA+jzew
+cJcSViiC
+=4cwH
 -----END PGP SIGNATURE-----

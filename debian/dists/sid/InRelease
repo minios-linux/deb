@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: sid
-Date: Sun, 08 Mar 2026 14:53:35 UTC
+Date: Thu, 14 May 2026 16:06:49 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmmtjW8ACgkQ7CDxjGi2
-L2zuFgv/diLJspp7FAgUldtK/MznNaotNoNBQ6p6vRlxndicL39ybfzzHuAtSaTS
-WXKKQe+Dniu2Fijfxw6C4aPL2CMwwI9+M+/b0620WF5NgIiI628BQdeCZ7EhX+Xi
-CgOFNqevurpGzqGcEcCTVKD55prBxrEv2hlN1SjA8fq11kpExxvN11jR5fwyz/P0
-bkv/VZwqzXxOO28kUk2kTg0zRkAylqrZct9R968sPoF6y4uDU6Hw/DK+tQQGV0yc
-gWhOrmpDoBd4OhTZvwMoEpawbkfvlx0wLPkfwX0t6t/fd3mCZ/Ve7jMLaRtTD3/O
-dhVV3po9a2bCQunbbH0ogNPauNRwXP+yEjKY8HTL88RJxd9QVjowfPvOxUYKRtvd
-Zs3/Yuy/za1a9uHLcACGxa2XV18x4GMPod+wgNKlwiM11FfSFtsJ62zQyYdsKdwt
-OzvqFlCWImay5jl7EYWkLYFCKlNJ3SV68NUm93EjGpBhuSad4RHnjMdD6Lr3cBNa
-n+frg/zi
-=RJtt
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmoF8xkACgkQ7CDxjGi2
+L2z95Av/W9HSbjXeBizQ2laLBZ0z9b4fcQ1Xf7WwLbuX+ifSoSwvoioH33oP5065
+QpWwRQUZnXNApVfyhC6Sn1fLsEWZku3DsFf/DPVAvrXes9Sc/yFC2lfrZgjTBK9V
+dgRyHR0duK3nrMcuzUeRJOJoRPeJyX/5P3DOPzJavUVSjJ77EDr79O8VCdnlW6Oc
+Lh7rGLQnqYF7dmpxBHaLTdAQs8eGFYPrPS93oaiRoObZ8y179TPHTY3377ca1ewO
+e5rgDTgFo4USMrAqiWTqIQOrC+kS/1doCfWT9Ozlv46A6WPD/OB7qZ13MAhLGzxM
+qvvfsI4ukTUeM73/wwEKDRmqzLlxE7sAE7pB5v16R9nTVBffDcRCKbuf85wcF5PU
+oJFnkorDK560HnCSXy4I7zeVh+eq9LevVR6ACxUasmHhq25dISKKoFxJIwKShjO9
+t8hw1ATnFOICzGhPPxiXe3BU9XKHqkuI/voxvJ/twnM8qkoLe2AXw4ihH+0jF/+Q
+6IEqS+i1
+=qn04
 -----END PGP SIGNATURE-----
