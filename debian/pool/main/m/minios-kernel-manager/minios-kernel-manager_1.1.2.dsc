@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-kernel-manager
 Binary: minios-kernel-manager
 Architecture: all
-Version: 1.1.1
+Version: 1.1.2
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext
 Package-List:
  minios-kernel-manager deb utils optional arch=all
 Checksums-Sha1:
- 4399ab471a65974598b5ede0ec5b129c15095aef 72296 minios-kernel-manager_1.1.1.tar.xz
+ 3cbd803db9efc8061eda65f20f6ef473eb86ca73 74008 minios-kernel-manager_1.1.2.tar.xz
 Checksums-Sha256:
- da766422c1c8963e2c9f03af40125bfbdf1c065f5b583bee36a662bfc27dbefb 72296 minios-kernel-manager_1.1.1.tar.xz
+ 9290a571d6328aad90d9b25aebb69467c8e6c7da037976f757a20cc3a93e965f 74008 minios-kernel-manager_1.1.2.tar.xz
 Files:
- 3d70e1cf8084efb77b6f828fe3dc8e35 72296 minios-kernel-manager_1.1.1.tar.xz
+ 189b44b5a3624a9a07f1035e43a4e924 74008 minios-kernel-manager_1.1.2.tar.xz
