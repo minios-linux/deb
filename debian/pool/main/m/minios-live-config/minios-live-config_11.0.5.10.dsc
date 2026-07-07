@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-live-config
 Binary: minios-live-config, minios-live-config-doc, minios-live-config-systemd, minios-live-config-sysvinit
 Architecture: all
-Version: 11.0.5.9
+Version: 11.0.5.10
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://github.com/minios-linux/minios-live-config
 Standards-Version: 4.6.2
@@ -16,8 +16,8 @@ Package-List:
  minios-live-config-systemd deb misc optional arch=all
  minios-live-config-sysvinit deb misc optional arch=all
 Checksums-Sha1:
- e27156027b27a77ff2942ffde83f722c866ef26c 126044 minios-live-config_11.0.5.9.tar.xz
+ c1cdcfd85f72095c4c3c2c3653f50c6dbba034a8 126256 minios-live-config_11.0.5.10.tar.xz
 Checksums-Sha256:
- 7b50caafbdc1dbd7009832e356eb38ba34b95b3c7e22e2c46c6c1ec8a0532460 126044 minios-live-config_11.0.5.9.tar.xz
+ 584ae23572588f944571c2db62acfc68ecbaca6bd84b28bc48d5063f647d8cbf 126256 minios-live-config_11.0.5.10.tar.xz
 Files:
- 9586781e83bc5cb932f102e8aebb4349 126044 minios-live-config_11.0.5.9.tar.xz
+ cb7d1c994592fb75451765d763422747 126256 minios-live-config_11.0.5.10.tar.xz
