@@ -48,6 +48,29 @@ Maintainer: VeraCrypt Team <veracrypt@amcrypto.jp>
 Version: 1.26.24-1~deb12-1
 Installed-Size: 33874
 
+Package: xfce-polkit
+Version: 0.3+v20220621-3~excalibur1
+Architecture: amd64
+Origin: Devuan
+Maintainer: Devuan Developers <devuan-dev@lists.dyne.org>
+Installed-Size: 39
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.0.0), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libxfce4ui-2-0 (>= 4.11.0)
+Provides: polkit-1-auth-agent
+Homepage: https://github.com/ncopa/xfce-polkit
+Priority: optional
+Section: admin
+Filename: pool/main/x/xfce-polkit/xfce-polkit_0.3+v20220621-3~excalibur1_amd64.deb
+Size: 8480
+SHA256: 15e9b80308f0a7104527216b859718619ec6edd68ab630cde11ed813b9fc8b85
+SHA1: d5c81fc8f0f2d636c13d0a54c2b23ecded23c446
+MD5sum: d7dff5c544baffd7f35b704b56d2e9a7
+Description: Lightweight PolicyKit authentication agent for Xfce
+ An Authentication Agent for PolicyKit that
+ integrates with the Xfce desktop environment.
+ .
+ Interacts with PolicyKit daemon to provide
+ extended privileges to GUI applications that need them.
+
 Package: xfdesktop4
 Version: 4.20.1-1minios1
 Architecture: amd64

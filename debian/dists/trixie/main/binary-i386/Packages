@@ -1,3 +1,26 @@
+Package: xfce-polkit
+Version: 0.3+v20220621-3~excalibur1
+Architecture: i386
+Origin: Devuan
+Maintainer: Devuan Developers <devuan-dev@lists.dyne.org>
+Installed-Size: 38
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.0.0), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libxfce4ui-2-0 (>= 4.11.0)
+Provides: polkit-1-auth-agent
+Homepage: https://github.com/ncopa/xfce-polkit
+Priority: optional
+Section: admin
+Filename: pool/main/x/xfce-polkit/xfce-polkit_0.3+v20220621-3~excalibur1_i386.deb
+Size: 8944
+SHA256: 636cc7a4941235589f8e71a3ecda11c76e48b2581939081c9c1c94fecd588b7f
+SHA1: 846f84f255bba67b31642b5bb2f461da7ddcc685
+MD5sum: 298396db6b073c7046917864f70f889c
+Description: Lightweight PolicyKit authentication agent for Xfce
+ An Authentication Agent for PolicyKit that
+ integrates with the Xfce desktop environment.
+ .
+ Interacts with PolicyKit daemon to provide
+ extended privileges to GUI applications that need them.
+
 Package: xfdesktop4-data
 Source: xfdesktop4
 Version: 4.20.1-1minios1
