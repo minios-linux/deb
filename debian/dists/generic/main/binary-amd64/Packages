@@ -791,20 +791,20 @@ Description: MiniOS dracut modules for initramfs generation
  dracut configuration to keep initramfs size small.
 
 Package: minios-installer
-Version: 3.0.0
+Version: 3.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1146
+Installed-Size: 1164
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-dataclasses | python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, openssl | whois, python3-minios-security (>= 0.1.0), udev | eudev, util-linux (>= 2.31), minios-configurator (>= 2.4.4)
 Recommends: minios-live-config (>= 11.0.5.13), user-setup
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_3.0.0_all.deb
-Size: 182772
-SHA256: e7b32dc9dbb04c77dd098eada25ec53858a4ff506a99877e0eef66e8726cedc0
-SHA1: cb8c5b5994fb5cc76200f041ef1f00f495a3b670
-MD5sum: 0d83a61e74d89e7fd5353d9ca42977b3
+Filename: pool/main/m/minios-installer/minios-installer_3.0.1_all.deb
+Size: 186124
+SHA256: d70a521d5bfb1a19d7ba153a5d0ad4b0c611f2420a4cea6afc472b25b70cf758
+SHA1: b76381849b627d5779750d54eafe99f3ccb8e5c8
+MD5sum: f0beb5ac0bb0b8130b639e0ac5f7ba43
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
@@ -854,7 +854,7 @@ Description: Scripts to build a bootable MiniOS ISO image.
  lightweight, customizable live systems.
 
 Package: minios-live-config
-Version: 11.0.5.13
+Version: 11.0.5.14
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 208
@@ -865,11 +865,11 @@ Conflicts: live-config
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.13_all.deb
-Size: 34084
-SHA256: bc55664efb39810bb9886d6d72541ab6241bb0c5f0611daf91e9351eb89f19c7
-SHA1: c5754c6812cb0a31a9fabf02f59f216a83a4e740
-MD5sum: 5db5024c4c993ad2dbd8e86063ba923e
+Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.14_all.deb
+Size: 34248
+SHA256: 84434c8bd099adcb37f3ad1d4f3a4b7ff8ab5986de33bfdfce4ccaad0bacaf3e
+SHA1: 0ab86159169e7772c58a8a53adacdddf73b3362c
+MD5sum: f5cbe2a9ec36e03603124706b088aa6f
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -882,20 +882,20 @@ Description: Live System Configuration Components
 
 Package: minios-live-config-doc
 Source: minios-live-config
-Version: 11.0.5.13
+Version: 11.0.5.14
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 158
+Installed-Size: 159
 Conflicts: live-config-doc
 Multi-Arch: foreign
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: doc
-Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.13_all.deb
-Size: 106528
-SHA256: 692f15223b38ebe8cec909e6472ccb4c9d2b5fae358ff9c8225f6785183d186c
-SHA1: 365584b18fe716ed5414c398e8d14c80589af444
-MD5sum: 7391a130d3226f0d6aa48966e89c2115
+Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.14_all.deb
+Size: 106680
+SHA256: be36f75379f9c6837a23a6835b98480b126a7b579a6c47a0f62937254773e0b1
+SHA1: b839cb48fe1d4096bf50fd964a59153b6e229dc4
+MD5sum: 68533f37b37f25317388c639c2c7256e
 Description: Live System Configuration Components (documentation)
  live-config contains the components that configure a live system during the
  boot process (late userspace).
@@ -904,10 +904,10 @@ Description: Live System Configuration Components (documentation)
 
 Package: minios-live-config-systemd
 Source: minios-live-config
-Version: 11.0.5.13
+Version: 11.0.5.14
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 26
+Installed-Size: 27
 Depends: systemd
 Recommends: dbus
 Conflicts: live-config-backend, live-config-systemd, minios-live-config-backend
@@ -916,11 +916,11 @@ Provides: live-config-backend, minios-live-config-backend
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.13_all.deb
-Size: 7072
-SHA256: 050507205d2cc2cb5dd142313fdbac08685f808bea4b334318a0a669e219ff41
-SHA1: 680364dab4985210fa8dcebb300fa5e12c566cba
-MD5sum: 46c5851a64b15bf6086f72d2fd721576
+Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.14_all.deb
+Size: 7224
+SHA256: d56d00fa01c16ac0a13768213a2f47d53a1895c52721916256843ed977c4c04a
+SHA1: 0c85e7bf07f268f84d320059ed6d028a006b8292
+MD5sum: 7f11a26a766aad6db60a4d3c82586d09
 Description: Live System Configuration Components (systemd backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -932,10 +932,10 @@ Description: Live System Configuration Components (systemd backend)
 
 Package: minios-live-config-sysvinit
 Source: minios-live-config
-Version: 11.0.5.13
+Version: 11.0.5.14
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 29
+Installed-Size: 30
 Depends: sysvinit-core | sysvinit (<< 2.88dsf-44)
 Conflicts: live-config-backend, live-config-sysvinit, minios-live-config-backend
 Replaces: live-config-backend, live-config-sysvinit, minios-live-config-backend
@@ -943,11 +943,11 @@ Provides: live-config-backend, minios-live-config-backend
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_11.0.5.13_all.deb
-Size: 6928
-SHA256: 61a1ef277a3204d82649110665341618f650879471058cbd507bd06e8416c05c
-SHA1: d3e418a1b7f7f2fa1e3d3ea7162fd38c641dd074
-MD5sum: 6e9ffdde9b8a917519d2052502249728
+Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_11.0.5.14_all.deb
+Size: 7120
+SHA256: 9b92b5e6e55c55a3f53ae924c5ca5900e04a4888817b11c6bd09d96ea997f72b
+SHA1: 2549d9dbd53678ec27ee5eb5073449ac8a75c187
+MD5sum: b6787a67dbd42557296c68c8fe37d866
 Description: Live System Configuration Components (sysvinit backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -981,19 +981,19 @@ Description: MiniOS session management utility
  on various filesystems including ext4, FAT32, NTFS, and exFAT.
 
 Package: minios-store
-Version: 1.0.3
+Version: 1.1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 48
-Depends: minios-store-common (= 1.0.3), python3-websockets, xdg-utils, lsb-base (>= 3.0-6)
+Installed-Size: 61
+Depends: minios-store-common (= 1.1.0), python3-websockets, python3-gi, gir1.2-gtk-3.0, xdg-utils, lsb-base (>= 3.0-6)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store_1.0.3_all.deb
-Size: 9000
-SHA256: 97163b9f4e68f26e59baa0f4bf01681a1883b28731a44eb5ba39bdb2e9a756fb
-SHA1: 1dc314e31ab2f250187a4c636617181584e1f21d
-MD5sum: af552659248648ab6ac49296dfcdd7b3
+Filename: pool/main/m/minios-store/minios-store_1.1.0_all.deb
+Size: 12072
+SHA256: de404e1d98d994ab886aa0ef7e41b92d9cf1ee40949f718e2e17ab3b8d37b008
+SHA1: f50419e789471f8ac7a583b20d9d4225872c2884
+MD5sum: 591f7fd1afd1f36c08d9c45f2cf92d71
 Description: MiniOS Store WebSocket daemon
  WebSocket daemon for the MiniOS Store. Listens on ws://127.0.0.1:8765
  and handles installation requests from the web interface at
@@ -1002,19 +1002,19 @@ Description: MiniOS Store WebSocket daemon
 
 Package: minios-store-common
 Source: minios-store
-Version: 1.0.3
+Version: 1.1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 118
+Installed-Size: 136
 Depends: python3 (>= 3.6), squashfs-tools
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store-common_1.0.3_all.deb
-Size: 15924
-SHA256: 3fffa6ed99cab95d43933fde7cd09b84adcd9b398ff46431848d026287d4aea6
-SHA1: 942e703334269562a3ed13c3b50a5d157e0ddb93
-MD5sum: 9a392d4be320c6e44a9efcc42cf15edf
+Filename: pool/main/m/minios-store/minios-store-common_1.1.0_all.deb
+Size: 19632
+SHA256: 9f005a5c321742fba983826149b16cb78fef754bc2c49d852f5d65472fdd39eb
+SHA1: 20bc2e59e47c20986a104dfb1356752d2d160061
+MD5sum: 09f4ca2b1859d8575a1e9b00300c97d0
 Description: MiniOS Store common library
  Shared Python library for the MiniOS Store backend components.
  Provides the installer engine, configuration, and logging modules
@@ -1022,19 +1022,19 @@ Description: MiniOS Store common library
 
 Package: minios-store-gui
 Source: minios-store
-Version: 1.0.3
+Version: 1.1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 43
-Depends: minios-store-common (= 1.0.3), python3-gi, gir1.2-gtk-3.0, polkitd | policykit-1, pkexec | policykit-1, xdg-utils
+Installed-Size: 45
+Depends: minios-store-common (= 1.1.0), python3-gi, gir1.2-gtk-3.0, polkitd | policykit-1, pkexec | policykit-1, xdg-utils
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store-gui_1.0.3_all.deb
-Size: 8860
-SHA256: 1d6a2ccf418fc87bdacff82eca9b7daa1a66390617c7101651df32f5255174ec
-SHA1: 1ba3287b24779fc962ed5057f7848b1a7515c80a
-MD5sum: 915f4481b46ce0898686cc7ecca58a2c
+Filename: pool/main/m/minios-store/minios-store-gui_1.1.0_all.deb
+Size: 9572
+SHA256: f0385218c0153a4f139a0d62c1cd67754e3e447889efd711fb955edeeaf4bbb7
+SHA1: 232fd4b9b57b8e53b90c3c9fccff2b249d334d90
+MD5sum: f558ead399e37dba874a30b41b4c2fa6
 Description: MiniOS Store GTK3 graphical installer
  Standalone GTK3 graphical installer for the MiniOS Store. Handles
  minios-store:// URI scheme for installing applications directly from
@@ -1095,6 +1095,269 @@ MD5sum: a2a5856faa25eb3943f5985198158351
 Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
+
+Package: minios2-artwork
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 695
+Depends: elementary-minios-icon-theme, minios2-wallpapers
+Conflicts: minios3-artwork, minios4-artwork, minios5-artwork, minios6-artwork
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios2-artwork_6.0_all.deb
+Size: 620648
+SHA256: 9360bd325e9831e94d23cc7719c3a65b0cbc4749ad470b675b56af2bac4fca23
+SHA1: 54a961b9d0a5cc0521bdd74fafa195245b29f210
+MD5sum: e0a26bbe96f2fbeb9125629854d8f57c
+Description: MiniOS 2 themes and artwork
+ This package contains the MiniOS 2 themes and artwork.
+
+Package: minios2-wallpapers
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1733
+Conflicts: minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios2-wallpapers_6.0_all.deb
+Size: 223952
+SHA256: b224d3ad65e368baa9fb4df03b110458a05d2f05131e7e4e47f0e4f4a66e587f
+SHA1: de2df405003611e394f544c65e70ac3df716a2f3
+MD5sum: 9fd0f987b58501f90bd7d5deb06ea5c8
+Description: MiniOS 2 desktop wallpapers
+ This package contains the default wallpapers for MiniOS 2.
+
+Package: minios3-artwork
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 373
+Depends: elementary-minios-icon-theme, minios3-wallpapers
+Conflicts: minios2-artwork, minios4-artwork, minios5-artwork, minios6-artwork
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios3-artwork_6.0_all.deb
+Size: 284320
+SHA256: a5a9f9bec7d37ba3ba349eb2acd45fa81f283c977087b1ecc5b5ee1ce001d827
+SHA1: 6414793a07fce30c5e14bb52b44d37e14a800dd7
+MD5sum: 32c82ec22c05f50f736d20fe13987bfa
+Description: MiniOS 3 themes and artwork
+ This package contains the MiniOS 3 themes and artwork.
+
+Package: minios3-wallpapers
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 7159
+Conflicts: minios2-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios3-wallpapers_6.0_all.deb
+Size: 152596
+SHA256: a9274d6bd6ef5214553bca7ec65b7dee3a891c47b506f70ded0ab8eadabf7132
+SHA1: 6c5eff95824d4e38143718bd8004b6937d75d724
+MD5sum: 6ff8b417cb86e126f0e83a435f4c5cc0
+Description: MiniOS 3 desktop wallpapers
+ This package contains the default wallpapers for MiniOS 3.
+
+Package: minios4-artwork
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 272
+Depends: elementary-minios-icon-theme, minios4-wallpapers
+Conflicts: minios2-artwork, minios3-artwork, minios5-artwork, minios6-artwork
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios4-artwork_6.0_all.deb
+Size: 190200
+SHA256: b402cf6393591306b369ca5af2da058937c058a58ba9c050ebf1c5e290127772
+SHA1: af7ed3a055d9b8616d72eb0559711f429311d22b
+MD5sum: e16d5d1a59ea0a9a7f12500b72feaa62
+Description: MiniOS 4 themes and artwork
+ This package contains the MiniOS 4 themes and artwork.
+
+Package: minios4-wallpapers
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3408
+Conflicts: minios2-wallpapers, minios3-wallpapers, minios5-wallpapers, minios6-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios4-wallpapers_6.0_all.deb
+Size: 147828
+SHA256: c03c1445c666a6822cb4a06de55343e1d4f2b584a12afd3ca6b7fb556f4bcd5d
+SHA1: 9a7f6fbe3261eb2448583a9e3da9a295346ba64a
+MD5sum: ea97bc6a3a3fba6f02df054bc94971a2
+Description: MiniOS 4 desktop wallpapers
+ This package contains the default wallpapers for MiniOS 4.
+
+Package: minios5-artwork
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 2546
+Depends: elementary-minios-icon-theme, minios5-wallpapers
+Conflicts: minios2-artwork, minios3-artwork, minios4-artwork, minios6-artwork
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios5-artwork_6.0_all.deb
+Size: 2508916
+SHA256: e85d6dce5b251b71760a7a279de1c0aba9ed41c91e321276a23d1a2fc1060503
+SHA1: f55f6b43f021dd77728eff5eb37ca77238d4e729
+MD5sum: 8ccfa35d959bf532c13a1ca9d279e627
+Description: MiniOS 5 themes and artwork
+ This package contains the MiniOS 5 themes and artwork.
+
+Package: minios5-wallpapers
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 9300
+Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios6-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios5-wallpapers_6.0_all.deb
+Size: 7991252
+SHA256: b7bbf724766a00d1d5ea01075dd292d81edc5d35aec4434ebbcb9819fcb36be0
+SHA1: 148bc527f0cc2847213364457b3199d059d92dee
+MD5sum: 9babf0a837f46dd9485b077668ca8d7c
+Description: MiniOS 5 desktop wallpapers
+ This package contains the default wallpapers for MiniOS 5.
+
+Package: minios6-artwork
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3056
+Depends: elementary-minios-icon-theme
+Conflicts: minios2-artwork, minios3-artwork, minios4-artwork, minios5-artwork
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios6-artwork_6.0_all.deb
+Size: 3037392
+SHA256: 7681d2c25a54a5bc91ca71f68a4dc98dedc05a7dc0b3a57e61691655ee86757c
+SHA1: 00feef3ed88e54eaa5d4c3b3b4df80d1c5d98c4e
+MD5sum: f2da96a5429a4027f5d5c76dfcb95a89
+Description: MiniOS 6 themes and artwork
+ This package contains the MiniOS 6 themes and artwork.
+
+Package: minios6-wallpapers-flux
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3662
+Depends: minios6-artwork (= 6.0)
+Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
+Replaces: minios6-wallpapers
+Provides: minios6-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-flux_6.0_all.deb
+Size: 3530452
+SHA256: e8c19522c61583f92e67ae63c0d055a0438e59eea816b8b5c488431fe1d393fc
+SHA1: 4138594f54c4f8d88ef7c044f2c86f7d4de964eb
+MD5sum: 24ff547fe094f417a050139e6e8d6a10
+Description: MiniOS 6 desktop wallpapers for the Flux edition
+ This package contains the MiniOS 6 wallpapers selected for the
+ Flux edition.
+
+Package: minios6-wallpapers-minimum
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3666
+Depends: minios6-artwork (= 6.0)
+Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
+Replaces: minios6-wallpapers
+Provides: minios6-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-minimum_6.0_all.deb
+Size: 3529664
+SHA256: bb69cd43a4e07f2095cbc3862093a259c0d833f7ef2fa954170397a04cf4a1bc
+SHA1: d64b40d9a70727e2ef25b8af026540908463a45e
+MD5sum: e4cb7410685963ea93c19d6cd2cc5800
+Description: MiniOS 6 desktop wallpapers for the Minimum edition
+ This package contains the MiniOS 6 wallpapers selected for the
+ Minimum edition.
+
+Package: minios6-wallpapers-standard
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 19726
+Depends: minios6-artwork (= 6.0)
+Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
+Replaces: minios6-wallpapers
+Provides: minios6-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-standard_6.0_all.deb
+Size: 19672008
+SHA256: 9378adb370e129bd4875dfe8ff7a8010f41b586e52dbc032dc88bbcd13db6f7e
+SHA1: 9b1eccbdbf5ee7630e6dc71c0ef3682f89ae2e46
+MD5sum: cabc28cc2340eb4817ba2a42bf964722
+Description: MiniOS 6 desktop wallpapers for the Standard edition
+ This package contains the MiniOS 6 wallpapers selected for the
+ Standard edition.
+
+Package: minios6-wallpapers-toolbox
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 20685
+Depends: minios6-artwork (= 6.0)
+Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
+Replaces: minios6-wallpapers
+Provides: minios6-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-toolbox_6.0_all.deb
+Size: 20600988
+SHA256: f73c8e30acadbcd84e0a4d7e7d9b4497e58f79834160dc7baee1c88923f4eac1
+SHA1: 699bf75b29d11c89b6bd2917e6abe842880854b7
+MD5sum: 53c1d5341b9fcc3d7211c3170e133445
+Description: MiniOS 6 desktop wallpapers for the Toolbox edition
+ This package contains the MiniOS 6 wallpapers selected for the
+ Toolbox edition.
+
+Package: minios6-wallpapers-ultra
+Source: minios-artwork
+Version: 6.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 19557
+Depends: minios6-artwork (= 6.0)
+Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
+Replaces: minios6-wallpapers
+Provides: minios6-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-ultra_6.0_all.deb
+Size: 19551440
+SHA256: a80002f050c153af331d1205bc2b51e53bc363f0d0dfd6d5c9b5736fb100e42d
+SHA1: 1de5bffedc41307649a53b47d8a152018bc2911c
+MD5sum: 35ea76a0861aea939ad210d882c37b66
+Description: MiniOS 6 desktop wallpapers for the Ultra edition
+ This package contains the MiniOS 6 wallpapers selected for the
+ Ultra edition.
 
 Package: mintstick
 Version: 1.6.2+nmu1
@@ -1352,20 +1615,20 @@ Description: debug symbols for qphotorec
 Build-Ids: e9ccbe2d0acf9b2781fff0ed13611b28751b37ec
 
 Package: rescuezilla
-Version: 2.6-1minios3
+Version: 2.6.2-1minios1
 Architecture: all
-Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
-Installed-Size: 3226
-Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbdkit, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, efibootmgr, bsdmainutils, polkitd | policykit-1, pkexec | policykit-1
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3505
+Depends: python3, smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-client, nbdkit, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, efibootmgr, bsdextrautils | bsdmainutils, polkitd | policykit-1, pkexec | policykit-1
 Recommends: partimage, ecryptfs-utils, python3-whichcraft
 Homepage: https://rescuezilla.com
 Priority: optional
 Section: admin
-Filename: pool/main/r/rescuezilla/rescuezilla_2.6-1minios3_all.deb
-Size: 481192
-SHA256: df42ded9928be24964f594fae2638b765b50f6893dc47143691d70b71fc56bd1
-SHA1: db42185c70a66cd4ec81b3b558735d2eb5ac175c
-MD5sum: 95f7d7ca42b6f79670cd5afdd8e76fc5
+Filename: pool/main/r/rescuezilla/rescuezilla_2.6.2-1minios1_all.deb
+Size: 560052
+SHA256: 5d37ebf544fb164185d24cf49c52671258c0a52df8b43646a51a8ee77f907df3
+SHA1: c5141d50c6a48ffa3d5edba633f1b316ac93b1d2
+MD5sum: e1a81c773a4e09231a882ecdca85214c
 Description: Graphical hard drive backup and restore
  Rescuezilla is an easy-to-use disk cloning and imaging application that's
  fully compatible with Clonezilla — the industry-standard trusted by tens

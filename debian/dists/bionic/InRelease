@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: bionic
-Date: Sat, 18 Jul 2026 23:56:28 UTC
+Date: Mon, 27 Jul 2026 23:43:13 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmpcEqwACgkQ7CDxjGi2
-L2wFZwv/UXqyx8A8pQ5Geyl5Aq5mUBcWlLht/d/6wibpLmOIIxC9wKLwDnKjDdB0
-G3NTC7bCJRWP4mHSKIbltSzJK64EwsghcMoIA/XZUMq8/lauttSGZK1wir9rD5J2
-6eMQVMuNI1R7UiQCl2ZIbZevgtIhYksP6qaOAm0vH3+w9B4tcIjK3zCC5yQoeex8
-GkeseKVLuEnLQ4hWyBujKEnYavNlRsv22sG/BBmiVdm9/OdXF5TSyRy+7++PfRlt
-uvgoIHyb/BwqqT0Ltycn9EWA2ZFlme8ziJ+Oi4+ruYOQZF5ryr/tnPN4goZaZZnq
-wgNECakNx1dA1BJNseAe7KKVSWDO/SO2NipqwYnWQXvwwsEHdd0/O6A8E4+LjlAv
-6y3nsW5NzBgDWSXh/MbbfIjLBu/6RLH9XjJEiSYM+WCuWSOL92uyKbOHXA+swONY
-fbW8zMbg90pFTS4EkXZ26Am3X2quFDNFIvrx6Ks2mgGul+MLs+LHqxDA8xQQ+lI5
-TU9nzqcs
-=vzQm
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmpn7REACgkQ7CDxjGi2
+L2xbQAv/R4eamx8XxVC8lnQcej0BbmhztrW+XcIcO326iI55KHs6FsJU3siLNvKX
+DgWKqyxeKnskhqjnK74ZDbdWHBUTo64blnuTd2r8w+iO2AFUIBYBUQxLmH9ADENB
+dyWRDtqUrfRQblS2Qe27tv4Y0BAaFYjDnBLspsUhrRkoNHH/8m3AiNKWgEaiA33x
+aB+I4kBW9KnPLQXqdgO1SN6vEqFxfGlDfquEQ2ByjMolqIcJZ4tvb5izsoqDKFZB
+C26HWgMZXG4qY1IE8RW/4aLezbjaKPejMojgm4bciSyDSPsQzRPs33AbGMEPtn+3
+p6bVT/Fk2Rd+xdGHoQnXYuw3d/qXmkWKSKUGOdST/Mans23q/3SG52GpjV5e9TDr
+nyXhae88RwoKuNmL9jzQGLkr9FY8xLOFhZcgcBYPm+2H4G1gD5f3bnJEmveqXGBb
+hph9Xyji7jorxwCqukT7KVFmDOkqnImU3JPaBXqbT846RfGlrjrkcWhhjrQswBXt
+hX/zebAy
+=DaB+
 -----END PGP SIGNATURE-----
