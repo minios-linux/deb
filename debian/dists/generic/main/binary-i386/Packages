@@ -101,6 +101,29 @@ Description: Graphical utility for writing, formatting, and wiping storage devic
  A simple and convenient tool to write disk images,
  format, and securely wipe storage devices.
 
+Package: dynblk
+Version: 4.5.0-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 48
+Depends: libc6 (>= 2.6), libfuse2 (>= 2.6)
+Conflicts: dynfilefs
+Replaces: dynfilefs
+Provides: dynfilefs
+Homepage: https://github.com/minios-linux/dynblk
+Priority: optional
+Section: utils
+Filename: pool/main/d/dynblk/dynblk_4.5.0-1_i386.deb
+Size: 15076
+SHA256: ab8308b21935d00985d4f686aa6902f5765086826a0b057af12e8c8ddd4ba25b
+SHA1: c5a5d5d4629fa8fdfa6b884433207d0ab6470bed
+MD5sum: 4040a1340f5c7f5a5f72d242aea1a01a
+Description: open DynFileFS-compatible dynamic block storage through FUSE
+ Dynblk is a compatibility-focused DynFileFS fork that exposes format 400
+ storage as a virtual block image through FUSE. The image can be opened with a
+ loop device and mounted using filesystem tools provided by the operating
+ system. Legacy dynfilefs command names are included as aliases.
+
 Package: dynfilefs
 Version: 4.04-1
 Architecture: i386
@@ -975,265 +998,137 @@ Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
 
-Package: minios2-artwork
-Source: minios-artwork
-Version: 6.0
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 695
-Depends: elementary-minios-icon-theme, minios2-wallpapers
-Conflicts: minios3-artwork, minios4-artwork, minios5-artwork, minios6-artwork
-Priority: optional
-Section: x11
-Filename: pool/main/m/minios-artwork/minios2-artwork_6.0_all.deb
-Size: 620648
-SHA256: 9360bd325e9831e94d23cc7719c3a65b0cbc4749ad470b675b56af2bac4fca23
-SHA1: 54a961b9d0a5cc0521bdd74fafa195245b29f210
-MD5sum: e0a26bbe96f2fbeb9125629854d8f57c
-Description: MiniOS 2 themes and artwork
- This package contains the MiniOS 2 themes and artwork.
-
-Package: minios2-wallpapers
-Source: minios-artwork
-Version: 6.0
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1733
-Conflicts: minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
-Priority: optional
-Section: x11
-Filename: pool/main/m/minios-artwork/minios2-wallpapers_6.0_all.deb
-Size: 223952
-SHA256: b224d3ad65e368baa9fb4df03b110458a05d2f05131e7e4e47f0e4f4a66e587f
-SHA1: de2df405003611e394f544c65e70ac3df716a2f3
-MD5sum: 9fd0f987b58501f90bd7d5deb06ea5c8
-Description: MiniOS 2 desktop wallpapers
- This package contains the default wallpapers for MiniOS 2.
-
-Package: minios3-artwork
-Source: minios-artwork
-Version: 6.0
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 373
-Depends: elementary-minios-icon-theme, minios3-wallpapers
-Conflicts: minios2-artwork, minios4-artwork, minios5-artwork, minios6-artwork
-Priority: optional
-Section: x11
-Filename: pool/main/m/minios-artwork/minios3-artwork_6.0_all.deb
-Size: 284320
-SHA256: a5a9f9bec7d37ba3ba349eb2acd45fa81f283c977087b1ecc5b5ee1ce001d827
-SHA1: 6414793a07fce30c5e14bb52b44d37e14a800dd7
-MD5sum: 32c82ec22c05f50f736d20fe13987bfa
-Description: MiniOS 3 themes and artwork
- This package contains the MiniOS 3 themes and artwork.
-
-Package: minios3-wallpapers
-Source: minios-artwork
-Version: 6.0
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 7159
-Conflicts: minios2-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
-Priority: optional
-Section: x11
-Filename: pool/main/m/minios-artwork/minios3-wallpapers_6.0_all.deb
-Size: 152596
-SHA256: a9274d6bd6ef5214553bca7ec65b7dee3a891c47b506f70ded0ab8eadabf7132
-SHA1: 6c5eff95824d4e38143718bd8004b6937d75d724
-MD5sum: 6ff8b417cb86e126f0e83a435f4c5cc0
-Description: MiniOS 3 desktop wallpapers
- This package contains the default wallpapers for MiniOS 3.
-
-Package: minios4-artwork
-Source: minios-artwork
-Version: 6.0
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 272
-Depends: elementary-minios-icon-theme, minios4-wallpapers
-Conflicts: minios2-artwork, minios3-artwork, minios5-artwork, minios6-artwork
-Priority: optional
-Section: x11
-Filename: pool/main/m/minios-artwork/minios4-artwork_6.0_all.deb
-Size: 190200
-SHA256: b402cf6393591306b369ca5af2da058937c058a58ba9c050ebf1c5e290127772
-SHA1: af7ed3a055d9b8616d72eb0559711f429311d22b
-MD5sum: e16d5d1a59ea0a9a7f12500b72feaa62
-Description: MiniOS 4 themes and artwork
- This package contains the MiniOS 4 themes and artwork.
-
-Package: minios4-wallpapers
-Source: minios-artwork
-Version: 6.0
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 3408
-Conflicts: minios2-wallpapers, minios3-wallpapers, minios5-wallpapers, minios6-wallpapers
-Priority: optional
-Section: x11
-Filename: pool/main/m/minios-artwork/minios4-wallpapers_6.0_all.deb
-Size: 147828
-SHA256: c03c1445c666a6822cb4a06de55343e1d4f2b584a12afd3ca6b7fb556f4bcd5d
-SHA1: 9a7f6fbe3261eb2448583a9e3da9a295346ba64a
-MD5sum: ea97bc6a3a3fba6f02df054bc94971a2
-Description: MiniOS 4 desktop wallpapers
- This package contains the default wallpapers for MiniOS 4.
-
-Package: minios5-artwork
-Source: minios-artwork
-Version: 6.0
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 2546
-Depends: elementary-minios-icon-theme, minios5-wallpapers
-Conflicts: minios2-artwork, minios3-artwork, minios4-artwork, minios6-artwork
-Priority: optional
-Section: x11
-Filename: pool/main/m/minios-artwork/minios5-artwork_6.0_all.deb
-Size: 2508916
-SHA256: e85d6dce5b251b71760a7a279de1c0aba9ed41c91e321276a23d1a2fc1060503
-SHA1: f55f6b43f021dd77728eff5eb37ca77238d4e729
-MD5sum: 8ccfa35d959bf532c13a1ca9d279e627
-Description: MiniOS 5 themes and artwork
- This package contains the MiniOS 5 themes and artwork.
-
-Package: minios5-wallpapers
-Source: minios-artwork
-Version: 6.0
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 9300
-Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios6-wallpapers
-Priority: optional
-Section: x11
-Filename: pool/main/m/minios-artwork/minios5-wallpapers_6.0_all.deb
-Size: 7991252
-SHA256: b7bbf724766a00d1d5ea01075dd292d81edc5d35aec4434ebbcb9819fcb36be0
-SHA1: 148bc527f0cc2847213364457b3199d059d92dee
-MD5sum: 9babf0a837f46dd9485b077668ca8d7c
-Description: MiniOS 5 desktop wallpapers
- This package contains the default wallpapers for MiniOS 5.
-
 Package: minios6-artwork
 Source: minios-artwork
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 3056
 Depends: elementary-minios-icon-theme
-Conflicts: minios2-artwork, minios3-artwork, minios4-artwork, minios5-artwork
+Conflicts: minios-artwork
+Replaces: minios-artwork
+Provides: minios-artwork
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-artwork_6.0_all.deb
-Size: 3037392
-SHA256: 7681d2c25a54a5bc91ca71f68a4dc98dedc05a7dc0b3a57e61691655ee86757c
-SHA1: 00feef3ed88e54eaa5d4c3b3b4df80d1c5d98c4e
-MD5sum: f2da96a5429a4027f5d5c76dfcb95a89
+Filename: pool/main/m/minios-artwork/minios6-artwork_6.0.1_all.deb
+Size: 3037492
+SHA256: 40931e13494fbb0c67d85935de31078407c45030fadfc1c3de5f9225413cdd86
+SHA1: b0aee78ad67db622e689bd95e256a264a6abf82b
+MD5sum: 15c9df95ae0b9c80bcaded0a0426fd89
 Description: MiniOS 6 themes and artwork
  This package contains the MiniOS 6 themes and artwork.
 
-Package: minios6-wallpapers-flux
+Package: minios6-wallpapers
 Source: minios-artwork
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 3662
-Depends: minios6-artwork (= 6.0)
-Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
-Replaces: minios6-wallpapers
-Provides: minios6-wallpapers
+Installed-Size: 17644
+Conflicts: minios-wallpapers
+Replaces: minios-wallpapers
+Provides: minios-wallpapers
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers-flux_6.0_all.deb
-Size: 3530452
-SHA256: e8c19522c61583f92e67ae63c0d055a0438e59eea816b8b5c488431fe1d393fc
-SHA1: 4138594f54c4f8d88ef7c044f2c86f7d4de964eb
-MD5sum: 24ff547fe094f417a050139e6e8d6a10
+Filename: pool/main/m/minios-artwork/minios6-wallpapers_6.0.1_all.deb
+Size: 16984624
+SHA256: ffee57d15a7332801729fa23e0dbd86cf06a3816a642ff6996ac918808f3e3ea
+SHA1: 82111c0e719e4133afa8751ebc99dd5bf00b2dd8
+MD5sum: a5725821852b21da584bb70c80368cef
+Description: MiniOS 6 shared desktop wallpapers
+ This package contains the shared MiniOS 6 desktop wallpaper collection.
+
+Package: minios6-wallpapers-flux
+Source: minios-artwork
+Version: 6.0.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1853
+Depends: minios6-artwork (= 6.0.1)
+Conflicts: minios-wallpapers
+Replaces: minios-wallpapers
+Provides: minios-wallpapers
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-flux_6.0.1_all.deb
+Size: 1856796
+SHA256: 7d5ca77a21db9eba998895df4bc8f4c2f9ea3f144924130c405c65236629847c
+SHA1: c00fe3d184c796c841e2b3fe077eb6071ec4a70b
+MD5sum: d6ce994760e22ae9d02c66b477281adb
 Description: MiniOS 6 desktop wallpapers for the Flux edition
  This package contains the MiniOS 6 wallpapers selected for the
  Flux edition.
 
 Package: minios6-wallpapers-minimum
 Source: minios-artwork
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 3666
-Depends: minios6-artwork (= 6.0)
-Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
-Replaces: minios6-wallpapers
-Provides: minios6-wallpapers
+Installed-Size: 1857
+Depends: minios6-artwork (= 6.0.1)
+Conflicts: minios-wallpapers
+Replaces: minios-wallpapers
+Provides: minios-wallpapers
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers-minimum_6.0_all.deb
-Size: 3529664
-SHA256: bb69cd43a4e07f2095cbc3862093a259c0d833f7ef2fa954170397a04cf4a1bc
-SHA1: d64b40d9a70727e2ef25b8af026540908463a45e
-MD5sum: e4cb7410685963ea93c19d6cd2cc5800
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-minimum_6.0.1_all.deb
+Size: 1860892
+SHA256: bd2da81cefc111b0d55887cd19330d47acdb876fec51dfa136233c1380d9e249
+SHA1: 0ab2cca538313036257c1b6260215f3ead064964
+MD5sum: a29b30b38ecfe0140c2f308edd6ee9ac
 Description: MiniOS 6 desktop wallpapers for the Minimum edition
  This package contains the MiniOS 6 wallpapers selected for the
  Minimum edition.
 
 Package: minios6-wallpapers-standard
 Source: minios-artwork
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 19726
-Depends: minios6-artwork (= 6.0)
-Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
-Replaces: minios6-wallpapers
-Provides: minios6-wallpapers
+Installed-Size: 2113
+Depends: minios6-artwork (= 6.0.1), minios6-wallpapers (= 6.0.1)
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers-standard_6.0_all.deb
-Size: 19672008
-SHA256: 9378adb370e129bd4875dfe8ff7a8010f41b586e52dbc032dc88bbcd13db6f7e
-SHA1: 9b1eccbdbf5ee7630e6dc71c0ef3682f89ae2e46
-MD5sum: cabc28cc2340eb4817ba2a42bf964722
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-standard_6.0.1_all.deb
+Size: 2113224
+SHA256: 82cea59fe267e76c78eb04df0b98ccda1d8372b68936b08df5f6cb283c46af32
+SHA1: ca551531f2272c47a6b354a71ac24ed6c0cea054
+MD5sum: 4cf4acbdfe20e925b5874b16deb63c1f
 Description: MiniOS 6 desktop wallpapers for the Standard edition
  This package contains the MiniOS 6 wallpapers selected for the
  Standard edition.
 
 Package: minios6-wallpapers-toolbox
 Source: minios-artwork
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 20685
-Depends: minios6-artwork (= 6.0)
-Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
-Replaces: minios6-wallpapers
-Provides: minios6-wallpapers
+Installed-Size: 3072
+Depends: minios6-artwork (= 6.0.1), minios6-wallpapers (= 6.0.1)
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers-toolbox_6.0_all.deb
-Size: 20600988
-SHA256: f73c8e30acadbcd84e0a4d7e7d9b4497e58f79834160dc7baee1c88923f4eac1
-SHA1: 699bf75b29d11c89b6bd2917e6abe842880854b7
-MD5sum: 53c1d5341b9fcc3d7211c3170e133445
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-toolbox_6.0.1_all.deb
+Size: 3112476
+SHA256: d5c0faf1482753d9bc3649d7854c1768e1bd51bf2982d4aa98f1558f77a3e5d7
+SHA1: 0e4df5af113d7df85310b696e8d26c3d34c58a2d
+MD5sum: ea3ff90b42459142ddc69a3bb1bf6456
 Description: MiniOS 6 desktop wallpapers for the Toolbox edition
  This package contains the MiniOS 6 wallpapers selected for the
  Toolbox edition.
 
 Package: minios6-wallpapers-ultra
 Source: minios-artwork
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 19557
-Depends: minios6-artwork (= 6.0)
-Conflicts: minios2-wallpapers, minios3-wallpapers, minios4-wallpapers, minios5-wallpapers, minios6-wallpapers
-Replaces: minios6-wallpapers
-Provides: minios6-wallpapers
+Installed-Size: 1944
+Depends: minios6-artwork (= 6.0.1), minios6-wallpapers (= 6.0.1)
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers-ultra_6.0_all.deb
-Size: 19551440
-SHA256: a80002f050c153af331d1205bc2b51e53bc363f0d0dfd6d5c9b5736fb100e42d
-SHA1: 1de5bffedc41307649a53b47d8a152018bc2911c
-MD5sum: 35ea76a0861aea939ad210d882c37b66
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-ultra_6.0.1_all.deb
+Size: 1951308
+SHA256: 718ca53545d8bda0858dff965816cce3c933dd05ecaa9d88b7b906c6f73b5258
+SHA1: d1961eb3e35240864ad175a7b2f5f87efb73c265
+MD5sum: e3a340d49dbf8870db9ba02856a77772
 Description: MiniOS 6 desktop wallpapers for the Ultra edition
  This package contains the MiniOS 6 wallpapers selected for the
  Ultra edition.
@@ -1460,22 +1355,22 @@ Description: Systray Icon Launcher.
 Package: transume
 Version: 1.0.0
 Architecture: all
-Maintainer: MiniOS Developers <maintainers@minios.dev>
-Installed-Size: 891
-Depends: python3:any, clonezilla (= 5.9.9-1), acl (= 2.3.2-2+b1), ecryptfs-utils (= 111-8), gir1.2-gtk-4.0 (>= 4.18), libgtk-4-1 (>= 4.18), pkexec, polkitd, cifs-utils, nfs-common, partclone (= 0.3.36+repack-1), partclone-nbd (= 0.0.4-1), nbdkit (= 1.42.3-1), nbd-client (= 1:3.26.1-6.1), sshfs, python3 (>= 3.13), python3-gi
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 906
+Depends: python3:any, clonezilla (>= 5.9.9-1), acl, ecryptfs-utils, gir1.2-gtk-4.0 (>= 4.18), libgtk-4-1 (>= 4.18), lvm2, pkexec, polkitd, cifs-utils, nfs-common, partclone (>= 0.3.36+repack-1), partclone-nbd (>= 0.0.4-1), nbdkit (>= 1.42.3-1), nbd-client, sshfs, python3 (>= 3.13), python3-gi
 Breaks: zillaclone (<= 0.1.0)
 Replaces: zillaclone (<= 0.1.0)
 Homepage: https://minios.dev/
 Priority: optional
 Section: utils
 Filename: pool/main/t/transume/transume_1.0.0_all.deb
-Size: 140772
-SHA256: 5894a788b8c4cf2251b83c5c1ec9c85715bcebc1aef8f606e5c1a8296cece363
-SHA1: 8cad09a6e6edc05cc586b91ba904ab4cb67ade23
-MD5sum: ce3ad827704bcff1ca1c590919b486e6
+Size: 143320
+SHA256: be6fedac265973c1efbe9c30b9bc3fab7b5c3a3d57050bd85c517038a2b91820
+SHA1: e09e1030f5386f96e5133c105a5716770e2b8691
+MD5sum: 829b0f98a0eeca9c54605bd96a7b818b
 Description: GTK4 frontend for Clonezilla
  Transume provides a graphical interface for Clonezilla backup, restore,
-  cloning, image management, and verification workflows.
+ cloning, image management, verification, network storage, and LVM2 workflows.
 
 Package: unetbootin-translations
 Source: unetbootin
