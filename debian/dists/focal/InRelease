@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: focal
-Date: Tue, 28 Jul 2026 23:11:54 UTC
+Date: Thu, 30 Jul 2026 13:50:54 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmppNzsACgkQ7CDxjGi2
-L2zOMwv/boMumZFfqjLuRzEyiQkgjgoD6rWhfdvb8mQK/DvMW1m2yYl1PBZdFM0s
-Ir0+v5lTLeP29FgWqps+NfbyPfairaqnnG2QABNq5enzDqnUhFTYgqRgSUEnEHiG
-Mfj6b7CjdK4s2GaXqbKG6Q3OibBw4osdLo4eR0gyFtMjT59nVU/c05GhJQ+5YqZ9
-2UGPh1UjK5CxAUFrwXR8X6dkVjCLlAf2Ylh0ORAlVAecSt+R490A5NMPjhyt44KW
-huzbixS7VTYe74nPCZAN6K/u9MuDWyDkQVPbwvCRzJqDdLQZ6iujSbpKHljp53u1
-LVshDoNW/0v0lz2i+aD5fiq7gSbyhDlnMud17nv6qWxIACkOQdXWfaFXze1qNuC0
-k1GVv6xLE6wZgTH71mTuv6eMVL/DK0C9ZLj02et1jBmmrI7GXdNaA9hksQGaWZw6
-dORPxbV9ol+Zpg2SxAWmrqcyo4FjAVp+e7oIgGP3gehCQ+6tmKD/yJQfGV8a+7hf
-mKFp8Q66
-=z/eJ
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmprVr8ACgkQ7CDxjGi2
+L2wcPgv8C96Tm9CJoN7uFyk8wKbwAOJlGiIXbB4vQB1Ovy3WFW8qIWQAP9V3173h
+fUw+c2zC2xvt/4rDjyB116IYOuHUyDyKnMOVYabT/x8YTZW1SdUbbwkjEjxnVnIA
+taCh9st79tcB8y73Ttj644+v8uaDbNL9IOYQ6Xo6GldhDXvwNX14i6CBmJuA9294
+5HMrLprxpeS6bID4ZPkyR64OHiYwOlRn1211gxd8JNQWZxHu1weAtq3YCH1A0dfL
+b9WpTUKMItMnLEvDNFICn10MmnYCYUOtfHJiwgdrFWyd7zPZIlUResRByFzgOYql
+QEo3TlYmDfTxeWuX4DbfUgUj1zJLtgfC0/nBnK32jWHk9djzvLqrMSaNnYXHuM7p
+fIxvzElW89hcY5hDUwRjYantsnekEMsjyBageyGrM6KG7THSurk7YyzfJcMRo3Ht
+p+Vxq75aYkVXjP+/zi2CrD0foLEQclZggcyKzGGCcpJIYDpZMak6l4/8wP64M4Vw
+XW1GcMRL
+=wh2/
 -----END PGP SIGNATURE-----

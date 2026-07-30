@@ -1065,20 +1065,20 @@ Description: MiniOS Store GTK3 graphical installer
  integration for privilege escalation.
 
 Package: minios-tools
-Version: 1.4.13.1
+Version: 1.4.14
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 237
+Installed-Size: 241
 Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
 Recommends: x11-xserver-utils, xfce4-settings, procps
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.4.13.1_all.deb
-Size: 44492
-SHA256: edc00fd90c18949fb367ed603be82a9f3aba2e17e281d131381f4eb4e1cbebad
-SHA1: 423b7b2ed5ceee5e28b5850fc327a616e6c38296
-MD5sum: 68c98e41c430df345d26bc62b3a828db
+Filename: pool/main/m/minios-tools/minios-tools_1.4.14_all.deb
+Size: 45464
+SHA256: 2651425e2cfdbc7e131043692769edf7982f6e2a9115d35ff7c363afe70f9918
+SHA1: ad65f15d1955429f660aae1d5afce4110b436be3
+MD5sum: 931571341854dcc7385b0715314f4d55
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
