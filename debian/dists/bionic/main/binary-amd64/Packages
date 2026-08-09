@@ -1,3 +1,23 @@
+Package: python3-dataclasses
+Source: python-dataclasses
+Version: 0.8-1minios1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 66
+Depends: python3:any (<< 3.7), python3:any (>= 3.6~)
+Homepage: https://github.com/ericvsmith/dataclasses
+Priority: optional
+Section: python
+Filename: pool/main/p/python-dataclasses/python3-dataclasses_0.8-1minios1_all.deb
+Size: 15788
+SHA256: 345a94238d475e4d3df8d83906c29bb2ae8ec945a40d86aa34e81feab26e2ef1
+SHA1: 675a586b14414e31b060d00a235ce494b91a1bdc
+MD5sum: a588ab32ce93bd2cabeec9239cbd0e68
+Description: backport of Python 3.7 dataclasses for Python 3.6
+ This package provides the PEP 557 dataclasses module for Python 3.6.
+ It is the final upstream backport release and is not intended for Python 3.7
+ or newer, where dataclasses are part of the standard library.
+
 Package: squashfs-tools
 Version: 1:4.3-6ubuntu0.18.04.4+minios1
 Architecture: amd64
