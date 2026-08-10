@@ -8,7 +8,7 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/minios-linux/minios-live-config
 Vcs-Git: https://github.com/minios-linux/minios-live-config.git
-Build-Depends: debhelper-compat (= 13), jq
+Build-Depends: debhelper (>= 11), jq
 Build-Depends-Indep: lsb-release
 Package-List:
  minios-live-config deb misc optional arch=all
@@ -16,8 +16,8 @@ Package-List:
  minios-live-config-systemd deb misc optional arch=all
  minios-live-config-sysvinit deb misc optional arch=all
 Checksums-Sha1:
- a7cf5fe683a791c87943cb34df9d2a527c6f746b 163284 minios-live-config_11.0.5.15.tar.xz
+ c6eaf98eab5b6bc889c58256af0ee3df4f630d3c 163300 minios-live-config_11.0.5.15.tar.xz
 Checksums-Sha256:
- f91637a1725fa20a722a21cf98acae950c8fb80efb14fa4129f13d384cddcdbc 163284 minios-live-config_11.0.5.15.tar.xz
+ be84790bcf3fdc70f8c6e1a939e1454558f2bdf13531f1cc216b42b691f18b07 163300 minios-live-config_11.0.5.15.tar.xz
 Files:
- e87eafbf349b6c59f1dad299460fb290 163284 minios-live-config_11.0.5.15.tar.xz
+ 203216ebd10e0f64e2c6a86bad8e86e1 163300 minios-live-config_11.0.5.15.tar.xz

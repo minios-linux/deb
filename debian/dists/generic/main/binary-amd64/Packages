@@ -124,27 +124,27 @@ Description: debug symbols for cbatticon
 Build-Ids: 1c649fc7ec9d1a46254eaa797b3bbd81ed946ef1
 
 Package: driveutility
-Version: 1.8.3
+Version: 1.8.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 334
-Depends: coreutils (>= 8.28), genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, polkitd | policykit-1, pkexec | policykit-1, procps, python3 (>= 3.6), python3-gi, python3-parted, python3-gnupg, python3-unidecode, python3-lz4, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux (>= 2.31), exfatprogs | exfat-utils
+Installed-Size: 343
+Depends: coreutils (>= 8.28), dosfstools, e2fsprogs, genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, python3-minios-gui (>= 1.0.0), ntfs-3g, parted, polkitd | policykit-1, pkexec | policykit-1, procps, python3 (>= 3.6), python3-gi, python3-parted, python3-gnupg, python3-unidecode, python3-lz4, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux (>= 2.31), exfatprogs | exfat-utils
 Recommends: python3-zstandard
 Conflicts: mintstick, usb-imagewriter
 Replaces: mintstick, usb-imagewriter
 Priority: optional
 Section: misc
-Filename: pool/main/d/driveutility/driveutility_1.8.3_all.deb
-Size: 50700
-SHA256: 3f7cfeef718e11d57a9b88a4bf1361c88e83a1071efa9ecd370eb718e59ecf1a
-SHA1: 70d3c7ce28b810e3f2cd126eb66a148e96233f36
-MD5sum: d5b8d1fd1b9ef3dfb20cdc5ede7ad0b5
+Filename: pool/main/d/driveutility/driveutility_1.8.4_all.deb
+Size: 56800
+SHA256: 9417e7a38384a60b2cc48e4edf6573cbd0f4629d91e6430af38f295fd390fe08
+SHA1: 440ea7d8d31347976a7e2a64383a00142fe695e6
+MD5sum: 8c726aab1d84d959e3ee5b9c8b345cdf
 Description: Graphical utility for writing, formatting, and wiping storage devices
  A simple and convenient tool to write disk images,
  format, and securely wipe storage devices.
 
 Package: dynblk
-Version: 4.5.0-1
+Version: 4.5.1-1
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 45
@@ -155,11 +155,11 @@ Provides: dynfilefs
 Homepage: https://github.com/minios-linux/dynblk
 Priority: optional
 Section: utils
-Filename: pool/main/d/dynblk/dynblk_4.5.0-1_amd64.deb
-Size: 13128
-SHA256: 675a22a425cef6f0c1dbf37e0519ddfee0b39ed926554cf188baaa22fca90b06
-SHA1: 56db484ea2d968f41c9c6eb132437710ee9122fc
-MD5sum: 3ff7d3695089f591380ce4f715012a20
+Filename: pool/main/d/dynblk/dynblk_4.5.1-1_amd64.deb
+Size: 13700
+SHA256: 83acdc651ad52b93dfac5ffc39aee52c0a1abd429200e03e82ff5b9071b99f31
+SHA1: 142e896f71f5f967487ae45da06a804d8c9a8f8b
+MD5sum: 549edc5222e480e58ba057c4ace523cd
 Description: open DynFileFS-compatible dynamic block storage through FUSE
  Dynblk is a compatibility-focused DynFileFS fork that exposes format 400
  storage as a virtual block image through FUSE. The image can be opened with a
@@ -762,19 +762,19 @@ Description: MiniOS themes and artwork
  This package contains the MiniOS themes and artwork.
 
 Package: minios-configurator
-Version: 3.0.0
+Version: 3.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 308
-Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, python3-minios-security (>= 0.1.0), whois, openssl, minios-live-config (>= 11.0.5.13)
+Installed-Size: 313
+Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, python3-minios-gui (>= 1.0.0), python3-minios-security (>= 1.0.1), whois, openssl, minios-live-config (>= 11.0.5.15)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-configurator/minios-configurator_3.0.0_all.deb
-Size: 50020
-SHA256: 7026ad8e8319eeb639f5ed9bd0ddf56ce9bf48c7c06173db12894dc61e40fdce
-SHA1: 30e3a6d4e48d8be8b10f0688f82f37431e033bea
-MD5sum: c59cced60f5b9e2e67b5a98f9eccc5c4
+Filename: pool/main/m/minios-configurator/minios-configurator_3.0.1_all.deb
+Size: 50484
+SHA256: 186ef03fccdb3fb17f7314d23ef26371800ac83e108b6e14b26ac40ba0611d09
+SHA1: 2d29b309b3d54819fdc895ed3f1453a6c0cc5c24
+MD5sum: f6ca5e823be621191c7fb1e380a50210
 Description: MiniOS Linux configuration utility.
  MiniOS Configurator is a utility specially designed for quick and easy
  configure MiniOS.
@@ -813,40 +813,69 @@ Description: MiniOS dracut modules for initramfs generation
  loop, zram, ext4, vfat, ntfs3, exfat) that are omitted by the minimal
  dracut configuration to keep initramfs size small.
 
-Package: minios-installer
-Version: 3.0.1
+Package: minios-gui
+Version: 1.0.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1164
-Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-dataclasses | python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, openssl | whois, python3-minios-security (>= 0.1.0), udev | eudev, util-linux (>= 2.31), minios-configurator (>= 2.4.4)
-Recommends: minios-live-config (>= 11.0.5.13), user-setup
+Installed-Size: 46
+Recommends: elementary-minios-icon-theme
+Homepage: https://minios.dev
+Priority: optional
+Section: x11
+Filename: pool/main/m/minios-gui/minios-gui_1.0.0_all.deb
+Size: 25140
+SHA256: 8f0071ab8bfd28efead270ec6c9fd9717c657618fffeab9bd1c6f7a4ec9000ac
+SHA1: a13008c089cc19304f4d594d4a63d2fdaeb17053
+MD5sum: 724cc06dfbcaf4394c2d5e5ba6fa6096
+Description: MiniOS shared GUI styling (canonical stylesheet)
+ Common look-and-feel resources shared by the MiniOS graphical applications —
+ minios-installer, minios-configurator, driveutility and the other minios-*
+ GTK tools.
+ .
+ It installs /usr/share/minios/minios.css, the canonical MiniOS application
+ stylesheet. Applications load this file on top of the active GTK theme to get
+ consistent header bar, sidebar, content card, button, banner, badge, list and
+ progress styling across the whole product. Surfaces derive from the running
+ theme, so both light and dark desktops are supported; only the primary action
+ and brand accents use the fixed MiniOS blue.
+ .
+ This package provides styling resources only. It does not modify the
+ applications, which adopt the stylesheet by loading it explicitly.
+
+Package: minios-installer
+Version: 3.0.2
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1165
+Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-dataclasses | python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.0.0), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31), minios-configurator (>= 2.4.4)
+Recommends: minios-live-config (>= 11.0.5.15), user-setup
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_3.0.1_all.deb
-Size: 186124
-SHA256: d70a521d5bfb1a19d7ba153a5d0ad4b0c611f2420a4cea6afc472b25b70cf758
-SHA1: b76381849b627d5779750d54eafe99f3ccb8e5c8
-MD5sum: f0beb5ac0bb0b8130b639e0ac5f7ba43
+Filename: pool/main/m/minios-installer/minios-installer_3.0.2_all.deb
+Size: 186216
+SHA256: f37103331b6cefaebd5dafa250a705673bddaa9181474c3c3eba694728ba93e2
+SHA1: cc652779e4c1989dd80786b40cb6823324425859
+MD5sum: b2bcf6324bcaacfcbd992ab4ff8ea478
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
 
 Package: minios-kernel-manager
-Version: 1.2.0
+Version: 1.2.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 475
-Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, squashfs-tools, kmod, apt, dpkg-dev, zstd
+Installed-Size: 502
+Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, python3-minios-gui (>= 1.0.0), squashfs-tools, kmod, apt, dpkg-dev, zstd
 Recommends: lz4, lzop, xz-utils, bzip2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.2.0_all.deb
-Size: 74036
-SHA256: 25648f22bab64245a55cc6029fa809ee9e850de2b03692bef94d58969c45f3d1
-SHA1: 8d9df5db03807ac9c87283671a5529cf8df6cb97
-MD5sum: 1dec85313ad8af95f98aa0a5074b7f22
+Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.2.1_all.deb
+Size: 78364
+SHA256: 72342114ccbec5367705a86dd8b27804c9ab691c5c534e4bfc44c80db6ffd0d9
+SHA1: 7d98fb8140ee542f66704592570a1a29d8cdefcf
+MD5sum: e8fa7e9bbc27b2bdf76b61f06189a581
 Description: Graphical and command-line tools for managing MiniOS kernels.
  This package provides a GTK3 graphical user interface and a command-line
  utility to package, install, and manage Linux kernels for the MiniOS.
@@ -889,10 +918,10 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
 Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.15_all.deb
-Size: 34604
-SHA256: 90f78656cc900b5a42991bc652df669290a219aa1b8e7065c8263237703c2c38
-SHA1: 9f917a08ce66a8f06d0fef89f0966d351c09b474
-MD5sum: ede60c1222933e6f9a5137670642e38f
+Size: 34676
+SHA256: d7f9cfad3aebc6c0ee14b25886bd915c1590e1721fe0aeb2997f876bd65dabcd
+SHA1: ccf3737484445f47e1bbdb2f8e9c6d2df5fe091e
+MD5sum: 91ec694d56dda832a18895661d0260f8
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -915,10 +944,10 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: doc
 Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.15_all.deb
-Size: 106804
-SHA256: 5a702eaae1c19174960be08286490f79dfd54cd4d04dfbf3c5157d1830dace6b
-SHA1: 400944131f99a781379a6019b4e164801138e065
-MD5sum: b2bab19f7ef2b601d54b9d1f4b880054
+Size: 106872
+SHA256: 7933f8d613ef841b63762388589c40337300c7921988242b1451a3f5083a917a
+SHA1: cc7b4efc4a1f0e67b0f5d5f870aca458fbb66a5e
+MD5sum: 4460cccdeb0d601ecab18ed1ce66e70a
 Description: Live System Configuration Components (documentation)
  live-config contains the components that configure a live system during the
  boot process (late userspace).
@@ -940,10 +969,10 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
 Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.15_all.deb
-Size: 7344
-SHA256: 8f5a32d4859f581c1021c0cb55164de1fee60080c514ba886bc43de0072a54fa
-SHA1: 26d1c572ec54d59983671dc1b569abb2bbaaa659
-MD5sum: cb4d952b5ebfafbe8d4a0b27437c21f8
+Size: 7360
+SHA256: 67e7c385bb53f6c4b65e570f6b3909a1ead220b7d8fec08976d5b8ad6e271b61
+SHA1: f665a349fb235111e23d6f34e7e2dde46b9334fb
+MD5sum: 1c43ec2939434bcaad92d7e3f6b90e35
 Description: Live System Configuration Components (systemd backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -967,10 +996,10 @@ Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
 Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_11.0.5.15_all.deb
-Size: 7240
-SHA256: 4d9827fab499913964f5881c369e9492a3d07a139c0e54557f1c5a2de739d8d9
-SHA1: 067e74e9183c38bbe77c3824a80b10735942e02b
-MD5sum: def8173779ce0afefb2038e2f19a255d
+Size: 7316
+SHA256: a63f020483a4e2f753c11f4d2b160a69f53e00e96ab58ef31303d83bf02584ea
+SHA1: 66eb4dae0cbfef20a1e586c49dbbf08063fe53a1
+MD5sum: 9012cc8c34dacc711c01b115561f9be9
 Description: Live System Configuration Components (sysvinit backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -981,19 +1010,19 @@ Description: Live System Configuration Components (sysvinit backend)
  This package contains the sysvinit backend.
 
 Package: minios-session-manager
-Version: 1.2.0
+Version: 1.2.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 586
-Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, dynfilefs, cryptsetup, polkitd | policykit-1, pkexec | policykit-1, zstd, rsync, e2fsprogs, util-linux (>= 2.31)
+Installed-Size: 679
+Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, python3-minios-gui (>= 1.0.0), minios-tools (>= 1.5.0), dynfilefs, cryptsetup, polkitd | policykit-1, pkexec | policykit-1, zstd, rsync, e2fsprogs, util-linux (>= 2.31)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session-manager_1.2.0_all.deb
-Size: 83600
-SHA256: 556bc8d504d0ea8db87cde7a7074c2086bdb1ef6512fd4b2773a2113ed805e43
-SHA1: 860be3da7063397bad994c9e7646426b35f10392
-MD5sum: 450503049f0c3d6643509c5d8719fe3e
+Filename: pool/main/m/minios-session-manager/minios-session-manager_1.2.1_all.deb
+Size: 99256
+SHA256: f2adee10fc874ed7c2487c5c6cfdc86eb592284ad61c779e7ed62f264f709971
+SHA1: 0e95a4452895ed02602a445de479440e18e980be
+MD5sum: 9d58b9c0c5620fb8948e6e1f56c16002
 Description: MiniOS session management utility
  A utility for managing MiniOS persistent sessions from within
  the running system. Provides both command-line and graphical
@@ -1065,20 +1094,21 @@ Description: MiniOS Store GTK3 graphical installer
  integration for privilege escalation.
 
 Package: minios-tools
-Version: 1.4.14
+Version: 1.5.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 241
-Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
+Installed-Size: 388
+Depends: bash (>= 4.4), coreutils (>= 8.28), e2fsprogs, gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), python3 (>= 3.6), squashfs-tools (>= 1:4.3-6ubuntu0.18.04.4+minios1), util-linux (>= 2.31)
 Recommends: x11-xserver-utils, xfce4-settings, procps
+Suggests: pkexec
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.4.14_all.deb
-Size: 45464
-SHA256: 2651425e2cfdbc7e131043692769edf7982f6e2a9115d35ff7c363afe70f9918
-SHA1: ad65f15d1955429f660aae1d5afce4110b436be3
-MD5sum: 931571341854dcc7385b0715314f4d55
+Filename: pool/main/m/minios-tools/minios-tools_1.5.0_all.deb
+Size: 73912
+SHA256: 756bb072f6637ae72dab1359a316e3a51f6ae28fff5d9926e3f2cf23ac439723
+SHA1: 3ddb09bfbe198dc1ef4c0e44b9e5066eb12bd808
+MD5sum: 32d589d0cac5e137a0faaa05c40e50d2
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
@@ -1409,6 +1439,30 @@ SHA1: c9e3ee0d84dedbd99b610ab62ac2d50071673348
 MD5sum: 2b00abab9ddb9c50bd69e6104b4ff8ba
 Description: debug symbols for partclone-nbd
 Build-Ids: 37e8a126f43ec581b01d3f08c6751d12b12f6ee7
+
+Package: python3-minios-gui
+Source: minios-gui
+Version: 1.0.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 30
+Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gdk-3.0, minios-gui (= 1.0.0)
+Homepage: https://minios.dev
+Priority: optional
+Section: python
+Filename: pool/main/m/minios-gui/python3-minios-gui_1.0.0_all.deb
+Size: 6840
+SHA256: 58ed31168fb7a35e87a8ef39cc43a435aa172d7f31acb97a1d2d4bbfe2d01f22
+SHA1: 704101b1dbbdef496bcf988d748f0881c7c67638
+MD5sum: 6f31002c0d5645bb2f0ac16cf663e050
+Description: Python 3 helpers for MiniOS GTK applications
+ Shared Python 3.6-compatible GTK 3 helpers for MiniOS graphical applications.
+ The module provides canonical stylesheet loading, icon-theme resolution,
+ standard message and confirmation dialogs, a read-only streamed log view,
+ background command execution and a cancellable command dialog.
+ .
+ This binary package is built from the minios-gui source repository together
+ with the canonical MiniOS application stylesheet.
 
 Package: python3-minios-security
 Version: 1.0.1
@@ -1759,20 +1813,21 @@ Description: Set up initial user and password
  likely to be of any use if your system has no non-system users at all.
 
 Package: xlunch
-Version: 4.7.6-3
+Version: 4.7.6+git20260524.da1ff9f-1minios1
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 232
+Installed-Size: 236
 Depends: libc6 (>= 2.16), libimlib2 (>= 1.4.5), libx11-6
+Recommends: librsvg2-bin
 Homepage: https://github.com/Tomas-M/xlunch
 Priority: optional
 Section: x11
-Filename: pool/main/x/xlunch/xlunch_4.7.6-3_amd64.deb
-Size: 156316
-SHA256: a5163e02e67ae94fab6bd9ee5addf258f3da72ee8f92d89afc2146b989f53a45
-SHA1: fcd403d914225d0af986a62eea4a5f8e801467d4
-MD5sum: 821409af3bc907ccb05378e4631a7256
-Description: Graphical application launcher for X using pure Xlib and Imlib2.
+Filename: pool/main/x/xlunch/xlunch_4.7.6+git20260524.da1ff9f-1minios1_amd64.deb
+Size: 158208
+SHA256: 1793db39b8fcc03c5792a3150f09aba57952825a9308e9588dd42708e2dafa31
+SHA1: 756fbf0b697e2a95692a46ba27e838b67b40dc9a
+MD5sum: 750befa89cd597ee2a92777fb67fdee4
+Description: Graphical application launcher for X using pure Xlib and Imlib2
  Provides a lightweight, mouse- and keyboard-driven interface to launch
  programs, commands, or custom menu entries. Supports UTF-8 for international
  text and offers real-time filtering while typing. Highly configurable in both
