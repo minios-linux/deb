@@ -1,6 +1,6 @@
 Package: python3-dataclasses
 Source: python-dataclasses
-Version: 0.8-1minios1
+Version: 0.8-1minios2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 66
@@ -8,11 +8,11 @@ Depends: python3:any (<< 3.7), python3:any (>= 3.6~)
 Homepage: https://github.com/ericvsmith/dataclasses
 Priority: optional
 Section: python
-Filename: pool/main/p/python-dataclasses/python3-dataclasses_0.8-1minios1_all.deb
-Size: 15788
-SHA256: 345a94238d475e4d3df8d83906c29bb2ae8ec945a40d86aa34e81feab26e2ef1
-SHA1: 675a586b14414e31b060d00a235ce494b91a1bdc
-MD5sum: a588ab32ce93bd2cabeec9239cbd0e68
+Filename: pool/main/p/python-dataclasses/python3-dataclasses_0.8-1minios2_all.deb
+Size: 15860
+SHA256: d8bb1cf5dad01a01ac58d34bae4c1b22dd80d58c3a0fac6966cb5453186ed8e8
+SHA1: 83e1f31e3358141f90ec227087116a52326a014d
+MD5sum: 8b2e1e7725376c619e5eb33b88724279
 Description: backport of Python 3.7 dataclasses for Python 3.6
  This package provides the PEP 557 dataclasses module for Python 3.6.
  It is the final upstream backport release and is not intended for Python 3.7

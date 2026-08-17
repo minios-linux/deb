@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Debian
 Label: MiniOS Repository
 Codename: buster
-Date: Sun, 16 Aug 2026 14:48:24 UTC
+Date: Mon, 17 Aug 2026 16:39:49 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -130,15 +130,15 @@ SHA256:
  7eabbab99b183aeed0aff3b9ae608ea2803a37d9676dd93e87b9b0cf304db751 112 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmqBzbgACgkQ7CDxjGi2
-L2xnYgv7BrBasRUFGRp6ZbI7EXxTxzcoJKuD4dSkJb1+6qhAoOA3Nr7ODk/nH3ui
-cAc3qI07phH8dg3kK9qosz8NKAJnQAj2GGJ1qcB4TV+V4RrQyZPsafC/cpmXciHM
-HIfQ9IBKGacURliUhX+jlN+9wKgre2TWfK8sqPFG3KqGHAhbEn7fkqSEeGp3o3Pi
-ryIXz8iQlfFKIsOwaz3/VI+Cx/Ga3TttDomYqVJTZzYcn0NBaAPgJwhyCaq8zssk
-+QOYxgZctFZxHGJzLFCmX1KjBma6CqxAWIFZpKMZP7Ap13GrBCxpbDFPDM8+HLPL
-P0WQ6o8CwXwOw+RXj4twvb9SrQ7RnqCajBOEljubXiVXzhwOO9tkxXmO8bz2ZJj3
-aJH2PO8nIOkAksKon5+Noh0Oc2c+la/cYcezlu7gSI/dCZ8TpVk0fpSCKsIFXqGM
-0r/YlWb/Sve4TU3N2ircjeQkfd3u0c7blEjN2xxv1f62d4MZEfTsr2RRGZhceF6v
-OnAWJv2N
-=Op8u
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmqDOVYACgkQ7CDxjGi2
+L2xkOAv/Q2baoMkPwe50jLEJ5Ua7toxfe1RL2gIholXVrQUv3+CSP7C4NhCsRx9V
+PAWlEFSzqpITO+SdERtR+YGkLprWgZrlXMP0out4+vkyx8/IRcgbu81MfyIoWMxH
+LUPvd8j3bY1y+QpVK3bo7HnAuU6Bn2juIiL0QvDs3izQfC/fTQChMYSUpSY5GaJN
+HeOmDhO2/tGuPmDUpPUx/HknuVrUAGGVcQRr6fAmtI6Ux9jRH+zYfkInn2H4LtqI
+/aJYYBan1RaSd3YSOPqSGaLcERpLBP7GBoykuW8XqyfUJWMiS188XARkSvwjnyW+
+wYB9xYVUxmQd0+1lRyeuT89vO1LEiuwcJwFmpftOI7V8lOSL4I9rVDPYVKUrtt3g
+r4+hF4hJ7fIsVlVj3cnIQMsC3+QtKRI8MbJsLwmO6+ibgz+FmNEhr5jZWqhkgjHC
+sxHhT7aNSOKwOcgvLfgiKiHFuuelOs4Fbx5+I0WWe3YxY4Fbb0G0j6q8SdTnDayu
+XPnUX4sn
+=/aY5
 -----END PGP SIGNATURE-----

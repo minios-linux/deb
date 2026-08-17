@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-tools
 Binary: minios-tools
 Architecture: all
-Version: 1.5.0
+Version: 1.5.1
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -10,8 +10,8 @@ Build-Depends: attr, bats, debhelper (>= 11), gettext, pandoc, python3 (>= 3.6),
 Package-List:
  minios-tools deb utils optional arch=all
 Checksums-Sha1:
- 2f031dca684817e0ef4afe1607d35759256e3efc 88208 minios-tools_1.5.0.tar.xz
+ 7be676ba5bcaddcf529cbef400e9b41f0234c311 89912 minios-tools_1.5.1.tar.xz
 Checksums-Sha256:
- 636ecfa5a43aa307ba5159d3482dd818d1b58cc741c8c9ab8de85078a726b7f3 88208 minios-tools_1.5.0.tar.xz
+ ee3dd641999b353a01eddc1f8303c510279bba9ad3ea251d2d69db5659f0938a 89912 minios-tools_1.5.1.tar.xz
 Files:
- 3af30752eaddbb6dfb599adb3fd4eaaf 88208 minios-tools_1.5.0.tar.xz
+ 16b82e1801155838c3a848ea82a9cb27 89912 minios-tools_1.5.1.tar.xz
