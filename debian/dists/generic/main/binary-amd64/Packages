@@ -846,17 +846,17 @@ Package: minios-installer
 Version: 3.0.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1272
+Installed-Size: 1276
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.0.0), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31), minios-configurator (>= 2.4.4)
 Recommends: minios-live-config (>= 11.0.5.15), user-setup
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_3.0.3_all.deb
-Size: 204868
-SHA256: e9dd943bab61814e27a03f5edd8dc1c01904894e4d4433d5b6529ed1a57f8bed
-SHA1: b1f8eead29ac38120fa03729dc066145a970eb29
-MD5sum: d198f3e887ddeff5228eb20f5349538f
+Size: 205860
+SHA256: 648aa2341b34d1d587ac996ca19257d84a6499201e53910689ee4cd544aa2c4d
+SHA1: 8b99d1d7b796c82c1c5b4756809678577f1b6733
+MD5sum: cd4bededba9eb6a8ac84a8bd9aa54e9f
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.

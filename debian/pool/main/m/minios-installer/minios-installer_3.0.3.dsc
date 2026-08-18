@@ -10,8 +10,8 @@ Build-Depends: debhelper, gettext, python3, python3-dataclasses | python3 (>= 3.
 Package-List:
  minios-installer deb utils optional arch=all
 Checksums-Sha1:
- e6217b9a6b5f42333113f3a2492c16b17f28048c 666428 minios-installer_3.0.3.tar.xz
+ 3d553049c225da528920ac86d9b7f4ac097dc724 249436 minios-installer_3.0.3.tar.xz
 Checksums-Sha256:
- b849d14ebb19082a3d40bf943fcd7be839fb09a67495c9b61d7cbdfa80d9ba65 666428 minios-installer_3.0.3.tar.xz
+ 5ba3b8d81da214675131fd42b56e3e66b69e106e3ad52483ea8d7d377e1a668e 249436 minios-installer_3.0.3.tar.xz
 Files:
- e5b6dd5b3e32d40fed8b1a08992b215b 666428 minios-installer_3.0.3.tar.xz
+ 39b55a452f016fc1e32476151a736169 249436 minios-installer_3.0.3.tar.xz
