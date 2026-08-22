@@ -8,12 +8,12 @@ Homepage: https://minios.dev
 Standards-Version: 4.5.1
 Vcs-Browser: https://github.com/minios-linux/minios-live
 Vcs-Git: https://github.com/minios-linux/minios-live
-Build-Depends: debhelper (>= 11), python3 (>= 3.6)
+Build-Depends: debhelper (>= 11), python3 (>= 3.6), python3-minios-gui (>= 1.1.0)
 Package-List:
  minios-session-manager deb utils optional arch=all
 Checksums-Sha1:
- 0dc9004f8c3c7e260267b52c8409ea3d9eb2412d 130916 minios-session-manager_1.2.1.tar.xz
+ 732c9d98a723c1c9d4f9da7b1bb6a0d1ea138619 466072 minios-session-manager_1.2.1.tar.xz
 Checksums-Sha256:
- d2653199c0472f428c051408640baf9fe34dd328b7a7a4a180a1e0ae1de2ce0f 130916 minios-session-manager_1.2.1.tar.xz
+ 82ad2917c40d33811134c8649dc73ec072cf36aa9abfef6c767799b6305088ec 466072 minios-session-manager_1.2.1.tar.xz
 Files:
- cbcaf6f93fc8dae68a693bff68c523a0 130916 minios-session-manager_1.2.1.tar.xz
+ 29260736e1220e3827ebf62eccd77b38 466072 minios-session-manager_1.2.1.tar.xz
