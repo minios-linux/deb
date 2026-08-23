@@ -1083,7 +1083,7 @@ Description: GTK interface for MiniOS module composition
  operations to the MiniOS command-line backends.
 
 Package: minios-session-manager
-Version: 1.2.1
+Version: 1.2.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 724
@@ -1091,11 +1091,11 @@ Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, python3-minios-gui (>= 1.
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session-manager_1.2.1_all.deb
-Size: 106556
-SHA256: e46b98bab04d2a56174e98c6c37cda0fcd4670e60b6fd0c2ca1ffb7732d1435e
-SHA1: 38a6e52cf7d8340a3fee7eecc815ec3b24f10472
-MD5sum: cee04ff70b58d9d7473ca31f628559e7
+Filename: pool/main/m/minios-session-manager/minios-session-manager_1.2.2_all.deb
+Size: 106828
+SHA256: c50ecab45e2206608e00b3ae7a721bd0133e4ffda818a4da5db925cbcfb9e1aa
+SHA1: 3fd41814d1e222f81264b5a1ae293cab6ddf36a9
+MD5sum: 961b39ffdf18d7da03d7a309a8f37322
 Description: MiniOS session management utility
  A utility for managing MiniOS persistent sessions from within
  the running system. Provides both command-line and graphical
