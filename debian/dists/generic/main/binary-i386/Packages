@@ -799,20 +799,20 @@ Description: MiniOS image composition backend (minios-image-compose)
  workspace.
 
 Package: minios-installer
-Version: 3.0.3
+Version: 3.0.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1274
+Installed-Size: 1280
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.1.0), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31), minios-configurator (>= 2.4.4)
 Recommends: minios-live-config (>= 11.0.5.15), user-setup
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_3.0.3_all.deb
-Size: 205600
-SHA256: 44564f879b6736aa6231f2f220ab4da9b44e52c74bd395fd9e4dc601bafe9b8e
-SHA1: 1e67ca65a7e42f37c38cd4e3e76eac02047f6df3
-MD5sum: 5e7cf417c9e47df1559d817c8ebc54c8
+Filename: pool/main/m/minios-installer/minios-installer_3.0.4_all.deb
+Size: 206680
+SHA256: f40a9ae54622c75ab68279f69752787327093bc5886f205b49524dbb924d7003
+SHA1: c41b3d05a9f4dc40415dac2e48efb3c1ff3fbbdf
+MD5sum: 04c135e0c79a92ecc614a3cb8ac9d6d8
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
