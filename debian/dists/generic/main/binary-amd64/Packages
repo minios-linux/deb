@@ -814,19 +814,19 @@ Description: MiniOS dracut modules for initramfs generation
  dracut configuration to keep initramfs size small.
 
 Package: minios-gui
-Version: 1.1.0
+Version: 1.2.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 46
+Installed-Size: 29
 Recommends: elementary-minios-icon-theme
 Homepage: https://minios.dev
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-gui/minios-gui_1.1.0_all.deb
-Size: 26944
-SHA256: 25e07127cb4305e8e09482dc7019be6951f6b5a2c7e76fc49cd0f0949322ea84
-SHA1: f2256cb1de749d71bd7311eaa70f80b2cab711ca
-MD5sum: 714f2d69186268a618c61e7b287c5cc6
+Filename: pool/main/m/minios-gui/minios-gui_1.2.0_all.deb
+Size: 10344
+SHA256: d9f87242d56bf2eb72196a3203c9a137d85b7edcc93ad8c37b12331b04098040
+SHA1: baafbb20b5a37a57ce55bb85e1138e0edff95768
+MD5sum: 90a8817e4a90411ebdaf4d31a1257d97
 Description: MiniOS shared GUI styling (canonical stylesheet)
  Common look-and-feel resources shared by the MiniOS graphical applications —
  minios-installer, minios-configurator, driveutility and the other minios-*
@@ -842,21 +842,41 @@ Description: MiniOS shared GUI styling (canonical stylesheet)
  This package provides styling resources only. It does not modify the
  applications, which adopt the stylesheet by loading it explicitly.
 
-Package: minios-image-builder
+Package: minios-help
 Version: 1.0.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1195
-Depends: minios-image-compose (= 1.0.0), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, pkexec, python3-minios-gui (>= 1.1.0)
+Installed-Size: 23321
+Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, python3-minios-gui (>= 1.2.0), librsvg2-common
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-help/minios-help_1.0.0_all.deb
+Size: 1316388
+SHA256: feddc3efda3491718be05f425ee14c0656c175c3018a22fc41632d7e8e55d548
+SHA1: 02aa5e20897f47debbd89a9427ef7d4f87e6cd61
+MD5sum: c609882e057678fd88162e78e23807f9
+Description: offline MiniOS documentation viewer
+ Native GTK 3 application for browsing the MiniOS documentation installed on
+ the local system. It provides section navigation, local full-text search,
+ language selection and history, and renders precompiled documentation with
+ native GTK widgets without WebKit or network access.
+
+Package: minios-image-builder
+Version: 1.0.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1961
+Depends: minios-image-compose (= 1.0.1), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, pkexec, python3-minios-gui (>= 1.2.0), librsvg2-common
 Recommends: minios-tools (>= 1.5.0), policykit-1-gnome | lxpolkit, udisks2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-builder_1.0.0_all.deb
-Size: 212316
-SHA256: a2dbbcbcfdd95028c88d083fd4bea4fb97f5eedf63d6479c443c1f3d82dcc6ae
-SHA1: de020dcd6f65cad82efa17e6cd051785b1f746da
-MD5sum: 4da359cf1b8f1d72c65131851eca8264
+Filename: pool/main/m/minios-image-builder/minios-image-builder_1.0.1_all.deb
+Size: 285644
+SHA256: 233ee5b2d8c27007c109f88ff6d4e4c643cf976f9ec4013c790509a4c945279d
+SHA1: 4babb0aff90a6d75807efa280671d3029396c148
+MD5sum: 0bd7ac66f2df6de25db601b4a0c13748
 Description: customize the running MiniOS as a verified bootable image
  MiniOS Image Builder is a GTK project workspace for remastering MiniOS from
  the running session, a mounted ISO image, or an optical disc. It composes .sb
@@ -871,20 +891,20 @@ Description: customize the running MiniOS as a verified bootable image
 
 Package: minios-image-compose
 Source: minios-image-builder
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 603
+Installed-Size: 622
 Depends: python3 (>= 3.6), gettext-base, mawk, xorriso, squashfs-tools, e2fsprogs
 Recommends: minios-tools (>= 1.5.0), pkexec
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-compose_1.0.0_all.deb
-Size: 152692
-SHA256: 1fe592c5cbfbceddd899dd59470ea769bd0cf5d1df53b6ee389d25fa211a9468
-SHA1: 35829f9fcd9ce0f76d9dabd075b9331836d254bc
-MD5sum: fb7c24544938ccc0a9ebbb24e8810553
+Filename: pool/main/m/minios-image-builder/minios-image-compose_1.0.1_all.deb
+Size: 156432
+SHA256: 9d8652ce045c85c0feca97cc3dc892ef9b72f08131278254321fb5f98d014dbc
+SHA1: 770a2ce1f146b902fd36d28f8ef2ea50c933793e
+MD5sum: f0ee7212500c6bf2e939805b56d773a6
 Description: MiniOS image composition backend (minios-image-compose)
  minios-image-compose composes a bootable MiniOS ISO image from an immutable or
  identity-bound MiniOS source reference, ordered .sb modules and a live
@@ -1205,19 +1225,19 @@ Description: MiniOS desktop wallpapers
  This package contains the default wallpapers current versions of MiniOS.
 
 Package: minios-welcome
-Version: 5.2.1
+Version: 6.0.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1305
+Installed-Size: 1381
 Depends: fonts-roboto-light
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-welcome/minios-welcome_5.2.1_all.deb
-Size: 293912
-SHA256: 94d58433c6bc9ccdbab176d4cd283b7eccd3a63a6f01d67bec43914fa8a20253
-SHA1: 4185ae5c2c44702f438a071d9fba9582c3b0f2ed
-MD5sum: a2a5856faa25eb3943f5985198158351
+Filename: pool/main/m/minios-welcome/minios-welcome_6.0.0_all.deb
+Size: 385832
+SHA256: 1ca4c3eeb84cd8e5139f9588439f999ea78646a05cd63b17b20a6ba4a6d58c37
+SHA1: 9849424d5165e5ee07cdf308eabea24d7d97be2c
+MD5sum: d4eb4bd4447cfe9c444cd8dcbb2fb28f
 Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
@@ -1515,26 +1535,26 @@ Build-Ids: 37e8a126f43ec581b01d3f08c6751d12b12f6ee7
 
 Package: python3-minios-gui
 Source: minios-gui
-Version: 1.1.0
+Version: 1.2.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 46
-Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, minios-gui (= 1.1.0)
+Installed-Size: 77
+Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, minios-gui (= 1.2.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: python
-Filename: pool/main/m/minios-gui/python3-minios-gui_1.1.0_all.deb
-Size: 11012
-SHA256: 1c8334b9add8b6bca7dd1060d1a831158396515fa1193dd2a0fb12e925abe556
-SHA1: 2d2e12bda952722295e3a2a3b38793768c233481
-MD5sum: 206d96c949bbf6cacd63303c23f35c81
+Filename: pool/main/m/minios-gui/python3-minios-gui_1.2.0_all.deb
+Size: 17344
+SHA256: 45c662f5c616f286d8591f6b9e37e3a1346ae523f19823f96f32442e1b71fe4a
+SHA1: 36b9ded8cc0550c72473666ad9161e837089669e
+MD5sum: 50d8ff97a63a256976b64fc27c63dac4
 Description: Python 3 helpers for MiniOS GTK applications
  Shared Python 3.6-compatible GTK 3 helpers for MiniOS graphical applications.
  The module provides canonical stylesheet loading, icon-theme resolution,
  standard message and confirmation dialogs, reusable HeaderBar and semantic
  status-banner widgets, compact module-presentation helpers, a read-only
- streamed log view, background command execution and a cancellable command
- dialog.
+ streamed log view, parser-free compiled document rendering, background command
+ execution and a cancellable command dialog.
  .
  This binary package is built from the minios-gui source repository together
  with the canonical MiniOS application stylesheet.

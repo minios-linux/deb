@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-welcome
 Binary: minios-welcome
 Architecture: all
-Version: 5.2.1
+Version: 6.0.0
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11)
 Package-List:
  minios-welcome deb utils optional arch=all
 Checksums-Sha1:
- 7f55e61257e60b26d3398a419cc230d8eb12a930 291604 minios-welcome_5.2.1.tar.xz
+ 06b6f2543d9f367696024288f68b2fb46019ed91 383580 minios-welcome_6.0.0.tar.xz
 Checksums-Sha256:
- 77cb73ad7903c46f2dad112803336a648b57e1cbd0d56120d8bdd8a50abceb1f 291604 minios-welcome_5.2.1.tar.xz
+ 69aedeb5b771fa65ae8f91ed72877faffae63235d6567ebcfe64829cf5431365 383580 minios-welcome_6.0.0.tar.xz
 Files:
- 2f23048b1680b272fba9b1a7ae407334 291604 minios-welcome_5.2.1.tar.xz
+ b67f1cff39505114def0576d5287d8d9 383580 minios-welcome_6.0.0.tar.xz
