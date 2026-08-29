@@ -38,6 +38,32 @@ Description: default icon theme of GNOME.
  This version is a much strippd down version for antiX Linux.
  No cursers theme included.
 
+Package: aufs-ng-dkms
+Source: aufs-ng
+Version: 0~git20260807.842ab15-1mos1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 242
+Depends: dkms (>= 3.0.11)
+Homepage: https://github.com/fulalas/aufs-ng
+Priority: optional
+Section: kernel
+Filename: pool/main/a/aufs-ng/aufs-ng-dkms_0~git20260807.842ab15-1mos1_all.deb
+Size: 60672
+SHA256: 55622a586e359653957349ee50bc5aafc759ee751bdb091e07425428e167a5fb
+SHA1: 83668b5e9c0bd734622d70298e4f571b24c264c7
+MD5sum: c0d2456cb570df13e91a621151368a6a
+Description: standalone AUFS-compatible union filesystem in DKMS format
+ aufs-ng is a small, standalone union filesystem intended as a drop-in
+ kernel-side replacement for AUFS, primarily for live Linux systems. It uses
+ stock exported kernel APIs and does not require patching the kernel.
+ .
+ This package provides aufs-ng as a DKMS module. The resulting module is named
+ aufs-ng.ko, while the filesystem type registered with the kernel remains
+ "aufs", preserving compatibility with existing AUFS mount commands.
+ .
+ Linux 6.12 or later, a 64-bit kernel, and CONFIG_FS_STACK are required.
+
 Package: blocky
 Version: 0.28.2-4
 Architecture: amd64
