@@ -349,20 +349,20 @@ Description: Web UI for Flowgate
  Provides a graphical interface for the flowgate CLI tool.
 
 Package: flux-tools
-Version: 1.2.9.5
+Version: 1.2.9.6
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 164
+Installed-Size: 165
 Depends: bash (>= 4.4), gettext-base
 Recommends: gtkask, xlunch
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/f/flux-tools/flux-tools_1.2.9.5_all.deb
-Size: 40784
-SHA256: 642663bbbd04be034c49bc9847e0838d05b14cd21a42aec7faa2739db92dd9e6
-SHA1: 4174319d5662e41799e8d8ccf35aac23b8114313
-MD5sum: 5db0ccac5deaa25bcc02eb5c0f1791fe
+Filename: pool/main/f/flux-tools/flux-tools_1.2.9.6_all.deb
+Size: 41044
+SHA256: 4e586555eefb795364c993c735311ee92da5ace539855baf9728ec7f104d460d
+SHA1: 6e5f48ed48c1e86e677e6b695829fefdad568e42
+MD5sum: cb26293295b3e9daafe1974ac107e98e
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
@@ -444,19 +444,19 @@ Description: grey GTK+ theme from the Shimmer Project
  GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
 
 Package: gtkask
-Version: 1.0-3
+Version: 1.0-4
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 21
-Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 | libgdk-pixbuf2.0-0 | libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgtk-3-0 (>= 3.0.0)
+Installed-Size: 25
+Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 | libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgtk-3-0 (>= 3.21.6), libpango-1.0-0 (>= 1.14.0)
 Homepage: https://github.com/minios-linux/gtkask.git
 Priority: optional
 Section: unknown
-Filename: pool/main/g/gtkask/gtkask_1.0-3_amd64.deb
-Size: 5028
-SHA256: 86f440eb4f1ca6d8f1d432c20bc403d84a7c09f9d420dcc2cdeab354177ec6bc
-SHA1: d808c1e3f6f30f77e002da4d4f92ba9f9b2c86ec
-MD5sum: ce9215385f87375beed5e0e5714becef
+Filename: pool/main/g/gtkask/gtkask_1.0-4_amd64.deb
+Size: 6056
+SHA256: eb7216da33def24522a82c57d691c4947ab1052bc4dfb37071c8c1605b02dcdf
+SHA1: 6bdca295757fcfe62c5fea8b656cc2cf2d40c203
+MD5sum: 52e5b1a7461f1c5e4d11bc1834b86a00
 Description: Simple GTK3 dialog for Yes/No questions.
 
 Package: gtkask-dbgsym
@@ -552,21 +552,38 @@ Description: Linux kernel headers for 6.1.147-mos-amd64 on amd64
  This is useful for people who need to build external modules
 
 Package: linux-headers-6.12-mos-amd64
-Version: 6.12.57
+Version: 6.12.105-1+mos1
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
-Installed-Size: 9
-Depends: linux-headers-6.12.57-mos-amd64
-Provides: linux-headers-6.12-mos-generic
-Multi-Arch: foreign
+Depends: linux-headers-6.12.105-mos-amd64 (= 6.12.105-1+mos1)
 Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-6.12-mos-amd64/linux-headers-6.12-mos-amd64_6.12.57_amd64.deb
-Size: 2244
-SHA256: 33dc65b88fb8da3d5203c1548bfb5e93605fd008b2dbf8bda511776bd1aecf1d
-SHA1: a7352dea8bacd4e60f105b20c519894ee8a99060
-MD5sum: 1063692fbe14e5be51b1350d875d6727
-Description: Header files for Linux amd64 configuration (meta-package)
+Section: kernel
+Filename: pool/main/l/linux-headers-6.12-mos-amd64/linux-headers-6.12-mos-amd64_6.12.105-1+mos1_amd64.deb
+Size: 796
+SHA256: 741b8382add4e563facd8152364d0b4a84e3a9bc00a97096ef3fe6f029661f05
+SHA1: 9dee39c58dfdcfbe59395638467229bf1b28653a
+MD5sum: 6d5017975d7a25ef77dd0221cf0c90ac
+Description: Header files for Linux 6.12 amd64 (meta-package)
+ This package tracks the matching MiniOS Linux kernel build.
+
+Package: linux-headers-6.12.105-mos-amd64
+Source: linux-mos-6.12
+Version: 6.12.105-1+mos1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 53479
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-mos-6.12/linux-headers-6.12.105-mos-amd64_6.12.105-1+mos1_amd64.deb
+Size: 9207360
+SHA256: 88121d4650bffa89915b967e3a6fdb149b64c98279272e741c5a21b19a838fe3
+SHA1: 54895de3b081499e7440170afc910988083bf8cf
+MD5sum: f3d72430ad132e3d12072c0a7ee5ed9d
+Description: Linux kernel headers for 6.12.105-mos-amd64 on amd64
+ This package provides kernel header files for 6.12.105-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
 
 Package: linux-headers-6.12.38-mos-amd64
 Source: linux-upstream
@@ -679,21 +696,37 @@ Description: Linux kernel, version 6.1.147-mos-amd64
  files, version: 6.1.147-mos-amd64.
 
 Package: linux-image-6.12-mos-amd64
-Version: 6.12.57
+Version: 6.12.105-1+mos1
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
-Installed-Size: 9
-Depends: linux-image-6.12.57-mos-amd64
-Provides: linux-image-6.12-mos-generic, linux-latest-modules-6.12.57-mos-amd64
-Multi-Arch: foreign
+Depends: linux-image-6.12.105-mos-amd64 (= 6.12.105-1+mos1)
 Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-6.12-mos-amd64/linux-image-6.12-mos-amd64_6.12.57_amd64.deb
-Size: 2244
-SHA256: 0330f52e9aae5d4093c1986288db120059343f2b0ec44d3ca29ca75679bde426
-SHA1: 4bd9ec60017d002b9053f6a9ebdf3f331a8c4141
-MD5sum: 7faa6d8f584ac3f15d4cd2db17510124
-Description: Linux for amd64 PCs (meta-package)
+Section: kernel
+Filename: pool/main/l/linux-image-6.12-mos-amd64/linux-image-6.12-mos-amd64_6.12.105-1+mos1_amd64.deb
+Size: 792
+SHA256: c980f4605b63362dc3907ce0cddd1e49cc138f2a7e62de45989e2ba199952256
+SHA1: 72b60b75764528c59759be4284b319f1e00f3db2
+MD5sum: c328bf4a45055a618439edcfac48ba10
+Description: Linux 6.12 for amd64 PCs (meta-package)
+ This package tracks the matching MiniOS Linux kernel build.
+
+Package: linux-image-6.12.105-mos-amd64
+Source: linux-mos-6.12
+Version: 6.12.105-1+mos1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 458025
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-mos-6.12/linux-image-6.12.105-mos-amd64_6.12.105-1+mos1_amd64.deb
+Size: 74720640
+SHA256: 310e00b3b92e2c2bf11264840adceb0ff349f5bf05d79e62792c6a6a57616e5f
+SHA1: b33c504cce472bd3bb548230a16860b2164500f3
+MD5sum: edede647f5ef38ff0c31c889d73a508b
+Description: Linux kernel, version 6.12.105-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.12.105-mos-amd64.
 
 Package: linux-image-6.12.38-mos-amd64
 Source: linux-upstream
@@ -889,20 +922,20 @@ Description: offline MiniOS documentation viewer
  native GTK widgets without WebKit or network access.
 
 Package: minios-image-builder
-Version: 1.0.2
+Version: 1.0.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1961
-Depends: minios-image-compose (= 1.0.2), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, polkitd | policykit-1, pkexec | policykit-1, python3-minios-gui (>= 1.2.0), librsvg2-common
-Recommends: minios-tools (>= 1.5.0), policykit-1-gnome | lxpolkit, udisks2
+Installed-Size: 2073
+Depends: minios-image-compose (= 1.0.4), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, polkitd | policykit-1, pkexec | policykit-1, python3-minios-gui (>= 1.2.0), librsvg2-common
+Recommends: minios-tools (>= 1.6.3), policykit-1-gnome | lxpolkit, udisks2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-builder_1.0.2_all.deb
-Size: 285900
-SHA256: 6f716ea78d2d894878f466ee486bda91b62c92be5d8f931cc9ce0e17df589574
-SHA1: 8eb15b9c3c027a3599ed040d0ee1377b562572c6
-MD5sum: def04609fee34cfcec593824d4eb1036
+Filename: pool/main/m/minios-image-builder/minios-image-builder_1.0.4_all.deb
+Size: 300612
+SHA256: 8807c45480973389c940eef3cb53b00389eb5671f2f122a85263684ef007dcce
+SHA1: 5fe1e8cc5c193e032ebd31ccb7f556f3e60cdf79
+MD5sum: 5a10d00b208cfa0adc27b12e8f129bd7
 Description: customize the running MiniOS as a verified bootable image
  MiniOS Image Builder is a GTK project workspace for remastering MiniOS from
  the running session, a mounted ISO image, or an optical disc. It composes .sb
@@ -917,20 +950,20 @@ Description: customize the running MiniOS as a verified bootable image
 
 Package: minios-image-compose
 Source: minios-image-builder
-Version: 1.0.2
+Version: 1.0.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 622
+Installed-Size: 623
 Depends: python3 (>= 3.6), gettext-base, mawk, xorriso, squashfs-tools, e2fsprogs
-Recommends: minios-tools (>= 1.5.0), polkitd | policykit-1, pkexec | policykit-1
+Recommends: minios-tools (>= 1.6.3), polkitd | policykit-1, pkexec | policykit-1
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-compose_1.0.2_all.deb
-Size: 156360
-SHA256: cae82efc25a02709bef256cbdde9b7c954c268b15d32fe07c503692c09a68db1
-SHA1: f2f9d5e77c6dbaa2fa10cc7301bde8928e903fea
-MD5sum: 79d514e6ef4b2b681b77fc3ecc476f4e
+Filename: pool/main/m/minios-image-builder/minios-image-compose_1.0.4_all.deb
+Size: 157160
+SHA256: e8b93f30b08d4a34f0f142c77509d95f90f1ce70138bbdc19ad7cc983708b294
+SHA1: 6a7788788ddb3ebe6d86a0106fe1edc986607ff6
+MD5sum: b3b86599753ab66bfe9fcf9ded1be18a
 Description: MiniOS image composition backend (minios-image-compose)
  minios-image-compose composes a bootable MiniOS ISO image from an immutable or
  identity-bound MiniOS source reference, ordered .sb modules and a live
@@ -943,20 +976,20 @@ Description: MiniOS image composition backend (minios-image-compose)
  workspace.
 
 Package: minios-installer
-Version: 3.0.5
+Version: 3.0.6
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1371
+Installed-Size: 1398
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.1.0), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31), minios-configurator (>= 2.4.4)
 Recommends: minios-live-config (>= 11.0.5.15), user-setup
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_3.0.5_all.deb
-Size: 215556
-SHA256: 64f8191798d9e6f5dd3bccbc378451ce9dbfada1c08e6ddff0dfd561f0740440
-SHA1: 1b8404152db5fc17c976c7fc3cedabf31f714094
-MD5sum: 31032b18ea1f1295dd473c92fd3b45e5
+Filename: pool/main/m/minios-installer/minios-installer_3.0.6_all.deb
+Size: 218872
+SHA256: 61be72e189e9845eb3b702dc0d595f3dea15af6db9e355c576cd2d367d4692d0
+SHA1: da5f2c18884814314af634d627471c7b72aa3799
+MD5sum: 92177dfc14e62ee91ae97e19bc7dcf54
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
@@ -1110,38 +1143,38 @@ Description: Live System Configuration Components (sysvinit backend)
  This package contains the sysvinit backend.
 
 Package: minios-module-manager
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 537
-Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, shared-mime-info, python3-minios-gui (>= 1.1.0), polkitd | policykit-1, pkexec | policykit-1, minios-tools (>= 1.6.0)
+Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, shared-mime-info, python3-minios-gui (>= 1.1.0), polkitd | policykit-1, pkexec | policykit-1, minios-tools (>= 1.6.3)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-module-manager/minios-module-manager_1.0.1_all.deb
-Size: 73552
-SHA256: 179e4b2af1f180e9923f3e578ee5f86452972102bb8d508838715e984b9e5a9b
-SHA1: e6d6b6a7034ac2c804be03b741484f1dd2ab74a2
-MD5sum: 7a2ced904a0ac42290d428bc83b5e645
+Filename: pool/main/m/minios-module-manager/minios-module-manager_1.0.2_all.deb
+Size: 73608
+SHA256: b0233ebd12c8b7e638c1ea893829d47e2f9035807020d31033f616560cfc314e
+SHA1: 5ab914e4a6905d8ed88b3ff0aa4eae54dbbdf84e
+MD5sum: 80974f4d39524dff483d3105d0aad313
 Description: GTK interface for MiniOS module composition
  GTK 3 application for inspecting, creating, and managing MiniOS modules.
  It presents Running Now and Next Boot composition and delegates module
  operations to the MiniOS command-line backends.
 
 Package: minios-session-manager
-Version: 1.2.3
+Version: 1.2.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 724
-Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, python3-minios-gui (>= 1.1.0), minios-tools (>= 1.6.0), dynfilefs, cryptsetup, polkitd | policykit-1, pkexec | policykit-1, zstd, rsync, e2fsprogs, util-linux (>= 2.31)
+Installed-Size: 723
+Depends: lsb-base, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, python3-minios-gui (>= 1.1.0), minios-tools (>= 1.6.3), dynfilefs, cryptsetup, polkitd | policykit-1, pkexec | policykit-1, zstd, rsync, e2fsprogs, util-linux (>= 2.31)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session-manager_1.2.3_all.deb
-Size: 106896
-SHA256: bc7927d894159e4a10ccc865e7d3ada39969f402391d1108608b7a9afe4d6844
-SHA1: 6acbb0ee5a1f644149314a89bbcce05f9382ba87
-MD5sum: c7dd737dc0e96b31d2a5c3d53da43ef6
+Filename: pool/main/m/minios-session-manager/minios-session-manager_1.2.4_all.deb
+Size: 107388
+SHA256: 1b62687fd2ced499d5ac506672828149d170b9bd63deb2272cf607916b473f9f
+SHA1: 5405b9ad4d0f64e9822ebdb6811b33d931b9dfcd
+MD5sum: da8094662a3ba4ffc3cea6a240863833
 Description: MiniOS session management utility
  A utility for managing MiniOS persistent sessions from within
  the running system. Provides both command-line and graphical
@@ -1152,19 +1185,19 @@ Description: MiniOS session management utility
  on various filesystems including ext4, FAT32, NTFS, and exFAT.
 
 Package: minios-store
-Version: 1.1.1
+Version: 1.1.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 61
-Depends: minios-store-common (= 1.1.1), python3-websockets, python3-gi, gir1.2-gtk-3.0, xdg-utils, lsb-base (>= 3.0-6)
+Depends: minios-store-common (= 1.1.2), python3-websockets, python3-gi, gir1.2-gtk-3.0, xdg-utils, lsb-base (>= 3.0-6)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store_1.1.1_all.deb
-Size: 12136
-SHA256: c04125cc64c8ed5e2f113270412ff171fece3129dcab55174762386df3ef641c
-SHA1: 910d8d6f845d806154366eb10589ab6ef7594cf0
-MD5sum: 203303f26fc34634435ff95276c8225f
+Filename: pool/main/m/minios-store/minios-store_1.1.2_all.deb
+Size: 12260
+SHA256: b8e3dcc5e0abff53ac95e8a856a622c6079a082757f0899c481b3c1b03d0fc34
+SHA1: c0a17aa2426b6e6cb060cd061501493cfc9622f5
+MD5sum: c7186054d71c1b9b5a8c7a7881017e81
 Description: MiniOS Store WebSocket daemon
  WebSocket daemon for the MiniOS Store. Listens on ws://127.0.0.1:8765
  and handles installation requests from the web interface at
@@ -1173,19 +1206,19 @@ Description: MiniOS Store WebSocket daemon
 
 Package: minios-store-common
 Source: minios-store
-Version: 1.1.1
+Version: 1.1.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 136
-Depends: python3 (>= 3.6), squashfs-tools
+Depends: python3 (>= 3.6), squashfs-tools, minios-tools (>= 1.6.3)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store-common_1.1.1_all.deb
-Size: 19704
-SHA256: 3417692a9b9f7baf33592e06b102315612ddb06ec12f37f5d06eac5ded27998c
-SHA1: a07832972818f81546bdb98f4f92771848a23e1a
-MD5sum: 8bb9ecf35d0d1d81191d397d07e05d11
+Filename: pool/main/m/minios-store/minios-store-common_1.1.2_all.deb
+Size: 19820
+SHA256: c16f336891e3cd00f3de310bd865dfe6755f30d57b153588b3b0872931ab02f2
+SHA1: 0fdaa090b34265cdbd0d4ac836836f99a8a117d2
+MD5sum: 6cd69e2845f98c95ae82aa2abfa9b45e
 Description: MiniOS Store common library
  Shared Python library for the MiniOS Store backend components.
  Provides the installer engine, configuration, and logging modules
@@ -1193,19 +1226,19 @@ Description: MiniOS Store common library
 
 Package: minios-store-gui
 Source: minios-store
-Version: 1.1.1
+Version: 1.1.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 45
-Depends: minios-store-common (= 1.1.1), python3-gi, gir1.2-gtk-3.0, polkitd | policykit-1, pkexec | policykit-1, xdg-utils
+Depends: minios-store-common (= 1.1.2), python3-gi, gir1.2-gtk-3.0, polkitd | policykit-1, pkexec | policykit-1, xdg-utils
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store-gui_1.1.1_all.deb
-Size: 9632
-SHA256: 07a1a55a11889d40e74f75330a27d2f400da87bd97dc5d02174be7139c2a52ee
-SHA1: 9e07070cf830af50057830f76f2ee6a396291869
-MD5sum: 7d657665aa9a5f48230a515899f46e7b
+Filename: pool/main/m/minios-store/minios-store-gui_1.1.2_all.deb
+Size: 9728
+SHA256: b6142d236395399bc9e5d632818bb24ce5baa2453aa3e7adafe1c96bff83aa9b
+SHA1: 242743ab321ca4f8371fe99d27aab1982b0d9642
+MD5sum: ac1287b72a6ac06f6ba893165c72dd7a
 Description: MiniOS Store GTK3 graphical installer
  Standalone GTK3 graphical installer for the MiniOS Store. Handles
  minios-store:// URI scheme for installing applications directly from
@@ -1213,21 +1246,21 @@ Description: MiniOS Store GTK3 graphical installer
  integration for privilege escalation.
 
 Package: minios-tools
-Version: 1.6.2
+Version: 1.6.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 549
+Installed-Size: 559
 Depends: bash (>= 4.4), coreutils (>= 8.28), e2fsprogs, gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), python3 (>= 3.6), squashfs-tools (>= 1:4.3-6ubuntu0.18.04.4+minios1), util-linux (>= 2.31)
 Recommends: x11-xserver-utils, xfce4-settings, procps
 Suggests: polkitd | policykit-1, pkexec | policykit-1
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.6.2_all.deb
-Size: 104528
-SHA256: 3bc744aaeb02175b6f61a77be1eaeaa9e1fff4fd3442dda2727a9248156dcf34
-SHA1: 71c4651eff8aa4d16ba7c17d6292af71502c8e50
-MD5sum: 0190912574c97bf49499c83ca3a43fed
+Filename: pool/main/m/minios-tools/minios-tools_1.6.3_all.deb
+Size: 106172
+SHA256: 246f78c33e1d0c35ff9d89f8a6bf5614b761350b29cfebdcab68e439ec9c0735
+SHA1: 6f70ff6cff957f34a1669eb84e0b293f9661d001
+MD5sum: b8c49ff75fc28bf6452784b080cbc1e2
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
@@ -2012,20 +2045,20 @@ Description: Set up initial user and password
  likely to be of any use if your system has no non-system users at all.
 
 Package: xlunch
-Version: 4.7.6+git20260524.da1ff9f-1minios1
+Version: 4.7.6+git20260524.da1ff9f-1minios2
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 236
+Installed-Size: 237
 Depends: libc6 (>= 2.16), libimlib2 (>= 1.4.5), libx11-6
 Recommends: librsvg2-bin
 Homepage: https://github.com/Tomas-M/xlunch
 Priority: optional
 Section: x11
-Filename: pool/main/x/xlunch/xlunch_4.7.6+git20260524.da1ff9f-1minios1_amd64.deb
-Size: 158208
-SHA256: 1793db39b8fcc03c5792a3150f09aba57952825a9308e9588dd42708e2dafa31
-SHA1: 756fbf0b697e2a95692a46ba27e838b67b40dc9a
-MD5sum: 750befa89cd597ee2a92777fb67fdee4
+Filename: pool/main/x/xlunch/xlunch_4.7.6+git20260524.da1ff9f-1minios2_amd64.deb
+Size: 158612
+SHA256: a06aaf6c19ba1d72555c9cafd67a2fd285406e726fdda674e56fd272f4c70a57
+SHA1: d0e265cd77d4da70cc96a2227dcc40002b9b602d
+MD5sum: 88b6be21ffb8dce085726ce94300413d
 Description: Graphical application launcher for X using pure Xlib and Imlib2
  Provides a lightweight, mouse- and keyboard-driven interface to launch
  programs, commands, or custom menu entries. Supports UTF-8 for international
