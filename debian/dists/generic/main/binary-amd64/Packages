@@ -323,7 +323,7 @@ Description: Web UI for Flowgate
  Provides a graphical interface for the flowgate CLI tool.
 
 Package: flux-tools
-Version: 1.2.9.4
+Version: 1.2.9.5
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 164
@@ -332,11 +332,11 @@ Recommends: gtkask, xlunch
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/f/flux-tools/flux-tools_1.2.9.4_all.deb
-Size: 40740
-SHA256: ee67105a9a0d7195459f12d2e48c81572d8a815f436d2d09a6d5a40a69c124b8
-SHA1: 8eeb70cd7b4be11b74ed940482a7162a1a3a3553
-MD5sum: 6914873a79d26039ade95df0aef12669
+Filename: pool/main/f/flux-tools/flux-tools_1.2.9.5_all.deb
+Size: 40784
+SHA256: 642663bbbd04be034c49bc9847e0838d05b14cd21a42aec7faa2739db92dd9e6
+SHA1: 4174319d5662e41799e8d8ccf35aac23b8114313
+MD5sum: 5db0ccac5deaa25bcc02eb5c0f1791fe
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
