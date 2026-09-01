@@ -1019,7 +1019,7 @@ Description: Graphical and command-line tools for managing MiniOS kernels.
  and managing active and inactive kernels in the /minios/kernels repository.
 
 Package: minios-live-config
-Version: 11.0.5.18
+Version: 11.0.5.19
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 231
@@ -1030,11 +1030,11 @@ Conflicts: live-config
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.18_all.deb
-Size: 54008
-SHA256: ce333da5731a351f695f3cce700f9b727ca2b3d88c1010ce5305c3631ebc1496
-SHA1: 0590c3f4508047aa2a66258d120f3fd0cf4f2446
-MD5sum: 85b6116b3f38324ec9f1c6863acd6061
+Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.19_all.deb
+Size: 54100
+SHA256: 389d9542dfc7d13e10145c1fe4d5a7c6ee760f434dc1c6dda54ae058f475ef57
+SHA1: c1d7623ef1f9dbdd533201783dcf91ea583dc032
+MD5sum: 8f52dbcbd6584145cda5d095031332b5
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1047,7 +1047,7 @@ Description: Live System Configuration Components
 
 Package: minios-live-config-doc
 Source: minios-live-config
-Version: 11.0.5.18
+Version: 11.0.5.19
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 182
@@ -1056,11 +1056,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: doc
-Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.18_all.deb
-Size: 130528
-SHA256: d0df8dc977b73b3b2c5bea5738cf64c0a8608c19268bb5756e62b2c4c3d5d791
-SHA1: 57fa32f4fec82b7c9d78b326f157b48696941624
-MD5sum: 0d48f77e69bbdca4758b726babff68e1
+Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.19_all.deb
+Size: 130628
+SHA256: 96a5e384b225af69d3109ab23c58abee2237ee2612df41f1eec61cba6037b0cb
+SHA1: 51e39a33902bd750594eefeb373cf43f369b872c
+MD5sum: e9a34378b8854c31c3adb1feed0f742d
 Description: Live System Configuration Components (documentation)
  live-config contains the components that configure a live system during the
  boot process (late userspace).
@@ -1069,7 +1069,7 @@ Description: Live System Configuration Components (documentation)
 
 Package: minios-live-config-systemd
 Source: minios-live-config
-Version: 11.0.5.18
+Version: 11.0.5.19
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 43
@@ -1081,11 +1081,11 @@ Provides: live-config-backend, minios-live-config-backend
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.18_all.deb
-Size: 25892
-SHA256: 445d75b4796a0581bd76e2db330b945627d610c73e34f992b9156b4587ed61b8
-SHA1: 4271c53c216a82d425db24aee8acd5fb98c30cf2
-MD5sum: fceca703469422a834b692fca1c000db
+Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.19_all.deb
+Size: 25992
+SHA256: d32e856ca0887a6f17af9d024528a429ab0246e967608152f993f62ff0f3db26
+SHA1: eb7a7e8e3bbca1e11c01d491eb0743308b0d0894
+MD5sum: c3baed3a5221a48a13281fd46fbe9c3e
 Description: Live System Configuration Components (systemd backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1123,19 +1123,19 @@ Description: Live System Configuration Components (sysvinit backend)
  This package contains the sysvinit backend.
 
 Package: minios-module-manager
-Version: 1.0.4
+Version: 1.0.5
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 537
+Installed-Size: 545
 Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, shared-mime-info, python3-minios-gui (>= 1.1.0), polkitd | policykit-1, pkexec | policykit-1, minios-tools (>= 1.6.3)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-module-manager/minios-module-manager_1.0.4_all.deb
-Size: 73780
-SHA256: 92805a0806cdefd140561da6edc8010a84187133c18c51229ef0f47177269254
-SHA1: 4634b6813b67a0b60126354cdcf3c355811b57d3
-MD5sum: b56dd1148dc8dd2dc9d673ecd3ea4f71
+Filename: pool/main/m/minios-module-manager/minios-module-manager_1.0.5_all.deb
+Size: 75364
+SHA256: fd9817df1f6c8314904fae72a969cf3751482b352b86a73236f030aff4432ecd
+SHA1: c351ebe93978656272b3819fea40da81a3a960e5
+MD5sum: b779d034bbc76b7d40e74b3873250d1b
 Description: GTK interface for MiniOS module composition
  GTK 3 application for inspecting, creating, and managing MiniOS modules.
  It presents Running Now and Next Boot composition and delegates module
@@ -1226,21 +1226,21 @@ Description: MiniOS Store GTK3 graphical installer
  integration for privilege escalation.
 
 Package: minios-tools
-Version: 1.6.5
+Version: 1.6.6
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 568
+Installed-Size: 571
 Depends: bash (>= 4.4), coreutils (>= 8.28), e2fsprogs, gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), python3 (>= 3.6), squashfs-tools (>= 1:4.3-6ubuntu0.18.04.4+minios1), util-linux (>= 2.31)
 Recommends: x11-xserver-utils, xfce4-settings, procps
 Suggests: polkitd | policykit-1, pkexec | policykit-1
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.6.5_all.deb
-Size: 107312
-SHA256: 98abe7e98c5e51a6f148f9a002ef3edc4262c3158e4caf71bb1f064e405a6d76
-SHA1: fba94f34dd802abdfb5f0e7444ecb8a74e413727
-MD5sum: 85024ac4fb642a368de3c0577314c084
+Filename: pool/main/m/minios-tools/minios-tools_1.6.6_all.deb
+Size: 107808
+SHA256: fbfa6201875fbce0e4aafaddce07ecf254415b46eddf0235f42de212cfdc2d11
+SHA1: bd26f212673f91cf76ba2b8c56ebe4ca000d2162
+MD5sum: b49cfeb075eab0bd977c30f87f5480a5
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
@@ -1797,7 +1797,7 @@ Description: Set up initial user and password
  likely to be of any use if your system has no non-system users at all.
 
 Package: xlunch
-Version: 4.7.6+git20260524.da1ff9f-1minios2
+Version: 4.7.6+git20260524.da1ff9f-1minios3
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 235
@@ -1806,11 +1806,11 @@ Recommends: librsvg2-bin
 Homepage: https://github.com/Tomas-M/xlunch
 Priority: optional
 Section: x11
-Filename: pool/main/x/xlunch/xlunch_4.7.6+git20260524.da1ff9f-1minios2_i386.deb
-Size: 159504
-SHA256: e48bc451128ad1b4cab4b7eae32d648a1ecdec5da7a9aed8ca82c95339e3b727
-SHA1: dba5d6d22fd45f11970c08f43e96637e4b0bb1d1
-MD5sum: 7fe621068d716a66e948ce6fcffc3cc9
+Filename: pool/main/x/xlunch/xlunch_4.7.6+git20260524.da1ff9f-1minios3_i386.deb
+Size: 160560
+SHA256: f7d27bae281473aa49730142237f26ac2be98611ef0dd8965c766f71bd217f1c
+SHA1: 50b6a4dbe97f4171c196b5d00511de18109f039b
+MD5sum: 10daa9db41b129f0c3d43e696283566a
 Description: Graphical application launcher for X using pure Xlib and Imlib2
  Provides a lightweight, mouse- and keyboard-driven interface to launch
  programs, commands, or custom menu entries. Supports UTF-8 for international
