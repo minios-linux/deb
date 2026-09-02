@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: driveutility
 Binary: driveutility
 Architecture: all
-Version: 1.8.7
+Version: 1.8.8
 Maintainer: crims0n <crims0n@minios.dev>
 Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 11), python3 (>= 3.6)
@@ -10,8 +10,8 @@ Build-Depends-Indep: gettext
 Package-List:
  driveutility deb misc optional arch=all
 Checksums-Sha1:
- f44f243fe544b9618960a20922ffd0e9a16ec2ec 71612 driveutility_1.8.7.tar.xz
+ b4aec3bbbba5e77da50467ca1c8ab127b3c403d7 71780 driveutility_1.8.8.tar.xz
 Checksums-Sha256:
- a3547949b0f46c69158d2b2fdc65e73459467e89684951c015bcd4b3a701c127 71612 driveutility_1.8.7.tar.xz
+ acb3e9769ff37fa4b9045fcec5ea35235bf16aa68ddf75b1185e6bb4c9d81655 71780 driveutility_1.8.8.tar.xz
 Files:
- 5844b6aa24aff623755c8e3fd056f2d3 71612 driveutility_1.8.7.tar.xz
+ 5d71283b3b12c2e06f648ed1ad46d9bb 71780 driveutility_1.8.8.tar.xz
