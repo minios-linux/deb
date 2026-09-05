@@ -873,7 +873,7 @@ Description: MiniOS dracut modules for initramfs generation
  dracut configuration to keep initramfs size small.
 
 Package: minios-gui
-Version: 1.3.0
+Version: 1.3.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 32
@@ -881,11 +881,11 @@ Recommends: elementary-minios-icon-theme
 Homepage: https://minios.dev
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-gui/minios-gui_1.3.0_all.deb
-Size: 11256
-SHA256: f721031c8ba6dab01767dca7b816041ad2d1e9f8c7facb80def110229f1cb915
-SHA1: 3d5350cc74bbda785d98d1f6cc175f9a300e2816
-MD5sum: f22109e331e854559f23c729a7d5f17e
+Filename: pool/main/m/minios-gui/minios-gui_1.3.1_all.deb
+Size: 11300
+SHA256: 16388e84f8442ca6122a296b5b971867a56d5820819209f1efa0514cae8b29fb
+SHA1: d022ca8ba4e3259622f1752bbe7cad7ac00b4bb9
+MD5sum: 9ffb3970783962a992d7ff408d345265
 Description: MiniOS shared GUI styling (canonical stylesheet)
  Common look-and-feel resources shared by the MiniOS graphical applications —
  minios-installer, minios-configurator, driveutility and the other minios-*
@@ -1245,6 +1245,25 @@ Description: MiniOS Store GTK3 graphical installer
  the browser without the WebSocket daemon running. Includes PolicyKit
  integration for privilege escalation.
 
+Package: minios-thunar-integration
+Version: 1.0.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 87
+Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, thunar, exo-utils, util-linux, pkexec | policykit-1, minios-tools (>= 1.6.7)
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-thunar-integration/minios-thunar-integration_1.0.0_all.deb
+Size: 11956
+SHA256: a9eb418ed17da93f81d1aafb7a71fbe38193625f81532d9d27f47a17f3a1c973
+SHA1: 91e87f9821a22d953693ad3a75df0cbfb69a100d
+MD5sum: ee0712cd4c4175d69d62131e1ac838b0
+Description: MiniOS integration for the Thunar file manager
+ Adds localized Thunar custom actions for MiniOS modules. The GTK frontend
+ delegates module creation, extraction, activation, and deactivation to
+ minios-tools and keeps the user's existing Thunar custom actions intact.
+
 Package: minios-tools
 Version: 1.6.7
 Architecture: all
@@ -1257,10 +1276,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-tools/minios-tools_1.6.7_all.deb
-Size: 109664
-SHA256: 50f9558351447727d0f526673ac3ef995b97243d2f91582b8d1c5af811790126
-SHA1: 16835592695ccbc0d8ce98479db654585670036a
-MD5sum: deea9dae36d388d387fe81e7815e1427
+Size: 109684
+SHA256: dba95f2a23bf7466fc1783b550278e703785054589483e27387e8987a6ffaa99
+SHA1: 0f53384a727e93fa3fe9ddc8f78d05d2aba46c67
+MD5sum: 3ddacf5c2adbf91f5885a676626d6980
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
@@ -1594,19 +1613,19 @@ Build-Ids: 37e8a126f43ec581b01d3f08c6751d12b12f6ee7
 
 Package: python3-minios-gui
 Source: minios-gui
-Version: 1.3.0
+Version: 1.3.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 88
-Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, minios-gui (= 1.3.0)
+Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, minios-gui (= 1.3.1)
 Homepage: https://minios.dev
 Priority: optional
 Section: python
-Filename: pool/main/m/minios-gui/python3-minios-gui_1.3.0_all.deb
-Size: 19528
-SHA256: 75c48aa3422f9153c206bdbbea1188ebbd5e3c2ff8a20cea14293b1613cc08b5
-SHA1: c8658bd469413760cfaebac6d5ba7198d537600b
-MD5sum: 0d97fd18865699ed2bd53d43c2549723
+Filename: pool/main/m/minios-gui/python3-minios-gui_1.3.1_all.deb
+Size: 19568
+SHA256: 09314b3a05ca1fb78c930e436a74bc88b0922532a648fec06e02d89045931a2f
+SHA1: 8a2c56fac01b66f1c45c8608d2cb1f9ff6dea163
+MD5sum: f422925a3d142e97a0b73f216981a046
 Description: Python 3 helpers for MiniOS GTK applications
  Shared Python 3.6-compatible GTK 3 helpers for MiniOS graphical applications.
  The module provides canonical stylesheet loading, icon-theme resolution,

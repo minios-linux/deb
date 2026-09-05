@@ -10,8 +10,8 @@ Build-Depends: attr, bats, debhelper (>= 11), gettext, pandoc, python3 (>= 3.6),
 Package-List:
  minios-tools deb utils optional arch=all
 Checksums-Sha1:
- 3fc104396c49d7ce72ca32134e01ca7091162cf8 123504 minios-tools_1.6.7.tar.xz
+ 60123855756eb178da244e2263fdef3f2c31848b 123764 minios-tools_1.6.7.tar.xz
 Checksums-Sha256:
- bc755e26a87f73cc3f4663f31a24457f726a9dc1a13084f984e1ea2f0cb0c3c8 123504 minios-tools_1.6.7.tar.xz
+ 0486ed2c5d52db1cd4c3ccf7213ae79f51a08889368bc58aa4112d8de69008df 123764 minios-tools_1.6.7.tar.xz
 Files:
- 210198d07d59e201ea7b58e39c03dafb 123504 minios-tools_1.6.7.tar.xz
+ 4037ad475aa56e9ecb7f48c4b365e802 123764 minios-tools_1.6.7.tar.xz
