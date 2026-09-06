@@ -1680,21 +1680,21 @@ Description: Realtek RTL8814AU driver in DKMS format for kernel < 6.15
  This package is only required for kernel < 6.15
 
 Package: realtek-rtl8821au-dkms
-Version: 5.12.5.2+git20260818.623d08c-1+mos1
+Version: 5.12.5.2+git20260818.623d08c-1+mos2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 15675
-Depends: dkms (>= 2.1.0.0)
+Depends: bc, dkms (>= 2.1.0.0), procps
 Homepage: https://github.com/morrownr/8821au-20210708
 Priority: optional
 Section: contrib/kernel
-Filename: pool/main/r/realtek-rtl8821au-dkms/realtek-rtl8821au-dkms_5.12.5.2+git20260818.623d08c-1+mos1_all.deb
-Size: 1893368
-SHA256: 9e90dd3effe89319aa603907757d763efa056aa6d23feee5096f49d4d0271b70
-SHA1: 02e65e83bce48282487986934713f2638c5d642a
-MD5sum: 1c5f6ec4681988e9dc1381414a1f43ca
-Description: Realtek RTL8812AU/8821AU driver in DKMS format
- This package provides the source code for the Realtek RTL8812AU/8821AU
+Filename: pool/main/r/realtek-rtl8821au-dkms/realtek-rtl8821au-dkms_5.12.5.2+git20260818.623d08c-1+mos2_all.deb
+Size: 1894012
+SHA256: c2257736731554217d1277920b6dd4959aa3ab578172d218177800b987b29116
+SHA1: 8013e10e622a02238462750e39e380393968f22c
+MD5sum: aba166cdfc30048d0d7f369c1c04b60c
+Description: Realtek RTL8811AU/RTL8821AU driver in DKMS format
+ This package provides the source code for the Realtek RTL8811AU/RTL8821AU
  wireless driver with monitor mode and frame injection support. Kernel
  headers are required to compile the module with DKMS.
 
