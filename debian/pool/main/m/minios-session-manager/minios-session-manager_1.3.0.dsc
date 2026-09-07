@@ -1,8 +1,8 @@
 Format: 3.0 (native)
 Source: minios-session-manager
-Binary: minios-session-manager
+Binary: minios-session, minios-session-manager
 Architecture: all
-Version: 1.2.10
+Version: 1.3.0
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.5.1
@@ -10,10 +10,11 @@ Vcs-Browser: https://github.com/minios-linux/minios-live
 Vcs-Git: https://github.com/minios-linux/minios-live
 Build-Depends: debhelper (>= 11), lsb-base, python3 (>= 3.6), python3-minios-gui (>= 1.4.0), python3-pytest
 Package-List:
+ minios-session deb utils optional arch=all
  minios-session-manager deb utils optional arch=all
 Checksums-Sha1:
- 98e76abbe99f4c1cda94b730a478e8faf6a7ea49 153548 minios-session-manager_1.2.10.tar.xz
+ c22053cedff99febfce8094e84032b17650079db 154088 minios-session-manager_1.3.0.tar.xz
 Checksums-Sha256:
- 3da60bdcabadbcedf567278270cf189d19cf2174c3c9c7079d9f241e421ed730 153548 minios-session-manager_1.2.10.tar.xz
+ aa33bb0d921ab6be3be5c1651c66fcca9a192d2ccc4504c6b60809f085dc2ba5 154088 minios-session-manager_1.3.0.tar.xz
 Files:
- abeafebf022f46a48df56c636d59b4c8 153548 minios-session-manager_1.2.10.tar.xz
+ 8cb0cbdab6edab00931dfa904d10c2a3 154088 minios-session-manager_1.3.0.tar.xz
