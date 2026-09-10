@@ -1022,7 +1022,7 @@ Description: graphical MiniOS installation utility
 
 Package: minios-kernel
 Source: minios-kernel-manager
-Version: 1.4.0
+Version: 1.4.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 433
@@ -1033,11 +1033,11 @@ Replaces: minios-kernel-manager (<< 1.4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel_1.4.0_all.deb
-Size: 69756
-SHA256: 23bdb7c712ce40cc64e6b4a62d33968f56f3b0796f4f0c827050780d7105e5d1
-SHA1: 7e0f2ed55b9720d2ee676f5ab101ccd72d0ba94d
-MD5sum: 91dd1a9415a20be15dda8ee5e2303cb0
+Filename: pool/main/m/minios-kernel-manager/minios-kernel_1.4.1_all.deb
+Size: 69884
+SHA256: 36d6a1190afd3a54f7f5a4c89da7f531949dd545bde5d28806ac4a1071a5898e
+SHA1: 807dd2d88461e392c9fe895f9da7e254ba14fa92
+MD5sum: 36974d8704446e9dcc1245b69389ef78
 Description: command-line kernel management backend for MiniOS
  minios-kernel packages, installs, activates, lists, and removes MiniOS kernel
  bundles from the command line. It provides the non-graphical kernel management
