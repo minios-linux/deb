@@ -326,11 +326,11 @@ Description: Flux Tools for Fluxbox in MiniOS Linux.
  with Fluxbox for ease of use.
 
 Package: fluxbox-flux
-Version: 1.3.7-1
+Version: 1.3.7-2
 Architecture: i386
-Maintainer: Dmitry E. Oboukhov <unera@debian.org>
-Installed-Size: 4013
-Depends: menu (>= 2.1.19), libc6 (>= 2.15), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.2), libimlib2 (>= 1.4.5), libstdc++6 (>= 5.2), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxrandr2, libxrender1
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3681
+Depends: menu (>= 2.1.19), libc6 (>= 2.15), libfontconfig1 (>= 2.12), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.2), libimlib2 (>= 1.4.5), libstdc++6 (>= 5.2), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxrandr2, libxrender1
 Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
 Suggests: fbpager, fbdesk, fbautostart
 Conflicts: fluxbox
@@ -339,11 +339,11 @@ Provides: x-window-manager
 Homepage: https://fluxbox.org
 Priority: optional
 Section: x11
-Filename: pool/main/f/fluxbox-flux/fluxbox-flux_1.3.7-1_i386.deb
-Size: 1250856
-SHA256: 3783f34e65dcdd8685042c1b228326b0c3e11a7d8de8b5f831f889f1dec4cad1
-SHA1: 54cbd5628894229b8776a969fe228c01a6af3979
-MD5sum: bbd01ce9a3903648f8818aa42701ae90
+Filename: pool/main/f/fluxbox-flux/fluxbox-flux_1.3.7-2_i386.deb
+Size: 901572
+SHA256: 04879cdc2f5a00136ff44c98cd489d137c9f9d5be327a22ee23bbde2041389ba
+SHA1: f5cb039cf5f5bcee48eee33914aafbe62a09adcd
+MD5sum: 4dd18f531acd40652baf74ab9f53b279
 Description: Highly configurable and low resource X11 Window manager
  Fairly similar to blackbox, from which it is derived, but has been
  extended with features such as pwm-style window tabs, configurable
@@ -1882,20 +1882,20 @@ Description: Set up initial user and password
  likely to be of any use if your system has no non-system users at all.
 
 Package: xlunch
-Version: 4.7.6+git20260524.da1ff9f-1minios3
+Version: 4.7.6+git20260524.da1ff9f-1minios4
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 235
+Installed-Size: 236
 Depends: libc6 (>= 2.16), libimlib2 (>= 1.4.5), libx11-6
 Recommends: librsvg2-bin
 Homepage: https://github.com/Tomas-M/xlunch
 Priority: optional
 Section: x11
-Filename: pool/main/x/xlunch/xlunch_4.7.6+git20260524.da1ff9f-1minios3_i386.deb
-Size: 160560
-SHA256: f7d27bae281473aa49730142237f26ac2be98611ef0dd8965c766f71bd217f1c
-SHA1: 50b6a4dbe97f4171c196b5d00511de18109f039b
-MD5sum: 10daa9db41b129f0c3d43e696283566a
+Filename: pool/main/x/xlunch/xlunch_4.7.6+git20260524.da1ff9f-1minios4_i386.deb
+Size: 161044
+SHA256: c4cb04e6653d2ba141a85923a72a19cd22c6ce6348d49ffd06786f211645d9be
+SHA1: 584db9668616684da04326d3f8563241d4da62ed
+MD5sum: 7c7d2a25f00a6d28b5042aea175b91a2
 Description: Graphical application launcher for X using pure Xlib and Imlib2
  Provides a lightweight, mouse- and keyboard-driven interface to launch
  programs, commands, or custom menu entries. Supports UTF-8 for international
