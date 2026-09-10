@@ -925,7 +925,7 @@ Description: MiniOS shared GUI styling (canonical stylesheet)
  applications, which adopt the stylesheet by loading it explicitly.
 
 Package: minios-help
-Version: 1.0.5
+Version: 1.0.6
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 21125
@@ -933,11 +933,11 @@ Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, python3-m
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-help/minios-help_1.0.5_all.deb
-Size: 1175504
-SHA256: c90bf5a77d6fd01c2aaeca31c5c56219f7fa584c3d42cfdbbf84a5779d9ef9b3
-SHA1: 53b249d0e234d515d601852b205561000fbcf12b
-MD5sum: 37f295c9ae1d3cad84c0253eabea4327
+Filename: pool/main/m/minios-help/minios-help_1.0.6_all.deb
+Size: 1175412
+SHA256: ad94fe24331d702917f8fbddd7999bbae45d8d18595e7d7ebab34b7fecc8ccd0
+SHA1: dae985e27324ae524b9ec954e6e8cd41fe30b591
+MD5sum: 1159b20299e7074b1e1fb6a0fd73977a
 Description: offline MiniOS documentation viewer
  Native GTK 3 application for browsing the MiniOS documentation installed on
  the local system. It provides section navigation, local full-text search,
@@ -945,20 +945,20 @@ Description: offline MiniOS documentation viewer
  native GTK widgets without WebKit or network access.
 
 Package: minios-image-builder
-Version: 1.0.11
+Version: 1.0.12
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 2093
-Depends: minios-image-compose (= 1.0.11), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, polkitd | policykit-1, pkexec | policykit-1, python3-minios-gui (>= 1.4.0), librsvg2-common
+Installed-Size: 2098
+Depends: minios-image-compose (= 1.0.12), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, polkitd | policykit-1, pkexec | policykit-1, python3-minios-gui (>= 1.4.0), librsvg2-common
 Recommends: minios-tools (>= 1.6.3), policykit-1-gnome | lxpolkit, udisks2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-builder_1.0.11_all.deb
-Size: 302876
-SHA256: f2b3d39e270967fcad116fa3552dd9cc15f14343d663139e7c588b9dfbaed88b
-SHA1: f3324dc7fe0a72a03f660ce23ffdd504981f7177
-MD5sum: d60e06829dace91fa87aef98a53ea875
+Filename: pool/main/m/minios-image-builder/minios-image-builder_1.0.12_all.deb
+Size: 303516
+SHA256: 52cebf60827770ee49b57ba189463a8492be6282a09f24c03837250e8a88f7f6
+SHA1: bc355c05fc7aad3a306d8062c6dbc45ceba99ac8
+MD5sum: f44f0acb6a2eee568790259f29632723
 Description: customize the running MiniOS as a verified bootable image
  MiniOS Image Builder is a GTK project workspace for remastering MiniOS from
  the running session, a mounted ISO image, or an optical disc. It composes .sb
@@ -973,20 +973,20 @@ Description: customize the running MiniOS as a verified bootable image
 
 Package: minios-image-compose
 Source: minios-image-builder
-Version: 1.0.11
+Version: 1.0.12
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 635
+Installed-Size: 636
 Depends: python3 (>= 3.6), gettext-base, mawk, xorriso, squashfs-tools, e2fsprogs
 Recommends: minios-tools (>= 1.6.3), polkitd | policykit-1, pkexec | policykit-1
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-compose_1.0.11_all.deb
-Size: 159656
-SHA256: 8da9f5c17a7a26c5184b2148bf0cbd15390b10ce52aedbd9cf4b3e777b6af529
-SHA1: caca0f71bdceffb2b530ae97415ffb1a92159e34
-MD5sum: 3db35b8a624340c7256827987f8e9dcd
+Filename: pool/main/m/minios-image-builder/minios-image-compose_1.0.12_all.deb
+Size: 159760
+SHA256: 7a97b39db87c4c66d9a02b837d467093db5d0c53a399e9e551ac932d26b48abb
+SHA1: 8fbfababaa9e2e878c4df15b28afb590bbf8cb53
+MD5sum: 71c1eabce3c730868a444b08ceb603d6
 Description: MiniOS image composition backend (minios-image-compose)
  minios-image-compose composes a bootable MiniOS ISO image from an immutable or
  identity-bound MiniOS source reference, ordered .sb modules and a live
@@ -1085,7 +1085,7 @@ Description: Scripts to build a bootable MiniOS ISO image.
  lightweight, customizable live systems.
 
 Package: minios-live-config
-Version: 11.0.5.20
+Version: 11.0.5.21
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 240
@@ -1096,11 +1096,11 @@ Conflicts: live-config
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.20_all.deb
-Size: 56524
-SHA256: 5229e4fe419213183d3db428efd64fdc1d8a7bc63de761a002cc966976d048ab
-SHA1: e32ab444883b22d040255f1271ba539f645e3120
-MD5sum: 1a703e7832b03e01f549bdda50e60f87
+Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.21_all.deb
+Size: 56772
+SHA256: eb34e5c5f38580841fda5e6494b2498380cd55399fd752815c542df0da6ac539
+SHA1: df139d7d8f06fbe674acb9437a953f9509e49dd7
+MD5sum: ff57d5ebe35b32e86b35c76ce0d51dda
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1113,7 +1113,7 @@ Description: Live System Configuration Components
 
 Package: minios-live-config-doc
 Source: minios-live-config
-Version: 11.0.5.20
+Version: 11.0.5.21
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 182
@@ -1122,11 +1122,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: doc
-Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.20_all.deb
-Size: 130892
-SHA256: d94bafa9d1e22d29b55a72fee2c2cf6a47d1824923229708f6d3b2b61917dfd2
-SHA1: f6e9580353cb79887bd825a566cce4da2ce7330c
-MD5sum: a163e41d0f780aed8175ee6fdf1116b7
+Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.21_all.deb
+Size: 131048
+SHA256: 085452ed92f26f08e02e4702ed8a0a45ad5df4643fde9e82ac8af416a855e9df
+SHA1: 5e2aacc3a61e6d89c2cd5baad673175da86c0ac2
+MD5sum: 228920e2541465c37c9781bfe0026490
 Description: Live System Configuration Components (documentation)
  live-config contains the components that configure a live system during the
  boot process (late userspace).
@@ -1135,7 +1135,7 @@ Description: Live System Configuration Components (documentation)
 
 Package: minios-live-config-systemd
 Source: minios-live-config
-Version: 11.0.5.20
+Version: 11.0.5.21
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 43
@@ -1147,11 +1147,11 @@ Provides: live-config-backend, minios-live-config-backend
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.20_all.deb
-Size: 26268
-SHA256: 618ca85dac944634dedd2766940f7e70ce74a27600a28dc733b4baa51e8087b5
-SHA1: 1732300e04d95a26e0ba00565d2191ae410e09a6
-MD5sum: 69869c593a4bc1d40e2a20a35ec8bab1
+Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.21_all.deb
+Size: 26436
+SHA256: 5cbb716313f69625876ec3a2c86724bdbe1d8cbfcab8e3cee33ebc5fe5c26789
+SHA1: 9abd7892fa8e645d3957be7e3f28cd162feef297
+MD5sum: 1faca30f962d8b7cb6ebe90901ea8b29
 Description: Live System Configuration Components (systemd backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1189,19 +1189,19 @@ Description: Live System Configuration Components (sysvinit backend)
  This package contains the sysvinit backend.
 
 Package: minios-module-manager
-Version: 1.1.0
+Version: 1.1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 707
-Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, shared-mime-info, python3-minios-gui (>= 1.4.0), polkitd | policykit-1, pkexec | policykit-1, minios-tools (>= 1.7.0)
+Depends: python3 (>= 3.6), python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-vte-2.91, shared-mime-info, python3-minios-gui (>= 1.4.0), polkitd | policykit-1, pkexec | policykit-1, minios-tools (>= 1.7.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-module-manager/minios-module-manager_1.1.0_all.deb
-Size: 106484
-SHA256: 2116f25a4b8c6241c4dd5d40efbc4e958dca0366ea30d9ab3ba01bf9a690ddd4
-SHA1: 49e95d61787fd7b2f8b7d9b332f72e24c017bc95
-MD5sum: adeeb7481c0d4f18ada7524864268263
+Filename: pool/main/m/minios-module-manager/minios-module-manager_1.1.1_all.deb
+Size: 106700
+SHA256: 3e3162fd5429e225c7972479372912d265b06eec94c26058a967b0165f522836
+SHA1: 0fa012429713ab526f2fd1fff2e5b52b3a4585fd
+MD5sum: 09c623bb8835245d6ea3a0f4af034946
 Description: GTK interface for MiniOS module composition
  GTK 3 application for inspecting, creating, and managing MiniOS modules.
  It presents Running Now and Next Boot composition and delegates module
@@ -2128,20 +2128,20 @@ Description: Set up initial user and password
  likely to be of any use if your system has no non-system users at all.
 
 Package: xlunch
-Version: 4.7.6+git20260524.da1ff9f-1minios3
+Version: 4.7.6+git20260524.da1ff9f-1minios4
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 241
+Installed-Size: 242
 Depends: libc6 (>= 2.16), libimlib2 (>= 1.4.5), libx11-6
 Recommends: librsvg2-bin
 Homepage: https://github.com/Tomas-M/xlunch
 Priority: optional
 Section: x11
-Filename: pool/main/x/xlunch/xlunch_4.7.6+git20260524.da1ff9f-1minios3_amd64.deb
-Size: 159680
-SHA256: 0fe74de6f04a3411954dfe8bce1b69184195e11399128d2fd78c3566f4b098cb
-SHA1: 61c3ca47b02590fb12d4eb00b51f57637787aa5f
-MD5sum: 7e4e9f9eb753cf352c6068f1b40992bb
+Filename: pool/main/x/xlunch/xlunch_4.7.6+git20260524.da1ff9f-1minios4_amd64.deb
+Size: 160084
+SHA256: 2be6a32ac6f027f67f5dbf76ba8acf1d469ec73eadfdef0e553d79e2464e0f50
+SHA1: bf71a546877a5c2824010d0cf8f9dea639ef5421
+MD5sum: 60043fd6d2541d1b7adb56753323822b
 Description: Graphical application launcher for X using pure Xlib and Imlib2
  Provides a lightweight, mouse- and keyboard-driven interface to launch
  programs, commands, or custom menu entries. Supports UTF-8 for international
