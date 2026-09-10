@@ -1042,19 +1042,19 @@ Description: command-line kernel management backend for MiniOS
  terminal or automation.
 
 Package: minios-kernel-manager
-Version: 1.4.0
+Version: 1.4.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 113
-Depends: minios-kernel (= 1.4.0), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, python3-minios-gui (>= 1.4.0)
+Installed-Size: 114
+Depends: minios-kernel (= 1.4.1), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, python3-minios-gui (>= 1.4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.4.0_all.deb
-Size: 22996
-SHA256: ad533fda30343c7062199494c3aa1135773c6a9d8e325d1da8ac8d83b68c1afe
-SHA1: a98f1fe39628116bbc402b09cfa93753eaada061
-MD5sum: 562251ed5d2c9ef25f956701ba4638eb
+Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.4.1_all.deb
+Size: 23164
+SHA256: a679a7b9b268ab1eb9da7a18b118fa51b34478c113458acfdcfdec9ba2064191
+SHA1: 00fdbe86d19ae5df7b1ea1bb5c0eebb95774e0e5
+MD5sum: 7c74958ba50254b63f1da2137ab6bbd3
 Description: graphical kernel manager for MiniOS
  MiniOS Kernel Manager is the GTK3 frontend for the minios-kernel command-line
  backend. It provides graphical workflows for browsing, packaging, activating,
