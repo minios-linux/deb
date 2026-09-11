@@ -233,21 +233,19 @@ Description: self-contained block storage module source for DKMS
  do not request loading it. No storage is created by this package.
 
 Package: dynfilefs
-Version: 4.5.1-1
+Version: 4.5.1-2
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 41
 Depends: libc6 (>= 2.14), libfuse2 (>= 2.6)
-Breaks: dynblk (= 4.5.0-1), dynblk (= 4.5.1-1)
-Replaces: dynblk (= 4.5.0-1), dynblk (= 4.5.1-1)
 Homepage: https://github.com/minios-linux/dynfilefs
 Priority: optional
 Section: utils
-Filename: pool/main/d/dynfilefs/dynfilefs_4.5.1-1_amd64.deb
-Size: 13916
-SHA256: 19957e774f7767b0eb239b3d01914e8b71baf7e17fa4003d53400492ed014212
-SHA1: 2d633a5eccb2c3265afc335bd77fea0820df05eb
-MD5sum: e2a79a6d94a95177e015ccc2af96d64e
+Filename: pool/main/d/dynfilefs/dynfilefs_4.5.1-2_amd64.deb
+Size: 13948
+SHA256: 128b79c36ff445e58cd9a336c942c25fb0687932dbdf16f1c5da76aba93a4594
+SHA1: a4ff57f160379445131d260365dff4780890fbcf
+MD5sum: 945a4aed4ed63128b73aaf7971de1e14
 Description: open DynFileFS-compatible dynamic block storage through FUSE
  DynFileFS is a compatibility-focused DynFileFS fork that exposes format 400
  storage as a virtual block image through FUSE. The image can be opened with a
