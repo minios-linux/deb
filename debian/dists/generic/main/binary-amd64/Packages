@@ -192,23 +192,67 @@ Description: open DynFileFS-compatible dynamic block storage through FUSE
  loop device and mounted using filesystem tools provided by the operating
  system. Legacy dynfilefs command names are included as aliases.
 
-Package: dynfilefs
-Version: 4.04-1
+Package: dynblk-dbgsym
+Source: dynblk
+Version: 1.0.0
+Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 38
-Depends: libc6 (>= 2.4), libfuse2 (>= 2.6)
-Homepage: https://github.com/Tomas-M/dynfilefs
+Installed-Size: 84
+Depends: dynblk (= 1.0.0)
+Priority: optional
+Section: debug
+Filename: pool/main/d/dynblk/dynblk-dbgsym_1.0.0_amd64.deb
+Size: 55716
+SHA256: ae4616ece6af684b44bbe0c2aff1caf8cbc1cc82722ac827781a1131a1ec5731
+SHA1: 5988ba0b43b3ee4548a53ced134453db26592179
+MD5sum: 7be421b753e6630c6482b10b0369b477
+Description: debug symbols for dynblk
+Build-Ids: dd036743f0e8319d0f8904715b03de10c39f193a
+
+Package: dynblk-dkms
+Source: dynblk
+Version: 1.0.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 89
+Depends: dkms (>= 3.2.2)
+Recommends: dynblk (= 1.0.0)
+Homepage: https://github.com/minios-linux/dynblk
+Priority: optional
+Section: kernel
+Filename: pool/main/d/dynblk/dynblk-dkms_1.0.0_all.deb
+Size: 32460
+SHA256: a5a8fb3df93eb7ccd3ae807e7ee41b019a7079ac4893c67791cb4ea97ae1fdc6
+SHA1: 2a0bebac750e867ec8191711d7604ba72e857381
+MD5sum: c26f8dacfca0c7cac5757967d166e8db
+Description: self-contained block storage module source for DKMS
+ Builds dynblk for Linux 6.12 using DKMS. Matching headers for each target
+ kernel are required; other kernel series are not supported.
+ Package configuration and kernel updates build and install the module but
+ do not request loading it. No storage is created by this package.
+
+Package: dynfilefs
+Version: 4.5.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 41
+Depends: libc6 (>= 2.14), libfuse2 (>= 2.6)
+Breaks: dynblk (= 4.5.0-1), dynblk (= 4.5.1-1)
+Replaces: dynblk (= 4.5.0-1), dynblk (= 4.5.1-1)
+Homepage: https://github.com/minios-linux/dynfilefs
 Priority: optional
 Section: utils
-Filename: pool/main/d/dynfilefs/dynfilefs_4.04-1_amd64.deb
-Size: 9716
-SHA256: 34e7ebf3efdaabbd759a33cd7dabdee4e8f599482fa5486ab46ca42370ed68a9
-SHA1: e543b444f211f17999aabf951675ae3f6100dc0e
-MD5sum: 0640904b93094ebcf4389ad803115984
-Description: FUSE-based dynamic file system utility
- DynFileFS is a utility for creating a dynamic virtual file system using FUSE.
- It stores changes in specified files and supports flexible file management.
+Filename: pool/main/d/dynfilefs/dynfilefs_4.5.1-1_amd64.deb
+Size: 13916
+SHA256: 19957e774f7767b0eb239b3d01914e8b71baf7e17fa4003d53400492ed014212
+SHA1: 2d633a5eccb2c3265afc335bd77fea0820df05eb
+MD5sum: e2a79a6d94a95177e015ccc2af96d64e
+Description: open DynFileFS-compatible dynamic block storage through FUSE
+ DynFileFS is a compatibility-focused DynFileFS fork that exposes format 400
+ storage as a virtual block image through FUSE. The image can be opened with a
+ loop device and mounted using filesystem tools provided by the operating
+ system. The mount.dynfilefs command is included as a mount helper.
 
 Package: dynfilefs-dbgsym
 Source: dynfilefs
