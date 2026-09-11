@@ -128,27 +128,25 @@ Description: Graphical utility for writing, formatting, and wiping storage devic
  format, and securely wipe storage devices.
 
 Package: dynblk
-Version: 4.5.1-1
+Version: 1.0.0
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 48
-Depends: libc6 (>= 2.6), libfuse2 (>= 2.6)
-Conflicts: dynfilefs
-Replaces: dynfilefs
-Provides: dynfilefs
+Installed-Size: 99
+Depends: libc6 (>= 2.34), kmod
+Recommends: dynblk-dkms (= 1.0.0)
+Suggests: liblz4-1, libzstd1, zlib1g
 Homepage: https://github.com/minios-linux/dynblk
 Priority: optional
-Section: utils
-Filename: pool/main/d/dynblk/dynblk_4.5.1-1_i386.deb
-Size: 16008
-SHA256: efc8d020540d545460ef003e9948e306877ea1097bbd4de43f09417705df9104
-SHA1: 98cc704ad006d542fa14e81e998bd11ef138fdcd
-MD5sum: 54a5d2094733ba83c2149ac1053df662
-Description: open DynFileFS-compatible dynamic block storage through FUSE
- Dynblk is a compatibility-focused DynFileFS fork that exposes format 400
- storage as a virtual block image through FUSE. The image can be opened with a
- loop device and mounted using filesystem tools provided by the operating
- system. Legacy dynfilefs command names are included as aliases.
+Section: admin
+Filename: pool/main/d/dynblk/dynblk_1.0.0_i386.deb
+Size: 54220
+SHA256: 8557fa857c0059a538d7edffaaf8697119ce7f973dc3e8bbab2716b5ab032a99
+SHA1: 5edccbb75ca681fb34f1e7a3c4c872776f1b10ad
+MD5sum: 9df9947f65051e242ec09c77de8b0dc1
+Description: self-contained block storage control and offline checker
+ Controls the dynblk kernel block device and validates detached format-1
+ storage with one native executable. No Python runtime, FUSE implementation,
+ filesystem utilities, mount helpers or legacy command aliases are included.
 
 Package: dynblk-dbgsym
 Source: dynblk
