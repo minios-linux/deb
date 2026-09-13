@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-session-manager
 Binary: minios-session, minios-session-manager
 Architecture: all
-Version: 1.4.0
+Version: 1.4.1
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.5.1
@@ -13,8 +13,8 @@ Package-List:
  minios-session deb utils optional arch=all
  minios-session-manager deb utils optional arch=all
 Checksums-Sha1:
- cad00114a61496f56f8101ab62877e8e8a5c5010 157780 minios-session-manager_1.4.0.tar.xz
+ 1cb0fb1dfe2bf410bf23413c6e311c87282b5d53 163884 minios-session-manager_1.4.1.tar.xz
 Checksums-Sha256:
- e1f1b3bbb60b404b194dafc90546edc294e5337d0e5dd9e872e67637d39c5a9d 157780 minios-session-manager_1.4.0.tar.xz
+ 4c064849dd02a41fa2ad6e95fb459338cbb80e9cac8fee4dd0204b7c6bda42c9 163884 minios-session-manager_1.4.1.tar.xz
 Files:
- 9a6b7702768b1753b965a40b778ecb5e 157780 minios-session-manager_1.4.0.tar.xz
+ dca1ab2c85bff3357fd3d8eb2105733f 163884 minios-session-manager_1.4.1.tar.xz

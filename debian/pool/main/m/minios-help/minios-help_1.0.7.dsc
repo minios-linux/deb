@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-help
 Binary: minios-help
 Architecture: all
-Version: 1.0.6
+Version: 1.0.7
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.4
@@ -12,8 +12,8 @@ Build-Depends: debhelper (>= 11), desktop-file-utils, gettext, python3 (>= 3.6),
 Package-List:
  minios-help deb utils optional arch=all
 Checksums-Sha1:
- 7390d83bd4d7daa849ecb9da8f20b54d76edce50 1195632 minios-help_1.0.6.tar.xz
+ 4fb4985466fa3707569c7d295eaee08dd6fe6fa2 1208804 minios-help_1.0.7.tar.xz
 Checksums-Sha256:
- d4ed371c86ecb4bfd5d13c3a3074d31aed06be1aaa32d72db6637e466699b808 1195632 minios-help_1.0.6.tar.xz
+ 50d978afcd1fe8f6f5f53c86a611efe7ab748837b316d37764fa1ee2f714d501 1208804 minios-help_1.0.7.tar.xz
 Files:
- 49ab9f0d7656c0c9b448471f9cf72f91 1195632 minios-help_1.0.6.tar.xz
+ 110c4c7957168ab16e963b23abae196e 1208804 minios-help_1.0.7.tar.xz

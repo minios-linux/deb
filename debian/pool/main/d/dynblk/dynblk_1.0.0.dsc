@@ -11,8 +11,8 @@ Package-List:
  dynblk deb admin optional arch=any
  dynblk-dkms deb kernel optional arch=all
 Checksums-Sha1:
- 9d901db9b025a539de8185babe905a08ec9eabbf 108808 dynblk_1.0.0.tar.xz
+ 623e07b5fc5fd08fa7fe1782a09fdc75b3dc99e2 106444 dynblk_1.0.0.tar.xz
 Checksums-Sha256:
- 207c44b1497c7928f1f48be764d0572e8c0e6d30ccb6c744712b5568edfb09a0 108808 dynblk_1.0.0.tar.xz
+ ab2266c0d143ff93d2ba6cbbe03b14aad1e51c3648eb7534d24849c65441383d 106444 dynblk_1.0.0.tar.xz
 Files:
- 53b4a4363341fe9350930eca8818fc66 108808 dynblk_1.0.0.tar.xz
+ 543c237a516e10eb056f2cedd0bacf38 106444 dynblk_1.0.0.tar.xz
