@@ -988,20 +988,20 @@ Description: offline MiniOS documentation viewer
  native GTK widgets without WebKit or network access.
 
 Package: minios-image-builder
-Version: 1.1.0
+Version: 1.1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 2105
-Depends: minios-image-compose (= 1.1.0), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, polkitd | policykit-1, pkexec | policykit-1, python3-minios-gui (>= 1.4.0), librsvg2-common
+Installed-Size: 2104
+Depends: minios-image-compose (= 1.1.1), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, polkitd | policykit-1, pkexec | policykit-1, python3-minios-gui (>= 1.4.0), librsvg2-common
 Recommends: minios-tools (>= 1.6.3), policykit-1-gnome | lxpolkit, udisks2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-builder_1.1.0_all.deb
-Size: 306176
-SHA256: efdbb5d03a8a33edfdc3aec31f4574ba56b8e730af07fcac93fa0efd717593b6
-SHA1: 58b55a097ed235a211e38e303d33ee428a0b60e5
-MD5sum: cc5739922193ed3fa43c33c29c3c627a
+Filename: pool/main/m/minios-image-builder/minios-image-builder_1.1.1_all.deb
+Size: 304776
+SHA256: 283795958b3fb4eb77fb5ff2d997e441015e8410fb1f3f6863cd6586df158160
+SHA1: 09e5f4eb67f1631e353ea37a72c3e0f854ce0cd8
+MD5sum: bb4cfa2c2146abaeec55524df03390f9
 Description: customize the running MiniOS as a verified bootable image
  MiniOS Image Builder is a GTK project workspace for remastering MiniOS from
  the running session, a mounted ISO image, or an optical disc. It composes .sb
@@ -1016,20 +1016,20 @@ Description: customize the running MiniOS as a verified bootable image
 
 Package: minios-image-compose
 Source: minios-image-builder
-Version: 1.1.0
+Version: 1.1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 637
+Installed-Size: 638
 Depends: python3 (>= 3.6), gettext-base, mawk, xorriso, squashfs-tools, e2fsprogs
 Recommends: minios-tools (>= 1.6.3), polkitd | policykit-1, pkexec | policykit-1
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-compose_1.1.0_all.deb
-Size: 160120
-SHA256: 0794f1fe49abdfcf13dad5c42afa598f5910be4fc8949d9c8be48432e28ef4b6
-SHA1: 7b3293bfe98339c7d387aacc0088e8d035c394d1
-MD5sum: f14b01dfb5fd62e16e4f54be73c87d17
+Filename: pool/main/m/minios-image-builder/minios-image-compose_1.1.1_all.deb
+Size: 160276
+SHA256: 3c802f181f5e50ebcd98a66eeca45b25f27c2ce6db439542eb42353e34422dae
+SHA1: 062afb7bdbd5ab7c0c1f72238377c73ef8bcd8e4
+MD5sum: 8664cdb878e5af958794ad14162ce602
 Description: MiniOS image composition backend (minios-image-compose)
  minios-image-compose composes a bootable MiniOS ISO image from an immutable or
  identity-bound MiniOS source reference, ordered .sb modules and a live
