@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-installer
 Binary: minios-deploy, minios-native-dracut, minios-installer
 Architecture: all
-Version: 3.2.0
+Version: 3.3.0
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -12,8 +12,8 @@ Package-List:
  minios-installer deb utils optional arch=all
  minios-native-dracut deb utils optional arch=all
 Checksums-Sha1:
- ca8c771c3c99bbb07f3af85d3c46c922217adc98 274756 minios-installer_3.2.0.tar.xz
+ c81e880cd46eb29445d3cf61ae33d67214eaa1a4 275448 minios-installer_3.3.0.tar.xz
 Checksums-Sha256:
- ea08d0fa1037f5943d4df4990b4f20b8fe253d2612c58478100c85b99a9ad746 274756 minios-installer_3.2.0.tar.xz
+ 5ec863c3863f5455217abc6dc541a44495b59e9a7946c4630c778f1e5b1e71a3 275448 minios-installer_3.3.0.tar.xz
 Files:
- 5647ba93e3bc96fca4ecba16a7db7e9f 274756 minios-installer_3.2.0.tar.xz
+ 10fb7864eeaf73070b3b4610f227c988 275448 minios-installer_3.3.0.tar.xz
