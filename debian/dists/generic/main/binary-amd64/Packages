@@ -40,19 +40,19 @@ Description: default icon theme of GNOME.
 
 Package: aufs-ng-dkms
 Source: aufs-ng
-Version: 0~git20260807.842ab15-1mos1
+Version: 0~git20260807.842ab15-1minios4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 242
+Installed-Size: 244
 Depends: dkms (>= 3.0.11)
 Homepage: https://github.com/fulalas/aufs-ng
 Priority: optional
 Section: kernel
-Filename: pool/main/a/aufs-ng/aufs-ng-dkms_0~git20260807.842ab15-1mos1_all.deb
-Size: 60672
-SHA256: 55622a586e359653957349ee50bc5aafc759ee751bdb091e07425428e167a5fb
-SHA1: 83668b5e9c0bd734622d70298e4f571b24c264c7
-MD5sum: c0d2456cb570df13e91a621151368a6a
+Filename: pool/main/a/aufs-ng/aufs-ng-dkms_0~git20260807.842ab15-1minios4_all.deb
+Size: 61888
+SHA256: 4087b137db518bae79c385dece25ffa96370b262f8410e10f6d9a2edfa41fd60
+SHA1: b9878e362775c37762dccba522b1342f5ed5ab55
+MD5sum: 46ad264c4221e4183b89fafd3c7b993d
 Description: standalone AUFS-compatible union filesystem in DKMS format
  aufs-ng is a small, standalone union filesystem intended as a drop-in
  kernel-side replacement for AUFS, primarily for live Linux systems. It uses
