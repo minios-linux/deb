@@ -170,25 +170,26 @@ Description: Graphical utility for writing, formatting, and wiping storage devic
  format, and securely wipe storage devices.
 
 Package: dynblk
-Version: 1.1.0
+Version: 1.0.0
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 103
-Depends: libc6 (>= 2.38), kmod
-Recommends: dynblk-dkms (= 1.1.0)
+Installed-Size: 130
+Depends: libc6 (>= 2.38), kmod, mount
+Recommends: dynblk-dkms (= 1.0.0)
 Suggests: liblz4-1, libzstd1, zlib1g
 Homepage: https://github.com/minios-linux/dynblk
 Priority: optional
 Section: admin
-Filename: pool/main/d/dynblk/dynblk_1.1.0_amd64.deb
-Size: 56876
-SHA256: 137febc27e3532415839960718e4226bfc2fc54cdff8615266549211dd62b765
-SHA1: 9d67a00b75142d763c40643a73afec33a5538084
-MD5sum: e35295920d2b291f913505bec53cb82c
+Filename: pool/main/d/dynblk/dynblk_1.0.0_amd64.deb
+Size: 63400
+SHA256: b4ce9e631a4a532afc148c10818dbad4903b01482cf210223df60075f5cf2788
+SHA1: 419c13c4bf1cf550233e8bd5ac2e59015e7ea722
+MD5sum: 1a0dd8f861fad78dd8519d75b305b6b5
 Description: self-contained block storage control and offline checker
  Controls the dynblk kernel block device and validates detached format-1
  storage with one native executable. No Python runtime, FUSE implementation,
- filesystem utilities, mount helpers or legacy command aliases are included.
+ filesystem utilities or legacy command aliases are included.
+ Provides a mount helper with kernel-managed automatic device cleanup.
 
 Package: dynblk-dbgsym
 Source: dynblk
@@ -210,20 +211,20 @@ Build-Ids: 0ecd8fb90fa3c21432164a208068b7d1f4be02fb
 
 Package: dynblk-dkms
 Source: dynblk
-Version: 1.1.0
+Version: 1.0.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 111
+Installed-Size: 128
 Depends: dkms (>= 3.2.2)
-Recommends: dynblk (= 1.1.0)
+Recommends: dynblk (= 1.0.0)
 Homepage: https://github.com/minios-linux/dynblk
 Priority: optional
 Section: kernel
-Filename: pool/main/d/dynblk/dynblk-dkms_1.1.0_all.deb
-Size: 38876
-SHA256: 6ccbdc783786f3fce49290bd2a3252808169a7b121440dd873ae7f90d9d6b368
-SHA1: 179fa65659c7be5c9a28fae02afd4328a6cfed73
-MD5sum: 241bfc9f84ab58ce0d9299d4266407f5
+Filename: pool/main/d/dynblk/dynblk-dkms_1.0.0_all.deb
+Size: 35268
+SHA256: 8bcbcd67b336be981bb3e568e37593ed6f846ff437ef6cda9751fa13c8156adb
+SHA1: 57822dcd62fccbbdbd814ce741be03806efde797
+MD5sum: 45fe8e0eb07e48c058ca1efd721b5d02
 Description: self-contained block storage module source for DKMS
  Builds dynblk for Linux 6.12 using DKMS. Matching headers for each target
  kernel are required; other kernel series are not supported.
@@ -861,7 +862,7 @@ Description: MiniOS themes and artwork
  This package contains the MiniOS themes and artwork.
 
 Package: minios-configurator
-Version: 3.1.1
+Version: 3.2.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 313
@@ -869,22 +870,22 @@ Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-configurator/minios-configurator_3.1.1_all.deb
-Size: 50780
-SHA256: 7dfa864a4beb68ff139c651bba8163b821275f9f61b5925ddebe2b631539264f
-SHA1: 834508e9fa8b7e808ac1e35ee2878a04405e1792
-MD5sum: ee1b6af2f0525fed7d3562ee118e38f3
+Filename: pool/main/m/minios-configurator/minios-configurator_3.2.0_all.deb
+Size: 50848
+SHA256: cc029cf02bf54de00add0da106f6e8682720a9e0af3a997b9caf2f52cc85406a
+SHA1: b8a824c371925e7deaac462d7fdb4b02334c7b50
+MD5sum: 388f0de5f689c579c828767647cc1cab
 Description: MiniOS Linux configuration utility.
  MiniOS Configurator is a utility specially designed for quick and easy
  configure MiniOS.
 
 Package: minios-deploy
 Source: minios-installer
-Version: 3.4.0
+Version: 3.5.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1221
-Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.4.0) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31)
+Installed-Size: 1262
+Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.5.0) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31)
 Recommends: minios-live-config (>= 11.0.5.15), user-setup
 Suggests: minios-session (>= 2.2.0)
 Breaks: minios-installer (<< 3.1.0)
@@ -892,11 +893,11 @@ Replaces: minios-installer (<< 3.1.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-deploy_3.4.0_all.deb
-Size: 189700
-SHA256: 9b46a340ffb9aabeea5557be0c4b8863f4af655b04e2fdc6907b0f611b343d7f
-SHA1: 405151e0fb8764d2d873607a0ecd04b9248f154d
-MD5sum: bc60c191075b29c20b200e02e94dc4c7
+Filename: pool/main/m/minios-installer/minios-deploy_3.5.0_all.deb
+Size: 194832
+SHA256: 959c1ceff5de9c125d80179708b57116fa5701276a939752587609f10f21f98d
+SHA1: b0e2d4b2939d267651eb6633cc70b152a38d1fbb
+MD5sum: 472bfe4b0c16cc96ce358cc2dc5f453f
 Description: command-line MiniOS deployment backend
  minios-deploy provides disk discovery, installation planning, and live or
  native MiniOS deployment without a graphical interface. It is the backend
@@ -966,19 +967,19 @@ Description: MiniOS shared GUI styling (canonical stylesheet)
  applications, which adopt the stylesheet by loading it explicitly.
 
 Package: minios-help
-Version: 1.0.8
+Version: 1.0.9
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 21775
+Installed-Size: 22161
 Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, python3-minios-gui (>= 1.4.0), librsvg2-common
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-help/minios-help_1.0.8_all.deb
-Size: 1222276
-SHA256: 132a8204998ed5d13970d5eea33457934214c7a6fcd537f066358faffeb310f6
-SHA1: 5afeda38eaec7961e194dc8a36a0296e8746ebd9
-MD5sum: 86de2c7466db78c0707759142ff76cea
+Filename: pool/main/m/minios-help/minios-help_1.0.9_all.deb
+Size: 1251392
+SHA256: 9286b7a82dd6a0933cf2d8323065c63fc25a5d09d1d177e16cab6ec39a87832b
+SHA1: c7c47ef487b561f4e2af997d54dc57258822a79f
+MD5sum: 82bf492877b57efadcf384035e7a808a
 Description: offline MiniOS documentation viewer
  Native GTK 3 application for browsing the MiniOS documentation installed on
  the local system. It provides section navigation, local full-text search,
@@ -986,20 +987,20 @@ Description: offline MiniOS documentation viewer
  native GTK widgets without WebKit or network access.
 
 Package: minios-image-builder
-Version: 1.2.0
+Version: 1.3.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 2121
-Depends: minios-image-compose (= 1.2.0), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, polkitd | policykit-1, pkexec | policykit-1, python3-minios-gui (>= 1.4.0), librsvg2-common
+Installed-Size: 2124
+Depends: minios-image-compose (= 1.3.0), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, polkitd | policykit-1, pkexec | policykit-1, python3-minios-gui (>= 1.4.0), librsvg2-common
 Recommends: minios-tools (>= 1.6.3), policykit-1-gnome | lxpolkit, udisks2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-builder_1.2.0_all.deb
-Size: 306640
-SHA256: 152bc9c4ce76792324c9ba272479e68783af0ca19fc67787be17c05bfc23e014
-SHA1: 3f578f928be2c2a227ec70045a1fb491d42c2f8f
-MD5sum: 72d9454d6072b0df4bed55bd598e9c4c
+Filename: pool/main/m/minios-image-builder/minios-image-builder_1.3.0_all.deb
+Size: 307144
+SHA256: f980e14d09083027b7d37499667f43314abe49d8d1fdefc17edb6deda3e75452
+SHA1: 30b4e27dc4b41a9f313e70833e72e1b3900c4a71
+MD5sum: 093e891651eea1d1bfee4d136a92ab81
 Description: customize the running MiniOS as a verified bootable image
  MiniOS Image Builder is a GTK project workspace for remastering MiniOS from
  the running session, a mounted ISO image, or an optical disc. It composes .sb
@@ -1014,7 +1015,7 @@ Description: customize the running MiniOS as a verified bootable image
 
 Package: minios-image-compose
 Source: minios-image-builder
-Version: 1.2.0
+Version: 1.3.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 638
@@ -1023,11 +1024,11 @@ Recommends: minios-tools (>= 1.6.3), polkitd | policykit-1, pkexec | policykit-1
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-compose_1.2.0_all.deb
-Size: 160404
-SHA256: 884779906a29c917bd67e78486fc0762cf52153a5b02deac7441b0f6dfe3d091
-SHA1: 206a3b572d200c27fd156e628b0a22046875fcb0
-MD5sum: d5ca6e0fb8734d29ad9058f644634da2
+Filename: pool/main/m/minios-image-builder/minios-image-compose_1.3.0_all.deb
+Size: 160608
+SHA256: 36a83bfa044c535ff8af356ee3bb67d6c0fb8ef123ae7434d43a24c992a9ec5d
+SHA1: 6f58afea51f32c5d2c88939ce19e307e512d884b
+MD5sum: 84d9eeb318f5ea170556b32149c22468
 Description: MiniOS image composition backend (minios-image-compose)
  minios-image-compose composes a bootable MiniOS ISO image from an immutable or
  identity-bound MiniOS source reference, ordered .sb modules and a live
@@ -1040,19 +1041,19 @@ Description: MiniOS image composition backend (minios-image-compose)
  workspace.
 
 Package: minios-installer
-Version: 3.4.0
+Version: 3.5.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 270
-Depends: minios-deploy (= 3.4.0), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.0), python3-minios-security (>= 1.0.1)
+Installed-Size: 272
+Depends: minios-deploy (= 3.5.0), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.0), python3-minios-security (>= 1.0.1)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_3.4.0_all.deb
-Size: 57044
-SHA256: 52e0113f7630255a5d91cc042618cb5aa4f744c62f2a3fe6fa2998e8440e037a
-SHA1: ec0df35b177d48fab0b6216855cfb8d342763dcb
-MD5sum: 3a0330e4af9536fdbcfbbdd67462dedd
+Filename: pool/main/m/minios-installer/minios-installer_3.5.0_all.deb
+Size: 57736
+SHA256: ece7b8a2d8d910260db85180a3f4dcf7031aa3745bf107b88eaf7f858ac00ac2
+SHA1: 44132f37c9609565dabef1252a0b19c4d271b2a2
+MD5sum: e214a74928260ae1b03fccd65c04e9f2
 Description: graphical MiniOS installation utility
  MiniOS Installer is the GTK frontend for minios-deploy. It provides guided
  live and native installation workflows while the deployment engine remains
@@ -1060,7 +1061,7 @@ Description: graphical MiniOS installation utility
 
 Package: minios-kernel
 Source: minios-kernel-manager
-Version: 1.4.2
+Version: 1.4.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 433
@@ -1071,11 +1072,11 @@ Replaces: minios-kernel-manager (<< 1.4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel_1.4.2_all.deb
-Size: 69868
-SHA256: 21aa6be0f8d1ce3be35a6515cb2cb32074e84bd340a294983136a22df7ed5444
-SHA1: afd4170dfc637db38be0d2e544518bcf8f0de3ff
-MD5sum: 284c71869fd906c2f0da5d38b15b106a
+Filename: pool/main/m/minios-kernel-manager/minios-kernel_1.4.3_all.deb
+Size: 69940
+SHA256: 0ba04f120e67b8b8dec27a1545db07afd7473b5886215fd9963f1d325e632387
+SHA1: b29dc3fb155560db758b25e6b5cf116ef883782c
+MD5sum: 910e75e56b7f5660abfe22f2ebb69300
 Description: command-line kernel management backend for MiniOS
  minios-kernel packages, installs, activates, lists, and removes MiniOS kernel
  bundles from the command line. It provides the non-graphical kernel management
@@ -1083,19 +1084,19 @@ Description: command-line kernel management backend for MiniOS
  terminal or automation.
 
 Package: minios-kernel-manager
-Version: 1.4.2
+Version: 1.4.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 114
-Depends: minios-kernel (= 1.4.2), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, python3-minios-gui (>= 1.4.0)
+Depends: minios-kernel (= 1.4.3), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, python3-minios-gui (>= 1.4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.4.2_all.deb
-Size: 23232
-SHA256: 02b0407752258ace5bd6988d1324279f8e522cf932bab8a0e637bfafbed46a9d
-SHA1: 121a60c8a635789314272048eec60faee7bbaea0
-MD5sum: 5d88b7afcbea09e50e7369044d64d52f
+Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.4.3_all.deb
+Size: 23252
+SHA256: 6e2059b239897aa39ed795606d14ea8bd129ab398402abba8623310cecf2e179
+SHA1: 424b76b759295383549fd9064ff88eba24e6bdf8
+MD5sum: c8fcf9cc7ba1c0cef5a58e2d1ce950e4
 Description: graphical kernel manager for MiniOS
  MiniOS Kernel Manager is the GTK3 frontend for the minios-kernel command-line
  backend. It provides graphical workflows for browsing, packaging, activating,
@@ -1230,7 +1231,7 @@ Description: Live System Configuration Components (sysvinit backend)
  This package contains the sysvinit backend.
 
 Package: minios-module-manager
-Version: 1.1.2
+Version: 1.1.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 707
@@ -1238,11 +1239,11 @@ Depends: python3 (>= 3.6), python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-module-manager/minios-module-manager_1.1.2_all.deb
-Size: 106732
-SHA256: 8c5367f16c114a54d93710c8d63da385f102b257ecc7797bb0fb4bc7a1a82f80
-SHA1: ef0744e1ff28df0b62e698993f8e22089cea2499
-MD5sum: 992fd04a61a4460180ef35f18c507006
+Filename: pool/main/m/minios-module-manager/minios-module-manager_1.1.3_all.deb
+Size: 106832
+SHA256: dacf76036d1c0ae73d3dbdf086fb20a5b9669cbfadc6395b80d8e04034a55375
+SHA1: 3d8b5303d6f9cd4a85e803a52a5d1859050b9fb1
+MD5sum: 2400ab243c67ebc7c16c7a5161e07cc7
 Description: GTK interface for MiniOS module composition
  GTK 3 application for inspecting, creating, and managing MiniOS modules.
  It presents Running Now and Next Boot composition and delegates module
@@ -1250,7 +1251,7 @@ Description: GTK interface for MiniOS module composition
 
 Package: minios-native-dracut
 Source: minios-installer
-Version: 3.4.0
+Version: 3.5.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 22
@@ -1260,11 +1261,11 @@ Provides: linux-initramfs-tool
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-native-dracut_3.4.0_all.deb
-Size: 9268
-SHA256: 27025f8a97bfde0c2b335ce443af50aa23fcc1185e37169d86dd704157eb936e
-SHA1: a390a9196a05117cec67f4f388196a5ad17dc765
-MD5sum: 160c5428c003b868748363ec522f9bb3
+Filename: pool/main/m/minios-installer/minios-native-dracut_3.5.0_all.deb
+Size: 9352
+SHA256: 7ddaa9a245693eba09ffaedc4810d1ee4029aa0e9a59b18cba705225ad593ab0
+SHA1: 61beaf229051a385c4878711d5836ac49cae419f
+MD5sum: 640286d40613c804b00dc1a17f32708d
 Description: native initramfs integration for MiniOS
  minios-native-dracut keeps dracut-core available on images that use either
  dracut-mos or livekit-mos and provides native kernel update hooks. The hooks
@@ -1272,10 +1273,10 @@ Description: native initramfs integration for MiniOS
 
 Package: minios-session
 Source: minios-session-manager
-Version: 2.2.0
+Version: 2.3.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 830
+Installed-Size: 887
 Depends: lsb-base, python3 (>= 3.6), minios-tools (>= 1.6.3), dynfilefs, cryptsetup, zstd, rsync, e2fsprogs, util-linux (>= 2.31)
 Recommends: dynblk (>= 1.0.0), dynblk-dkms (>= 1.0.0), polkitd | policykit-1, pkexec | policykit-1
 Breaks: minios-session-manager (<< 1.3.0)
@@ -1283,30 +1284,30 @@ Replaces: minios-session-manager (<< 1.3.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session_2.2.0_all.deb
-Size: 117056
-SHA256: 1833a3e5ed7b64c1c41206d1a13acf25c71f148f5eab600e9834335df2c133dc
-SHA1: cb39c291f7fb297f500b5f40277ff72884d51cbc
-MD5sum: f434de3ea426fe9a59ec51be5dab9fee
+Filename: pool/main/m/minios-session-manager/minios-session_2.3.0_all.deb
+Size: 126012
+SHA256: 62f248981a7253be0665711ee24f31d3df6ae0980564efca1f9ad814b76567a6
+SHA1: cc572b3c8c40697e77698931d04c8c7c2fa6358e
+MD5sum: 70c796a8bbfb326f7decf1f515a2604a
 Description: command-line session management backend for MiniOS
  minios-session provides the non-graphical persistent-session backend,
  persistence guard, and autosave integration used by MiniOS Session Manager.
  It can also be used directly from a terminal or automation.
 
 Package: minios-session-manager
-Version: 2.2.0
+Version: 2.3.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 171
-Depends: minios-session (= 2.2.0), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, python3-minios-gui (>= 1.4.0), polkitd | policykit-1, pkexec | policykit-1
+Installed-Size: 176
+Depends: minios-session (= 2.3.0), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, python3-minios-gui (>= 1.4.0), polkitd | policykit-1, pkexec | policykit-1
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session-manager_2.2.0_all.deb
-Size: 34520
-SHA256: 5e4b4bd0595b64e080be26984b1133cb6e744953bd0f858a71cf4d643d296373
-SHA1: c4be5da2fc7a8da0696cd371fc014c8f34fa9ed6
-MD5sum: 51271cae2298c32b275e5278c484fea9
+Filename: pool/main/m/minios-session-manager/minios-session-manager_2.3.0_all.deb
+Size: 35556
+SHA256: 6f1660f59b6e789f735c31fc2be9a0c7f6b5029973ad60d37abd6d7ca0e55bca
+SHA1: 49091f36274a3bf19eb716555b441144d98d8035
+MD5sum: 420f355c861400cad307ebb45b00f10c
 Description: graphical session manager for MiniOS
  MiniOS Session Manager is the GTK frontend for the minios-session backend.
  It provides graphical workflows for viewing, creating, activating, deleting,
