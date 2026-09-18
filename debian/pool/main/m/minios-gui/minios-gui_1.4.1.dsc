@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-gui
 Binary: minios-gui, python3-minios-gui
 Architecture: all
-Version: 1.4.0
+Version: 1.4.1
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.6.2
@@ -13,8 +13,8 @@ Package-List:
  minios-gui deb x11 optional arch=all
  python3-minios-gui deb python optional arch=all
 Checksums-Sha1:
- 4884e03c806208192a70028c4bb8689bfd23d9f3 74772 minios-gui_1.4.0.tar.xz
+ 6fe0f5d0e1be52bdc955741aed78e810e5a63bdf 75164 minios-gui_1.4.1.tar.xz
 Checksums-Sha256:
- a525b96276e7361ccabb0f28199aba67244e357f9b609fb3943f72d0b84182f0 74772 minios-gui_1.4.0.tar.xz
+ 1498b12dfe8f28ef651750956e8e3766537f8537f4f2f4eb08083d87e4de705c 75164 minios-gui_1.4.1.tar.xz
 Files:
- d224262f1d913ef32765c28d6ae9dda6 74772 minios-gui_1.4.0.tar.xz
+ 95126489ef0c84f66321d0beb9b043f5 75164 minios-gui_1.4.1.tar.xz
