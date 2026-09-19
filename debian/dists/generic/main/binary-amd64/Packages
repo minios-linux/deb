@@ -232,19 +232,19 @@ Description: self-contained block storage module source for DKMS
  do not request loading it. No storage is created by this package.
 
 Package: dynfilefs
-Version: 4.5.1-2
+Version: 4.6.0-1
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 41
-Depends: libc6 (>= 2.14), libfuse2 (>= 2.6)
+Installed-Size: 50
+Depends: libc6 (>= 2.14), libfuse2 (>= 2.9.0)
 Homepage: https://github.com/minios-linux/dynfilefs
 Priority: optional
 Section: utils
-Filename: pool/main/d/dynfilefs/dynfilefs_4.5.1-2_amd64.deb
-Size: 13948
-SHA256: 128b79c36ff445e58cd9a336c942c25fb0687932dbdf16f1c5da76aba93a4594
-SHA1: a4ff57f160379445131d260365dff4780890fbcf
-MD5sum: 945a4aed4ed63128b73aaf7971de1e14
+Filename: pool/main/d/dynfilefs/dynfilefs_4.6.0-1_amd64.deb
+Size: 17884
+SHA256: aa6d4ace13b6ed09fd2b3cdad07211dea01eab0787f9d45743186b1bae6d95b5
+SHA1: 8fbb1037e8623019e341d48ee7ed7777b81cbe79
+MD5sum: a791cbf5be215da668c22ea4e548b7ef
 Description: open DynFileFS-compatible dynamic block storage through FUSE
  DynFileFS is a compatibility-focused DynFileFS fork that exposes format 400
  storage as a virtual block image through FUSE. The image can be opened with a
@@ -1273,10 +1273,10 @@ Description: native initramfs integration for MiniOS
 
 Package: minios-session
 Source: minios-session-manager
-Version: 2.3.3
+Version: 2.4.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 892
+Installed-Size: 901
 Depends: lsb-base, python3 (>= 3.6), minios-tools (>= 1.6.3), dynfilefs, cryptsetup, zstd, rsync, e2fsprogs, util-linux (>= 2.31)
 Recommends: dynblk (>= 1.0.0), dynblk-dkms (>= 1.0.0), polkitd | policykit-1, pkexec | policykit-1
 Breaks: minios-session-manager (<< 1.3.0)
@@ -1284,30 +1284,30 @@ Replaces: minios-session-manager (<< 1.3.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session_2.3.3_all.deb
-Size: 127632
-SHA256: 1c2a78ea2db0c0c1fc97735b256503d3e6353dd7140e11d5b5afa32ea67835d1
-SHA1: e423f927da32cee3379c0181611b6265554e2d64
-MD5sum: fd714ad88606e8272b354f62b1f8f893
+Filename: pool/main/m/minios-session-manager/minios-session_2.4.0_all.deb
+Size: 128932
+SHA256: 31c3e3ceaa979bc92d6d619d95280ef9de6ef184d5a92f5e7cc2cc2a925d808a
+SHA1: a9452d2e7776a830c56bb5c895b6118f8768e48b
+MD5sum: 6e089ee9e4af118ef70e3c4cb2365f06
 Description: command-line session management backend for MiniOS
  minios-session provides the non-graphical persistent-session backend,
  persistence guard, and autosave integration used by MiniOS Session Manager.
  It can also be used directly from a terminal or automation.
 
 Package: minios-session-manager
-Version: 2.3.3
+Version: 2.4.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 176
-Depends: minios-session (= 2.3.3), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, python3-minios-gui (>= 1.4.0), polkitd | policykit-1, pkexec | policykit-1
+Depends: minios-session (= 2.4.0), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, python3-minios-gui (>= 1.4.0), polkitd | policykit-1, pkexec | policykit-1
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session-manager_2.3.3_all.deb
-Size: 35732
-SHA256: a80c2003e4635ca7bc52cdc5bb5e10cccd886ba49d2376f1d12952f8a56c4033
-SHA1: 43f281bc7588250b438285ac90be629719f04f9b
-MD5sum: 351a92adfdad9b00b6dc786532f69a18
+Filename: pool/main/m/minios-session-manager/minios-session-manager_2.4.0_all.deb
+Size: 35808
+SHA256: 2989a8cea3b1b1786f3c3d5b92de91ae6bd89c41dffbacca2c0fdda674b6ce50
+SHA1: 1a4fecc5136a9e18391ebe18e09a8114325da1ef
+MD5sum: aa71f0d89ba3459572efb11c8bde496f
 Description: graphical session manager for MiniOS
  MiniOS Session Manager is the GTK frontend for the minios-session backend.
  It provides graphical workflows for viewing, creating, activating, deleting,
