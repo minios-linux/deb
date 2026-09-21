@@ -884,11 +884,11 @@ Description: MiniOS Linux configuration utility.
 
 Package: minios-deploy
 Source: minios-installer
-Version: 3.5.4
+Version: 3.6.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1278
-Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.5.4) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31)
+Installed-Size: 1286
+Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.6.0) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31)
 Recommends: minios-live-config (>= 11.0.5.15), user-setup
 Suggests: minios-session (>= 2.2.0)
 Breaks: minios-installer (<< 3.1.0)
@@ -896,11 +896,11 @@ Replaces: minios-installer (<< 3.1.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-deploy_3.5.4_all.deb
-Size: 197984
-SHA256: 6f00196b9f8c7f7f07bb3d6321ae6d2fc2369b8ae5fbe7c67e4ef90424ff87d2
-SHA1: 56e7cc93508d07b7dc0482e04ac18a6b30aa3fc0
-MD5sum: 4f5f4f47da8ac8dfb2f0ddfaeea1a2e4
+Filename: pool/main/m/minios-installer/minios-deploy_3.6.0_all.deb
+Size: 199320
+SHA256: ee82eb0c0dd95d7b1f3ad07bcfb3b10eff087937485da2c2a8ae9f0ff740a80b
+SHA1: f03e96d7bfaeb23ef68bd431fdabd058a775a869
+MD5sum: 69e2650926b869db71b2f607da93e5d7
 Description: command-line MiniOS deployment backend
  minios-deploy provides disk discovery, installation planning, and live or
  native MiniOS deployment without a graphical interface. It is the backend
@@ -1044,19 +1044,19 @@ Description: MiniOS image composition backend (minios-image-compose)
  workspace.
 
 Package: minios-installer
-Version: 3.5.4
+Version: 3.6.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 274
-Depends: minios-deploy (= 3.5.4), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.1), python3-minios-security (>= 1.0.1)
+Installed-Size: 275
+Depends: minios-deploy (= 3.6.0), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.1), python3-minios-security (>= 1.0.1)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_3.5.4_all.deb
-Size: 58268
-SHA256: 25e7e897fe3e56a4b9844e1de6f278079c152d1406a45426db82589da148a457
-SHA1: 9a27d9a89ee14d17e37d225a7aea7166b3945b3f
-MD5sum: 038823af25d72af7a77f1e628c9c3a38
+Filename: pool/main/m/minios-installer/minios-installer_3.6.0_all.deb
+Size: 58500
+SHA256: 4af278404d9760970b80b18b784b2d90727f6f006eab96518463c5d3b0a7faa8
+SHA1: 89edfc377a9993e39d378f28beb0e0943d937137
+MD5sum: e9dc60a83df8c41c73d5317a95573b2b
 Description: graphical MiniOS installation utility
  MiniOS Installer is the GTK frontend for minios-deploy. It provides guided
  live and native installation workflows while the deployment engine remains
@@ -1064,7 +1064,7 @@ Description: graphical MiniOS installation utility
 
 Package: minios-kernel
 Source: minios-kernel-manager
-Version: 1.4.4
+Version: 1.4.5
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 434
@@ -1075,11 +1075,11 @@ Replaces: minios-kernel-manager (<< 1.4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel_1.4.4_all.deb
-Size: 70180
-SHA256: 4b53c07b414897df9478ac56fe831e0efe8bb0a4c3031444bb4c81564ea523db
-SHA1: 0098c24e430c15f14299e5b6172daa25967a841f
-MD5sum: 15f56c3a85c42a207a89b4c5a504fbe7
+Filename: pool/main/m/minios-kernel-manager/minios-kernel_1.4.5_all.deb
+Size: 70140
+SHA256: 10e11c4f9ef0c57ed6e395df72a9f013329e5223a9c53d57e5cea5729931eda9
+SHA1: a3da89ac7f8693bf5a0878787bc074207c558004
+MD5sum: a78317638c39692d55021787e877e9e1
 Description: command-line kernel management backend for MiniOS
  minios-kernel packages, installs, activates, lists, and removes MiniOS kernel
  bundles from the command line. It provides the non-graphical kernel management
@@ -1087,19 +1087,19 @@ Description: command-line kernel management backend for MiniOS
  terminal or automation.
 
 Package: minios-kernel-manager
-Version: 1.4.4
+Version: 1.4.5
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 114
-Depends: minios-kernel (= 1.4.4), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, python3-minios-gui (>= 1.4.0)
+Depends: minios-kernel (= 1.4.5), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, python3-minios-gui (>= 1.4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.4.4_all.deb
-Size: 23320
-SHA256: f03f15429325b869a32fba6bff3ff524fe1822c5d18a8c1ec8f04b37561187a0
-SHA1: 68246db8e26e84b11178de1fb77f96e817425c3c
-MD5sum: bba6357f34dbe6f31dcd7dc11be218fc
+Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.4.5_all.deb
+Size: 23364
+SHA256: aa9a28eb5778ef2465e43823bc3616fcd7e8d7da3d6b2259156bb665548d3b73
+SHA1: 40a1c1f5f2fdd85aa3b1f80f35f723e214cb0f5f
+MD5sum: 488b2bb557f4d27b86b7665654bfe2a4
 Description: graphical kernel manager for MiniOS
  MiniOS Kernel Manager is the GTK3 frontend for the minios-kernel command-line
  backend. It provides graphical workflows for browsing, packaging, activating,
@@ -1231,7 +1231,7 @@ Description: GTK interface for MiniOS module composition
 
 Package: minios-native-dracut
 Source: minios-installer
-Version: 3.5.4
+Version: 3.6.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 23
@@ -1241,11 +1241,11 @@ Provides: linux-initramfs-tool
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-native-dracut_3.5.4_all.deb
-Size: 9672
-SHA256: 3c7de61854e43804b7bd7e276a415409803f730c6899a555b3728dd54cca1918
-SHA1: 45f47ea8fa1c283fd296a6bd1c29e6fa402edf5a
-MD5sum: eda31d42847c544ef2ef5fe87e6b6bbd
+Filename: pool/main/m/minios-installer/minios-native-dracut_3.6.0_all.deb
+Size: 9724
+SHA256: ce98ac9351d93d638e7d8d27d10a16f23575ee89094ef0493a16ec0ac1a7e7a1
+SHA1: f166c75bc93c7614b2f13cb5902f74961c7265c8
+MD5sum: 956c04cbe6e6dcd21f462d5564a98c38
 Description: native initramfs integration for MiniOS
  minios-native-dracut keeps dracut-core available on images that use either
  dracut-mos or livekit-mos and provides native kernel update hooks. The hooks
