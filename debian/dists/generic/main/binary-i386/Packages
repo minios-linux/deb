@@ -970,19 +970,19 @@ Description: MiniOS shared GUI styling (canonical stylesheet)
  applications, which adopt the stylesheet by loading it explicitly.
 
 Package: minios-help
-Version: 1.0.11
+Version: 1.0.12
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 22278
+Installed-Size: 22545
 Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, python3-minios-gui (>= 1.4.0), librsvg2-common
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-help/minios-help_1.0.11_all.deb
-Size: 1259624
-SHA256: 4c2689fbbbe5651331a19ca6f8ca0e709dbc6fe6cf27f2e086cd96259f9b6e3c
-SHA1: f63c5e5814c7f475b6b754db20c2f4a40c87a3ca
-MD5sum: 4964ba86e205f5c29dcccc605ab062f9
+Filename: pool/main/m/minios-help/minios-help_1.0.12_all.deb
+Size: 1289300
+SHA256: 3b6e1e253a6b0d5aecfeb2835e93cd244b8ea16074e76a9e5b42d2cfcaf905bd
+SHA1: 33c7060efbf82ff12f41294be4a7291f1ef92dfe
+MD5sum: f1595340fcdb5c98b968fa4c628e2236
 Description: offline MiniOS documentation viewer
  Native GTK 3 application for browsing the MiniOS documentation installed on
  the local system. It provides section navigation, local full-text search,
