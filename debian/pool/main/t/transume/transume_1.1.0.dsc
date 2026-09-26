@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: transume
 Binary: transume
 Architecture: all
-Version: 1.0.2
+Version: 1.1.0
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev/
 Standards-Version: 4.6.2
@@ -12,8 +12,8 @@ Build-Depends: appstream, debhelper-compat (= 13), desktop-file-utils, dh-python
 Package-List:
  transume deb utils optional arch=all
 Checksums-Sha1:
- e38d11b5d86bd6c0b15d4443cee5adbf8ac779d1 199700 transume_1.0.2.tar.xz
+ 10105e36034f1e0170ebbecd9d7d63e13b37c52a 201432 transume_1.1.0.tar.xz
 Checksums-Sha256:
- 8f751b9f17959b6baa186881d3b11dbdfed489404864b0f98f17b99708aac7fa 199700 transume_1.0.2.tar.xz
+ 3b4588215c9a24dbe70d5dd28b1f48e52fb02b919e1507a337177192cbf03d98 201432 transume_1.1.0.tar.xz
 Files:
- 5528d69b00a89482939ca4480e061869 199700 transume_1.0.2.tar.xz
+ d8f38cb707d7e3baf976f68ecc93fcde 201432 transume_1.1.0.tar.xz
