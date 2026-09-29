@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-configurator
 Binary: minios-configurator
 Architecture: all
-Version: 3.3.0
+Version: 3.3.1
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext, python3-minios-gui (>= 1.4.0), python
 Package-List:
  minios-configurator deb utils optional arch=all
 Checksums-Sha1:
- 957b0951c73b442a28d8c8569d234f234fccafc2 77880 minios-configurator_3.3.0.tar.xz
+ 0e605b2cb7d80796afe86866642d1fef6b86960e 77936 minios-configurator_3.3.1.tar.xz
 Checksums-Sha256:
- 4b6ddc7f164150463bcf602627310e20ed9c13748cd35beceba2d08d82ade12c 77880 minios-configurator_3.3.0.tar.xz
+ 51d9396a749aa920800ff036645f6601dea9d71db7cfbcd9aba902bce2b26f59 77936 minios-configurator_3.3.1.tar.xz
 Files:
- 678b35b8b03720d5438cebbef1845435 77880 minios-configurator_3.3.0.tar.xz
+ 7b9711c8ce2d8968ad2d47f7b22e1dfd 77936 minios-configurator_3.3.1.tar.xz
