@@ -1314,19 +1314,19 @@ Description: graphical session manager for MiniOS
  exporting, importing, copying, converting, and cleaning up sessions.
 
 Package: minios-store
-Version: 1.2.0
+Version: 1.2.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 66
-Depends: minios-store-common (= 1.2.0), python3-websockets, python3-gi, python3-minios-gui (>= 1.4.0), gir1.2-gtk-3.0, xdg-utils, lsb-base (>= 3.0-6)
+Installed-Size: 67
+Depends: minios-store-common (= 1.2.1), python3-websockets, python3-gi, python3-minios-gui (>= 1.4.0), gir1.2-gtk-3.0, xdg-utils, lsb-base (>= 3.0-6)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store_1.2.0_all.deb
-Size: 13524
-SHA256: f99b2f3d753dd10ca4008b5613a82483fe505e2b38b4b8dcb8c8a772d41e39f7
-SHA1: c0a9fad0d8203ac11338a89900e5445957cb36b1
-MD5sum: 690fffa55025a0abf70665a356885606
+Filename: pool/main/m/minios-store/minios-store_1.2.1_all.deb
+Size: 13740
+SHA256: a3a5e2b757ae38dcbc14cc8bd5594d32278ada2e414ecd027a89b0f54c15b7e9
+SHA1: 31aacb208d381bd87c737542862971eb98cfd175
+MD5sum: 425eced707ce14ca7a3bd78784ce702a
 Description: MiniOS Store WebSocket daemon
  WebSocket daemon for the MiniOS Store. Listens on ws://127.0.0.1:8765
  and handles installation requests from the web interface at
@@ -1335,19 +1335,19 @@ Description: MiniOS Store WebSocket daemon
 
 Package: minios-store-common
 Source: minios-store
-Version: 1.2.0
+Version: 1.2.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 153
+Installed-Size: 154
 Depends: python3 (>= 3.6), squashfs-tools, minios-tools (>= 1.6.3)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store-common_1.2.0_all.deb
-Size: 22764
-SHA256: 20ab7b99785f4b820924ad0bb40a39b8becd516cf9bc622b404338ec2e54af1f
-SHA1: 50be2891e79554d9fa5dfce54e55c1f1ec32777e
-MD5sum: febc8ee8367c7a5dd3edd663ef243502
+Filename: pool/main/m/minios-store/minios-store-common_1.2.1_all.deb
+Size: 22904
+SHA256: e87ab11ef139e4478beb0bb3300bd335539be88118e23a955f4230a3db03eecd
+SHA1: 32ad6f52b02f932c5ac39d2bd608591edb36346f
+MD5sum: a53f914eb4bd7e6410e4614632bf0874
 Description: MiniOS Store common library
  Shared Python library for the MiniOS Store backend components.
  Provides the installer engine, configuration, and logging modules
@@ -1355,19 +1355,19 @@ Description: MiniOS Store common library
 
 Package: minios-store-gui
 Source: minios-store
-Version: 1.2.0
+Version: 1.2.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 46
-Depends: minios-store-common (= 1.2.0), python3-gi, python3-minios-gui (>= 1.4.0), gir1.2-gtk-3.0, polkitd | policykit-1, pkexec | policykit-1, xdg-utils
+Depends: minios-store-common (= 1.2.1), python3-gi, python3-minios-gui (>= 1.4.0), gir1.2-gtk-3.0, polkitd | policykit-1, pkexec | policykit-1, xdg-utils
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store-gui_1.2.0_all.deb
-Size: 10636
-SHA256: b2952f0f1db1375ce942af1a804616179c36803ef9f28b223707f6bd6c25e71d
-SHA1: 3e1f140ef2c0f5bd815aed448d3cb59207689d7a
-MD5sum: 7e083d754928d5feb48c47024d2a5b25
+Filename: pool/main/m/minios-store/minios-store-gui_1.2.1_all.deb
+Size: 10776
+SHA256: 7471a4f8cf4d7c5abab940a4688dc1403a3f157d1a46ba626c5e9983268e3e1a
+SHA1: c04cb6069d1c7fe636bfd8a6f9cfb50a61158e8a
+MD5sum: 1411e2c101300eeed6083edacfa03158
 Description: MiniOS Store GTK3 graphical installer
  Standalone GTK3 graphical installer for the MiniOS Store. Handles
  minios-store:// URI scheme for installing applications directly from
