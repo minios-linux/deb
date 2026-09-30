@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-image-builder
 Binary: minios-image-compose, minios-image-builder
 Architecture: all
-Version: 1.4.2
+Version: 1.4.3
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -11,8 +11,8 @@ Package-List:
  minios-image-builder deb utils optional arch=all
  minios-image-compose deb utils optional arch=all
 Checksums-Sha1:
- cedc4a5f22f2212787b6a8177a2f1f3fbcafc0fd 515664 minios-image-builder_1.4.2.tar.xz
+ 182a421638f995b159054db23d5d9519b51cfd82 517732 minios-image-builder_1.4.3.tar.xz
 Checksums-Sha256:
- df1ffbe9671a68ce425885e2ee7fcf1f3485886a94aad4e19ee2fd2a59c2277f 515664 minios-image-builder_1.4.2.tar.xz
+ fdcf525f1a8aa046c1fe44ece1cc7fb6ead50599985322b73e82cafd99c2f831 517732 minios-image-builder_1.4.3.tar.xz
 Files:
- 835d608e354b5b047de1c2b549a886e2 515664 minios-image-builder_1.4.2.tar.xz
+ 974e23c5b9cb6e0abbbe8b4becb3ffce 517732 minios-image-builder_1.4.3.tar.xz

@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-module-manager
 Binary: minios-module-manager
 Architecture: all
-Version: 1.2.1
+Version: 1.3.0
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext, gir1.2-vte-2.91, python3, python3-gi-
 Package-List:
  minios-module-manager deb utils optional arch=all
 Checksums-Sha1:
- 14d6827f42fd885d25ef67d5272a32c3d8d2c2d0 116988 minios-module-manager_1.2.1.tar.xz
+ f42f8a5b9903a5d475878ecaedc62de8d6a6522a 120528 minios-module-manager_1.3.0.tar.xz
 Checksums-Sha256:
- 7ddcf59fde9c77ea9d5b13485ab9398cb78519fd668de78b86ee0cefc0204dd9 116988 minios-module-manager_1.2.1.tar.xz
+ dd3c47726f74942d4e758b7d9f6b1cdd3f0bf0927518d3adb3c6f285709b5e07 120528 minios-module-manager_1.3.0.tar.xz
 Files:
- 02db91db2863d63c61e55336d6f152eb 116988 minios-module-manager_1.2.1.tar.xz
+ 770879e63ae6111a0e512f7dbd8b041f 120528 minios-module-manager_1.3.0.tar.xz
