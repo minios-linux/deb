@@ -435,6 +435,50 @@ Description: Highly configurable and low resource X11 Window manager
  .
  This package contains support for GNOME and KDE.
 
+Package: fonts-inter-minimal
+Version: 4.1+ds-1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 2404
+Conflicts: fonts-inter, fonts-inter-variable
+Replaces: fonts-inter
+Multi-Arch: foreign
+Homepage: https://rsms.me/inter/
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-inter-minimal/fonts-inter-minimal_4.1+ds-1_all.deb
+Size: 593844
+SHA256: af538423ffde6c8d6881e262d8c7b25cdc2e7f94861259737f6d1335fce98de6
+SHA1: 3096b348c280a30fc1e66fbb55e13c95977a1cb7
+MD5sum: 3b7f9dd33165ea64bcef81a0395531c9
+Description: Inter desktop fonts in four essential styles
+ Inter is a typeface designed for legible user interfaces.
+ This minimal package contains Regular, Bold, Italic and Bold Italic
+ static OpenType fonts, with their complete original character coverage.
+ Additional weights, Inter Display and variable fonts are omitted.
+
+Package: fonts-jetbrains-mono-minimal
+Version: 2.304+ds-5
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1070
+Conflicts: fonts-jetbrains-mono
+Replaces: fonts-jetbrains-mono
+Multi-Arch: foreign
+Homepage: https://www.jetbrains.com/lp/mono/
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-jetbrains-mono-minimal/fonts-jetbrains-mono-minimal_2.304+ds-5_all.deb
+Size: 227392
+SHA256: c658158d8e851489191e271ac995fa5d00865b5a28dfcac7892f54be5449808f
+SHA1: be9d4114ff4bc2c2e87ad76682272d0506e9d969
+MD5sum: 743ea7b8bc446cf4317e9d3689b860ca
+Description: JetBrains Mono desktop fonts in four essential styles
+ JetBrains Mono is a monospaced typeface for terminals and source code.
+ This minimal package contains Regular, Bold, Italic and Bold Italic
+ hinted TrueType fonts, with complete original character coverage.
+ Additional weights, the NL family and web fonts are omitted.
+
 Package: fonts-roboto-light
 Version: 1.0
 Architecture: all
@@ -483,6 +527,26 @@ Description: grey GTK+ theme from the Shimmer Project
  .
  Although originally created for Xfce, Greybird also supports other
  GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
+
+Package: greybird-minios-theme
+Version: 3.23.4
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 2708
+Depends: gtk2-engines-murrine
+Homepage: https://github.com/minios-linux/greybird-minios
+Priority: optional
+Section: x11
+Filename: pool/main/g/greybird-minios-theme/greybird-minios-theme_3.23.4_all.deb
+Size: 198360
+SHA256: 1ca8ae1657abe5ed1c85060bf81b1d8ee364abc3530ea19c9b535986bd75b6e9
+SHA1: 0fc0e3fb4d80c87d4095be483881edd79ea96d55
+MD5sum: bff9e2f931164aec8e70bc7d1dde4a00
+Description: Greybird GTK theme adapted for MiniOS
+ Greybird-MiniOS is a fork of the Greybird theme from the Shimmer Project.
+ It retains the original Greybird appearance while integrating MiniOS panel
+ styling for Xfce launchers, task buttons, grouped windows and active-window
+ indicators.
 
 Package: gtkask
 Version: 1.0-4
@@ -822,6 +886,28 @@ MD5sum: e057c5b7222d17f2d6534b1b2557f56d
 Description: Linux kernel, version 6.12.57-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.12.57-mos-amd64.
+
+Package: macbook-charge-limit
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 41
+Depends: libc6 (>= 2.4), init-system-helpers (>= 1.50), lsb-base (>= 3.0-6)
+Homepage: https://github.com/jtbrough/macbook-charge-limit
+Priority: optional
+Section: admin
+Filename: pool/main/m/macbook-charge-limit/macbook-charge-limit_1.0.0-1_amd64.deb
+Size: 10152
+SHA256: 544b15e95bd01cb5e8a13215b3eb42c2c029acb3517f433e4936f174ca860522
+SHA1: 56aa73108e812e3603af44e84b3e94be01c47dc6
+MD5sum: 19b919152225067072cddcf21b66b9c7
+Description: set Intel MacBook battery charge limits through Apple SMC
+ Read or set the Apple SMC BCLM and BFCL keys on supported Intel MacBooks
+ when Linux does not expose a standard battery charge threshold interface.
+ Charge limits from 20 to 100 percent are supported.
+ .
+ Optional systemd and SysV services apply the configured limit at boot.
+ Enable them manually after configuring /etc/macbook-charge-limit.conf.
 
 Package: mini-commander
 Version: 1.0-1
