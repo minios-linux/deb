@@ -1317,19 +1317,19 @@ Description: Live System Configuration Components (sysvinit backend)
  This package contains the sysvinit backend.
 
 Package: minios-module-manager
-Version: 1.3.0
+Version: 1.3.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 723
+Installed-Size: 733
 Depends: python3 (>= 3.6), python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-vte-2.91, shared-mime-info, python3-minios-gui (>= 1.4.0), polkitd | policykit-1, pkexec | policykit-1, minios-tools (>= 1.8.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-module-manager/minios-module-manager_1.3.0_all.deb
-Size: 108976
-SHA256: 0668aeeda8b656bd3a517c74ae335c712b1354239562f4f602e249704b548878
-SHA1: 6d559930bbebabc6312273d395a894ff7e808e21
-MD5sum: 5ae7e786b6057fefe3742c748d880822
+Filename: pool/main/m/minios-module-manager/minios-module-manager_1.3.1_all.deb
+Size: 110280
+SHA256: adf489298b277112772601a878d9300420acbce1945be00ab08f3ff29bddab91
+SHA1: 2e840302c9d71972ba797f586e4544a3d1b5d1d0
+MD5sum: feb641f8eeebc0b897744f1c445bcf41
 Description: GTK interface for MiniOS module composition
  GTK 3 application for inspecting, creating, and managing MiniOS modules.
  It presents Running Now and Next Boot composition and delegates module
