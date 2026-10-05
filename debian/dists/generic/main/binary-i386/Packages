@@ -1975,19 +1975,19 @@ Description: Systray Icon Launcher.
  command or application after user clicks the icon.
 
 Package: transume
-Version: 1.1.0
+Version: 1.1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 899
+Installed-Size: 889
 Depends: python3:any, clonezilla (>= 5.9.9-1), acl, ecryptfs-utils, gir1.2-gtk-4.0 (>= 4.18), libgtk-4-1 (>= 4.18), lvm2, pkexec, polkitd, cifs-utils, nfs-common, partclone (>= 0.3.36+repack-1), partclone-nbd (>= 0.0.4-1), nbdkit (>= 1.42.3-1), nbd-client, sshfs, python3 (>= 3.13), python3-gi
 Homepage: https://minios.dev/
 Priority: optional
 Section: utils
-Filename: pool/main/t/transume/transume_1.1.0_all.deb
-Size: 142236
-SHA256: 22562064bcfcfe7819ac8e01dc9993c10279ce4d69d36042f388275f90d3ad67
-SHA1: bf7c76499a18c88df2f41670c9036532bd9c2003
-MD5sum: ca39c840a92a68d8b4ef7da590812d5a
+Filename: pool/main/t/transume/transume_1.1.1_all.deb
+Size: 140988
+SHA256: b0fb96b191144ed970557d3f8d32885fd6523816f428ad2142f35eab602d4b1b
+SHA1: ae5295006142bf7e28535cec6da6baaedc80f0bf
+MD5sum: abc86ef0205c4b2b5d2b159bc0424f10
 Description: GTK4 frontend for Clonezilla
  Transume provides a graphical interface for Clonezilla backup, restore,
  cloning, image management, verification, network storage, and LVM2 workflows.
