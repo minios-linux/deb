@@ -486,20 +486,20 @@ Description: grey GTK+ theme from the Shimmer Project
  Although originally created for Xfce, Greybird also supports other
  GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
 
-Package: greybird-minios-theme
-Version: 3.23.4
+Package: greybird-minios-gtk-theme
+Version: 3.23.4-1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 2708
+Installed-Size: 2721
 Depends: gtk2-engines-murrine
 Homepage: https://github.com/minios-linux/greybird-minios
 Priority: optional
 Section: x11
-Filename: pool/main/g/greybird-minios-theme/greybird-minios-theme_3.23.4_all.deb
-Size: 198360
-SHA256: 1ca8ae1657abe5ed1c85060bf81b1d8ee364abc3530ea19c9b535986bd75b6e9
-SHA1: 0fc0e3fb4d80c87d4095be483881edd79ea96d55
-MD5sum: bff9e2f931164aec8e70bc7d1dde4a00
+Filename: pool/main/g/greybird-minios-gtk-theme/greybird-minios-gtk-theme_3.23.4-1_all.deb
+Size: 199296
+SHA256: 911f2640a1242dcde3e995dc29a67271be1ee0c3ca975698aba17710e6f6b0e5
+SHA1: 8ba0fc9078b1fa13862d473f4aaa104f4c777855
+MD5sum: 8f8698ae5765a9f582f8fe36bd67dbcc
 Description: Greybird GTK theme adapted for MiniOS
  Greybird-MiniOS is a fork of the Greybird theme from the Shimmer Project.
  It retains the original Greybird appearance while integrating MiniOS panel
@@ -2030,6 +2030,78 @@ Description: Set up initial user and password
  This package creates an initial user, using the same code as is
  responsible for creating the initial user in the installer. It is only
  likely to be of any use if your system has no non-system users at all.
+
+Package: xfce4-minios-showdesktop-plugin
+Version: 1.0.0
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 89
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.42.0), libgtk-3-0t64 (>= 3.19.12), libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.17.2), libxfce4windowing-0-0 (>= 4.19.4), libxfconf-0-3 (>= 4.12.1)
+Homepage: https://github.com/minios-linux/xfce4-minios-showdesktop-plugin
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-minios-showdesktop-plugin/xfce4-minios-showdesktop-plugin_1.0.0_i386.deb
+Size: 15632
+SHA256: 9610610bb0df63c44ad06158b8ca24f128942c3257705421d004b702c04842b3
+SHA1: 549ff4da6a69da56091f62da887e0549bea5d824
+MD5sum: 6429205edf564b7ac713da4971699c6a
+Description: MiniOS Show Desktop plugin for the Xfce panel
+ A MiniOS fork of the Xfce Show Desktop plugin with an optional iconless
+ compact strip and selectable strip widths.
+
+Package: xfce4-minios-showdesktop-plugin-dbgsym
+Source: xfce4-minios-showdesktop-plugin
+Version: 1.0.0
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 58
+Depends: xfce4-minios-showdesktop-plugin (= 1.0.0)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xfce4-minios-showdesktop-plugin/xfce4-minios-showdesktop-plugin-dbgsym_1.0.0_i386.deb
+Size: 41296
+SHA256: 61bfae632b8b4cf43ba533b02af79d74f05c3c740e362e509cce6b79d70393e1
+SHA1: 7037da20af2fdd7428c0cc4fe0d85632204ac45e
+MD5sum: d13228d133cd8016da9c9cbf1efc43b5
+Description: debug symbols for xfce4-minios-showdesktop-plugin
+Build-Ids: 1f8d9693fd30881d951099517c39d317f17eb177
+
+Package: xfce4-minios-tasklist-plugin
+Version: 1.0.0
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 214
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libpango-1.0-0 (>= 1.14.0), libx11-6, libxext6, libxfce4panel-2.0-4 (>= 4.17.2), libxfce4ui-2-0 (>= 4.17.2), libxfce4windowing-0-0 (>= 4.19.4), libxfconf-0-3 (>= 4.12.1)
+Homepage: https://github.com/minios-linux/xfce4-minios-tasklist-plugin
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-minios-tasklist-plugin/xfce4-minios-tasklist-plugin_1.0.0_i386.deb
+Size: 50668
+SHA256: c769054b48e2c710627227a8e290d9ef1debad50227e0cbbbc428f7131e16801
+SHA1: 718012e02700f6718afddae0518efe9cec10c447
+MD5sum: 3ac29dcb0cdd771000d2489723268b86
+Description: MiniOS window buttons plugin for the Xfce panel
+ A MiniOS fork of the Xfce Window Buttons plugin with pinned applications,
+ drag-and-drop reordering, launcher pinning and compact MiniOS taskbar behavior.
+
+Package: xfce4-minios-tasklist-plugin-dbgsym
+Source: xfce4-minios-tasklist-plugin
+Version: 1.0.0
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 166
+Depends: xfce4-minios-tasklist-plugin (= 1.0.0)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xfce4-minios-tasklist-plugin/xfce4-minios-tasklist-plugin-dbgsym_1.0.0_i386.deb
+Size: 138492
+SHA256: bb194817a76903dad76df39c92cf7cfe63c3ace08c8ef8a8fd44880c020f13e7
+SHA1: 5bd1172af8ff4e3ecd0055023ce286866eaf39cc
+MD5sum: f4b309ece37308ba3e643f2e34075c38
+Description: debug symbols for xfce4-minios-tasklist-plugin
+Build-Ids: f05d04d56838a198193218819e9d17845ecda1e4
 
 Package: xlunch
 Version: 4.7.6+git20260524.da1ff9f-1minios4
