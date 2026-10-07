@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: minios-tools
 Binary: minios-tools
 Architecture: all
-Version: 1.9.0
+Version: 1.9.1
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -10,8 +10,8 @@ Build-Depends: attr, bats, debhelper (>= 11), gettext, pandoc, python3 (>= 3.6),
 Package-List:
  minios-tools deb utils optional arch=all
 Checksums-Sha1:
- e51563c305c0f07bc6fb11c49013e38158dea65e 139028 minios-tools_1.9.0.tar.xz
+ 4b5b856d5c9b9c0e8bcc23ce5b92b55e227d539b 139464 minios-tools_1.9.1.tar.xz
 Checksums-Sha256:
- 9cf0acd70821c57a9d7d842c59e0c5cc774cbbc5ed0939d2188a469ebd9ab611 139028 minios-tools_1.9.0.tar.xz
+ 7127d9df6a33ce841f9781b6013d70bdfbc768cda585fe36f4fde79d10f4e79c 139464 minios-tools_1.9.1.tar.xz
 Files:
- b93f50e6a1acd83a6cbef32f9b4c634b 139028 minios-tools_1.9.0.tar.xz
+ 63351b478c36051d70c2e321ce7a5649 139464 minios-tools_1.9.1.tar.xz

@@ -967,11 +967,11 @@ Description: MiniOS Linux configuration utility.
 
 Package: minios-deploy
 Source: minios-installer
-Version: 3.7.1
+Version: 3.7.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1342
-Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.7.1) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31)
+Installed-Size: 1343
+Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.7.2) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31)
 Recommends: minios-live-config (>= 11.0.5.15), user-setup
 Suggests: minios-session (>= 2.2.0)
 Breaks: minios-installer (<< 3.1.0)
@@ -979,11 +979,11 @@ Replaces: minios-installer (<< 3.1.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-deploy_3.7.1_all.deb
-Size: 236344
-SHA256: d543e4a13974495b83b5a5048f41c9f72dd2a2a0ed72f7e8a7e25fb506cb200c
-SHA1: fcf3672e03028dd2d7c2d09758d7382e07a2ed9c
-MD5sum: 4e034522bd57655842aafa5825da313e
+Filename: pool/main/m/minios-installer/minios-deploy_3.7.2_all.deb
+Size: 236872
+SHA256: ccf89622af80583f59d33f83bd25eab27600940dfa368e2e121b1a250c1767af
+SHA1: 9dc77a20e3cf9e580d9efa40e5905d9e82d45033
+MD5sum: d0bb3b295a7e7f4abf0c2d0011ff1458
 Description: command-line MiniOS deployment backend
  minios-deploy provides disk discovery, installation planning, and live or
  native MiniOS deployment without a graphical interface. It is the backend
@@ -1024,7 +1024,7 @@ Description: MiniOS dracut modules for initramfs generation
  dracut configuration to keep initramfs size small.
 
 Package: minios-gui
-Version: 1.4.1
+Version: 1.4.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 35
@@ -1032,11 +1032,11 @@ Recommends: elementary-minios-icon-theme
 Homepage: https://minios.dev
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-gui/minios-gui_1.4.1_all.deb
-Size: 13248
-SHA256: d7f7f7b3b0ba2d3644fc3f2832ccd130f59a06d91d603833f3910a514cfb1ead
-SHA1: c16a45fa298f621fe3996bed0ca9dc439d47779e
-MD5sum: e8b97c26b2c7f2ec3aa957adbecaa5bd
+Filename: pool/main/m/minios-gui/minios-gui_1.4.2_all.deb
+Size: 13404
+SHA256: 4e4fbbf8e92776011f49b334811d2d8d21c96dc376b08f1bd2faa8ff703620f7
+SHA1: a77c91fc207b7acfcb625c6945010123e613c1c0
+MD5sum: 2e26067ce65fc0ae4c17fc4f14e35673
 Description: MiniOS shared GUI styling (canonical stylesheet)
  Common look-and-feel resources shared by MiniOS graphical applications,
  including minios-installer, minios-configurator, Drive Utility, and the other
@@ -1053,19 +1053,19 @@ Description: MiniOS shared GUI styling (canonical stylesheet)
  applications, which adopt the stylesheet by loading it explicitly.
 
 Package: minios-help
-Version: 1.0.14
+Version: 1.0.16
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 23058
+Installed-Size: 23219
 Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, python3-minios-gui (>= 1.4.0), librsvg2-common
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-help/minios-help_1.0.14_all.deb
-Size: 1314428
-SHA256: ec5d3df4042141bf1fea5bc5ec09cb3f50cd5b25459872b600d1dac350703588
-SHA1: 325b0d0f87fbc600fa4574f7020e754a7086fab2
-MD5sum: 9376654c64d3de1b12166b102c1298a6
+Filename: pool/main/m/minios-help/minios-help_1.0.16_all.deb
+Size: 1349892
+SHA256: 1d0d810d23f8d513891e1d189839e70401ad933c49f91bce2261fea13b1aaf0f
+SHA1: 83e283234dc9c8e7c481dd3c1c8b484b39b4bdfb
+MD5sum: 352006728bcd35243b4c943616c2adbc
 Description: offline MiniOS documentation viewer
  Native GTK 3 application for browsing the MiniOS documentation installed on
  the local system. It provides section navigation, local full-text search,
@@ -1127,19 +1127,19 @@ Description: MiniOS image composition backend (minios-image-compose)
  workspace.
 
 Package: minios-installer
-Version: 3.7.1
+Version: 3.7.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 318
-Depends: minios-deploy (= 3.7.1), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.1), python3-minios-security (>= 1.0.1)
+Installed-Size: 319
+Depends: minios-deploy (= 3.7.2), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.1), python3-minios-security (>= 1.0.1)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_3.7.1_all.deb
-Size: 84484
-SHA256: 488ba4cc9733c1c51d93891a8a8174186b71d4bdf834d13099c0d974be7d775b
-SHA1: 3c2ce9e0db3ecf93cec389584a4642863176d395
-MD5sum: 81b95abae1debf291c8cc7796142e9e2
+Filename: pool/main/m/minios-installer/minios-installer_3.7.2_all.deb
+Size: 84800
+SHA256: 7a0798795ebee0e3957257d7b8d55e3b330af5cb39a8a3ab58df2822417d1301
+SHA1: b380cc981477ac9209fdee050fffd333e5adad49
+MD5sum: 27c475068bfc054280f0763a5616a860
 Description: graphical MiniOS installation utility
  MiniOS Installer is the GTK frontend for minios-deploy. It provides guided
  live and native installation workflows while the deployment engine remains
@@ -1337,7 +1337,7 @@ Description: GTK interface for MiniOS module composition
 
 Package: minios-native-dracut
 Source: minios-installer
-Version: 3.7.1
+Version: 3.7.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 23
@@ -1347,11 +1347,11 @@ Provides: linux-initramfs-tool
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-native-dracut_3.7.1_all.deb
-Size: 10044
-SHA256: 51260b02a469a1b2df32f988c67dc98708a1d17820df829b21ad07c730a36f1a
-SHA1: f0eeba49728486fb54744f3ee9cff5eccbe4d9a2
-MD5sum: 593275ea36cda7a1358ecd07262d2953
+Filename: pool/main/m/minios-installer/minios-native-dracut_3.7.2_all.deb
+Size: 10164
+SHA256: a9b119fb7e3f458fd3ecac7e37f388c55608b138f0de35f450fa57b25e515f9e
+SHA1: a8932c47508c622539440e61d45071bc3a7296f7
+MD5sum: 002c6d984a4aaa508d7d7b125b73838b
 Description: native initramfs integration for MiniOS
  minios-native-dracut keeps dracut-core available on images that use either
  dracut-mos or livekit-mos and provides native kernel update hooks. The hooks
@@ -1480,7 +1480,7 @@ Description: MiniOS integration for the Thunar file manager
  minios-tools and keeps the user's existing Thunar custom actions intact.
 
 Package: minios-tools
-Version: 1.9.0
+Version: 1.9.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 636
@@ -1491,11 +1491,11 @@ Breaks: minios-live-config (<< 11.0.5.20)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.9.0_all.deb
-Size: 120552
-SHA256: e6944feb17f223d0fff9487f36366783a023dba2e39760916bb2f3373e9be8be
-SHA1: c4b87f6bc57fa1cce8f335271bc93b9e64d650ae
-MD5sum: fb60230c8abba64c4a8b34f482092f9c
+Filename: pool/main/m/minios-tools/minios-tools_1.9.1_all.deb
+Size: 120744
+SHA256: 40c201f575f8d72a6b26f15ca978d92d7bfc883b6a62397478c04390642b528e
+SHA1: 547d79a47f92cdddb3c9eb4f6d2fd375fb80b62a
+MD5sum: ce7dfe401a7e1bfe73c1f3555f4a8cc3
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
@@ -1829,19 +1829,19 @@ Build-Ids: 37e8a126f43ec581b01d3f08c6751d12b12f6ee7
 
 Package: python3-minios-gui
 Source: minios-gui
-Version: 1.4.1
+Version: 1.4.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 121
-Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, minios-gui (= 1.4.1)
+Installed-Size: 122
+Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, minios-gui (= 1.4.2)
 Homepage: https://minios.dev
 Priority: optional
 Section: python
-Filename: pool/main/m/minios-gui/python3-minios-gui_1.4.1_all.deb
-Size: 25864
-SHA256: 7306f66297c4708374bcbb08c26d8131cc4bcb43286c507a7cee5e02772b8436
-SHA1: 0cb425b7853f251f38f09cb96140e0866a6603c1
-MD5sum: f20936c62c8a195c98a38e6103380134
+Filename: pool/main/m/minios-gui/python3-minios-gui_1.4.2_all.deb
+Size: 26320
+SHA256: 31d50f0ff4c7c19b4f5256605c322238df23dbf601c66726a8f7db29341fe87c
+SHA1: 8eb6a7b0963daf57481e971258fb393e3438c91c
+MD5sum: ce3b099fa2615975b275d837bc3e5cef
 Description: Python 3 helpers for MiniOS GTK applications
  Shared Python 3.6-compatible GTK 3 helpers for MiniOS graphical applications.
  The module provides canonical stylesheet loading, icon-theme resolution,
