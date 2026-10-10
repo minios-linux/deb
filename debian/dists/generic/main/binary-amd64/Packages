@@ -2536,10 +2536,10 @@ Homepage: https://github.com/fulalas/xfwm4-gl
 Priority: optional
 Section: xfce
 Filename: pool/main/x/xfwm4-gl/xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios1_amd64.deb
-Size: 547580
-SHA256: 8a7bf28c3131af11b40489514f45489eca2b340f1b68410a947a34c09d31bbfb
-SHA1: 6485bf515aad0c79f7b50ee5e3d99818c153875f
-MD5sum: b99c069e544c2577b1f04f13e04f8722
+Size: 545688
+SHA256: c6dbf167435eef097edf96ecc083f5909d0465979a2fd091ce62634882d76867
+SHA1: c78c06a2b03fd51932c29bc08f167a533ad9c0d2
+MD5sum: 8440311bbc57a1b01b28b44b4dcc477f
 Description: Xfce window manager with OpenGL compositing
  This fork of xfwm4 adds an OpenGL compositor with automatic XRender
  fallback. It retains the original executable names, settings channel,
@@ -2556,12 +2556,12 @@ Depends: xfwm4-gl (= 4.20.0+gl1+git20261009.af5f68f-0minios1)
 Priority: optional
 Section: debug
 Filename: pool/main/x/xfwm4-gl/xfwm4-gl-dbgsym_4.20.0+gl1+git20261009.af5f68f-0minios1_amd64.deb
-Size: 706896
-SHA256: 72290b718e8e1a5b46de6a0b9c53daceabff689223ea6c903d871c1d02cff583
-SHA1: 6c95f13aaf154281775a56c507ad623eb0a6085c
-MD5sum: ecf65cc7d72f471f0a81064e8a40ff74
+Size: 706964
+SHA256: b57dbb60baab168b996d896d4356ab05be00bb4c934e8a811e74cd9772ef531c
+SHA1: 7a4b8a9652884c677819c353c1ea88d963235ad8
+MD5sum: 77f6b2c2462c24f435857028a9e48c2f
 Description: debug symbols for xfwm4-gl
-Build-Ids: 0801f2a7c85bc76c36b2a56f38fec07d7af28d48 5711d3db9140d2b56133cd260cac629569d6fe3a 91d0ab148602c1db5b24a61d0d60178ec1050398 9455e1dea118da215fd4ac31568bad531fd9a343 d426ab94bafeb4b69b8e90022e8e374eae222431
+Build-Ids: 0801f2a7c85bc76c36b2a56f38fec07d7af28d48 0bdd78ea84f9d791b0e1a145e4e116bd38e5aab5 91d0ab148602c1db5b24a61d0d60178ec1050398 9455e1dea118da215fd4ac31568bad531fd9a343 d426ab94bafeb4b69b8e90022e8e374eae222431
 
 Package: xlunch
 Version: 4.7.6+git20260524.da1ff9f-1minios4

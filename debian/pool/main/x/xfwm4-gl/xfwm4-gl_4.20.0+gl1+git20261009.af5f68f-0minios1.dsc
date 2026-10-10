@@ -13,10 +13,10 @@ Package-List:
  xfwm4-gl deb xfce optional arch=any
 Checksums-Sha1:
  306c03cc7f54719d28772c7c25331e48f69bc6d1 529416 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f.orig.tar.xz
- 76a6a4e77a75a10b90d30da2eb6fb5c46fa83194 100392 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios1.debian.tar.xz
+ 2b01f71809b003fd3c2eded06be6f44bc150ecb6 100852 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios1.debian.tar.xz
 Checksums-Sha256:
  a80ffda49a017aba9e417984a7fa3cf3f537322721f67883422035b3abe9b8bc 529416 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f.orig.tar.xz
- 93526e82a4bd2bcf9e8ae7f10b7776eed058bffa4af4558dc6790c008a420702 100392 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios1.debian.tar.xz
+ d33b8080064e39649141bd2673f7853cbb2435365293f348dbef4768426985ab 100852 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios1.debian.tar.xz
 Files:
  906271da6ea432ff492f874c8eb4c80d 529416 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f.orig.tar.xz
- e7b7f3acf44c4b09cd708abf6a0744af 100392 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios1.debian.tar.xz
+ e6daec0fc28a159d9837f5e11ab87c4f 100852 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios1.debian.tar.xz
