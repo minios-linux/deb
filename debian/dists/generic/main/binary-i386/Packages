@@ -1540,7 +1540,7 @@ Description: MiniOS HTML welcome page
 
 Package: minios6-artwork
 Source: minios-artwork
-Version: 6.0.2
+Version: 6.0.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 3056
@@ -1550,17 +1550,17 @@ Replaces: minios-artwork
 Provides: minios-artwork
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-artwork_6.0.2_all.deb
-Size: 3037572
-SHA256: 555e588cb830a261d694b38ba3849a04c6dbee5fc1edfee17a30c8c8b4c47f67
-SHA1: fdd63312d31d9037d5ae7ca487a68a970a503ab7
-MD5sum: 227ebd0c8c1cca2364a3bab58ec133fa
+Filename: pool/main/m/minios-artwork/minios6-artwork_6.0.3_all.deb
+Size: 3037672
+SHA256: fa071c79fbdf8fbeb872163932c267846445ae3bd6752e6553c72cd4d7d5fa3b
+SHA1: dd9200d78e5562c9938285825ce12abb7fa04c1c
+MD5sum: b476004ed390e843620c596fb95bdc36
 Description: MiniOS 6 themes and artwork
  This package contains the MiniOS 6 themes and artwork.
 
 Package: minios6-wallpapers
 Source: minios-artwork
-Version: 6.0.2
+Version: 6.0.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 17644
@@ -1569,106 +1569,106 @@ Replaces: minios-wallpapers
 Provides: minios-wallpapers
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers_6.0.2_all.deb
-Size: 16984700
-SHA256: b490a0c93c415eba22e779cb8748ef6a9a77d120122ec5a3e579fc91c5825858
-SHA1: ba4486629b1b21f6feb0ab81a6b9120cfa424c55
-MD5sum: 3d125806a8ec72e1d4d897319d71ad27
+Filename: pool/main/m/minios-artwork/minios6-wallpapers_6.0.3_all.deb
+Size: 16984808
+SHA256: f849d3365deec17be514df4ef3dc46abe1bd6b7b591cacfc64c0e39eddd7cabe
+SHA1: 1ff515d0de9cc0df3653aed049e61bddb0c738ad
+MD5sum: 2101970f5c4335727015682e58abaf71
 Description: MiniOS 6 shared desktop wallpapers
  This package contains the shared MiniOS 6 desktop wallpaper collection.
 
 Package: minios6-wallpapers-flux
 Source: minios-artwork
-Version: 6.0.2
+Version: 6.0.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 1853
-Depends: minios6-artwork (= 6.0.2)
+Depends: minios6-artwork (= 6.0.3)
 Conflicts: minios-wallpapers
 Replaces: minios-wallpapers
 Provides: minios-wallpapers
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers-flux_6.0.2_all.deb
-Size: 1856864
-SHA256: 976e736d300bc250c888a4a0b594cf6b27543b5b49f57d491f28fec4d5cf5c2c
-SHA1: b1ea0dac85994873571b6033a0415da3e35639fb
-MD5sum: 6e64c38e0b5ecd5ba53b612b76b0c8c7
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-flux_6.0.3_all.deb
+Size: 1856956
+SHA256: cb801eb841a6a0370f99cdca55e1d44547370b0c836a0ba4c43f2762fb9decec
+SHA1: 03862bc5cf7e7c1ae9a36be2bf97a9ef77706604
+MD5sum: bb8632dcc7c401162649eda03bb40e79
 Description: MiniOS 6 desktop wallpapers for the Flux edition
  This package contains the MiniOS 6 wallpapers selected for the
  Flux edition.
 
 Package: minios6-wallpapers-minimum
 Source: minios-artwork
-Version: 6.0.2
+Version: 6.0.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 1857
-Depends: minios6-artwork (= 6.0.2)
+Depends: minios6-artwork (= 6.0.3)
 Conflicts: minios-wallpapers
 Replaces: minios-wallpapers
 Provides: minios-wallpapers
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers-minimum_6.0.2_all.deb
-Size: 1860960
-SHA256: c547c3aa315e51d8a8538b9171d9694e63ce13683e93cf2357718938ada21552
-SHA1: 7e93402d611ba7fe31f5c5baace6c175bd4ef682
-MD5sum: b70fac585a1b3ae7bcc2178f96ab2b5a
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-minimum_6.0.3_all.deb
+Size: 1861068
+SHA256: 878aa513168bab3209f3704702abb026f7cb0052b140b19e795bad4f64f0af32
+SHA1: f6dcd0545becab7d74d1c80d7467e44db7a6f604
+MD5sum: 2bb7d9469864cf368e8323f198ed18bd
 Description: MiniOS 6 desktop wallpapers for the Minimum edition
  This package contains the MiniOS 6 wallpapers selected for the
  Minimum edition.
 
 Package: minios6-wallpapers-standard
 Source: minios-artwork
-Version: 6.0.2
+Version: 6.0.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 2113
-Depends: minios6-artwork (= 6.0.2), minios6-wallpapers (= 6.0.2)
+Depends: minios6-artwork (= 6.0.3), minios6-wallpapers (= 6.0.3)
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers-standard_6.0.2_all.deb
-Size: 2113300
-SHA256: ed8c31af48d256cd6e393e7e1d0b5657eadf3ae640a0fcca15e481c53040ea71
-SHA1: 198bb485f8c0af61deec08f8e2dd6897801081d1
-MD5sum: d483c566e63c4e60e448eadba522a56f
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-standard_6.0.3_all.deb
+Size: 2113448
+SHA256: 7c9883263b33ffab3e71f1a184ba12f73f43b5e1359eea0b315f1a6b4829cd20
+SHA1: 5d6e3c62b2dacec1acbea08aff3fe58f5d948f56
+MD5sum: 863319e002db5ccbbbda26f556a71870
 Description: MiniOS 6 desktop wallpapers for the Standard edition
  This package contains the MiniOS 6 wallpapers selected for the
  Standard edition.
 
 Package: minios6-wallpapers-toolbox
 Source: minios-artwork
-Version: 6.0.2
+Version: 6.0.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 3072
-Depends: minios6-artwork (= 6.0.2), minios6-wallpapers (= 6.0.2)
+Depends: minios6-artwork (= 6.0.3), minios6-wallpapers (= 6.0.3)
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers-toolbox_6.0.2_all.deb
-Size: 3112544
-SHA256: 2fcf8e08bf5661c66dbdbb035b556b7d51742d83423f6a2cfd4a072eb2524edf
-SHA1: 2a4acba4d47965779a89d60bef948ea2130c1e47
-MD5sum: 35d07b9fa03bb84326c255eadf330a6d
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-toolbox_6.0.3_all.deb
+Size: 3112648
+SHA256: 095dc82216b3d39229c13e8540969c885ec30a5bfcf815e6b7f2df99933b02f1
+SHA1: 7275c58e42afc967f0af754859949306a4d9eccd
+MD5sum: cfe3813288dfa7edc82afd1f2dac7bb5
 Description: MiniOS 6 desktop wallpapers for the Toolbox edition
  This package contains the MiniOS 6 wallpapers selected for the
  Toolbox edition.
 
 Package: minios6-wallpapers-ultra
 Source: minios-artwork
-Version: 6.0.2
+Version: 6.0.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 1944
-Depends: minios6-artwork (= 6.0.2), minios6-wallpapers (= 6.0.2)
+Depends: minios6-artwork (= 6.0.3), minios6-wallpapers (= 6.0.3)
 Priority: optional
 Section: x11
-Filename: pool/main/m/minios-artwork/minios6-wallpapers-ultra_6.0.2_all.deb
-Size: 1951380
-SHA256: 06b17723de42b44037cbdab18089c560bdd6e995f7c5cd4f207136c190a1ce1f
-SHA1: a9ea264942b21de109d4ec6d39393820be67c1ae
-MD5sum: 87390050522390fb10789077e80de8d2
+Filename: pool/main/m/minios-artwork/minios6-wallpapers-ultra_6.0.3_all.deb
+Size: 1951488
+SHA256: ee8b3667be99dbcf26116bd51a854088a2cf3b03ebe1e4c23805c620b6ef4f87
+SHA1: dcf8a658afeadad4343447b2d9f5b23f9f22184f
+MD5sum: ce45495c493496c59a2f5c2387f42eea
 Description: MiniOS 6 desktop wallpapers for the Ultra edition
  This package contains the MiniOS 6 wallpapers selected for the
  Ultra edition.
