@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: xfwm4-gl
 Binary: xfwm4-gl
 Architecture: any
-Version: 4.20.0+gl1+git20261009.af5f68f-0minios3
+Version: 4.20.0+gl1+git20261009.af5f68f-0minios4
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://github.com/fulalas/xfwm4-gl
 Standards-Version: 4.7.0
@@ -13,10 +13,10 @@ Package-List:
  xfwm4-gl deb xfce optional arch=any
 Checksums-Sha1:
  306c03cc7f54719d28772c7c25331e48f69bc6d1 529416 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f.orig.tar.xz
- 3de55099e66abb0a0e0082059baf59e54a71e042 111064 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios3.debian.tar.xz
+ 112ab03eb8d8636686e00d4946062c2bca61f594 111616 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios4.debian.tar.xz
 Checksums-Sha256:
  a80ffda49a017aba9e417984a7fa3cf3f537322721f67883422035b3abe9b8bc 529416 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f.orig.tar.xz
- b2d8111c64746be2ca1d54d5908bee1519cdcf6e31ce5c471e6e31efd82af387 111064 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios3.debian.tar.xz
+ cec2468fb5577742e8aa226460c5ae68c58cf263df3477ba57d4b575fb057938 111616 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios4.debian.tar.xz
 Files:
  906271da6ea432ff492f874c8eb4c80d 529416 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f.orig.tar.xz
- 35fcf164983f998263e082b1243e63ca 111064 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios3.debian.tar.xz
+ e7fdec76c0cd9c14d222d9c7bcd61df9 111616 xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios4.debian.tar.xz

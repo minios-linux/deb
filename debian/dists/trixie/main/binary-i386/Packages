@@ -212,24 +212,24 @@ Description: debug symbols for xfdesktop4
 Build-Ids: 3280cf3436d3773a882bd0906f72783759feeae5 cce5a4d51ba67147f872bac6ba13678334d6d55f
 
 Package: xfwm4-gl
-Version: 4.20.0+gl1+git20261009.af5f68f-0minios3
+Version: 4.20.0+gl1+git20261009.af5f68f-0minios4
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 3260
+Installed-Size: 3261
 Depends: libc6 (>= 2.38), libcairo2 (>= 1.10.0), libepoxy0 (>= 1.5.2), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.6), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.7), libwnck-3-0 (>= 2.91.6), libx11-6 (>= 2:1.2.99.901), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6 (>= 2:1.3.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxfixes3 (>= 1:4.0.1), libxinerama1 (>= 2:1.1.4), libxpresent1 (>= 1.0.1), libxrandr2 (>= 2:1.2.99.3), libxrender1 (>= 1:0.9.12), libxres1 (>= 2:1.2.1)
 Recommends: librsvg2-common
 Suggests: xfce4
 Conflicts: xfwm4
 Replaces: xfwm4
-Provides: x-window-manager, xfwm4 (= 4.20.0+gl1+git20261009.af5f68f-0minios3)
+Provides: x-window-manager, xfwm4 (= 4.20.0+gl1+git20261009.af5f68f-0minios4)
 Homepage: https://github.com/fulalas/xfwm4-gl
 Priority: optional
 Section: xfce
-Filename: pool/main/x/xfwm4-gl/xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios3_i386.deb
-Size: 570388
-SHA256: caf93ac3602aaf781ca028f7d696e8a711defa24e2ceba2bb16a0a7f94e655e0
-SHA1: 049d383a8417e62f3f0678da85d068c4f1ec8dd1
-MD5sum: 053bb76305d11d0d5d545e4e6d37d3ab
+Filename: pool/main/x/xfwm4-gl/xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios4_i386.deb
+Size: 570820
+SHA256: d4b2433055195fa97f84ed81720bd39abea6b6fcb3efcc8949c15ecf1ec15b9c
+SHA1: 557023e858d7f3a1dabb28bb18452141012b2509
+MD5sum: 49148583a8e21d7b7f2a5f511fa39a34
 Description: Xfce window manager with OpenGL compositing
  This fork of xfwm4 adds an OpenGL compositor with automatic XRender
  fallback. It retains the original executable names, settings channel,
@@ -237,19 +237,19 @@ Description: Xfce window manager with OpenGL compositing
 
 Package: xfwm4-gl-dbgsym
 Source: xfwm4-gl
-Version: 4.20.0+gl1+git20261009.af5f68f-0minios3
+Version: 4.20.0+gl1+git20261009.af5f68f-0minios4
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1181
-Depends: xfwm4-gl (= 4.20.0+gl1+git20261009.af5f68f-0minios3)
+Installed-Size: 1182
+Depends: xfwm4-gl (= 4.20.0+gl1+git20261009.af5f68f-0minios4)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xfwm4-gl/xfwm4-gl-dbgsym_4.20.0+gl1+git20261009.af5f68f-0minios3_i386.deb
-Size: 628904
-SHA256: ab7c3c824dae66c808661bab84548bf676d981c4d73cad1379a7cdc031afabd7
-SHA1: 730a670555c372b2469eaae05aeb4bdeabfdfdd1
-MD5sum: 7fac5598008caa79f119774d6104fcfa
+Filename: pool/main/x/xfwm4-gl/xfwm4-gl-dbgsym_4.20.0+gl1+git20261009.af5f68f-0minios4_i386.deb
+Size: 629784
+SHA256: 0fa62122a7fa9e98c6b0ace259f5d4a45d1a78db9cf96c2398ae7905141164b2
+SHA1: 6f3d58777cebef1c1ab8c0404b6a8331d2ae6a3e
+MD5sum: f23756d0523030b9a02d478b6b2461fe
 Description: debug symbols for xfwm4-gl
-Build-Ids: 0306f2f03dbe9c3643232133c7ce4a2747e91012 44331f95ceb13c0059847058e8f4cc2710dd4cb1 aecdcbb086fa85c67c3407fb8d07c4f012736d2e c1a48fdde76b29891f34b10566cff98acf752a2b e74da4dd62fb3f475fbbf10a256061ca74ae4db3
+Build-Ids: 06ef08496abd3bb9ad2d74fe62c8b72ccd0c87ed 136dfd38e498573d3ce53dec7b169f5cff2da487 44331f95ceb13c0059847058e8f4cc2710dd4cb1 c1a48fdde76b29891f34b10566cff98acf752a2b e74da4dd62fb3f475fbbf10a256061ca74ae4db3
 
