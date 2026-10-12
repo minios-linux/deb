@@ -914,7 +914,7 @@ Description: set Intel MacBook battery charge limits through Apple SMC
 
 Package: matebook-e-dsi-dkms
 Source: matebook-e-dsi
-Version: 0.0.2-0minios1
+Version: 0.0.2-0minios2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 11612
@@ -922,11 +922,11 @@ Depends: dkms (>= 3.0.11)
 Homepage: https://bbs.archlinux.org/viewtopic.php?id=303555
 Priority: optional
 Section: kernel
-Filename: pool/main/m/matebook-e-dsi/matebook-e-dsi-dkms_0.0.2-0minios1_all.deb
-Size: 1793356
-SHA256: 01a5605ee032fd2007764d0e12366e79da2901bc9cb5a7cb68d8105cf27da371
-SHA1: 5328105494a455a064ac9c5791fca9a2236940a3
-MD5sum: 48844a0dcf0c865434b205faf30ca077
+Filename: pool/main/m/matebook-e-dsi/matebook-e-dsi-dkms_0.0.2-0minios2_all.deb
+Size: 1793612
+SHA256: 6c4cfe2b20c2f6e1f6f0e8b1fd025a76da6e1c74b240e59506fa6d217aa9a015
+SHA1: 525919ab885923d80fe26ae117c7cd1efa7c866b
+MD5sum: 6272284f0b0f07544aaca1b4b6f38925
 Description: experimental i915 DSI backport for Huawei MateBook E 2023
  Experimental replacement i915 driver sources with DSI patches for
  Huawei MateBook E 2023 dual-link OLED under Debian Linux 6.12.107.

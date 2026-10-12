@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: xfce4-tasklist-minios-plugin
 Binary: xfce4-tasklist-minios-plugin
 Architecture: any
-Version: 1.1.0
+Version: 1.2.0
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://github.com/minios-linux/xfce4-minios-tasklist-plugin
 Standards-Version: 4.7.0
@@ -12,8 +12,8 @@ Build-Depends: debhelper-compat (= 13), meson, ninja-build, pkg-config, gettext,
 Package-List:
  xfce4-tasklist-minios-plugin deb xfce optional arch=any
 Checksums-Sha1:
- 594eb7c2055a918fed6e60cd6ad0ffd314c6e430 76384 xfce4-tasklist-minios-plugin_1.1.0.tar.xz
+ f9528a85f7e4bdfe9bf070d22518c45ba9e04d51 77160 xfce4-tasklist-minios-plugin_1.2.0.tar.xz
 Checksums-Sha256:
- 8276036b1bbcaac86f2964054d114e66b15ffa4d8135dd31c8b6cdb273856069 76384 xfce4-tasklist-minios-plugin_1.1.0.tar.xz
+ bc01c23a276cddeff1565622a8451ee9e7aa7ec5720e672dc00f507c1f5849af 77160 xfce4-tasklist-minios-plugin_1.2.0.tar.xz
 Files:
- 72d6b0305c4cc19a8c9e24a235df38df 76384 xfce4-tasklist-minios-plugin_1.1.0.tar.xz
+ f6ce82306e632529a4aaa0a18244a08d 77160 xfce4-tasklist-minios-plugin_1.2.0.tar.xz
