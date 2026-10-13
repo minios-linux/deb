@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: matebook-e-cameras
 Binary: matebook-e-cameras, matebook-e-cameras-dkms
 Architecture: amd64 all
-Version: 0.1.0
+Version: 0.1.1
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://github.com/minios-linux/matebook-e-cameras
 Standards-Version: 4.7.2
@@ -13,8 +13,8 @@ Package-List:
  matebook-e-cameras deb video optional arch=amd64
  matebook-e-cameras-dkms deb kernel optional arch=all
 Checksums-Sha1:
- cf95e234c71f655caf6901626175d3ba14f4b5aa 1452444 matebook-e-cameras_0.1.0.tar.xz
+ 9ea700da27f220edce7fb805e9af6a9c80c6144b 1452724 matebook-e-cameras_0.1.1.tar.xz
 Checksums-Sha256:
- 215f7e3f689a8d0d5291773566ce3feb41b907defb2c9f2c035b881612bfd1f7 1452444 matebook-e-cameras_0.1.0.tar.xz
+ 3dbc277eca8577cea70aa7c27f7541416c9b09662686ec34d626488fa264a0f7 1452724 matebook-e-cameras_0.1.1.tar.xz
 Files:
- dddec4d2e2223e7ebaa626af74186844 1452444 matebook-e-cameras_0.1.0.tar.xz
+ 85163fb7bedfd3a4365373e6790b8581 1452724 matebook-e-cameras_0.1.1.tar.xz

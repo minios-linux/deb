@@ -914,19 +914,19 @@ Description: set Intel MacBook battery charge limits through Apple SMC
 
 Package: matebook-e-cameras-dkms
 Source: matebook-e-cameras
-Version: 0.1.0
+Version: 0.1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 133
+Installed-Size: 134
 Depends: dkms (>= 3.0.11)
 Homepage: https://github.com/minios-linux/matebook-e-cameras
 Priority: optional
 Section: kernel
-Filename: pool/main/m/matebook-e-cameras/matebook-e-cameras-dkms_0.1.0_all.deb
-Size: 25216
-SHA256: 3cfc100a2da800616a1fe40a4ea6c8e9b72f7424410d89757d005ab7261d986e
-SHA1: d47245f7b2e4f2ef6429afa01493bceea50cf265
-MD5sum: 4d03f8212b8d14d56330c220b5b63172
+Filename: pool/main/m/matebook-e-cameras/matebook-e-cameras-dkms_0.1.1_all.deb
+Size: 25608
+SHA256: 0589e00e8e5a64fe3034c1a79a0950d4c77f5ef0cbfd5049fca2211554c3c2ca
+SHA1: b5c89929ab1a5bc2dc2f1a5b05e6dea7cc489a30
+MD5sum: 01597c03804c1da49acfba0bc1953774
 Description: DKMS camera drivers for Huawei MateBook E 2023
  Driver sources for the IPU bridge, Hynix HI846, Samsung S5K3L6 and
  DW9714 lens controller used by the MateBook E 2023 camera integration.
