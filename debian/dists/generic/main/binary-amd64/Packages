@@ -909,21 +909,84 @@ Description: set Intel MacBook battery charge limits through Apple SMC
  Optional systemd and SysV services apply the configured limit at boot.
  Enable them manually after configuring /etc/macbook-charge-limit.conf.
 
-Package: matebook-e-dsi-dkms
-Source: matebook-e-dsi
-Version: 0.0.2-0minios2
+Package: matebook-e-cameras
+Version: 0.1.0
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 2683
+Depends: matebook-e-cameras-dkms (= 0.1.0), v4l2loopback-dkms, python3 (>= 3.9), python3-gi, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.0), libgles2, libglib2.0-0t64 (>= 2.80.0), libgnutls30t64 (>= 3.7.3), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.18.0), libstdc++6 (>= 14), libudev1 (>= 183), libyaml-0-2
+Suggests: cheese, gstreamer1.0-tools, v4l-utils
+Homepage: https://github.com/minios-linux/matebook-e-cameras
+Priority: optional
+Section: video
+Filename: pool/main/m/matebook-e-cameras/matebook-e-cameras_0.1.0_amd64.deb
+Size: 703992
+SHA256: 4e9c6c5d081847c7e92b7300042e6408aeb1c7b67be255a48ab426f70dd6682d
+SHA1: 983ff4b11d116281740bee1323f52fb45d31d192
+MD5sum: 1a60f0f34e353630f514a67d025fc81e
+Description: on-demand camera integration for Huawei MateBook E 2023
+ Provides two ordinary V4L2 cameras backed by the Intel IPU6 controller,
+ Hynix HI846 front sensor and Samsung S5K3L6 rear sensor on DRR-WXX.
+ .
+ Includes a private libcamera stack, automatic exposure and initial rear
+ focus, a system bridge, and desktop enumeration rules. The sensors are
+ released when applications close the cameras.
+
+Package: matebook-e-cameras-dbgsym
+Source: matebook-e-cameras
+Version: 0.1.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 12914
+Depends: matebook-e-cameras (= 0.1.0)
+Priority: optional
+Section: debug
+Filename: pool/main/m/matebook-e-cameras/matebook-e-cameras-dbgsym_0.1.0_amd64.deb
+Size: 12580244
+SHA256: c95685ebf057f8385226b80c62b9d361079c738fea51b3cff522bf3962a0bb9c
+SHA1: 7b567a8d60a0a035678172d87ad6005a8af6b6fe
+MD5sum: 5ee165c272dd5997095258ee43fc7423
+Description: debug symbols for matebook-e-cameras
+Build-Ids: 49826a9af277327d9e2df7c4e4dc3f71d716facd 583fad2a0b740c0d238f6eb4cfc17db9fb4d0a40 5a6e9ba83cc04edabdcb4e7903c78e2b69e8d4f5 69e9c1fe33308a7d8f37a193402ed4b02d21c20e c5745cc93aa4d33a6bb019e12bb533a7753e0ceb
+
+Package: matebook-e-cameras-dkms
+Source: matebook-e-cameras
+Version: 0.1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 11612
+Installed-Size: 133
+Depends: dkms (>= 3.0.11)
+Homepage: https://github.com/minios-linux/matebook-e-cameras
+Priority: optional
+Section: kernel
+Filename: pool/main/m/matebook-e-cameras/matebook-e-cameras-dkms_0.1.0_all.deb
+Size: 25216
+SHA256: 3cfc100a2da800616a1fe40a4ea6c8e9b72f7424410d89757d005ab7261d986e
+SHA1: d47245f7b2e4f2ef6429afa01493bceea50cf265
+MD5sum: 4d03f8212b8d14d56330c220b5b63172
+Description: DKMS camera drivers for Huawei MateBook E 2023
+ Driver sources for the IPU bridge, Hynix HI846, Samsung S5K3L6 and
+ DW9714 lens controller used by the MateBook E 2023 camera integration.
+ .
+ The ACPI and register integration is tested with the DRR-WXX tablet
+ and Debian Linux 6.12.111. Matching kernel headers are needed for DKMS.
+
+Package: matebook-e-dsi-dkms
+Source: matebook-e-dsi
+Version: 0.0.3-0minios1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 11611
 Depends: dkms (>= 3.0.11)
 Homepage: https://bbs.archlinux.org/viewtopic.php?id=303555
 Priority: optional
 Section: kernel
-Filename: pool/main/m/matebook-e-dsi/matebook-e-dsi-dkms_0.0.2-0minios2_all.deb
-Size: 1793612
-SHA256: 6c4cfe2b20c2f6e1f6f0e8b1fd025a76da6e1c74b240e59506fa6d217aa9a015
-SHA1: 525919ab885923d80fe26ae117c7cd1efa7c866b
-MD5sum: 6272284f0b0f07544aaca1b4b6f38925
+Filename: pool/main/m/matebook-e-dsi/matebook-e-dsi-dkms_0.0.3-0minios1_all.deb
+Size: 1793796
+SHA256: 2f9ed4adbd37f4de3132f57953e597ed9adc79a12d1ed6ce6445329e83f0c641
+SHA1: 4b02dec186a7768ad15a9d9cc55b0d2fd2995b3c
+MD5sum: 200f8b70ecfe2a17182da687b6fd2c5b
 Description: experimental i915 DSI backport for Huawei MateBook E 2023
  Experimental replacement i915 driver sources with DSI patches for
  Huawei MateBook E 2023 dual-link OLED under Debian Linux 6.12.107.
@@ -970,30 +1033,30 @@ Description: MiniOS themes and artwork
  This package contains the MiniOS themes and artwork.
 
 Package: minios-configurator
-Version: 3.3.1
+Version: 3.3.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 375
+Installed-Size: 376
 Depends: polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, python3-minios-gui (>= 1.4.0), python3-minios-security (>= 1.0.1), whois, openssl, minios-live-config (>= 11.0.5.23)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-configurator/minios-configurator_3.3.1_all.deb
-Size: 75348
-SHA256: 178130c309837d932808436b8fc1bf1f5a52e6e777bccb9b89214de5d26111b6
-SHA1: bc393b8d7f4bdd593a7ad08a9fc586e07819f5a2
-MD5sum: 873c870beff13a8c64e05bfea4cf67f8
+Filename: pool/main/m/minios-configurator/minios-configurator_3.3.2_all.deb
+Size: 75408
+SHA256: 9cb2781f5d2bfba4a74e6409ce8aedbfd223e4bf496edf425fcd9f66572013ec
+SHA1: 57b88066bf2de17f3966925573427d6215458e40
+MD5sum: 4d1a403cfa2ad3e1200ef832b65a11e6
 Description: MiniOS Linux configuration utility.
  MiniOS Configurator is a utility specially designed for quick and easy
  configure MiniOS.
 
 Package: minios-deploy
 Source: minios-installer
-Version: 3.7.2
+Version: 3.7.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 1343
-Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.7.2) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31)
+Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.7.3) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31)
 Recommends: minios-live-config (>= 11.0.5.15), user-setup
 Suggests: minios-session (>= 2.2.0)
 Breaks: minios-installer (<< 3.1.0)
@@ -1001,11 +1064,11 @@ Replaces: minios-installer (<< 3.1.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-deploy_3.7.2_all.deb
-Size: 236872
-SHA256: ccf89622af80583f59d33f83bd25eab27600940dfa368e2e121b1a250c1767af
-SHA1: 9dc77a20e3cf9e580d9efa40e5905d9e82d45033
-MD5sum: d0bb3b295a7e7f4abf0c2d0011ff1458
+Filename: pool/main/m/minios-installer/minios-deploy_3.7.3_all.deb
+Size: 236780
+SHA256: 2417b47026d0c6437b108644c4c89d3d3be1015cc82f163fa9a47a0f6c0660d1
+SHA1: 167edd0ee35225ac6293892f369664bf41232c12
+MD5sum: c332ef83eaba0582ff4bc3535eb4e737
 Description: command-line MiniOS deployment backend
  minios-deploy provides disk discovery, installation planning, and live or
  native MiniOS deployment without a graphical interface. It is the backend
@@ -1095,20 +1158,20 @@ Description: offline MiniOS documentation viewer
  native GTK widgets without WebKit or network access.
 
 Package: minios-image-builder
-Version: 1.5.0
+Version: 1.5.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 2131
-Depends: minios-image-compose (= 1.5.0), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, polkitd | policykit-1, pkexec | policykit-1, python3-minios-gui (>= 1.4.0), librsvg2-common
+Depends: minios-image-compose (= 1.5.1), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, polkitd | policykit-1, pkexec | policykit-1, python3-minios-gui (>= 1.4.0), librsvg2-common
 Recommends: minios-tools (>= 1.6.3), policykit-1-gnome | lxpolkit, udisks2
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-builder_1.5.0_all.deb
-Size: 309040
-SHA256: 9856945a95a57803e8c044a3a6fd2104a9cbad50b4c34269a2e2be8bef318216
-SHA1: 47b0a88ec23ad5389a01045cb330a86dfc80b066
-MD5sum: c86b0c940407a7a4af8e09455b061f9a
+Filename: pool/main/m/minios-image-builder/minios-image-builder_1.5.1_all.deb
+Size: 309092
+SHA256: c98fa84351f51ae8d0a9f48318b8828022e7b87fae9bc1748e97dcdb53dbfc37
+SHA1: d4795e1034d839216c6406fde0f7b3a06bffc30a
+MD5sum: a5fa84c50f0023c2bf585712ae9b6a94
 Description: customize the running MiniOS as a verified bootable image
  MiniOS Image Builder is a GTK project workspace for remastering MiniOS from
  the running session, a mounted ISO image, or an optical disc. It composes .sb
@@ -1123,7 +1186,7 @@ Description: customize the running MiniOS as a verified bootable image
 
 Package: minios-image-compose
 Source: minios-image-builder
-Version: 1.5.0
+Version: 1.5.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 645
@@ -1132,11 +1195,11 @@ Recommends: minios-tools (>= 1.6.3), polkitd | policykit-1, pkexec | policykit-1
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-image-builder/minios-image-compose_1.5.0_all.deb
-Size: 162312
-SHA256: 78db0ff1f4dd3150c3ad86041a5f42a10d70ea893c6e2dfd99c977bd5e4fa880
-SHA1: 4d54efc7ce7329206164ca36fa290e06e30bc732
-MD5sum: 5b5909d85db3fbd0ea7981b86e372f0e
+Filename: pool/main/m/minios-image-builder/minios-image-compose_1.5.1_all.deb
+Size: 162336
+SHA256: b20d830065b0e1f3356a8f2094f379da31bfba935674296a755fc76efb17d7cb
+SHA1: 84a63784b9f16bc3f57ee7e140390572454be404
+MD5sum: 5e5906174b6720303222d89f77415d2b
 Description: MiniOS image composition backend (minios-image-compose)
  minios-image-compose composes a bootable MiniOS ISO image from an immutable or
  identity-bound MiniOS source reference, ordered .sb modules and a live
@@ -1149,19 +1212,19 @@ Description: MiniOS image composition backend (minios-image-compose)
  workspace.
 
 Package: minios-installer
-Version: 3.7.2
+Version: 3.7.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 319
-Depends: minios-deploy (= 3.7.2), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.1), python3-minios-security (>= 1.0.1)
+Depends: minios-deploy (= 3.7.3), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.1), python3-minios-security (>= 1.0.1)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_3.7.2_all.deb
-Size: 84800
-SHA256: 7a0798795ebee0e3957257d7b8d55e3b330af5cb39a8a3ab58df2822417d1301
-SHA1: b380cc981477ac9209fdee050fffd333e5adad49
-MD5sum: 27c475068bfc054280f0763a5616a860
+Filename: pool/main/m/minios-installer/minios-installer_3.7.3_all.deb
+Size: 84776
+SHA256: 0640d8b139e03c40547d4dadbc224c2393995b301b27df2bfe0fa6c3fa8d0071
+SHA1: bbe110d26fac5ffaa52dfe5704abf6dcf7c263c9
+MD5sum: dae54315cfa838517a153a1e182eddd4
 Description: graphical MiniOS installation utility
  MiniOS Installer is the GTK frontend for minios-deploy. It provides guided
  live and native installation workflows while the deployment engine remains
@@ -1359,7 +1422,7 @@ Description: GTK interface for MiniOS module composition
 
 Package: minios-native-dracut
 Source: minios-installer
-Version: 3.7.2
+Version: 3.7.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 23
@@ -1369,11 +1432,11 @@ Provides: linux-initramfs-tool
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-native-dracut_3.7.2_all.deb
-Size: 10164
-SHA256: a9b119fb7e3f458fd3ecac7e37f388c55608b138f0de35f450fa57b25e515f9e
-SHA1: a8932c47508c622539440e61d45071bc3a7296f7
-MD5sum: 002c6d984a4aaa508d7d7b125b73838b
+Filename: pool/main/m/minios-installer/minios-native-dracut_3.7.3_all.deb
+Size: 10184
+SHA256: 99aa52575b4956f160bf9dcfe7453e23b7ee5edb29ba6f87e9355d5c11600092
+SHA1: 4a0249b12cbbea3baab11a6eff6b07f2ca758af2
+MD5sum: 1d7aa84c0f2a2519921b6797638c15c7
 Description: native initramfs integration for MiniOS
  minios-native-dracut keeps dracut-core available on images that use either
  dracut-mos or livekit-mos and provides native kernel update hooks. The hooks
@@ -1422,19 +1485,19 @@ Description: graphical session manager for MiniOS
  exporting, importing, copying, converting, and cleaning up sessions.
 
 Package: minios-store
-Version: 1.3.0
+Version: 1.3.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 67
-Depends: minios-store-common (= 1.3.0), python3-websockets, python3-gi, python3-minios-gui (>= 1.4.0), gir1.2-gtk-3.0, xdg-utils, lsb-base (>= 3.0-6)
+Installed-Size: 66
+Depends: minios-store-common (= 1.3.1), python3-websockets, python3-gi, python3-minios-gui (>= 1.4.0), gir1.2-gtk-3.0, xdg-utils, lsb-base (>= 3.0-6)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store_1.3.0_all.deb
-Size: 13836
-SHA256: 05c5ad9eb4350c894b7d2369c0fcbec59f44bcae550bda62a3c50dfe8c5e3b9f
-SHA1: 0dea656615436c8325a173b1423322e31a825ce8
-MD5sum: 02942314126e2772ed8beab353e758ba
+Filename: pool/main/m/minios-store/minios-store_1.3.1_all.deb
+Size: 13832
+SHA256: d22f7c9e490e015a185fd038d184b6eff6b45d1fae8ec6b72c1f4be88f1dac1e
+SHA1: 81b17f6c9b02eb9323015dee26a62dc8be8a3564
+MD5sum: bfb74489c3486c496376a81f49b6f28c
 Description: MiniOS Store WebSocket daemon
  WebSocket daemon for the MiniOS Store. Listens on ws://127.0.0.1:8765
  and handles installation requests from the web interface at
@@ -1443,7 +1506,7 @@ Description: MiniOS Store WebSocket daemon
 
 Package: minios-store-common
 Source: minios-store
-Version: 1.3.0
+Version: 1.3.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 154
@@ -1451,11 +1514,11 @@ Depends: python3 (>= 3.6), squashfs-tools, minios-tools (>= 1.6.3)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store-common_1.3.0_all.deb
-Size: 23000
-SHA256: 8f1f6bba23e4a69c00a22eb9fc3881a92d46fde6146ae1a284910816a95f7ce9
-SHA1: 62f858f11765db909f0cfa0dd6e6cf0a3712bbb3
-MD5sum: a7bcd5dc3e396b75fb301e434c46208d
+Filename: pool/main/m/minios-store/minios-store-common_1.3.1_all.deb
+Size: 23056
+SHA256: 795403b748e252f09cdc60489877a1ac59dd04ea3c74bba50954a30aa05625c2
+SHA1: cb75f0cafab1ae1149ea24ddea8b8e799ef9648f
+MD5sum: 34576ca7c73a7bb39c9b4dd6cfc234d2
 Description: MiniOS Store common library
  Shared Python library for the MiniOS Store backend components.
  Provides the installer engine, configuration, and logging modules
@@ -1463,19 +1526,19 @@ Description: MiniOS Store common library
 
 Package: minios-store-gui
 Source: minios-store
-Version: 1.3.0
+Version: 1.3.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 46
-Depends: minios-store-common (= 1.3.0), python3-gi, python3-minios-gui (>= 1.4.0), gir1.2-gtk-3.0, polkitd | policykit-1, pkexec | policykit-1, xdg-utils
+Depends: minios-store-common (= 1.3.1), python3-gi, python3-minios-gui (>= 1.4.0), gir1.2-gtk-3.0, polkitd | policykit-1, pkexec | policykit-1, xdg-utils
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-store/minios-store-gui_1.3.0_all.deb
-Size: 10872
-SHA256: 201fd8dceea999cc0324d74b32bb99c22f332496c92606cf87c48095573eec80
-SHA1: 7a7bd38da151b22c652dd3afc04851b8e2d399d1
-MD5sum: a9fbec525553a9c884aca6ebb759686c
+Filename: pool/main/m/minios-store/minios-store-gui_1.3.1_all.deb
+Size: 10920
+SHA256: fc90df027a9ac02fbb97fd5804ed5a8adcdc125d1ad1dcbd307876b97caedc65
+SHA1: 3dfc35a9d92172065b815a13ac5f0b837370c9b3
+MD5sum: 4be27a18395170110e46f26919da06fa
 Description: MiniOS Store GTK3 graphical installer
  Standalone GTK3 graphical installer for the MiniOS Store. Handles
  minios-store:// URI scheme for installing applications directly from
