@@ -18,10 +18,10 @@ Description: Network-wide ads & trackers blocking DNS server
  need any client-side software for that.
 
 Package: adwaita-icon-theme-antix
-Version: 3.30.2~antix1
+Version: 3.43.1~antix1
 Architecture: all
 Maintainer: anticapitalista <anticapitalista@riseup.net>
-Installed-Size: 2616
+Installed-Size: 2793
 Conflicts: adwaita-icon-theme
 Breaks: adwaita-icon-theme
 Replaces: adwaita-icon-theme
@@ -29,11 +29,11 @@ Provides: adwaita-icon-theme
 Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
 Priority: optional
 Section: antiX
-Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
-Size: 1647500
-SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
-SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
-MD5sum: a42da42232869a2320dc464d2a359df9
+Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.43.1~antix1_all.deb
+Size: 1607016
+SHA256: 2aa1a639709a6d482ba3a88293766851ba4935a7afd67c2d3d279a259fb3cccb
+SHA1: d955d7551b5903b3d655da56d38e0972dc39f984
+MD5sum: d2a1f5cb015d8efd1a3b76c9d2a3c8f0
 Description: default icon theme of GNOME.
  This version is a much strippd down version for antiX Linux.
  No cursers theme included.
