@@ -974,19 +974,19 @@ Description: DKMS camera drivers for Huawei MateBook E 2023
 
 Package: matebook-e-dsi-dkms
 Source: matebook-e-dsi
-Version: 0.0.3-0minios1
+Version: 0.0.4-0minios1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 11611
+Installed-Size: 11617
 Depends: dkms (>= 3.0.11)
 Homepage: https://bbs.archlinux.org/viewtopic.php?id=303555
 Priority: optional
 Section: kernel
-Filename: pool/main/m/matebook-e-dsi/matebook-e-dsi-dkms_0.0.3-0minios1_all.deb
-Size: 1793796
-SHA256: 2f9ed4adbd37f4de3132f57953e597ed9adc79a12d1ed6ce6445329e83f0c641
-SHA1: 4b02dec186a7768ad15a9d9cc55b0d2fd2995b3c
-MD5sum: 200f8b70ecfe2a17182da687b6fd2c5b
+Filename: pool/main/m/matebook-e-dsi/matebook-e-dsi-dkms_0.0.4-0minios1_all.deb
+Size: 1795100
+SHA256: 667f75936de0582656f89f0031897aad250f7d343b18e5304bfc629a20b74d8c
+SHA1: 26da0463b1420a5fdbe9e65d359317a3e9354927
+MD5sum: 97d0f5c0b3d019cf92f07a950ef794d7
 Description: experimental i915 DSI backport for Huawei MateBook E 2023
  Experimental replacement i915 driver sources with DSI patches for
  Huawei MateBook E 2023 dual-link OLED under Debian Linux 6.12.107.
@@ -1138,19 +1138,19 @@ Description: MiniOS shared GUI styling (canonical stylesheet)
  applications, which adopt the stylesheet by loading it explicitly.
 
 Package: minios-help
-Version: 1.0.16
+Version: 1.0.17
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 23219
+Installed-Size: 24140
 Depends: python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, python3-minios-gui (>= 1.4.0), librsvg2-common
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-help/minios-help_1.0.16_all.deb
-Size: 1349892
-SHA256: 1d0d810d23f8d513891e1d189839e70401ad933c49f91bce2261fea13b1aaf0f
-SHA1: 83e283234dc9c8e7c481dd3c1c8b484b39b4bdfb
-MD5sum: 352006728bcd35243b4c943616c2adbc
+Filename: pool/main/m/minios-help/minios-help_1.0.17_all.deb
+Size: 1422924
+SHA256: 66504793b596076dac2f7d55e4d7a90121f346cbe90a0ab07fa2e0b5b2121ca1
+SHA1: 44fa1b7265704fda325df3f78f97fd7cb64b29ab
+MD5sum: 6aa74591b600553f56fcf051683cd6cf
 Description: offline MiniOS documentation viewer
  Native GTK 3 application for browsing the MiniOS documentation installed on
  the local system. It provides section navigation, local full-text search,
