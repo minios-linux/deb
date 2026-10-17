@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: dynblk
 Binary: dynblk, dynblk-dkms
 Architecture: any all
-Version: 1.1.0
+Version: 1.1.1
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://github.com/minios-linux/dynblk
 Standards-Version: 4.7.2
@@ -11,8 +11,8 @@ Package-List:
  dynblk deb admin optional arch=any
  dynblk-dkms deb kernel optional arch=all
 Checksums-Sha1:
- d65cedc7cc73e7944668b17c341c2fffa8b6677e 331664 dynblk_1.1.0.tar.xz
+ c6a7756c8a7399e3938c8eeae9a55c12530647bb 109848 dynblk_1.1.1.tar.xz
 Checksums-Sha256:
- f7f926dfa5a904d0d053e43113f81e16406f9d45385634d8f447e9f64da5dfdc 331664 dynblk_1.1.0.tar.xz
+ 45b4f45596bc1a951bee62e99b8e41af4d174132eda7f9b1e8c7d3913ac21351 109848 dynblk_1.1.1.tar.xz
 Files:
- 84443356459132bac793430dd2e1ebe0 331664 dynblk_1.1.0.tar.xz
+ 0de4542ac31a5c0e2b41b237aaede8c4 109848 dynblk_1.1.1.tar.xz

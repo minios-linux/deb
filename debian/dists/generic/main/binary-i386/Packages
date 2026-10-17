@@ -128,21 +128,21 @@ Description: Graphical utility for writing, formatting, and wiping storage devic
  format, and securely wipe storage devices.
 
 Package: dynblk
-Version: 1.1.0
+Version: 1.1.1
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 141
 Depends: libc6 (>= 2.38), kmod, mount
-Recommends: dynblk-dkms (= 1.1.0)
+Recommends: dynblk-dkms (= 1.1.1)
 Suggests: liblz4-1, libzstd1, zlib1g
 Homepage: https://github.com/minios-linux/dynblk
 Priority: optional
 Section: admin
-Filename: pool/main/d/dynblk/dynblk_1.1.0_i386.deb
-Size: 70728
-SHA256: 89424ee3b48761ac88b0c2842f9a5264e6fc9db714e8d522fd1e463c595e4aee
-SHA1: c424575a66922c995eda0833a68afd4a88798806
-MD5sum: 67c3b72d91132d5a6b6ef2d44116f2ee
+Filename: pool/main/d/dynblk/dynblk_1.1.1_i386.deb
+Size: 70848
+SHA256: 53d6a6cb0cc3b6201a781eeaecb98ce291330abbf26c3dec8a53dd7eb168180e
+SHA1: 1a4200448b5a7cc03aeea80bd4bab54731da7120
+MD5sum: 3f50b087e21e04e7b75aeba024481dd2
 Description: self-contained block storage control and offline checker
  Controls the dynblk kernel block device and validates detached format-1
  storage with one native executable. No Python runtime, FUSE implementation,
@@ -151,38 +151,38 @@ Description: self-contained block storage control and offline checker
 
 Package: dynblk-dbgsym
 Source: dynblk
-Version: 1.1.0
+Version: 1.1.1
 Auto-Built-Package: debug-symbols
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 138
-Depends: dynblk (= 1.1.0)
+Depends: dynblk (= 1.1.1)
 Priority: optional
 Section: debug
-Filename: pool/main/d/dynblk/dynblk-dbgsym_1.1.0_i386.deb
-Size: 96692
-SHA256: 62637e31be2d66daa70c85e03508064bf63a0205875d492e44f5a7dfa4b0b455
-SHA1: 7b47fcbdb54673ff9ae0e125cf8d1a78899e6344
-MD5sum: c8a183d0bcb404e97d093333c50e7c9b
+Filename: pool/main/d/dynblk/dynblk-dbgsym_1.1.1_i386.deb
+Size: 97260
+SHA256: 69f0eca65a5f3eee1b1376d380f9bfe13fa0409dcebe7144233e5f446ec1a6ab
+SHA1: 209952f30c2641f68d1cf87287fe2db6d2363d26
+MD5sum: f27a9db1875bc7e6a32863f6c1c77aea
 Description: debug symbols for dynblk
-Build-Ids: 9b4339dfa4515e22a2f79de7b68572208cabb42b
+Build-Ids: c88c1344cb7c217e4d97c4825408443363affbdb
 
 Package: dynblk-dkms
 Source: dynblk
-Version: 1.1.0
+Version: 1.1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 128
 Depends: dkms (>= 3.2.2)
-Recommends: dynblk (= 1.1.0)
+Recommends: dynblk (= 1.1.1)
 Homepage: https://github.com/minios-linux/dynblk
 Priority: optional
 Section: kernel
-Filename: pool/main/d/dynblk/dynblk-dkms_1.1.0_all.deb
-Size: 35828
-SHA256: 78de552cd6700b1be1eb8d36f93a03c23d706d05de02080a4d08bfc3924f3e9d
-SHA1: b2ad39a5db927dd3516d80ecc7130db2fb185b42
-MD5sum: c79adf458c89ead1773423d32a1a2f87
+Filename: pool/main/d/dynblk/dynblk-dkms_1.1.1_all.deb
+Size: 36092
+SHA256: fb25597009149915b9f43e1ca1db1513f9d90a0c77968e8aa51b49198019bc7b
+SHA1: 557cafca35f855c071c38cc580c568a97c24a7ae
+MD5sum: ae8f5ca4ab09fba94d9a17d2b711e095
 Description: self-contained block storage module source for DKMS
  Builds dynblk for Linux 6.12 using DKMS. Matching headers for each target
  kernel are required; other kernel series are not supported.
