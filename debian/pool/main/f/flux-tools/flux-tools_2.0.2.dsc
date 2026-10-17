@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: flux-tools
 Binary: flux-tools
 Architecture: all
-Version: 2.0.1
+Version: 2.0.2
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext, desktop-file-utils
 Package-List:
  flux-tools deb utils optional arch=all
 Checksums-Sha1:
- f18b5550de776bfae93cbfe3eb71d5dff99085e0 54560 flux-tools_2.0.1.tar.xz
+ 0398348d1b98387fe10c9f6b724b12df9a6ccb14 54788 flux-tools_2.0.2.tar.xz
 Checksums-Sha256:
- 42bd0e2ece282060b3aa7cc446f40bce322f3d601dc52247b7203adc85e818a9 54560 flux-tools_2.0.1.tar.xz
+ 80fa786cc9c1c63aaaae47c66b570d6b2f8f7c423c86be9fc3ece679bbcd842d 54788 flux-tools_2.0.2.tar.xz
 Files:
- decb08f10c0871d1394b768eb630fbd5 54560 flux-tools_2.0.1.tar.xz
+ 9ac899dbbac6209a6e98f6af296c889d 54788 flux-tools_2.0.2.tar.xz
