@@ -657,17 +657,17 @@ Description: Linux kernel headers for 6.1.147-mos-amd64 on amd64
  This is useful for people who need to build external modules
 
 Package: linux-headers-6.12-mos-amd64
-Version: 6.12.105-1+mos1
+Version: 6.12.113-1+mos1
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
-Depends: linux-headers-6.12.105-mos-amd64 (= 6.12.105-1+mos1)
+Depends: linux-headers-6.12.113-mos-amd64 (= 6.12.113-1+mos1)
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-headers-6.12-mos-amd64/linux-headers-6.12-mos-amd64_6.12.105-1+mos1_amd64.deb
-Size: 796
-SHA256: 741b8382add4e563facd8152364d0b4a84e3a9bc00a97096ef3fe6f029661f05
-SHA1: 9dee39c58dfdcfbe59395638467229bf1b28653a
-MD5sum: 6d5017975d7a25ef77dd0221cf0c90ac
+Filename: pool/main/l/linux-headers-6.12-mos-amd64/linux-headers-6.12-mos-amd64_6.12.113-1+mos1_amd64.deb
+Size: 788
+SHA256: 991aa72b1207f9ead956ae8d61d01daefd63cda3766eefa4cf23611f26b70d48
+SHA1: 1a307cf3faa281301e1475e348e95e2cf50e7973
+MD5sum: aaa2384c94165f9da7fb5ce458ef13d0
 Description: Header files for Linux 6.12 amd64 (meta-package)
  This package tracks the matching MiniOS Linux kernel build.
 
@@ -687,6 +687,25 @@ SHA1: 54895de3b081499e7440170afc910988083bf8cf
 MD5sum: f3d72430ad132e3d12072c0a7ee5ed9d
 Description: Linux kernel headers for 6.12.105-mos-amd64 on amd64
  This package provides kernel header files for 6.12.105-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.12.113-mos-amd64
+Source: linux-mos-6.12
+Version: 6.12.113-1+mos1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 53519
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-mos-6.12/linux-headers-6.12.113-mos-amd64_6.12.113-1+mos1_amd64.deb
+Size: 9215812
+SHA256: b96a4f2476b131f44b1dc7e10ba0f35c99f29b653d1de814fd7717e96a442018
+SHA1: ef6e4517ef667e1ef51af067d018fa1bd5fd478f
+MD5sum: cd7f6f730e73a12be3495c2b5d00349d
+Description: Linux kernel headers for 6.12.113-mos-amd64 on amd64
+ This package provides kernel header files for 6.12.113-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
@@ -801,17 +820,17 @@ Description: Linux kernel, version 6.1.147-mos-amd64
  files, version: 6.1.147-mos-amd64.
 
 Package: linux-image-6.12-mos-amd64
-Version: 6.12.105-1+mos1
+Version: 6.12.113-1+mos1
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
-Depends: linux-image-6.12.105-mos-amd64 (= 6.12.105-1+mos1)
+Depends: linux-image-6.12.113-mos-amd64 (= 6.12.113-1+mos1)
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-image-6.12-mos-amd64/linux-image-6.12-mos-amd64_6.12.105-1+mos1_amd64.deb
-Size: 792
-SHA256: c980f4605b63362dc3907ce0cddd1e49cc138f2a7e62de45989e2ba199952256
-SHA1: 72b60b75764528c59759be4284b319f1e00f3db2
-MD5sum: c328bf4a45055a618439edcfac48ba10
+Filename: pool/main/l/linux-image-6.12-mos-amd64/linux-image-6.12-mos-amd64_6.12.113-1+mos1_amd64.deb
+Size: 784
+SHA256: 5392254eaf4b7e1e8c1360c3be494dce44113972efeca7f315e2e749faf50418
+SHA1: 425f69c2f9fd090ab1e3e61f59e693b7eb1c3d12
+MD5sum: 072a0c9e9488b8f5123c100f22929914
 Description: Linux 6.12 for amd64 PCs (meta-package)
  This package tracks the matching MiniOS Linux kernel build.
 
@@ -832,6 +851,24 @@ MD5sum: edede647f5ef38ff0c31c889d73a508b
 Description: Linux kernel, version 6.12.105-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.12.105-mos-amd64.
+
+Package: linux-image-6.12.113-mos-amd64
+Source: linux-mos-6.12
+Version: 6.12.113-1+mos1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 458409
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-mos-6.12/linux-image-6.12.113-mos-amd64_6.12.113-1+mos1_amd64.deb
+Size: 74801560
+SHA256: a2b726e0c887031072886f946fab85983115d9b55853ef83bf419ad6d2b6e27b
+SHA1: 29eed8b3f3562da05db620c2e226c7552eb02f34
+MD5sum: 2e471c45cb3f796f7fc7cdb91aac2d16
+Description: Linux kernel, version 6.12.113-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.12.113-mos-amd64.
 
 Package: linux-image-6.12.38-mos-amd64
 Source: linux-upstream
