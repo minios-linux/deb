@@ -1089,11 +1089,11 @@ Description: MiniOS Linux configuration utility.
 
 Package: minios-deploy
 Source: minios-installer
-Version: 3.7.3
+Version: 3.7.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1343
-Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.7.3) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31)
+Installed-Size: 1347
+Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.7.4) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31)
 Recommends: minios-live-config (>= 11.0.5.15), user-setup
 Suggests: minios-session (>= 2.2.0)
 Breaks: minios-installer (<< 3.1.0)
@@ -1101,11 +1101,11 @@ Replaces: minios-installer (<< 3.1.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-deploy_3.7.3_all.deb
-Size: 236780
-SHA256: 2417b47026d0c6437b108644c4c89d3d3be1015cc82f163fa9a47a0f6c0660d1
-SHA1: 167edd0ee35225ac6293892f369664bf41232c12
-MD5sum: c332ef83eaba0582ff4bc3535eb4e737
+Filename: pool/main/m/minios-installer/minios-deploy_3.7.4_all.deb
+Size: 237688
+SHA256: 406290c0e91db63dfc0db5f022364ee0d29784f9557b3d5161b7aa48c96f6465
+SHA1: 1e5df835e7983f687598255f0321fc639a661052
+MD5sum: db4a007028a4c0e619cff32b9a083681
 Description: command-line MiniOS deployment backend
  minios-deploy provides disk discovery, installation planning, and live or
  native MiniOS deployment without a graphical interface. It is the backend
@@ -1249,19 +1249,19 @@ Description: MiniOS image composition backend (minios-image-compose)
  workspace.
 
 Package: minios-installer
-Version: 3.7.3
+Version: 3.7.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 319
-Depends: minios-deploy (= 3.7.3), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.1), python3-minios-security (>= 1.0.1)
+Depends: minios-deploy (= 3.7.4), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.1), python3-minios-security (>= 1.0.1)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_3.7.3_all.deb
-Size: 84776
-SHA256: 0640d8b139e03c40547d4dadbc224c2393995b301b27df2bfe0fa6c3fa8d0071
-SHA1: bbe110d26fac5ffaa52dfe5704abf6dcf7c263c9
-MD5sum: dae54315cfa838517a153a1e182eddd4
+Filename: pool/main/m/minios-installer/minios-installer_3.7.4_all.deb
+Size: 84964
+SHA256: 75784d57d41daaffeee0605215a2798fde84bbaf8af4005900ba85e4988603d1
+SHA1: 751bfa7f62c6a55a126211014093f708ade4fcf6
+MD5sum: a4e7fa0cbefbdfc690e562bb7fae8a23
 Description: graphical MiniOS installation utility
  MiniOS Installer is the GTK frontend for minios-deploy. It provides guided
  live and native installation workflows while the deployment engine remains
@@ -1459,7 +1459,7 @@ Description: GTK interface for MiniOS module composition
 
 Package: minios-native-dracut
 Source: minios-installer
-Version: 3.7.3
+Version: 3.7.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 23
@@ -1469,11 +1469,11 @@ Provides: linux-initramfs-tool
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-native-dracut_3.7.3_all.deb
-Size: 10184
-SHA256: 99aa52575b4956f160bf9dcfe7453e23b7ee5edb29ba6f87e9355d5c11600092
-SHA1: 4a0249b12cbbea3baab11a6eff6b07f2ca758af2
-MD5sum: 1d7aa84c0f2a2519921b6797638c15c7
+Filename: pool/main/m/minios-installer/minios-native-dracut_3.7.4_all.deb
+Size: 10276
+SHA256: 21bb750e3765158dfc61d4c5b48172e5f582e5d34d6f9a4a3aa15c606ccd9cbf
+SHA1: 34234842dd5dd486f5ddeb85b6c6a0715b5d6b8d
+MD5sum: 4c15810d49c4ed17578d1193754f4205
 Description: native initramfs integration for MiniOS
  minios-native-dracut keeps dracut-core available on images that use either
  dracut-mos or livekit-mos and provides native kernel update hooks. The hooks
