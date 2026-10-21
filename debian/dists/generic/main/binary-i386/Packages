@@ -2191,30 +2191,6 @@ Description: Set up initial user and password
  responsible for creating the initial user in the installer. It is only
  likely to be of any use if your system has no non-system users at all.
 
-Package: xfce4-helpers
-Source: xfce4-settings
-Version: 4.20.1-1minios1
-Architecture: i386
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 175
-Depends: python3, python3-urllib3
-Suggests: sensible-utils
-Breaks: libexo-common (<< 4.15), libexo-helpers
-Replaces: libexo-common (<< 4.15), libexo-helpers
-Multi-Arch: foreign
-Homepage: https://docs.xfce.org/xfce/xfce4-settings/start
-Priority: optional
-Section: xfce
-Filename: pool/main/x/xfce4-settings/xfce4-helpers_4.20.1-1minios1_i386.deb
-Size: 45816
-SHA256: d5aaf38cebb654747cd337afdeac0cc6bb2d340b8677fb1f4c980e60a94d3f34
-SHA1: fa7c663dd8ff36e3bc7759e61d16c747d08616c2
-MD5sum: cb8efcaabed562ec4e38d5a45b20b0d3
-Description: helpers for the Xfce4 desktop environment
- This package contains the helper files in use by Xfce4 for its
- preferred applications framework.
-Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-
 Package: xfce4-minios-showdesktop-plugin-dbgsym
 Source: xfce4-minios-showdesktop-plugin
 Version: 1.0.0
@@ -2251,35 +2227,6 @@ MD5sum: f4b309ece37308ba3e643f2e34075c38
 Description: debug symbols for xfce4-minios-tasklist-plugin
 Build-Ids: f05d04d56838a198193218819e9d17845ecda1e4
 
-Package: xfce4-settings
-Version: 4.20.1-1minios1
-Architecture: i386
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 5654
-Depends: exo-utils, libgarcon-common, xfce4-helpers, xfconf, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.35), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libcolord2 (>= 1.4.3), libexo-2-0 (>= 0.11.0), libfontconfig1 (>= 2.12.6), libgarcon-1-0 (>= 0.6.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.68.0), libgtk-3-0t64 (>= 3.21.5), libgtk-layer-shell0 (>= 0.5.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxfce4ui-2-0 (>= 4.19.5), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.19.3), libxi6 (>= 2:1.2.0), libxklavier16 (>= 5.0), libxrandr2 (>= 2:1.2.99.3)
-Recommends: colord, x11-utils, xiccd
-Homepage: https://docs.xfce.org/xfce/xfce4-settings/start
-Priority: optional
-Section: xfce
-Filename: pool/main/x/xfce4-settings/xfce4-settings_4.20.1-1minios1_i386.deb
-Size: 950896
-SHA256: a246b2e839a555ae7ccef16c04d23d22d071e2ee6477a9f62ba252d341362ddb
-SHA1: db6dfe566b6626012cad293dd6d113dcd689716e
-MD5sum: 64bd70b2f764326950747cea59c78e20
-Description: graphical application for managing Xfce settings
- xfce4-settings is the Xfce settings manager front-end. It comes
- with several different components for configuring application-independent
- settings inside xfconf.
- It contains multiple tools:
-  - xfce4-settings-manager (which replaces the old mcs settings manager),
-    which executes the various (provided) settings dialogs
-  - xfce4-settings-editor, a tool for editing ALL settings within xfconf, the
-    graphical counterpart of xfconf-query.
-  - xfsettingsd, a daemon for exporting XSettings to applications, and
-    providing special features like keyboard shortcuts, AccessX notification
-    and update of keyboard and mouse-pointer data.
-Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-
 Package: xfce4-settings-dbgsym
 Source: xfce4-settings
 Version: 4.20.1-1minios1
@@ -2299,24 +2246,6 @@ Description: debug symbols for xfce4-settings
 Build-Ids: 01d3a62fe6a6466fe98d27e7df64770033667059 10f7aea749bd0e756e98e402c4f4d5614e2275b3 122c12b7adeedac6e271bab9c0438ac3651d128e 15f264e16cad85b923539eb02d70a44f2c197105 590a1f35d5737dd479e5be349177b1ce47fb8f86 619aa991f6a55fbcfdf418213a512abf25e20e32 8f60b9114e878ca7a49442918c5224e5de5fdd58 98d8df717ed0a00bca41c9ea54167db9d2b49e7c 9b16f5b245f8cd445f01cdcf02d7e02e16147ae3 d2ef2c9ed733ba19f840c306cc19379af8ebb6e6 d72d471a3a1d30b48ed9418f6c12f35b9d4c40d1 d74372644e3f55ef9f1951d81fb882fb312fd891 f55aa76e207de33955ae396a77872b90fcded1c9
 Original-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
 
-Package: xfce4-showdesktop-minios-plugin
-Version: 1.0.0
-Architecture: i386
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 89
-Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.4), libglib2.0-0t64 (>= 2.42.0), libgtk-3-0t64 (>= 3.19.12), libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.17.2), libxfce4windowing-0-0 (>= 4.19.4), libxfconf-0-3 (>= 4.12.1)
-Homepage: https://github.com/minios-linux/xfce4-minios-showdesktop-plugin
-Priority: optional
-Section: xfce
-Filename: pool/main/x/xfce4-showdesktop-minios-plugin/xfce4-showdesktop-minios-plugin_1.0.0_i386.deb
-Size: 15672
-SHA256: c714b87cb7da91ec4aeb61cb484c514518094e2005b62b953b4bf3284eca9555
-SHA1: 366009c3c32a2d8359b0196bb70205d3b8477ff2
-MD5sum: 5f821543fa643a051eb88fb44676c79b
-Description: MiniOS Show Desktop plugin for the Xfce panel
- A MiniOS fork of the Xfce Show Desktop plugin with an optional iconless
- compact strip and selectable strip widths.
-
 Package: xfce4-showdesktop-minios-plugin-dbgsym
 Source: xfce4-showdesktop-minios-plugin
 Version: 1.0.0
@@ -2334,24 +2263,6 @@ SHA1: bcc3ce61b754a326eee1c40049cf163dcd660bb0
 MD5sum: 1f0c13057162a4ab85fa0745d399fef0
 Description: debug symbols for xfce4-showdesktop-minios-plugin
 Build-Ids: 1f8d9693fd30881d951099517c39d317f17eb177
-
-Package: xfce4-tasklist-minios-plugin
-Version: 1.0.0
-Architecture: i386
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 310
-Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libpango-1.0-0 (>= 1.14.0), libx11-6, libxcomposite1 (>= 1:0.4.6), libxext6, libxfce4panel-2.0-4 (>= 4.17.2), libxfce4ui-2-0 (>= 4.17.2), libxfce4windowing-0-0 (>= 4.19.4), libxfconf-0-3 (>= 4.12.1)
-Homepage: https://github.com/minios-linux/xfce4-minios-tasklist-plugin
-Priority: optional
-Section: xfce
-Filename: pool/main/x/xfce4-tasklist-minios-plugin/xfce4-tasklist-minios-plugin_1.0.0_i386.deb
-Size: 76520
-SHA256: 22a0c8ab4f1d645c6f716d8ff73526229e49c94252244a2ca5cd3336d3d53b01
-SHA1: b3f6b83ae7254999da791ddea4630af6c3bec2a7
-MD5sum: e4a1a403e372819c7fc6eb61a1a3b5db
-Description: MiniOS window buttons plugin for the Xfce panel
- A MiniOS fork of the Xfce Window Buttons plugin with pinned applications,
- drag-and-drop reordering, launcher pinning and compact MiniOS taskbar behavior.
 
 Package: xfce4-tasklist-minios-plugin-dbgsym
 Source: xfce4-tasklist-minios-plugin
@@ -2371,52 +2282,6 @@ MD5sum: 84aa646bf27852874d82df3f28a44031
 Description: debug symbols for xfce4-tasklist-minios-plugin
 Build-Ids: fd1911b9f8a3010c2946e31eafe27fe97c877f61
 
-Package: xfdesktop4
-Version: 4.20.1-1minios1
-Architecture: i386
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 915
-Depends: exo-utils, xfdesktop4-data (= 4.20.1-1minios1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libexo-2-0 (>= 0.11.0), libgarcon-1-0 (>= 0.3.0), libgarcon-gtk3-1-0 (>= 0.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.4), libgtk-layer-shell0 (>= 0.6.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libthunarx-3-0 (>= 4.17.10~), libx11-6, libxfce4ui-2-0 (>= 4.15.6), libxfce4util7 (>= 4.9.0), libxfce4windowing-0-0 (>= 4.19.9), libxfconf-0-3 (>= 4.19.3), libyaml-0-2
-Recommends: default-dbus-session-bus | dbus-session-bus, librsvg2-common, tumbler, xdg-user-dirs
-Homepage: https://docs.xfce.org/xfce/xfdesktop/start
-Priority: optional
-Section: xfce
-Filename: pool/main/x/xfdesktop4/xfdesktop4_4.20.1-1minios1_i386.deb
-Size: 226628
-SHA256: 30d215a894b74bfa7491c4536d88abf21ab3bd801006a7525680ec41dd3e16dd
-SHA1: 788a7308290088a2b742ee87f522704f2588b473
-MD5sum: 39650d4725e9bb94f6ef21f8b96dc4bb
-Description: Xfce desktop background, icons and root menu manager
- xfdesktop4 sets the background image, provides a right-click menu to
- launch applications and can optionally show files (including application
- launchers) or iconified windows. It includes gradient support for
- background color, saturation support for background image, real multiscreen
- and xinerama support.
-
-Package: xfdesktop4-data
-Source: xfdesktop4
-Version: 4.20.1-1minios1
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 4044
-Multi-Arch: foreign
-Homepage: https://docs.xfce.org/xfce/xfdesktop/start
-Priority: optional
-Section: xfce
-Filename: pool/main/x/xfdesktop4/xfdesktop4-data_4.20.1-1minios1_all.deb
-Size: 1120232
-SHA256: 9db444c2a72b6ddd0c544c86aff82cf14382293b686f90f22755c3a0b209ec6f
-SHA1: c6bf5b605794162aae05cf6e0af32d9d9bb31ff9
-MD5sum: 730928daa071417f497e7ea45a67043b
-Description: Xfce desktop background, icons and root menu (common files)
- xfdesktop4 sets the background image, provides a right-click menu to
- launch applications and can optionally show files (including application
- launchers) or iconified windows. It includes gradient support for
- background color, saturation support for background image, real multiscreen
- and xinerama support.
- .
- This package contains architecture-independent files for xfdesktop4.
-
 Package: xfdesktop4-dbgsym
 Source: xfdesktop4
 Version: 4.20.1-1minios1
@@ -2434,30 +2299,6 @@ SHA1: 152c320f6a3362a37ee4ee3d45a024209f58e498
 MD5sum: e6ad8631bf98087ef00d61d35da37a0d
 Description: debug symbols for xfdesktop4
 Build-Ids: 3280cf3436d3773a882bd0906f72783759feeae5 cce5a4d51ba67147f872bac6ba13678334d6d55f
-
-Package: xfwm4-gl
-Version: 4.20.0+gl1+git20261009.af5f68f-0minios1
-Architecture: i386
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 3243
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.10.0), libepoxy0 (>= 1.5.2), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.6), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.7), libwnck-3-0 (>= 2.91.6), libx11-6 (>= 2:1.2.99.901), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6 (>= 2:1.3.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxfixes3 (>= 1:4.0.1), libxinerama1 (>= 2:1.1.4), libxpresent1 (>= 1.0.1), libxrandr2 (>= 2:1.2.99.3), libxrender1 (>= 1:0.9.12), libxres1 (>= 2:1.2.1)
-Recommends: librsvg2-common
-Suggests: xfce4
-Conflicts: xfwm4
-Replaces: xfwm4
-Provides: x-window-manager, xfwm4 (= 4.20.0+gl1+git20261009.af5f68f-0minios1)
-Homepage: https://github.com/fulalas/xfwm4-gl
-Priority: optional
-Section: xfce
-Filename: pool/main/x/xfwm4-gl/xfwm4-gl_4.20.0+gl1+git20261009.af5f68f-0minios1_i386.deb
-Size: 561048
-SHA256: d0ac45b3eac593461abfa35f2f353d5f5e2530ab88d4e6c49b436bd99a858a5b
-SHA1: 11c60a2c198d90666ceaf7c6b3d90411a1ebbc36
-MD5sum: 2d7bb97e20be236aad0837fa78da3c4b
-Description: Xfce window manager with OpenGL compositing
- This fork of xfwm4 adds an OpenGL compositor with automatic XRender
- fallback. It retains the original executable names, settings channel,
- themes and session integration, and replaces the distribution xfwm4 package.
 
 Package: xfwm4-gl-dbgsym
 Source: xfwm4-gl
