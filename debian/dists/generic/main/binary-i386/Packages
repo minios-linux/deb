@@ -128,21 +128,21 @@ Description: Graphical utility for writing, formatting, and wiping storage devic
  format, and securely wipe storage devices.
 
 Package: dynblk
-Version: 1.1.1
+Version: 1.1.2
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 141
-Depends: libc6 (>= 2.38), kmod, mount
-Recommends: dynblk-dkms (= 1.1.1)
+Depends: libc6 (>= 2.11), kmod, mount
+Recommends: dynblk-dkms (= 1.1.2)
 Suggests: liblz4-1, libzstd1, zlib1g
 Homepage: https://github.com/minios-linux/dynblk
 Priority: optional
 Section: admin
-Filename: pool/main/d/dynblk/dynblk_1.1.1_i386.deb
-Size: 70848
-SHA256: 53d6a6cb0cc3b6201a781eeaecb98ce291330abbf26c3dec8a53dd7eb168180e
-SHA1: 1a4200448b5a7cc03aeea80bd4bab54731da7120
-MD5sum: 3f50b087e21e04e7b75aeba024481dd2
+Filename: pool/main/d/dynblk/dynblk_1.1.2_i386.deb
+Size: 71136
+SHA256: 67675c41e75b9a404856273655bca423faf917105186327445d4259eb1a479a6
+SHA1: ed782466557038c2c154554ed228dca427c08d4d
+MD5sum: d6c1a21e1dbef8d24bac834190717ff7
 Description: self-contained block storage control and offline checker
  Controls the dynblk kernel block device and validates detached format-1
  storage with one native executable. No Python runtime, FUSE implementation,
@@ -169,20 +169,20 @@ Build-Ids: c88c1344cb7c217e4d97c4825408443363affbdb
 
 Package: dynblk-dkms
 Source: dynblk
-Version: 1.1.1
+Version: 1.1.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 128
-Depends: dkms (>= 3.2.2)
-Recommends: dynblk (= 1.1.1)
+Installed-Size: 129
+Depends: dkms (>= 2.3)
+Recommends: dynblk (= 1.1.2)
 Homepage: https://github.com/minios-linux/dynblk
 Priority: optional
 Section: kernel
-Filename: pool/main/d/dynblk/dynblk-dkms_1.1.1_all.deb
-Size: 36092
-SHA256: fb25597009149915b9f43e1ca1db1513f9d90a0c77968e8aa51b49198019bc7b
-SHA1: 557cafca35f855c071c38cc580c568a97c24a7ae
-MD5sum: ae8f5ca4ab09fba94d9a17d2b711e095
+Filename: pool/main/d/dynblk/dynblk-dkms_1.1.2_all.deb
+Size: 36468
+SHA256: 82ffe5c76cc89afe5f590ad67233a596c0aa1bbfe2b067d7a44375dcdf53bfff
+SHA1: f7dacf88efb57cb8b99efad0c73bf50de248360e
+MD5sum: e1721b6d5b646e18a21155403b5f2527
 Description: self-contained block storage module source for DKMS
  Builds dynblk for Linux 6.12 using DKMS. Matching headers for each target
  kernel are required; other kernel series are not supported.
