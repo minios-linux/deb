@@ -170,21 +170,21 @@ Description: Graphical utility for writing, formatting, and wiping storage devic
  format, and securely wipe storage devices.
 
 Package: dynblk
-Version: 1.1.2
+Version: 1.1.3
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 126
 Depends: libc6 (>= 2.14), kmod, mount
-Recommends: dynblk-dkms (= 1.1.2)
+Recommends: dynblk-dkms (= 1.1.3)
 Suggests: liblz4-1, libzstd1, zlib1g
 Homepage: https://github.com/minios-linux/dynblk
 Priority: optional
 Section: admin
-Filename: pool/main/d/dynblk/dynblk_1.1.2_amd64.deb
-Size: 63888
-SHA256: aec7c884dbd91f2886068db507e3caa1031de3439dba0bfb6f08ec9686db1286
-SHA1: 3de993d2ea9d18ac127f7bfece42022487f0b35e
-MD5sum: 25beaf11f94a68bf2d6b003a35f5ec81
+Filename: pool/main/d/dynblk/dynblk_1.1.3_amd64.deb
+Size: 64048
+SHA256: 5e28d1636bfb2fa4e46ce11d12023ff2f24a153775a2be48c9093a70dd60dce2
+SHA1: 71e58865ce04ab4a935d647d52565e157981a95e
+MD5sum: b65c8d877b2bd50880a59867b5e42618
 Description: self-contained block storage control and offline checker
  Controls the dynblk kernel block device and validates detached format-1
  storage with one native executable. No Python runtime, FUSE implementation,
@@ -211,20 +211,20 @@ Build-Ids: a7121a68cbcb9c57b8780f73d9a5c228d90dcdbf
 
 Package: dynblk-dkms
 Source: dynblk
-Version: 1.1.2
+Version: 1.1.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 129
+Installed-Size: 128
 Depends: dkms (>= 2.3)
-Recommends: dynblk (= 1.1.2)
+Recommends: dynblk (= 1.1.3)
 Homepage: https://github.com/minios-linux/dynblk
 Priority: optional
 Section: kernel
-Filename: pool/main/d/dynblk/dynblk-dkms_1.1.2_all.deb
-Size: 36468
-SHA256: 82ffe5c76cc89afe5f590ad67233a596c0aa1bbfe2b067d7a44375dcdf53bfff
-SHA1: f7dacf88efb57cb8b99efad0c73bf50de248360e
-MD5sum: e1721b6d5b646e18a21155403b5f2527
+Filename: pool/main/d/dynblk/dynblk-dkms_1.1.3_all.deb
+Size: 36588
+SHA256: 91397d79cb5f994fe5748c70e679c6a1fb3609b69bb386a42d3200c3f8719b38
+SHA1: 50d02edb8c402f6169eeec856a18c57a0194f7de
+MD5sum: e193f0fa3b64336f1a0d3fefe00fb24f
 Description: self-contained block storage module source for DKMS
  Builds dynblk for Linux 6.12 using DKMS. Matching headers for each target
  kernel are required; other kernel series are not supported.
@@ -1269,10 +1269,10 @@ Description: graphical MiniOS installation utility
 
 Package: minios-kernel
 Source: minios-kernel-manager
-Version: 1.5.2
+Version: 1.5.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 516
+Installed-Size: 518
 Depends: python3 (>= 3.6), squashfs-tools, kmod, apt, dpkg-dev, zstd, mount, util-linux
 Recommends: lz4, lzop, xz-utils, bzip2, polkitd | policykit-1, pkexec | policykit-1
 Breaks: minios-kernel-manager (<< 1.4.0)
@@ -1280,11 +1280,11 @@ Replaces: minios-kernel-manager (<< 1.4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel_1.5.2_all.deb
-Size: 104872
-SHA256: 7c51a04485eb1e38c6f0ae83ba8e5a9be7580c209a28448c9fc401854aad5673
-SHA1: 2479b98852d8bbbebafb8b8def0b5e83b1904904
-MD5sum: 69ef5bea794e2b07b7ab3456ff6ad22c
+Filename: pool/main/m/minios-kernel-manager/minios-kernel_1.5.3_all.deb
+Size: 105456
+SHA256: 84de2ace9ee95230a4e5e88518cf94924b61d4d41a1a3953a9ca6eb1af1ed239
+SHA1: a3d510096e2506447aa9a51f3183cd1864a85221
+MD5sum: 58f5dd26f3048b96507f9362bc1b5db5
 Description: command-line kernel management backend for MiniOS
  minios-kernel packages, installs, activates, lists, and removes MiniOS kernel
  bundles from the command line. It provides the non-graphical kernel management
@@ -1292,19 +1292,19 @@ Description: command-line kernel management backend for MiniOS
  terminal or automation.
 
 Package: minios-kernel-manager
-Version: 1.5.2
+Version: 1.5.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 151
-Depends: minios-kernel (= 1.5.2), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, python3-minios-gui (>= 1.4.0)
+Installed-Size: 152
+Depends: minios-kernel (= 1.5.3), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, python3-minios-gui (>= 1.4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.5.2_all.deb
-Size: 36052
-SHA256: a32ecba26f2c8a6dbcc2108c4e843569f30945bcc814fe27eb67894ad44b50c6
-SHA1: a081fd484c1e45721b46ed0b0c88dadc118744f5
-MD5sum: 0dee30a6feab54663ca37ef6686f91aa
+Filename: pool/main/m/minios-kernel-manager/minios-kernel-manager_1.5.3_all.deb
+Size: 36244
+SHA256: a40bd31071d03a82b627acaac434275db7e0c0a0f6f45f96eda55a81cecb40e1
+SHA1: 6cdf8a78d1cbcedc60c97337e16978f59b27b02f
+MD5sum: df8168f1a9a9bb0ef0510989ac76b2e8
 Description: graphical kernel manager for MiniOS
  MiniOS Kernel Manager is the GTK3 frontend for the minios-kernel command-line
  backend. It provides graphical workflows for browsing, packaging, activating,
