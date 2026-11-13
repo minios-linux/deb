@@ -1311,22 +1311,22 @@ Description: graphical kernel manager for MiniOS
  behind the standalone CLI interface.
 
 Package: minios-live-config
-Version: 11.0.5.25
-Architecture: all
+Version: 11.0.5.26
+Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 247
-Depends: minios-live-config-systemd | minios-live-config-backend, bash (>= 4.0), perl, libdpkg-perl, util-linux
+Installed-Size: 258
+Depends: minios-live-config-systemd | minios-live-config-backend, bash (>= 4.0), util-linux, libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8)
 Recommends: iproute2 | iproute, keyboard-configuration, minios-live-config-doc, locales | locales-all, sudo, user-setup
 Suggests: pciutils, wget, shared-mime-info, gdk-pixbuf2.0-bin, libgtk-3-bin, glib-2.0-bin, desktop-file-utils, xfonts-utils, fontconfig
 Conflicts: live-config
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.25_all.deb
-Size: 59024
-SHA256: 7448bf2fa493bc6a3a91eadffd3b20f900547bdadc71d9ca893a195096cdbda4
-SHA1: 30feaa06a4774cafb86b92421e147af99bcf7eb2
-MD5sum: d56843d46e69779f6c4853ba7efab24d
+Filename: pool/main/m/minios-live-config/minios-live-config_11.0.5.26_i386.deb
+Size: 64012
+SHA256: 55315d308f4382e1ec2b2eccf66d014838113fbaa83dead0f04906c8e1ca7377
+SHA1: 35ce9fde595f58c7b6b3d8441d0c5ce6b9026338
+MD5sum: 84f27ef87bf39ecef31e94441c0723ef
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1339,7 +1339,7 @@ Description: Live System Configuration Components
 
 Package: minios-live-config-doc
 Source: minios-live-config
-Version: 11.0.5.25
+Version: 11.0.5.26
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 190
@@ -1348,11 +1348,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: doc
-Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.25_all.deb
-Size: 138648
-SHA256: 67e46024bd0f89013e57bd39eb78ce9fbb0b8450bf0b89b70d7c6fec9d220d9a
-SHA1: fa3341c7b99df2072587c69524f367e24614b411
-MD5sum: fe7a3934e60a2d4f6ba64a4f10d96b37
+Filename: pool/main/m/minios-live-config/minios-live-config-doc_11.0.5.26_all.deb
+Size: 138840
+SHA256: a97ddc8e60bc7aa92ca2d0b7a927ade2d693268f65ebb98186551a8ffd9fa09d
+SHA1: 4d907e734b834803d1ae250c0d5c8c46cb83dc4e
+MD5sum: 8eb07b291620c5c780d51e5f13d65efa
 Description: Live System Configuration Components (documentation)
  live-config contains the components that configure a live system during the
  boot process (late userspace).
@@ -1361,7 +1361,7 @@ Description: Live System Configuration Components (documentation)
 
 Package: minios-live-config-systemd
 Source: minios-live-config
-Version: 11.0.5.25
+Version: 11.0.5.26
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 44
@@ -1373,11 +1373,11 @@ Provides: live-config-backend, minios-live-config-backend
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.25_all.deb
-Size: 26836
-SHA256: 3557b2425589084b8fd1e3bf6842bb5aead07a9b014785ff519518de2ac14e5c
-SHA1: 2d18677569cbd42f2787d42a997ab86ca5f3f04c
-MD5sum: d0d6bd6347c1e38ce5fb001fb33ecada
+Filename: pool/main/m/minios-live-config/minios-live-config-systemd_11.0.5.26_all.deb
+Size: 27012
+SHA256: b5e3340159f2c4dceda86bfc8d5ca5b606b134f22ed9523a43c895bbc49f20ab
+SHA1: f54af7306a53e01610daa08ae99c35f6b18b7bbf
+MD5sum: be7eed31091f399be51abfa755c85a3b
 Description: Live System Configuration Components (systemd backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1389,7 +1389,7 @@ Description: Live System Configuration Components (systemd backend)
 
 Package: minios-live-config-sysvinit
 Source: minios-live-config
-Version: 11.0.5.25
+Version: 11.0.5.26
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 35
@@ -1400,11 +1400,11 @@ Provides: live-config-backend, minios-live-config-backend
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_11.0.5.25_all.deb
-Size: 9716
-SHA256: a6c76e734f83ffe35be16754ba72e205bbc576360660faf590ced672909ea271
-SHA1: 841bdc9ed24ad67c81fd59d7b0cebc8ad5056275
-MD5sum: 63aac3da8f1d13a5fceb666928937fa9
+Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_11.0.5.26_all.deb
+Size: 9908
+SHA256: 309cf366a9a81e251d70af05d2474a626fec8aba0df68ea065dff9c14f627514
+SHA1: 1488e5a1e33e8f428ddb2353c9db231f2042ef8c
+MD5sum: ea857a1463a682eaf7a12c3386803819
 Description: Live System Configuration Components (sysvinit backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.

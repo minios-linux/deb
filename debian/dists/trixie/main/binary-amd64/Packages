@@ -1,3 +1,36 @@
+Package: alsa-utils
+Version: 1.2.14-2
+Architecture: amd64
+Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+Installed-Size: 2681
+Depends: kmod (>= 17-1~), libasound2t64 (>= 1.2.14), libatopology2t64 (>= 1.2.2), libc6 (>= 2.38), libfftw3-single3 (>= 3.3.10), libncursesw6 (>= 6), libsamplerate0 (>= 0.1.7), libtinfo6 (>= 6)
+Suggests: dialog
+Provides: audio-mixer
+Multi-Arch: foreign
+Homepage: https://www.alsa-project.org/
+Priority: optional
+Section: sound
+Filename: pool/main/a/alsa-utils/alsa-utils_1.2.14-2_amd64.deb
+Size: 1141488
+SHA256: 56bff9f7f7317804b46cb721de20a1db91a18a15b9aca6fad1b01d58d417521c
+SHA1: 6d64037aa6db7fdaec68bde5e8dc6ca86f486b4f
+MD5sum: 629980cf9479ac04c27f4af735b6482f
+Description: Utilities for configuring and using ALSA
+ Included tools:
+  - alsactl: advanced controls for ALSA sound drivers
+  - alsaloop: create loopbacks between PCM capture and playback devices
+  - alsamixer: curses mixer
+  - alsaucm: alsa use case manager
+  - amixer: command line mixer
+  - amidi: read from and write to ALSA RawMIDI ports
+  - aplay, arecord: command line playback and recording
+  - aplaymidi, arecordmidi: command line MIDI playback and recording
+  - aconnect, aseqnet, aseqdump: command line MIDI sequencer control
+  - iecset: set or dump IEC958 status bits
+  - speaker-test: speaker test tone generator
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
 Package: pulseaudio-module-xrdp
 Version: 0.8-0minios1~trixie
 Architecture: amd64
