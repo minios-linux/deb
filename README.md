@@ -13,6 +13,6 @@ curl http:/deb.minios.dev/debian/minios-linux.asc | sudo gpg --dearmor > /etc/ap
 distro=$(lsb_release -cs)
 
 # Add the source depending on the distribution
-echo "deb http:/deb.minios.dev/debian $distro main contrib non-free" | sudo tee /etc/apt/sources.list.d/minios-linux.list
-echo "deb http:/deb.minios.dev/debian generic main contrib non-free" | sudo tee -a /etc/apt/sources.list.d/minios-linux.list
+echo "deb http://deb.minios.dev/debian $distro main contrib non-free" | sudo tee /etc/apt/sources.list.d/minios-linux.list
+echo "deb http://deb.minios.dev/debian generic main contrib non-free" | sudo tee -a /etc/apt/sources.list.d/minios-linux.list
 ```
