@@ -1186,19 +1186,19 @@ Description: command-line MiniOS deployment backend
 
 Package: minios-dpkg-state
 Source: minios-live-config
-Version: 12.0.0
+Version: 12.0.1
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 63
-Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.31.8)
+Installed-Size: 64
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.43.2)
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: admin
-Filename: pool/main/m/minios-live-config/minios-dpkg-state_12.0.0_i386.deb
-Size: 38460
-SHA256: 9fb458b69e8f8843576b6d8b5f7e1f2ffff49f79eb5e05df0f2d72cf60c64ac2
-SHA1: 5ce1bc2f5077fb6b748d06ff5a7ad261b0e8b7c8
-MD5sum: bd037918dcdfdfe2bc7c54194e98b563
+Filename: pool/main/m/minios-live-config/minios-dpkg-state_12.0.1_i386.deb
+Size: 40732
+SHA256: 5e63ebb17454c532a16238479a09592b7a01e73a3fa117f306fab0969ab17663
+SHA1: 428ca5969f9cef34996fa49bd30a5184033a20a8
+MD5sum: e66691808a3b1447311ed7dd14202a87
 Description: module package-state decomposition and assembly for MiniOS
  Exports package-state changes as validated per-record module metadata and
  assembles ordinary dpkg status files. Provides build-root preparation and
@@ -1405,22 +1405,22 @@ Description: graphical kernel manager for MiniOS
  behind the standalone CLI interface.
 
 Package: minios-live-config
-Version: 12.0.0
+Version: 12.0.1
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 261
-Depends: minios-live-config-systemd | minios-live-config-backend, bash (>= 4.0), util-linux, minios-dpkg-state (= 12.0.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.43.2)
+Installed-Size: 270
+Depends: minios-live-config-systemd | minios-live-config-backend, bash (>= 4.0), util-linux, minios-dpkg-state (= 12.0.1), libc6 (>= 2.4), libglib2.0-0 (>= 2.43.2)
 Recommends: iproute2 | iproute, keyboard-configuration, minios-live-config-doc, locales | locales-all, sudo, user-setup
 Suggests: pciutils, wget, shared-mime-info, gdk-pixbuf2.0-bin, libgtk-3-bin, glib-2.0-bin, desktop-file-utils, xfonts-utils, fontconfig
 Conflicts: live-config
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config_12.0.0_i386.deb
-Size: 66948
-SHA256: 91ed4f558478f47ae613eaa643bcaa167ebc670cb58e3d53316915ccf0704f5f
-SHA1: 8acba431879dba6609b77bdeeb85ef1dc0993e1f
-MD5sum: 9887912f2a313cfb18f5124c86f6724f
+Filename: pool/main/m/minios-live-config/minios-live-config_12.0.1_i386.deb
+Size: 69776
+SHA256: c8e8ca1a5217c659070d701f4114c5be1e2e0303dbea1127cd28cf374e5c4a44
+SHA1: 5f9ab1fb0adbed2829d5dc02e817e81cf7385d1c
+MD5sum: 6c8b92e601cc3b4f04cd6a3301b6b7a1
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1433,7 +1433,7 @@ Description: Live System Configuration Components
 
 Package: minios-live-config-doc
 Source: minios-live-config
-Version: 12.0.0
+Version: 12.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 190
@@ -1442,11 +1442,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: doc
-Filename: pool/main/m/minios-live-config/minios-live-config-doc_12.0.0_all.deb
-Size: 139128
-SHA256: 51ee34b06812e81268cb0f3124cd3d822720789d5d6600bb886cd95cbb25e0ae
-SHA1: bb3a1a6162d5d02f8ee2b2dc1a754fa4317dc960
-MD5sum: bbf54bc8b59d78aa2b0e1ab2df6a8cdd
+Filename: pool/main/m/minios-live-config/minios-live-config-doc_12.0.1_all.deb
+Size: 139232
+SHA256: 5b4b0174cd2a62ac3f6c0e8befc59dc8b19ba179bd8afa1b56e64eaa11676a32
+SHA1: 6e8936b90c7ea6e18f9fbd85f58d9055ea8b2106
+MD5sum: 105c6f635f6edb01bc2675b987b9b898
 Description: Live System Configuration Components (documentation)
  live-config contains the components that configure a live system during the
  boot process (late userspace).
@@ -1455,7 +1455,7 @@ Description: Live System Configuration Components (documentation)
 
 Package: minios-live-config-systemd
 Source: minios-live-config
-Version: 12.0.0
+Version: 12.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 44
@@ -1467,11 +1467,11 @@ Provides: live-config-backend, minios-live-config-backend
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config-systemd_12.0.0_all.deb
-Size: 27308
-SHA256: 82fbd354ec40c1caec8f7d955a4eb14664612dc7ba206dc6f4bbf3b519e44d89
-SHA1: cf49e3b51b88f9558c4a8fc2130af828d5657eca
-MD5sum: 5efd26cf01184fa29f4e5b3aaef80ed9
+Filename: pool/main/m/minios-live-config/minios-live-config-systemd_12.0.1_all.deb
+Size: 27428
+SHA256: 5bad40b8aed0c867f09898c91e84bdbc8dbb23ad9950bce45081692e4a24e0d4
+SHA1: fde2595c53b9a7d48040cb22862a9e7a55e20877
+MD5sum: 5461766d80de6f02e6429679968438b1
 Description: Live System Configuration Components (systemd backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1483,10 +1483,10 @@ Description: Live System Configuration Components (systemd backend)
 
 Package: minios-live-config-sysvinit
 Source: minios-live-config
-Version: 12.0.0
+Version: 12.0.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 35
+Installed-Size: 36
 Depends: sysvinit-core | sysvinit (<< 2.88dsf-44), mount, util-linux
 Conflicts: live-config-backend, live-config-sysvinit, minios-live-config-backend
 Replaces: live-config-backend, live-config-sysvinit, minios-live-config-backend
@@ -1494,11 +1494,11 @@ Provides: live-config-backend, minios-live-config-backend
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_12.0.0_all.deb
-Size: 10104
-SHA256: e7ea0b935224ee7ed5d70937ee6e76a5377d55ec8b652599720cf2b5b977913d
-SHA1: 8610dfefdbc166fa9db02bf84eeecfca788bffad
-MD5sum: fcc8617ccb5a0b99f7024941bef10910
+Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_12.0.1_all.deb
+Size: 10328
+SHA256: 62376c821a1a0b8e0e9c881720813625be50d7ff7a1cc9def54b0e244a56a6d4
+SHA1: 72798c78e66e8218c48df287b2ca7645d800a58c
+MD5sum: 18745f223b3d8ef1d4bc32b9a5a11abb
 Description: Live System Configuration Components (sysvinit backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1673,22 +1673,22 @@ Description: MiniOS integration for the Thunar file manager
  minios-tools and keeps the user's existing Thunar custom actions intact.
 
 Package: minios-tools
-Version: 1.9.2
+Version: 1.9.3
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 641
-Depends: bash (>= 4.4), coreutils (>= 8.28), e2fsprogs, gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), python3 (>= 3.6), squashfs-tools (>= 1:4.3-6ubuntu0.18.04.4+minios1), util-linux (>= 2.31), minios-dpkg-state (>= 12.0.0)
+Installed-Size: 642
+Depends: bash (>= 4.4), coreutils (>= 8.28), e2fsprogs, gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), python3 (>= 3.6), squashfs-tools (>= 1:4.3-6ubuntu0.18.04.4+minios1), util-linux (>= 2.31), minios-dpkg-state (>= 12.0.1)
 Recommends: x11-xserver-utils, xfce4-settings, procps
 Suggests: polkitd | policykit-1, pkexec | policykit-1
 Breaks: minios-live-config (<< 12.0.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.9.2_all.deb
-Size: 121692
-SHA256: b77954417f1b62dc928ca6f49e486061ed792642a47503ab62fe20803efa2139
-SHA1: 739516c5cbcf2e802af5e218ea59c28af9434a6b
-MD5sum: f83208c9297bf3fddd3bdaf8e8c631fa
+Filename: pool/main/m/minios-tools/minios-tools_1.9.3_all.deb
+Size: 122060
+SHA256: 929d9bca4a0e620f3cef7b72b8810968e3c7fa9fe07527acaaba450ed88c733c
+SHA1: 257c8c838d8719435f15ffe2a621afc997b4f0dd
+MD5sum: 6610254dbaf8830a00a614e5f23377e5
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
