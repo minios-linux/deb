@@ -390,21 +390,21 @@ Description: Web UI for Flowgate
  Provides a graphical interface for the flowgate CLI tool.
 
 Package: flux-tools
-Version: 2.1.0
+Version: 2.1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 221
+Installed-Size: 222
 Depends: bash (>= 4.4), gettext-base, desktop-file-utils, libglib2.0-bin (>= 2.67.2) | libgtk-3-bin, pkexec | policykit-1
-Recommends: gtkask, xlunch (>= 5.10.6)
-Breaks: xlunch (<< 5.10.6)
+Recommends: gtkask, xlunch (>= 5.10.6-0minios2)
+Breaks: xlunch (<< 5.10.6-0minios2)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/f/flux-tools/flux-tools_2.1.0_all.deb
-Size: 55312
-SHA256: bc2d477eb98bfd9656b1900c7be02b1a64beff186bc0b8b8ad7d9bbc24f9085f
-SHA1: 3077d6879b04c2dcfb1d37a3791bd384d9939edb
-MD5sum: 8afdf363f5c2e462d0fc5ceeb810f77f
+Filename: pool/main/f/flux-tools/flux-tools_2.1.1_all.deb
+Size: 55548
+SHA256: d81e7f4844cc1053d534f9a2329d63b63c9402de7c011861817be5f65758fcff
+SHA1: f26efd1136cf44521d69524dcd0a29be65b9153b
+MD5sum: dff965dfd2696b26fa5cc48601adc63b
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
@@ -2628,7 +2628,7 @@ Description: debug symbols for xfwm4-gl
 Build-Ids: 0801f2a7c85bc76c36b2a56f38fec07d7af28d48 0bdd78ea84f9d791b0e1a145e4e116bd38e5aab5 91d0ab148602c1db5b24a61d0d60178ec1050398 9455e1dea118da215fd4ac31568bad531fd9a343 d426ab94bafeb4b69b8e90022e8e374eae222431
 
 Package: xlunch
-Version: 5.10.6-0minios1
+Version: 5.10.6-0minios2
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 408
@@ -2637,11 +2637,11 @@ Recommends: librsvg2-bin
 Homepage: https://github.com/Tomas-M/xlunch
 Priority: optional
 Section: x11
-Filename: pool/main/x/xlunch/xlunch_5.10.6-0minios1_amd64.deb
-Size: 227280
-SHA256: b3fc437876427496f99aeb837ff003716955c196dc24fe62a50f6eea2a7b2ad4
-SHA1: 7e55a86037c972f194f4f7478888041a5a925e47
-MD5sum: 2898e24dfcdfb242bf5ab2c0d9cff4c9
+Filename: pool/main/x/xlunch/xlunch_5.10.6-0minios2_amd64.deb
+Size: 227604
+SHA256: 9db6516f054aabb728f4d1ab0f0b2d608b07bad717aba8cbc5fe5588e2e85aec
+SHA1: 9cf9707a6df13adb508789ec5e09101af049b29b
+MD5sum: e700bd77310b75a6e292f4206a5adc99
 Description: Graphical application launcher for X using pure Xlib and Imlib2
  Provides a lightweight, mouse- and keyboard-driven interface to launch
  programs, commands, or custom menu entries. Supports UTF-8 for international
