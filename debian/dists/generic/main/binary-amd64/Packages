@@ -410,7 +410,7 @@ Description: Flux Tools for Fluxbox in MiniOS Linux.
  with Fluxbox for ease of use.
 
 Package: fluxbox-flux
-Version: 1.3.7-2
+Version: 1.3.7-3minios1
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 3607
@@ -423,11 +423,11 @@ Provides: x-window-manager
 Homepage: https://fluxbox.org
 Priority: optional
 Section: x11
-Filename: pool/main/f/fluxbox-flux/fluxbox-flux_1.3.7-2_amd64.deb
-Size: 850888
-SHA256: 0f5ebac409bde16a18b71bdd4eaf1d843c092eddb63e372f61a394f79bd39868
-SHA1: b54efe62713b0f9df96c7d635545eaabf0e22510
-MD5sum: 102db2ccec7673a5c2b4636a5a8807b2
+Filename: pool/main/f/fluxbox-flux/fluxbox-flux_1.3.7-3minios1_amd64.deb
+Size: 851640
+SHA256: 15cdf377867a441101ee4907f03fd73437fd5154741bf1a91dd330c1091ac743
+SHA1: e4af92c430a55b2de70493149b70bb3db34f2a2e
+MD5sum: d1025d70c14400f155d1896e160bd105
 Description: Highly configurable and low resource X11 Window manager
  Fairly similar to blackbox, from which it is derived, but has been
  extended with features such as pwm-style window tabs, configurable
@@ -1070,19 +1070,19 @@ Description: experimental i915 DSI backport for Huawei MateBook E 2023
  panel operation require on-device testing.
 
 Package: mini-commander
-Version: 1.0-1
+Version: 2.3-0minios1
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 66
-Depends: libc6 (>= 2.3.4), libncurses6 (>= 6), libtinfo6 (>= 6)
+Installed-Size: 114
+Depends: libc6 (>= 2.14), libncursesw5 (>= 6), libtinfo5 (>= 6)
 Homepage: https://github.com/Tomas-M/mini-commander
 Priority: optional
 Section: utils
-Filename: pool/main/m/mini-commander/mini-commander_1.0-1_amd64.deb
-Size: 23548
-SHA256: 66b316b855e56e6c24a291d044e0152a6478bfb9fcd9eafdcd2ebebe06621536
-SHA1: 76415d04b3974211dc14bfe42b28869bc54f2365
-MD5sum: 2576da7492ff8171b694043d7a84187f
+Filename: pool/main/m/mini-commander/mini-commander_2.3-0minios1_amd64.deb
+Size: 50804
+SHA256: 497531588c121536ce792ea73b80090fc866b80b89bfcfbff2abc5ab60585897
+SHA1: 647f574b48c2bde87e1e5cd4353a636ec631e33d
+MD5sum: 048297197c677a22c64c18a655dde142
 Description: Simplified clone of Midnight Commander
  Mini Commander is a very simplified clone of Midnight Commander
  for Linux. It provides a dual-pane file manager interface with
