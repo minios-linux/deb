@@ -390,21 +390,21 @@ Description: Web UI for Flowgate
  Provides a graphical interface for the flowgate CLI tool.
 
 Package: flux-tools
-Version: 2.2.0
+Version: 2.2.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 225
+Installed-Size: 227
 Depends: bash (>= 4.4), gettext-base, desktop-file-utils, libglib2.0-bin (>= 2.67.2) | libgtk-3-bin, pkexec | policykit-1
 Recommends: gtkask, xlunch (>= 5.10.6-0minios2)
 Breaks: xlunch (<< 5.10.6-0minios2)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/f/flux-tools/flux-tools_2.2.0_all.deb
-Size: 56660
-SHA256: e234588d11dd5a77945dd0d0e37802c685a5f44367f32811cadae2ef0d36c623
-SHA1: 469b927bca065e6b677116c1aac7dd6a5a381b44
-MD5sum: 2c74a08366483a4bba23d9b7b06553f0
+Filename: pool/main/f/flux-tools/flux-tools_2.2.1_all.deb
+Size: 57268
+SHA256: a814718cd83a6e2d7b5df6488bb8b33a2eaee02ed7d08a0f7eeb5f5c0a19f9ec
+SHA1: ff0d8daea93161bb2d5ae7e8b862f7d925b9d326
+MD5sum: f1be8a13b71b02c282d94146ffc12b7b
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
@@ -1127,23 +1127,23 @@ Description: MiniOS Linux configuration utility.
 
 Package: minios-deploy
 Source: minios-installer
-Version: 3.7.5
+Version: 3.8.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1348
-Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.7.5) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31), minios-dpkg-state (>= 12.0.0)
+Installed-Size: 1561
+Depends: python3 (>= 3.6), python3-dataclasses (>= 0.8-1minios2) | python3 (>= 3.7), parted, e2fsprogs, dosfstools, btrfs-progs, fdisk, mount, ntfs-3g, minios-native-dracut (= 3.8.0) | linux-initramfs-tool, openssl | whois, python3-minios-security (>= 1.0.1), udev | eudev, util-linux (>= 2.31), minios-dpkg-state (>= 12.0.0)
 Recommends: minios-live-config (>= 11.0.5.15), user-setup
-Suggests: minios-session (>= 2.2.0)
+Suggests: minios-session (>= 2.2.0), efibootmgr, extlinux
 Breaks: minios-installer (<< 3.1.0)
 Replaces: minios-installer (<< 3.1.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-deploy_3.7.5_all.deb
-Size: 238088
-SHA256: 0cfcd26a0856126a9031819a0d478afd802387fc7107915347dfb1c90a768375
-SHA1: 93b740f7f1296f41e19b299dbf340021cca47eac
-MD5sum: 812214682ebb395a4141f2abe5099032
+Filename: pool/main/m/minios-installer/minios-deploy_3.8.0_all.deb
+Size: 271612
+SHA256: 4e67d6adadbbb6a77d25761d8053066521d19d6e61296a68b81b0ea128f7d962
+SHA1: d4ab6fa3ac78b5475653a16e29cd72551d1c1619
+MD5sum: 74ba87b8dce40571fc32fb454f8bd0f0
 Description: command-line MiniOS deployment backend
  minios-deploy provides disk discovery, installation planning, and live or
  native MiniOS deployment without a graphical interface. It is the backend
@@ -1307,19 +1307,19 @@ Description: MiniOS image composition backend (minios-image-compose)
  workspace.
 
 Package: minios-installer
-Version: 3.7.5
+Version: 3.8.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 319
-Depends: minios-deploy (= 3.7.5), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.1), python3-minios-security (>= 1.0.1)
+Installed-Size: 327
+Depends: minios-deploy (= 3.8.0), polkitd | policykit-1, pkexec | policykit-1, python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-udisks-2.0, python3-minios-gui (>= 1.4.1), python3-minios-security (>= 1.0.1)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_3.7.5_all.deb
-Size: 85064
-SHA256: d65633d53cc7bc5c0c2f05fdfa01bdc5ba79765bad84c0354bd7b16f94f20d23
-SHA1: 8d785fa5e967d623768883bd0a067e259652cf53
-MD5sum: 8fc0665a0e7e8f3228db5354dce1192e
+Filename: pool/main/m/minios-installer/minios-installer_3.8.0_all.deb
+Size: 86444
+SHA256: bffd45fef13c93ec4f2382fbcfb4ab68b3f479bed7fbb6a2b843cd43b1a5842e
+SHA1: 79c71bf11224d44224de5bef72f8d63d95cb46f4
+MD5sum: 1a1ff97c2f6c2a87edda15550b78cc59
 Description: graphical MiniOS installation utility
  MiniOS Installer is the GTK frontend for minios-deploy. It provides guided
  live and native installation workflows while the deployment engine remains
@@ -1517,21 +1517,21 @@ Description: GTK interface for MiniOS module composition
 
 Package: minios-native-dracut
 Source: minios-installer
-Version: 3.7.5
+Version: 3.8.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 23
+Installed-Size: 24
 Depends: dracut-core
 Conflicts: dracut, initramfs-tools
 Provides: linux-initramfs-tool
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-native-dracut_3.7.5_all.deb
-Size: 10408
-SHA256: 5164d158075e2da780d3281530bd0e6de15afaa0ab812dca771a4a4275355a27
-SHA1: 48d33057c41a792fc60437a68233cef5a42a1636
-MD5sum: 75d551d9bcc03659a1b150952f448a8c
+Filename: pool/main/m/minios-installer/minios-native-dracut_3.8.0_all.deb
+Size: 10684
+SHA256: c17259949e3564acdd3640eee90bd1aa8a5b9254d744b8ef9800a0e9ae06e9b9
+SHA1: 2e3eea909b0dd665c027fb03223d3884d706ac9f
+MD5sum: cc2ef026cb9baf19d7bbabbc67c354ff
 Description: native initramfs integration for MiniOS
  minios-native-dracut keeps dracut-core available on images that use either
  dracut-mos or livekit-mos and provides native kernel update hooks. The hooks
