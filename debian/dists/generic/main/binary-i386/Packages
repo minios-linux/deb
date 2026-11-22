@@ -348,21 +348,21 @@ Description: Web UI for Flowgate
  Provides a graphical interface for the flowgate CLI tool.
 
 Package: flux-tools
-Version: 2.1.1
+Version: 2.2.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 222
+Installed-Size: 225
 Depends: bash (>= 4.4), gettext-base, desktop-file-utils, libglib2.0-bin (>= 2.67.2) | libgtk-3-bin, pkexec | policykit-1
 Recommends: gtkask, xlunch (>= 5.10.6-0minios2)
 Breaks: xlunch (<< 5.10.6-0minios2)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/f/flux-tools/flux-tools_2.1.1_all.deb
-Size: 55548
-SHA256: d81e7f4844cc1053d534f9a2329d63b63c9402de7c011861817be5f65758fcff
-SHA1: f26efd1136cf44521d69524dcd0a29be65b9153b
-MD5sum: dff965dfd2696b26fa5cc48601adc63b
+Filename: pool/main/f/flux-tools/flux-tools_2.2.0_all.deb
+Size: 56660
+SHA256: e234588d11dd5a77945dd0d0e37802c685a5f44367f32811cadae2ef0d36c623
+SHA1: 469b927bca065e6b677116c1aac7dd6a5a381b44
+MD5sum: 2c74a08366483a4bba23d9b7b06553f0
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
@@ -1187,19 +1187,19 @@ Description: command-line MiniOS deployment backend
 
 Package: minios-dpkg-state
 Source: minios-live-config
-Version: 12.0.1
+Version: 12.0.2
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 64
+Installed-Size: 65
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.43.2)
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: admin
-Filename: pool/main/m/minios-live-config/minios-dpkg-state_12.0.1_i386.deb
-Size: 40732
-SHA256: 5e63ebb17454c532a16238479a09592b7a01e73a3fa117f306fab0969ab17663
-SHA1: 428ca5969f9cef34996fa49bd30a5184033a20a8
-MD5sum: e66691808a3b1447311ed7dd14202a87
+Filename: pool/main/m/minios-live-config/minios-dpkg-state_12.0.2_i386.deb
+Size: 40856
+SHA256: ffdb6105d1250569f9910ca5280a2f41c9c379e55ce28e8062c62e772064449a
+SHA1: 71ef22c4c7b073088a21b7d33250fa6820e4b208
+MD5sum: 381cb76fc369ea4cb7fb43000cbd6c35
 Description: module package-state decomposition and assembly for MiniOS
  Exports package-state changes as validated per-record module metadata and
  assembles ordinary dpkg status files. Provides build-root preparation and
@@ -1406,22 +1406,22 @@ Description: graphical kernel manager for MiniOS
  behind the standalone CLI interface.
 
 Package: minios-live-config
-Version: 12.0.1
+Version: 12.0.2
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 270
-Depends: minios-live-config-systemd | minios-live-config-backend, bash (>= 4.0), util-linux, minios-dpkg-state (= 12.0.1), libc6 (>= 2.4), libglib2.0-0 (>= 2.43.2)
+Installed-Size: 271
+Depends: minios-live-config-systemd | minios-live-config-backend, bash (>= 4.0), util-linux, minios-dpkg-state (= 12.0.2), libc6 (>= 2.4), libglib2.0-0 (>= 2.43.2)
 Recommends: iproute2 | iproute, keyboard-configuration, minios-live-config-doc, locales | locales-all, sudo, user-setup
 Suggests: pciutils, wget, shared-mime-info, gdk-pixbuf2.0-bin, libgtk-3-bin, glib-2.0-bin, desktop-file-utils, xfonts-utils, fontconfig
 Conflicts: live-config
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config_12.0.1_i386.deb
-Size: 69776
-SHA256: c8e8ca1a5217c659070d701f4114c5be1e2e0303dbea1127cd28cf374e5c4a44
-SHA1: 5f9ab1fb0adbed2829d5dc02e817e81cf7385d1c
-MD5sum: 6c8b92e601cc3b4f04cd6a3301b6b7a1
+Filename: pool/main/m/minios-live-config/minios-live-config_12.0.2_i386.deb
+Size: 69908
+SHA256: 59ea9eddcb61c98c3a3c0c68a30818fdf7ad3c2f2e67b7defdb94c4f1d472afd
+SHA1: b12eeada8305ff47b63b7f824e439641a7d76964
+MD5sum: 33c0dc67f2b0fef02cd0737efa372686
 Description: Live System Configuration Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1434,20 +1434,20 @@ Description: Live System Configuration Components
 
 Package: minios-live-config-doc
 Source: minios-live-config
-Version: 12.0.1
+Version: 12.0.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 190
+Installed-Size: 191
 Conflicts: live-config-doc
 Multi-Arch: foreign
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: doc
-Filename: pool/main/m/minios-live-config/minios-live-config-doc_12.0.1_all.deb
-Size: 139232
-SHA256: 5b4b0174cd2a62ac3f6c0e8befc59dc8b19ba179bd8afa1b56e64eaa11676a32
-SHA1: 6e8936b90c7ea6e18f9fbd85f58d9055ea8b2106
-MD5sum: 105c6f635f6edb01bc2675b987b9b898
+Filename: pool/main/m/minios-live-config/minios-live-config-doc_12.0.2_all.deb
+Size: 139360
+SHA256: b6281c82eb434c8b289d1c8e2d24c74eb4e12264e420d008e1b7d1c10818a2e2
+SHA1: 66081a232d5e65dd255a321db81643c7a825f88f
+MD5sum: 61d7205c64cf0bcee24f3691deec8e1d
 Description: Live System Configuration Components (documentation)
  live-config contains the components that configure a live system during the
  boot process (late userspace).
@@ -1456,10 +1456,10 @@ Description: Live System Configuration Components (documentation)
 
 Package: minios-live-config-systemd
 Source: minios-live-config
-Version: 12.0.1
+Version: 12.0.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 44
+Installed-Size: 46
 Depends: systemd
 Recommends: dbus
 Conflicts: live-config-backend, live-config-systemd, minios-live-config-backend
@@ -1468,11 +1468,11 @@ Provides: live-config-backend, minios-live-config-backend
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config-systemd_12.0.1_all.deb
-Size: 27428
-SHA256: 5bad40b8aed0c867f09898c91e84bdbc8dbb23ad9950bce45081692e4a24e0d4
-SHA1: fde2595c53b9a7d48040cb22862a9e7a55e20877
-MD5sum: 5461766d80de6f02e6429679968438b1
+Filename: pool/main/m/minios-live-config/minios-live-config-systemd_12.0.2_all.deb
+Size: 27868
+SHA256: c6bfc78db38bb81d0876f85048b870b885f2d127d018067201e733302039777f
+SHA1: 81f27567a2d7e3d365bb617f9b721c1ef38f6e8a
+MD5sum: 93cf6db93ed0416639d073c8b1b2ea51
 Description: Live System Configuration Components (systemd backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -1484,7 +1484,7 @@ Description: Live System Configuration Components (systemd backend)
 
 Package: minios-live-config-sysvinit
 Source: minios-live-config
-Version: 12.0.1
+Version: 12.0.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 36
@@ -1495,11 +1495,11 @@ Provides: live-config-backend, minios-live-config-backend
 Homepage: https://github.com/minios-linux/minios-live-config
 Priority: optional
 Section: misc
-Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_12.0.1_all.deb
-Size: 10328
-SHA256: 62376c821a1a0b8e0e9c881720813625be50d7ff7a1cc9def54b0e244a56a6d4
-SHA1: 72798c78e66e8218c48df287b2ca7645d800a58c
-MD5sum: 18745f223b3d8ef1d4bc32b9a5a11abb
+Filename: pool/main/m/minios-live-config/minios-live-config-sysvinit_12.0.2_all.deb
+Size: 10464
+SHA256: 35d421ca0b8e15112373b90c6dccdd0a293f044f2a7e98818c5105224d1d9820
+SHA1: 1649f45695214dbd48ebf2c8beb74d00c0018119
+MD5sum: 75410f687bf16daf4be0c309b11821ec
 Description: Live System Configuration Components (sysvinit backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
