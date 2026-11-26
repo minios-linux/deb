@@ -368,7 +368,7 @@ Description: Flux Tools for Fluxbox in MiniOS Linux.
  with Fluxbox for ease of use.
 
 Package: fluxbox-flux
-Version: 1.3.7-3minios1
+Version: 1.3.7-3minios2
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 3681
@@ -377,15 +377,15 @@ Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
 Suggests: fbpager, fbdesk, fbautostart
 Conflicts: fluxbox
 Replaces: fluxbox
-Provides: x-window-manager
+Provides: fluxbox (= 1.3.7-3minios2), x-window-manager
 Homepage: https://fluxbox.org
 Priority: optional
 Section: x11
-Filename: pool/main/f/fluxbox-flux/fluxbox-flux_1.3.7-3minios1_i386.deb
-Size: 901856
-SHA256: f1897885f1f660c244df15fefce8c995a1ef0405ccea3f981556b371f9500856
-SHA1: e6c905734121d96e96342219e8787045c17dc5d2
-MD5sum: 8bf00778a1d36f9634b588cb8be3ae59
+Filename: pool/main/f/fluxbox-flux/fluxbox-flux_1.3.7-3minios2_i386.deb
+Size: 901484
+SHA256: 870b8fe5d15b69a6a68afcb0b65125e85726bd88babe65c33ea394444056ef4a
+SHA1: a4fd0493ea2864f99ce0a83920dd55d0a220955d
+MD5sum: a14c1ee0a3ad600ab118659a78935cfa
 Description: Highly configurable and low resource X11 Window manager
  Fairly similar to blackbox, from which it is derived, but has been
  extended with features such as pwm-style window tabs, configurable
@@ -2411,6 +2411,33 @@ Description: extremely fast and lightweight file manager
   * Clean and user-friendly interface (GTK+ 2)
   * Support GVFS for auto-mount handling on removable devices
 Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: picom-flux
+Version: 12.5-1minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1077
+Depends: libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libepoxy0 (>= 1.3), libev4 (>= 1:4.04), libpcre2-8-0 (>= 10.31), libpixman-1-0 (>= 0.25.2), libx11-6, libx11-xcb1, libxcb-composite0, libxcb-damage0, libxcb-glx0, libxcb-image0 (>= 0.2.1), libxcb-present0, libxcb-randr0 (>= 1.12), libxcb-render-util0, libxcb-render0 (>= 1.12), libxcb-shape0, libxcb-sync1, libxcb-util1 (>= 0.4.0), libxcb-xfixes0, libxcb1 (>= 1.9.2)
+Conflicts: compton, picom
+Replaces: compton, picom
+Provides: compton (= 12.5-1minios1), picom (= 12.5-1minios1)
+Homepage: https://github.com/yshui/picom
+Priority: optional
+Section: x11
+Filename: pool/main/p/picom-flux/picom-flux_12.5-1minios1_i386.deb
+Size: 343980
+SHA256: 73517da33652268a7c7ea9082d2bbc0116b3318660893af1876af0c478b6e413
+SHA1: 3b4f010a771925476a7bf959b5e7b2554c6fccf7
+MD5sum: 92d4a2479786440343bcf3ecf61e614f
+Description: lightweight compositor for X11
+ picom is a compositor for X11, based on xcompmgr. In addition to shadows,
+ fading and translucency, picom implements window frame opacity control,
+ inactive window transparency, and shadows on argb windows.
+ .
+ MiniOS Flux adaptation with XRender window outlines and upper-corner
+ rounding. Both XRender and OpenGL backends are available.
+ Includes the Compton compatibility command names.
+Original-Maintainer: Nikos Tsipinakis <nikos@tsipinakis.com>
 
 Package: python3-minios-gui
 Source: minios-gui
