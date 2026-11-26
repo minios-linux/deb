@@ -541,6 +541,356 @@ MD5sum: 392579a9f7fa453b852cfc653c7b2848
 Description: debug symbols for gtkask
 Build-Ids: b97a1aa1175de0554abec5e760ebc1574dded631
 
+Package: libfm-data-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1587
+Conflicts: libfm-data
+Breaks: libfm0, libfm1
+Replaces: libfm-data, libfm0, libfm1
+Provides: libfm-data (= 1.4.0-2minios1)
+Multi-Arch: foreign
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: misc
+Filename: pool/main/libf/libfm-flux/libfm-data-flux_1.4.0-2minios1_all.deb
+Size: 258608
+SHA256: 9624fe165e6c6016e51188fa0545bf19c0cbd241150995b129159e95e866fdc1
+SHA1: 25cfe81fa36d4aba799d9ada5f27a5995b11c848
+MD5sum: e1dfe089f05efaae81d875ffa8e94d7e
+Description: file management support (common data)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the common data of the core library.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-dev-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 302
+Depends: libfm4-flux (= 1.4.0-2minios1), libfm-extra-dev-flux (= 1.4.0-2minios1)
+Suggests: libfm-doc-flux
+Conflicts: libfm-dev
+Replaces: libfm-dev
+Provides: libfm-dev (= 1.4.0-2minios1)
+Multi-Arch: same
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: libdevel
+Filename: pool/main/libf/libfm-flux/libfm-dev-flux_1.4.0-2minios1_i386.deb
+Size: 60932
+SHA256: a45233a11718d1399eef9e7ff13f452972935a34b5419ae0a966cd960b685838
+SHA1: bb371191e230a9b5a7b44ddceffd80be08f792e5
+MD5sum: 57141c55eef993774caba2b661e465c8
+Description: file management support (core development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for GUI-independent build.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-doc-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 2319
+Recommends: libglib2.0-doc, libgtk-3-doc
+Conflicts: libfm-doc
+Replaces: libfm-doc
+Provides: libfm-doc (= 1.4.0-2minios1)
+Multi-Arch: foreign
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: doc
+Filename: pool/main/libf/libfm-flux/libfm-doc-flux_1.4.0-2minios1_all.deb
+Size: 156352
+SHA256: af60285285a6a7876bed72b25cdd558619a3fdc05472b88ecc26e2989021c820
+SHA1: c0db7ce2c1f9176565d6ddf047d3b4a2aa5a5a78
+MD5sum: 8baac0b9a467ed689ab93895bd355cd3
+Description: file management support (development documentation)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development HTML documentation.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-extra-dev-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 52
+Depends: libfm-extra4-flux (= 1.4.0-2minios1), libglib2.0-dev
+Conflicts: libfm-extra-dev
+Replaces: libfm-extra-dev
+Provides: libfm-extra-dev (= 1.4.0-2minios1)
+Multi-Arch: same
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: libdevel
+Filename: pool/main/libf/libfm-flux/libfm-extra-dev-flux_1.4.0-2minios1_i386.deb
+Size: 26676
+SHA256: 84847fa482ec71a408ba178a82b4327920d8ecfc5945f7a0f873d3016d8d2577
+SHA1: 41aac25d0ff4f468b53d8c498122f7f89b8ba493
+MD5sum: a99defc25f1d62e2001d5fa3dc9f9df8
+Description: file management support (libfm-extra development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for libfm-extra library.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-extra4-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 69
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3)
+Conflicts: libfm-extra4, libfm-extra4t64
+Breaks: libfm-extra4 (<< 1.4.0-2minios1)
+Replaces: libfm-extra4, libfm-extra4t64
+Provides: libfm-extra4 (= 1.4.0-2minios1), libfm-extra4t64 (= 1.4.0-2minios1)
+Multi-Arch: same
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: libs
+Filename: pool/main/libf/libfm-flux/libfm-extra4-flux_1.4.0-2minios1_i386.deb
+Size: 35200
+SHA256: ea71dfe2f85f21c4e0d583d58f2432ddc6673d3b6be3c941fa6f12eb3a67d7a4
+SHA1: f28f6157551d21c24a2ba3d36716c31d79b9cea4
+MD5sum: 89b3b922cd2b1d3460a31b5a2ed3c3e9
+Description: file management support (extra library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains standalone library which extends libfm.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-gtk-data-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 163
+Conflicts: libfm-gtk-data
+Breaks: libfm-gtk-bin (<< 1.0), libfm-gtk0
+Replaces: libfm-gtk-data, libfm-gtk0
+Provides: libfm-gtk-data (= 1.4.0-2minios1)
+Multi-Arch: foreign
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: misc
+Filename: pool/main/libf/libfm-flux/libfm-gtk-data-flux_1.4.0-2minios1_all.deb
+Size: 37440
+SHA256: 0eb885b442b905e3dcc57badfc469ba82c6f462f97961034b8fd990e386812fc
+SHA1: 00aa5a06be87010123f4192378d6216143eff6ac
+MD5sum: 6a3891276a06a7ac018d9ccf079f7c18
+Description: file management support (GTK+ library common data)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the common data of the GTK+ library.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-gtk-dev-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 39
+Depends: libfm-dev-flux (= 1.4.0-2minios1), libfm-gtk4-flux (= 1.4.0-2minios1), libgtk2.0-dev
+Conflicts: libfm-gtk-dev
+Replaces: libfm-gtk-dev
+Provides: libfm-gtk-dev (= 1.4.0-2minios1)
+Multi-Arch: same
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: libdevel
+Filename: pool/main/libf/libfm-flux/libfm-gtk-dev-flux_1.4.0-2minios1_i386.deb
+Size: 24868
+SHA256: d9f6e4d70a5dd192bf156265de3736baf0d20a7afbb7eccab60527d934aa149d
+SHA1: 7a481f0429409bd2a64db85fb1d81ddfdbb47ccb
+MD5sum: 400c910421787c051aab30277fffd435
+Description: file management support (GTK+ 2.0 development files)
+ GTK2 development libraries and pkg-config metadata for libfm.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-gtk3-4-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 528
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.10.0), libfm4-flux (= 1.4.0-2minios1), libgdk-pixbuf-2.0-0 (>= 2.22.0) | libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.19.12), libmenu-cache3 (>= 0.4.0), libpango-1.0-0 (>= 1.20.0), libfm-gtk-data-flux
+Recommends: eject
+Suggests: libfm-tools-flux, nautilus-actions
+Conflicts: libfm-gtk3-4, libfm-gtk3-4t64
+Breaks: libfm-gtk3-4 (<< 1.4.0-2minios1)
+Replaces: libfm-gtk3-4, libfm-gtk3-4t64
+Provides: libfm-gtk3-4 (= 1.4.0-2minios1), libfm-gtk3-4t64 (= 1.4.0-2minios1)
+Multi-Arch: same
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: libs
+Filename: pool/main/libf/libfm-flux/libfm-gtk3-4-flux_1.4.0-2minios1_i386.deb
+Size: 184064
+SHA256: 4a359333e335122e1f63784f3db44d38df7eac84a1665de3957410b7c82d651f
+SHA1: 6d5f53ad406190f1ff6e7d8896374e57b7fe7fa7
+MD5sum: 0a4eeebce5f9de55870c3d07bc4cc3c1
+Description: file management support (GTK+ 3.0 GUI library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains the GTK+ version 3.0 GUI.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-gtk3-dev-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 39
+Depends: libfm-dev-flux (= 1.4.0-2minios1), libfm-gtk3-4-flux (= 1.4.0-2minios1), libgtk-3-dev
+Conflicts: libfm-gtk3-dev
+Replaces: libfm-gtk3-dev
+Provides: libfm-gtk3-dev (= 1.4.0-2minios1)
+Multi-Arch: same
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: libdevel
+Filename: pool/main/libf/libfm-flux/libfm-gtk3-dev-flux_1.4.0-2minios1_i386.deb
+Size: 24940
+SHA256: ac752df7dcc5b4c8c7a77f77ec9549f6ddca0854e8bf9c49da8f3f0a0013a7b5
+SHA1: d29b973426f7c3b58a6c3c59e0fee6a5d50ef6ca
+MD5sum: ff3a16caf4430a9cc300c8ca026cd310
+Description: file management support (GTK+ GUI development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for builds using GTK+ library.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-gtk4-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 506
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm4-flux (= 1.4.0-2minios1), libgdk-pixbuf-2.0-0 (>= 2.22.0) | libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.43.92), libgtk2.0-0 (>= 2.24.0), libmenu-cache3 (>= 0.4.0), libpango-1.0-0 (>= 1.20.0), libfm-gtk-data-flux
+Conflicts: libfm-gtk4
+Replaces: libfm-gtk4
+Provides: libfm-gtk4 (= 1.4.0-2minios1)
+Multi-Arch: same
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: libs
+Filename: pool/main/libf/libfm-flux/libfm-gtk4-flux_1.4.0-2minios1_i386.deb
+Size: 180808
+SHA256: 261b6fb34cad0a5855e3e61cd4c1072bcc114491b62456b54a5c49a31529f757
+SHA1: 52be4e1723d550af224f8d33824c4940d19ce0d6
+MD5sum: ae60695ac109c6bb4e6a96e9c86a9932
+Description: file management support (GTK+ 2.0 GUI library)
+ LibFM provides GTK2 file-management widgets, preserving the original
+ libfm-gtk.so.4 SONAME for Bionic LXDE consumers.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-modules-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 161
+Depends: libc6 (>= 2.7), libfm-extra4-flux (>= 1.2.0), libfm-gtk3-4-flux (>= 1.3.2-2~), libfm4-flux (>= 1.3.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libmenu-cache3 (>= 0.5.0)
+Conflicts: libfm-modules
+Replaces: libfm-modules
+Provides: libfm-modules (= 1.4.0-2minios1)
+Multi-Arch: same
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: libs
+Filename: pool/main/libf/libfm-flux/libfm-modules-flux_1.4.0-2minios1_i386.deb
+Size: 57540
+SHA256: 3da139575b8f3ab1d515d61e663f73c76770521b89bebef06eed8982e5da4755
+SHA1: 359fc7d9c6deae456f50305c3a00fd49704ad66f
+MD5sum: 8604b380e4fb5beed373b1ab27ad21a5
+Description: file management support (loadable modules for library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains loadable modules used by libfm* libraries.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm-tools-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 77
+Depends: libc6 (>= 2.4), libfm-gtk3-4-flux (>= 1.3.2-2~), libfm4-flux (>= 0.1.99), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.9.10), libfm-modules-flux
+Conflicts: libfm-gtk-bin, libfm-tools, lxshortcut
+Replaces: libfm-gtk-bin, libfm-tools, lxshortcut
+Provides: libfm-gtk-bin, libfm-tools (= 1.4.0-2minios1), lxshortcut
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: misc
+Filename: pool/main/libf/libfm-flux/libfm-tools-flux_1.4.0-2minios1_i386.deb
+Size: 36704
+SHA256: 6fb2c01c6b3c33b0c56ce3f77b5a6d22dea5d6a640d7a315e20e9602f3dc4757
+SHA1: 0de02b14419664c6ecd14882ad0759a81327b432
+MD5sum: 9ffde5a7e74533e2aa13cf78e5452e4b
+Description: file management support (utilities)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains applications libfm-pref-apps and lxshortcut.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
+Package: libfm4-flux
+Source: libfm-flux
+Version: 1.4.0-2minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 400
+Depends: libc6 (>= 2.7), libdbus-glib-1-2 (>= 0.78), libexif12 (>= 0.6.21-1~), libglib2.0-0 (>= 2.37.3), libmenu-cache3 (>= 0.5.0), libfm-data-flux, lxmenu-data, shared-mime-info
+Recommends: libfm-modules-flux
+Conflicts: libfm4, libfm4t64
+Breaks: libfm4 (<< 1.4.0-2minios1)
+Replaces: libfm4, libfm4t64
+Provides: libfm4 (= 1.4.0-2minios1), libfm4t64 (= 1.4.0-2minios1)
+Multi-Arch: same
+Homepage: https://github.com/lxde/libfm
+Priority: optional
+Section: libs
+Filename: pool/main/libf/libfm-flux/libfm4-flux_1.4.0-2minios1_i386.deb
+Size: 147480
+SHA256: 629a7c618c5045a8e37a04a493c18c9d3f80cce9a0b912901ddc7bb279cc1b08
+SHA1: a2197db562ed2f4cd5ce41f6f9644401f77697b3
+MD5sum: c01f5b3c986b11dad112f7d5af9c5b8a
+Description: file management support (core library)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ Some features:
+  * Desktop-independent, following FreeDesktop standards;
+  * Fast, light on memory usage, and responsive - well suited to
+    less powerful hardware such as netbooks and thin clients;
+  * Uses GIO/GVFS (like Nautilus) for Trash support and access to
+    remote file systems (FTP, SFTP, WebDAV, Windows shares, etc.);
+  * Clipboard operations are compatible with GTK+/GNOME and Qt/KDE;
+  * Supports both Drag-and-Drop, and the X Direct Save protocol;
+  * Reusable design with the core functions separated out to
+    simplify porting to other GUIs.
+ .
+ This package contains the core library.
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
+
 Package: linux-headers-6.1-mos-686
 Version: 6.1.147
 Architecture: i386
@@ -2024,6 +2374,43 @@ Description: An AUR-inspired package manager for Ubuntu
  and puts a spin on it, making it easier to install and update downstream programs,
  without scouring github repos and the likes.
 Installed-Size: 538
+
+Package: pcmanfm-flux
+Version: 1.4.0-1minios1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1599
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfm-gtk3-4-flux (>= 1.4.0), libfm4-flux (>= 1.4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0) | libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6
+Recommends: gvfs-backends, gvfs-fuse, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme, lxpolkit | polkit-1-auth-agent | policykit-1-gnome
+Conflicts: pcmanfm
+Replaces: pcmanfm
+Provides: pcmanfm (= 1.4.0-1minios1)
+Homepage: https://github.com/lxde/pcmanfm
+Priority: optional
+Section: utils
+Filename: pool/main/p/pcmanfm-flux/pcmanfm-flux_1.4.0-1minios1_i386.deb
+Size: 305080
+SHA256: 462c37b2a67d618bbd149c2ae6fd065364fbb21697ce8325e00d7668460327a9
+SHA1: f4fcb566420747c820217cd5dd920c8574c0035a
+MD5sum: 596afa35a6a03f11db56cd5f0c9e23b9
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
+ .
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
+Original-Maintainer: Debian LXDE Maintainers <team+lxde@tracker.debian.org>
 
 Package: python3-minios-gui
 Source: minios-gui
