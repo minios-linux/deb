@@ -1902,10 +1902,10 @@ Description: native initramfs integration for MiniOS
 
 Package: minios-session
 Source: minios-session-manager
-Version: 2.7.5
+Version: 3.0.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1146
+Installed-Size: 1149
 Depends: lsb-base, python3 (>= 3.6), minios-tools (>= 1.9.0), cryptsetup, zstd, rsync, e2fsprogs, util-linux (>= 2.31)
 Recommends: dynblk (>= 1.0.0), dynblk-dkms (>= 1.0.0), polkitd | policykit-1, pkexec | policykit-1
 Suggests: dynfilefs (>= 6.04-1~minios1)
@@ -1914,30 +1914,30 @@ Replaces: minios-session-manager (<< 1.3.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session_2.7.5_all.deb
-Size: 209584
-SHA256: 5baa1f14919103af60bd4bb58eadb6dde496f5a7f6d1cd8b48de90cdd22c8b9a
-SHA1: d2023c829e09f79eff1ef0891a0626e03d5f5614
-MD5sum: 680ad3312e5a05f2d45c6d7a60e9b3ee
+Filename: pool/main/m/minios-session-manager/minios-session_3.0.0_all.deb
+Size: 210356
+SHA256: 5823ae6ce737194ba0e7c47a3c624758e79296f3ac19d78737a7dfe5e0c85622
+SHA1: 00f957e781a0a6262fdedb0a24787c58b1e1e2b5
+MD5sum: 81d85a0403c3244677da1b6880666304
 Description: command-line session management backend for MiniOS
  minios-session provides the non-graphical persistent-session backend,
  persistence guard, and autosave integration used by MiniOS Session Manager.
  It can also be used directly from a terminal or automation.
 
 Package: minios-session-manager
-Version: 2.7.5
+Version: 3.0.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 250
-Depends: minios-session (= 2.7.5), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, python3-minios-gui (>= 1.4.0), polkitd | policykit-1, pkexec | policykit-1
+Depends: minios-session (= 3.0.0), python3 (>= 3.6), python3-gi, gir1.2-gtk-3.0, python3-minios-gui (>= 1.4.0), polkitd | policykit-1, pkexec | policykit-1
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-session-manager/minios-session-manager_2.7.5_all.deb
-Size: 66728
-SHA256: 806d5eb384340d1f63e01d37438e2ba6581c8191e20f1d7800b1c2e75f1832f9
-SHA1: 01babb078e60229c0e258912b9df9101039e6b03
-MD5sum: ab3f3c30462ac14c2a54fbdd11d6dfbc
+Filename: pool/main/m/minios-session-manager/minios-session-manager_3.0.0_all.deb
+Size: 66924
+SHA256: 7eabd9a0c4a9ee1f2c674718d7784a19c4cfa03b62126f1161c54086e557240d
+SHA1: 6790033b7dc02950113fe9f53081125387963bca
+MD5sum: fc562321d443f1930ce53132167d5b94
 Description: graphical session manager for MiniOS
  MiniOS Session Manager is the GTK frontend for the minios-session backend.
  It provides graphical workflows for viewing, creating, activating, deleting,
