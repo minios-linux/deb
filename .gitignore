@@ -1,1 +1,3 @@
 vault/
+/debian/.repoctl-*/
+/debian/db/lockfile
